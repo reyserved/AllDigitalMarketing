@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Function Coaching Services | New Frontiers</title>
+    <meta name="description"
+        content="Strengthen executive function skills to achieve goals, improve focus, and build independence. Tailored coaching for students and adults. Book a discovery call.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ===== NFIL BRAND VARIABLES ===== */
+        :root {
+            /* Primary Colors */
+            --nfil-bg-primary: #1B252F;
+            --nfil-bg-secondary: #232428;
+            --nfil-bg-card: #1E2A36;
+
+            /* Accent Colors */
+            --nfil-accent-blue: #0D9EFF;
+            --nfil-accent-blue-soft: #1C91FE;
+            --nfil-accent-orange: #FF6600;
+            --nfil-overlay-blue: rgba(8, 77, 124, 0.9);
+
+            /* Text Colors */
+            --nfil-text-white: #FFFFFF;
+            --nfil-text-muted: #CFCFCF;
+            --nfil-text-body: #B8C4CE;
+
+            /* Effects */
+            --nfil-glow-blue: 0 0 30px rgba(13, 158, 255, 0.25);
+            --nfil-glow-orange: 0 0 20px rgba(255, 102, 0, 0.3);
+
+            /* Typography */
+            --font-primary: 'Inter', 'Kano Regular', sans-serif;
+        }
+
+        /* ===== RESET & BASE ===== */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            font-size: 18px;
+            line-height: 1.6;
+            color: var(--nfil-text-body);
+            background-color: var(--nfil-bg-primary);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--nfil-accent-blue);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--nfil-accent-orange);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* ===== LAYOUT CONTAINERS ===== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        .section--alt {
+            background-color: var(--nfil-bg-secondary);
+        }
+
+        /* ===== TYPOGRAPHY ===== */
+        .eyebrow {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--nfil-accent-blue);
+            margin-bottom: 12px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: var(--nfil-text-white);
+            font-weight: 600;
+            line-height: 1.25;
+        }
+
+        h1 {
+            font-size: clamp(36px, 5vw, 56px);
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: clamp(28px, 4vw, 42px);
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Vibrant blue underline accent for H2 */
+        h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--nfil-accent-blue), var(--nfil-accent-blue-soft));
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: clamp(20px, 2.5vw, 26px);
+            margin-bottom: 12px;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        .lead {
+            font-size: 20px;
+            color: var(--nfil-text-muted);
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            text-decoration: none;
+        }
+
+        .btn--primary {
+            background: linear-gradient(135deg, var(--nfil-accent-orange), #E55A00);
+            color: var(--nfil-text-white);
+            box-shadow: var(--nfil-glow-orange);
+        }
+
+        .btn--primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(255, 102, 0, 0.4);
+            color: var(--nfil-text-white);
+        }
+
+        .btn--secondary {
+            background: transparent;
+            color: var(--nfil-accent-blue);
+            border: 2px solid var(--nfil-accent-blue);
+        }
+
+        .btn--secondary:hover {
+            background: var(--nfil-accent-blue);
+            color: var(--nfil-bg-primary);
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            position: relative;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero__bg {
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+        }
+
+        .hero__bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* CRITICAL: Dark overlay */
+        .hero__overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(27, 37, 47, 0.92), var(--nfil-overlay-blue));
+            z-index: 2;
+        }
+
+        .hero__content {
+            position: relative;
+            z-index: 3;
+            max-width: 700px;
+        }
+
+        .hero__content h1 {
+            background: linear-gradient(90deg, var(--nfil-text-white), var(--nfil-accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero__content p {
+            font-size: 20px;
+            margin-bottom: 32px;
+            color: var(--nfil-text-muted);
+        }
+
+        /* ===== INTRO SECTION ===== */
+        .intro {
+            text-align: center;
+        }
+
+        .intro__wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .intro h2::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* ===== TWO-COLUMN LAYOUT ===== */
+        .split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: start;
+        }
+
+        @media (max-width: 768px) {
+            .split {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .split__left h2::after {
+            display: none;
+        }
+
+        .split__left h2 {
+            margin-bottom: 32px;
+        }
+
+        /* ===== FEATURE LIST ===== */
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 14px;
+            color: var(--nfil-text-body);
+        }
+
+        .feature-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 10px;
+            height: 10px;
+            background: var(--nfil-accent-blue);
+            border-radius: 50%;
+            box-shadow: 0 0 8px rgba(13, 158, 255, 0.5);
+        }
+
+        /* ===== CARDS ===== */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+        }
+
+        .card {
+            background: var(--nfil-bg-card);
+            border-radius: 12px;
+            padding: 32px;
+            border-left: 4px solid var(--nfil-accent-blue);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--nfil-glow-blue);
+        }
+
+        .card__icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(13, 158, 255, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: var(--nfil-accent-blue);
+            font-size: 24px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: var(--nfil-text-muted);
+            margin-bottom: 16px;
+        }
+
+        .card__meta {
+            font-size: 14px;
+            color: var(--nfil-text-muted);
+            margin-bottom: 8px;
+        }
+
+        .card__meta strong {
+            color: var(--nfil-text-white);
+        }
+
+        .card__link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 600;
+            color: var(--nfil-accent-orange);
+        }
+
+        .card__link:hover {
+            gap: 10px;
+        }
+
+        /* ===== SKILLS CHIPS ===== */
+        .skill-chip {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(13, 158, 255, 0.15);
+            color: var(--nfil-accent-blue);
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            margin-right: 6px;
+            margin-bottom: 6px;
+        }
+
+        /* ===== OUTCOME GRID ===== */
+        .outcome-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 32px;
+        }
+
+        .outcome-card {
+            background: var(--nfil-bg-card);
+            border-radius: 12px;
+            padding: 32px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .outcome-card:hover {
+            box-shadow: var(--nfil-glow-blue);
+        }
+
+        .outcome-card__number {
+            position: absolute;
+            top: -16px;
+            left: 24px;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--nfil-accent-orange), #E55A00);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--nfil-text-white);
+            font-weight: 700;
+            font-size: 16px;
+            box-shadow: var(--nfil-glow-orange);
+        }
+
+        .outcome-card h3 {
+            margin-top: 8px;
+        }
+
+        /* ===== PROCESS STEPS ===== */
+        .process {
+            position: relative;
+        }
+
+        .process__steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 32px;
+            position: relative;
+        }
+
+        .process__step {
+            text-align: center;
+            padding: 24px;
+        }
+
+        .process__step-number {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--nfil-accent-blue), var(--nfil-accent-blue-soft));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--nfil-text-white);
+            box-shadow: var(--nfil-glow-blue);
+        }
+
+        .process__step h4 {
+            margin-bottom: 8px;
+        }
+
+        .process__step p {
+            font-size: 15px;
+            color: var(--nfil-text-muted);
+        }
+
+        /* ===== WHY CHOOSE US ===== */
+        .usp-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        @media (max-width: 900px) {
+            .usp-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .usp-card {
+            background: var(--nfil-bg-card);
+            border-radius: 12px;
+            padding: 32px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .usp-card:hover {
+            border-color: var(--nfil-accent-blue);
+            box-shadow: var(--nfil-glow-blue);
+        }
+
+        .usp-card__icon {
+            width: 64px;
+            height: 64px;
+            background: rgba(13, 158, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 28px;
+            color: var(--nfil-accent-blue);
+        }
+
+        /* ===== CTA HIGHLIGHT SECTION ===== */
+        .cta-highlight {
+            background: linear-gradient(135deg, #084D7C, var(--nfil-accent-blue));
+            text-align: center;
+            padding: 80px 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-highlight::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .cta-highlight h2 {
+            color: var(--nfil-text-white);
+        }
+
+        .cta-highlight h2::after {
+            background: var(--nfil-text-white);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .cta-highlight p {
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 600px;
+            margin: 24px auto 32px;
+            font-size: 18px;
+        }
+
+        .cta-highlight .btn--primary {
+            background: var(--nfil-accent-orange);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* ===== PATHWAY CARDS ===== */
+        .pathway-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        @media (max-width: 768px) {
+            .pathway-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .pathway-card {
+            display: flex;
+            gap: 24px;
+            background: var(--nfil-bg-card);
+            border-radius: 12px;
+            padding: 32px;
+            border-left: 4px solid var(--nfil-accent-blue);
+            transition: all 0.3s ease;
+        }
+
+        .pathway-card:hover {
+            box-shadow: var(--nfil-glow-blue);
+        }
+
+        .pathway-card__icon {
+            flex-shrink: 0;
+            width: 64px;
+            height: 64px;
+            background: rgba(13, 158, 255, 0.15);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: var(--nfil-accent-blue);
+        }
+
+        .pathway-card__content h3 {
+            margin-bottom: 8px;
+        }
+
+        .pathway-card__content p {
+            font-size: 15px;
+            color: var(--nfil-text-muted);
+            margin-bottom: 12px;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--nfil-bg-secondary);
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer p {
+            color: var(--nfil-text-muted);
+            font-size: 14px;
+        }
+
+        /* ===== SECTION HEADER ===== */
+        .section-header {
+            margin-bottom: 48px;
+        }
+
+        .section-header--center {
+            text-align: center;
+        }
+
+        .section-header--center h2::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-header p {
+            max-width: 700px;
+            margin: 24px auto 0;
+            color: var(--nfil-text-muted);
+        }
+
+        /* ===== VIRTUAL BANNER ===== */
+        .virtual-banner {
+            background: linear-gradient(90deg, rgba(13, 158, 255, 0.15), rgba(13, 158, 255, 0.05));
+            border: 1px solid rgba(13, 158, 255, 0.3);
+            border-radius: 8px;
+            padding: 20px 32px;
+            text-align: center;
+            margin-top: 48px;
+            color: var(--nfil-text-white);
+        }
+
+        .virtual-banner strong {
+            color: var(--nfil-accent-blue);
+        }
+
+        /* ===== ICON PLACEHOLDERS ===== */
+        .icon-placeholder {
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero__bg">
+            <!-- HERO IMAGE RECOMMENDATION: 
+                 Coach and client in warm, naturally lit office setting.
+                 Client (mid-30s professional) engaged, coach gesturing at planner/whiteboard.
+                 Collaborative feel, sunset light tones.
+                 Alternative: Abstract neural pathway visualization in blue (#0D9EFF) on dark bg. -->
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&q=80"
+                alt="Coaching session in progress">
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="container">
+            <div class="hero__content">
+                <p class="eyebrow">Achieve Your Goals with Confidence</p>
+                <h1>Executive Function Coaching Services</h1>
+                <p>Executive function skills are the brain's management system—they help us plan, organize, focus, and
+                    follow through. When these skills lag behind our intelligence or ambitions, life can feel
+                    overwhelming.</p>
+                <p>At New Frontiers, we provide <strong>executive function coaching</strong> designed to help you or
+                    your child build the practical skills needed for success in school, career, and life. <strong>You do
+                        not need a diagnosis to benefit</strong>—you just need a desire to improve.</p>
+                <a href="https://nfil.net/contact-us/" class="btn btn--primary">Schedule a Free Discovery Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHAT IS EF COACHING ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header section-header--center">
+                <h2>What is Executive Function Coaching?</h2>
+                <p>Executive Function (EF) coaching is a personalized, practice-driven process focused on <em>how you
+                        get things done</em>. It is <strong>not tutoring</strong> (subject re-teaching) and <strong>not
+                        therapy</strong> (emotional processing). We build systems and habits that make learning and
+                    working <em>work</em>.</p>
+            </div>
+
+            <div class="split">
+                <div class="split__left">
+                    <h3>What Happens in Coaching</h3>
+                    <ul class="feature-list">
+                        <li><strong>Identify</strong> specific bottlenecks in your daily execution.</li>
+                        <li><strong>Develop</strong> personalized strategies using your unique strengths.</li>
+                        <li><strong>Practice</strong> these strategies in real-world situations until they become
+                            habits.</li>
+                    </ul>
+                </div>
+                <div class="split__right">
+                    <h3>Core Skills You'll Build</h3>
+                    <ul class="feature-list">
+                        <li>Planning & time management</li>
+                        <li>Task initiation & follow-through</li>
+                        <li>Organization (digital + physical)</li>
+                        <li>Focus & attention control</li>
+                        <li>Cognitive flexibility & emotional regulation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p style="text-align: center; margin-top: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Whether you are a student facing academic pressure or an adult managing a complex career, coaching
+                bridges the gap between <strong>knowing</strong> what to do and actually <strong>doing</strong> it.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== WHO WE HELP ===== -->
+    <section class="section section--alt">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">Tailored Pathways</p>
+                <h2>Who We Help</h2>
+                <p>We recognize that the challenges of a 10th grader are vastly different from those of a corporate
+                    manager. Our coaching is specialized by age and life stage.</p>
+            </div>
+
+            <div class="card-grid">
+                <!-- FOR STUDENTS -->
+                <div class="card">
+                    <div class="card__icon"><span class="icon-placeholder">🚀</span></div>
+                    <h3>For Students</h3>
+                    <h4 style="color: var(--nfil-accent-blue); font-size: 16px; margin-bottom: 16px;">Build
+                        Independence, Focus, and Academic Confidence</h4>
+                    <p>School requires more than just intelligence—it requires managing assignments, tracking due dates,
+                        and studying effectively. We help students from elementary to post-secondary build the structure
+                        they need to succeed without constant parental supervision.</p>
+                    <p class="card__meta"><strong>Ideal for:</strong> Students with missing assignments,
+                        disorganization, exam anxiety, or trouble starting tasks.</p>
+                    <p class="card__meta"><strong>Outcome:</strong> A more confident, independent learner who can
+                        advocate for themselves.</p>
+                    <a href="https://nfil.net/students/executive-function-coaching-students/" class="card__link">Learn
+                        More About Student Coaching →</a>
+                </div>
+
+                <!-- FOR ADULTS -->
+                <div class="card">
+                    <div class="card__icon"><span class="icon-placeholder">⚙️</span></div>
+                    <h3>For Adults</h3>
+                    <h4 style="color: var(--nfil-accent-blue); font-size: 16px; margin-bottom: 16px;">Regain
+                        Prioritization, Productivity, and Work-Life Balance</h4>
+                    <p>Adult life demands high-level management of career, household, and personal goals. When executive
+                        functions are overtaxed, it leads to burnout and dropped balls. We partner with professionals,
+                        parents, and adults in transition to streamline their responsibilities.</p>
+                    <p class="card__meta"><strong>Ideal for:</strong> Adults feeling "stuck," overwhelmed by to-do
+                        lists, chronically late, or struggling to balance work and home.</p>
+                    <p class="card__meta"><strong>Outcome:</strong> Improved productivity, reduced stress, and a clear
+                        system for managing daily life.</p>
+                    <a href="https://nfil.net/adult-coaching/executive-function-coaching-for-adults/"
+                        class="card__link">Learn More About Adult Coaching →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== REAL-WORLD OUTCOMES ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header section-header--center">
+                <p class="eyebrow">Real-World Outcomes</p>
+                <h2>What You Will Build</h2>
+                <p>When you work with New Frontiers, we move beyond theory to concrete results. Here are the core
+                    outcomes our clients achieve:</p>
+            </div>
+
+            <div class="outcome-grid">
+                <div class="outcome-card">
+                    <div class="outcome-card__number">01</div>
+                    <h3>Master Time Management & Planning</h3>
+                    <p>Stop reacting to deadlines and start planning for them. We help you build reliable systems to
+                        estimate time, schedule tasks, and avoid the last-minute rush.</p>
+                    <div>
+                        <span class="skill-chip">Planning</span>
+                        <span class="skill-chip">Prioritization</span>
+                        <span class="skill-chip">Time Management</span>
+                    </div>
+                </div>
+
+                <div class="outcome-card">
+                    <div class="outcome-card__number">02</div>
+                    <h3>Conquer Procrastination</h3>
+                    <p>Learn to recognize the barriers stopping you from starting—whether it's perfectionism, overwhelm,
+                        or distraction—and develop "initiation" protocols to get moving.</p>
+                    <div>
+                        <span class="skill-chip">Task Initiation</span>
+                        <span class="skill-chip">Goal-Directed Persistence</span>
+                    </div>
+                </div>
+
+                <div class="outcome-card">
+                    <div class="outcome-card__number">03</div>
+                    <h3>Enhance Focus & Organization</h3>
+                    <p>Create physical and digital environments that support clarity. Learn strategies to filter out
+                        distractions and sustain attention on what matters most.</p>
+                    <div>
+                        <span class="skill-chip">Organization</span>
+                        <span class="skill-chip">Sustained Attention</span>
+                        <span class="skill-chip">Inhibitory Control</span>
+                    </div>
+                </div>
+
+                <div class="outcome-card">
+                    <div class="outcome-card__number">04</div>
+                    <h3>Develop Emotional Regulation & Flexibility</h3>
+                    <p>Life rarely goes exactly to plan. We build the "cognitive flexibility" to pivot when things
+                        change and the self-regulation to handle frustration without shutting down.</p>
+                    <div>
+                        <span class="skill-chip">Cognitive Flexibility</span>
+                        <span class="skill-chip">Self-Monitoring</span>
+                        <span class="skill-chip">Emotional Control</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== OUR PROCESS ===== -->
+    <section class="section section--alt">
+        <div class="container">
+            <div class="section-header section-header--center">
+                <p class="eyebrow">Evidence-Based Approach</p>
+                <h2>Our Process</h2>
+                <p>Our coaching is grounded in structured, scientifically validated pedagogies. We don't just offer
+                    advice—we teach you how to learn.</p>
+            </div>
+
+            <div class="process__steps">
+                <div class="process__step">
+                    <div class="process__step-number">1</div>
+                    <h4>Discover & Define</h4>
+                    <p>We start with a comprehensive consultation to understand your unique profile, history, and goals.
+                    </p>
+                </div>
+
+                <div class="process__step">
+                    <div class="process__step-number">2</div>
+                    <h4>Match & Plan</h4>
+                    <p>We carefully pair you with a coach whose background and style align with your needs. Together,
+                        you co-create a roadmap.</p>
+                </div>
+
+                <div class="process__step">
+                    <div class="process__step-number">3</div>
+                    <h4>The RISE Model</h4>
+                    <p><strong>R</strong>ecognize the problem. <strong>I</strong>dentify a strategy.
+                        <strong>S</strong>trategy implementation. <strong>E</strong>valuate & adjust.</p>
+                </div>
+
+                <div class="process__step">
+                    <div class="process__step-number">4</div>
+                    <h4>Accountability & Generalization</h4>
+                    <p>We provide the accountability needed to make new habits stick, ensuring skills "transfer" from
+                        sessions to real life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE NEW FRONTIERS ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header section-header--center">
+                <h2>Why Choose New Frontiers?</h2>
+            </div>
+
+            <div class="usp-grid">
+                <div class="usp-card">
+                    <div class="usp-card__icon"><span class="icon-placeholder">👥</span></div>
+                    <h3>Diverse Expertise</h3>
+                    <p>Our team includes educators, mental health professionals, and corporate leaders. We match you
+                        with a pro who understands your world.</p>
+                </div>
+
+                <div class="usp-card">
+                    <div class="usp-card__icon"><span class="icon-placeholder">🧠</span></div>
+                    <h3>Not Just for ADHD</h3>
+                    <p>While we are experts in ADHD and neurodiversity, our "Executive Function First" approach is
+                        effective for <strong>anyone</strong> looking to upgrade their cognitive toolkit.</p>
+                </div>
+
+                <div class="usp-card">
+                    <div class="usp-card__icon"><span class="icon-placeholder">🔗</span></div>
+                    <h3>Holistic Approach</h3>
+                    <p>We view you as a whole person. We consider social, emotional, and environmental factors that
+                        impact your ability to execute.</p>
+                </div>
+            </div>
+
+            <div class="virtual-banner">
+                We coach <strong>virtually nationwide</strong> (and internationally) with flexible scheduling.
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA HIGHLIGHT ===== -->
+    <section class="cta-highlight">
+        <div class="container">
+            <p class="eyebrow" style="color: rgba(255,255,255,0.7);">Schedule a Call Today!</p>
+            <h2>Ready to Take Control?</h2>
+            <p>Don't let executive function challenges hold you back any longer. Determine if New Frontiers is the right
+                fit for you. <strong>Most clients begin noticing meaningful improvements within 4–8 weeks</strong> when
+                they practice strategies between sessions.</p>
+            <a href="https://nfil.net/contact-us/" class="btn btn--primary">Schedule Your Free Discovery Call Today</a>
+        </div>
+    </section>
+
+    <!-- ===== AGE-SPECIFIC PATHWAYS ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header section-header--center">
+                <p class="eyebrow">Tailored Coaching for Every Age</p>
+                <h2>Age-Specific Programs</h2>
+                <p>Explore our specialized programs designed to enhance executive functions across all life stages.</p>
+            </div>
+
+            <div class="pathway-grid">
+                <a href="https://nfil.net/students/executive-function-coaching-students/" class="pathway-card"
+                    style="text-decoration: none;">
+                    <div class="pathway-card__icon"><span class="icon-placeholder">🚀</span></div>
+                    <div class="pathway-card__content">
+                        <h3>Executive Function Coaching for Students</h3>
+                        <p>Elevate the "CEO of Your Brain" with Executive Function Coaching. Unlock your potential by
+                            mastering the cognitive skills that drive success.</p>
+                        <span class="card__link">Learn More →</span>
+                    </div>
+                </a>
+
+                <a href="https://nfil.net/adult-coaching/executive-function-coaching-for-adults/" class="pathway-card"
+                    style="text-decoration: none;">
+                    <div class="pathway-card__icon"><span class="icon-placeholder">⚙️</span></div>
+                    <div class="pathway-card__content">
+                        <h3>Executive Function Coaching for Adults</h3>
+                        <p>Master Your Executive Skills with Professional Coaching. Unlock your potential by enhancing
+                            your ability to organize, plan, and execute tasks efficiently.</p>
+                        <span class="card__link">Learn More →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 New Frontiers. All rights reserved. | <a href="https://nfil.net/">nfil.net</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

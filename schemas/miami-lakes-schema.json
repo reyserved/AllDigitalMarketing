@@ -1,0 +1,203 @@
+{
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "@id": "https://www.familylawprotection.com/florida/locations/miami-lakes/#office",
+    "name": "Vasquez de Lara Law Group - Miami Lakes",
+    "legalName": "Vasquez de Lara Law Group",
+    "description": "Vasquez de Lara Law Group provides dedicated family law representation in Miami Lakes, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Palm Springs North, Hialeah, and Miami Gardens.",
+    "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://www.familylawprotection.com/#organization",
+        "name": "Vasquez de Lara Law Group",
+        "url": "https://www.familylawprotection.com/"
+    },
+    "url": "https://www.familylawprotection.com/florida/locations/miami-lakes/",
+    "logo": "https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png",
+    "image": "https://www.familylawprotection.com/wp-content/uploads/miami-lakes-office.jpg",
+    "priceRange": "Call for consultation",
+    "telephone": "+1-305-419-0120",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "15450 New Barn Rd, Suite 200",
+        "addressLocality": "Miami Lakes",
+        "addressRegion": "FL",
+        "postalCode": "33014",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.9076,
+        "longitude": -80.3119
+    },
+    "hasMap": "https://www.google.com/maps/place/?q=place_id:9RMy9tY13PKfwt5q8",
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "08:30",
+            "closes": "18:00",
+            "description": "By appointment only"
+        }
+    ],
+    "sameAs": [
+        "https://www.facebook.com/VasquezdeLaraLawGroup",
+        "https://www.linkedin.com/company/vasquez-de-lara-law-group",
+        "https://www.yelp.com/biz/vasquez-de-lara-law-group-miami-lakes"
+    ],
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Miami Lakes",
+            "sameAs": "https://en.wikipedia.org/wiki/Miami_Lakes,_Florida"
+        },
+        {
+            "@type": "Place",
+            "name": "Palm Springs North"
+        },
+        {
+            "@type": "Place",
+            "name": "Hialeah"
+        },
+        {
+            "@type": "Place",
+            "name": "Miami Gardens"
+        },
+        {
+            "@type": "Place",
+            "name": "Opa-locka"
+        },
+        {
+            "@type": "Place",
+            "name": "Country Club"
+        },
+        {
+            "@type": "AdministrativeArea",
+            "name": "Miami-Dade County"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "name": "Located In",
+            "value": "Arbor Place Office Building"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Nearby Landmark",
+            "value": "Hard Rock Stadium"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Nearby Landmark",
+            "value": "Miami Lakes Town Center"
+        }
+    ],
+    "employee": [
+        {
+            "@type": "Person",
+            "@id": "https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person",
+            "name": "Vanessa Vasquez de Lara",
+            "jobTitle": "Founding Attorney",
+            "url": "https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/",
+            "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bar Admission",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "The Florida Bar"
+                }
+            },
+            "sameAs": [
+                "https://www.linkedin.com/in/vanessavasquez/"
+            ]
+        }
+    ],
+    "makesOffer": [
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Divorce Representation",
+                "description": "Full-service divorce representation including contested and uncontested divorce proceedings.",
+                "url": "https://www.familylawprotection.com/florida/divorce/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Child Custody",
+                "description": "Legal advocacy for parental responsibility, time-sharing, and custody modifications.",
+                "url": "https://www.familylawprotection.com/florida/child-custody/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Alimony",
+                "description": "Representation for spousal support, alimony modifications, and enforcement.",
+                "url": "https://www.familylawprotection.com/florida/alimony/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Paternity",
+                "description": "Establishing or contesting paternity for parental rights and responsibilities.",
+                "url": "https://www.familylawprotection.com/florida/paternity/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Prenuptial & Postnuptial Agreements",
+                "description": "Drafting and reviewing prenuptial and postnuptial agreements to protect your assets.",
+                "url": "https://www.familylawprotection.com/florida/prenup-postnup/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Child Support",
+                "description": "Child support establishment, modification, and enforcement proceedings.",
+                "url": "https://www.familylawprotection.com/florida/child-support/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "High Net-Worth Divorce",
+                "description": "Complex divorce representation involving significant assets, businesses, and investments.",
+                "url": "https://www.familylawprotection.com/miami/divorce-lawyer/high-net-worth-divorce/"
+            }
+        }
+    ],
+    "knowsAbout": [
+        {
+            "@type": "Thing",
+            "name": "Family Law",
+            "sameAs": "https://en.wikipedia.org/wiki/Family_law"
+        },
+        {
+            "@type": "Thing",
+            "name": "Divorce",
+            "sameAs": "https://en.wikipedia.org/wiki/Divorce"
+        },
+        {
+            "@type": "Thing",
+            "name": "Child Custody",
+            "sameAs": "https://en.wikipedia.org/wiki/Child_custody"
+        }
+    ]
+}

@@ -1,0 +1,745 @@
+Location,Page URL,GTM Trigger Path,Schema Type,Business Name,Address,Phone,Google Maps CID,Building/Landmark,Nearby Landmarks,Neighborhoods Served,Services Count,Lead Attorney,"Schema on GTM 
+(Before)","Schema on GTM
+(After)",Added GTM Tag+Trigger,Validated ,Schema Tag Fired,Proof
+Kendall,https://www.familylawprotection.com/florida/locations/kendall/ ,/florida/locations/kendall/,LegalService,Vasquez de Lara Law Group - Kendall,"7700 N Kendall Dr, Suite 607, Miami, FL 33156",+1-305-600-5138,212952946677252547,Greenery Mall (1st Floor),Dadeland Mall,"Kendall, Dadeland, Pinecrest, South Miami, The Hammocks",7,Vanessa Vasquez de Lara,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""LegalService"",
+  ""name"": ""Vasquez de Lara Law Group"",
+  ""image"": ""https://www.familylawprotection.com/wp-content/uploads/2024/09/7700-N-Kendall-Dr.-Suite-607-Miami-FL-33156.webp"",
+  ""@id"": """",
+  ""url"": ""https://www.familylawprotection.com/miami/locations/kendall/"",
+  ""telephone"": ""(305) 600-5138"",
+  ""address"": {
+    ""@type"": ""PostalAddress"",
+    ""streetAddress"": ""7700 N Kendall Dr. Suite 607"",
+    ""addressLocality"": ""Miami"",
+    ""addressRegion"": ""FL"",
+    ""postalCode"": ""33156"",
+    ""addressCountry"": ""US""
+  },
+  ""geo"": {
+    ""@type"": ""GeoCoordinates"",
+    ""latitude"": 25.688402263591747,
+    ""longitude"": -80.31983398465901
+  },
+  ""openingHoursSpecification"": {
+    ""@type"": ""OpeningHoursSpecification"",
+    ""dayOfWeek"": [
+      ""Monday"",
+      ""Tuesday"",
+      ""Wednesday"",
+      ""Thursday"",
+      ""Friday""
+    ],
+    ""opens"": ""09:00"",
+    ""closes"": ""17:30""
+  } 
+}
+</script>","<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""LegalService"",
+  ""@id"": ""https://www.familylawprotection.com/florida/locations/kendall/#office"",
+  ""name"": ""Vasquez de Lara Law Group - Kendall"",
+  ""legalName"": ""Vasquez de Lara Law Group"",
+  ""description"": ""Vasquez de Lara Law Group provides dedicated family law representation in Kendall, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Dadeland, Pinecrest, and South Miami-Dade County."",
+  
+  ""parentOrganization"": {
+    ""@type"": ""Organization"",
+    ""@id"": ""https://www.familylawprotection.com/#organization"",
+    ""name"": ""Vasquez de Lara Law Group"",
+    ""url"": ""https://www.familylawprotection.com/""
+  },
+  
+  ""url"": ""https://www.familylawprotection.com/florida/locations/kendall/"",
+  ""logo"": ""https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png"",
+  ""image"": ""https://www.familylawprotection.com/wp-content/uploads/kendall-office.jpg"",
+  ""priceRange"": ""Call for consultation"",
+  ""telephone"": ""+1-305-600-5138"",
+  
+  ""address"": {
+    ""@type"": ""PostalAddress"",
+    ""streetAddress"": ""7700 N Kendall Dr, Suite 607"",
+    ""addressLocality"": ""Miami"",
+    ""addressRegion"": ""FL"",
+    ""postalCode"": ""33156"",
+    ""addressCountry"": ""US""
+  },
+  
+  ""geo"": {
+    ""@type"": ""GeoCoordinates"",
+    ""latitude"": 25.6866,
+    ""longitude"": -80.3389
+  },
+  
+  ""hasMap"": ""https://www.google.com/maps?cid=212952946677252547"",
+  
+  ""openingHoursSpecification"": [
+    {
+      ""@type"": ""OpeningHoursSpecification"",
+      ""dayOfWeek"": [""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday""],
+      ""opens"": ""08:30"",
+      ""closes"": ""18:00""
+    }
+  ],
+  
+  ""sameAs"": [
+    ""https://www.facebook.com/VasquezdeLaraLawGroup"",
+    ""https://www.linkedin.com/company/vasquez-de-lara-law-group"",
+    ""https://www.yelp.com/biz/vasquez-de-lara-law-group-miami""
+  ],
+  
+  ""areaServed"": [
+    { ""@type"": ""City"", ""name"": ""Miami"", ""sameAs"": ""https://en.wikipedia.org/wiki/Miami"" },
+    { ""@type"": ""Place"", ""name"": ""Kendall"" },
+    { ""@type"": ""Place"", ""name"": ""Dadeland"" },
+    { ""@type"": ""Place"", ""name"": ""Pinecrest"" },
+    { ""@type"": ""Place"", ""name"": ""South Miami"" },
+    { ""@type"": ""Place"", ""name"": ""The Hammocks"" },
+    { ""@type"": ""AdministrativeArea"", ""name"": ""Miami-Dade County"" }
+  ],
+  
+  ""additionalProperty"": [
+    {
+      ""@type"": ""PropertyValue"",
+      ""name"": ""Located In"",
+      ""value"": ""Greenery Mall""
+    },
+    {
+      ""@type"": ""PropertyValue"",
+      ""name"": ""Floor"",
+      ""value"": ""1st Floor""
+    },
+    {
+      ""@type"": ""PropertyValue"",
+      ""name"": ""Nearby Landmark"",
+      ""value"": ""Dadeland Mall""
+    }
+  ],
+  
+  ""employee"": [
+    {
+      ""@type"": ""Person"",
+      ""@id"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person"",
+      ""name"": ""Vanessa Vasquez de Lara"",
+      ""jobTitle"": ""Founding Attorney"",
+      ""url"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/"",
+      ""hasCredential"": {
+        ""@type"": ""EducationalOccupationalCredential"",
+        ""credentialCategory"": ""Bar Admission"",
+        ""recognizedBy"": {
+          ""@type"": ""Organization"",
+          ""name"": ""The Florida Bar""
+        }
+      },
+      ""sameAs"": [
+        ""https://www.linkedin.com/in/vanessavasquez/""
+      ]
+    }
+  ],
+  
+  ""makesOffer"": [
+    {
+      ""@type"": ""Offer"",
+      ""itemOffered"": {
+        ""@type"": ""Service"",
+        ""name"": ""Divorce Representation"",
+        ""description"": ""Full-service divorce representation including contested and uncontested divorce proceedings."",
+        ""url"": ""https://www.familylawprotection.com/practice-areas/divorce/""
+      }
+    },
+    {
+      ""@type"": ""Offer"",
+      ""itemOffered"": {
+        ""@type"": ""Service"",
+        ""name"": ""Child Custody"",
+        ""description"": ""Legal advocacy for parental responsibility, time-sharing, and custody modifications."",
+        ""url"": ""https://www.familylawprotection.com/practice-areas/child-custody/""
+      }
+    },
+    {
+      ""@type"": ""Offer"",
+      ""itemOffered"": {
+        ""@type"": ""Service"",
+        ""name"": ""Alimony"",
+        ""description"": ""Representation for spousal support, alimony modifications, and enforcement."",
+        ""url"": ""https://www.familylawprotection.com/practice-areas/alimony/""
+      }
+    },
+    {
+      ""@type"": ""Offer"",
+      ""itemOffered"": {
+        ""@type"": ""Service"",
+        ""name"": ""Paternity"",
+        ""description"": ""Establishing or contesting paternity for parental rights and responsibilities."",
+        ""url"": ""https://www.familylawprotection.com/practice-areas/paternity/""
+      }
+    },
+    {
+      ""@type"": ""Offer"",
+      ""itemOffered"": {
+        ""@type"": ""Service"",
+        ""name"": ""Prenuptial & Postnuptial Agreements"",
+        ""description"": ""Drafting and reviewing prenuptial and postnuptial agreements to protect your assets."",
+        ""url"": ""https://www.familylawprotection.com/practice-areas/prenup-postnup/""
+      }
+    },
+    {
+      ""@type"": ""Offer"",
+      ""itemOffered"": {
+        ""@type"": ""Service"",
+        ""name"": ""Child Support"",
+        ""description"": ""Child support establishment, modification, and enforcement proceedings."",
+        ""url"": ""https://www.familylawprotection.com/practice-areas/child-support/""
+      }
+    },
+    {
+      ""@type"": ""Offer"",
+      ""itemOffered"": {
+        ""@type"": ""Service"",
+        ""name"": ""High Net-Worth Divorce"",
+        ""description"": ""Complex divorce representation involving significant assets, businesses, and investments."",
+        ""url"": ""https://www.familylawprotection.com/practice-areas/high-net-worth-divorce/""
+      }
+    }
+  ],
+  
+  ""knowsAbout"": [
+    {
+      ""@type"": ""Thing"",
+      ""name"": ""Family Law"",
+      ""sameAs"": ""https://en.wikipedia.org/wiki/Family_law""
+    },
+    {
+      ""@type"": ""Thing"",
+      ""name"": ""Divorce"",
+      ""sameAs"": ""https://en.wikipedia.org/wiki/Divorce""
+    },
+    {
+      ""@type"": ""Thing"",
+      ""name"": ""Child Custody"",
+      ""sameAs"": ""https://en.wikipedia.org/wiki/Child_custody""
+    }
+  ]
+}
+</script>",TRUE,TRUE,TRUE,
+Downtown Miami,https://www.familylawprotection.com/florida/locations/downtown-miami/,/florida/locations/downtown-miami/,LegalService,Vasquez de Lara Law Group - Downtown Miami,"111 NE 1st St, 8th Floor - #8636, Miami, FL 33132",+1-786-933-7991,7798926999866152057,N/A,"Bayfront Park, Kaseya Center, Government Center","Downtown Miami, Brickell, Edgewater, Wynwood, Midtown, Design District",7,Vanessa Vasquez de Lara,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""LegalService"",
+  ""name"": ""Vasquez de Lara Law Group"",
+  ""image"": ""https://www.familylawprotection.com/wp-content/uploads/2024/09/111-NE-1st-St-8th-Floor-8636-Miami-FL-33132.webp"",
+  ""@id"": """",
+  ""url"": ""https://www.familylawprotection.com/miami/locations/downtown-miami/"",
+  ""telephone"": ""(786) 933-7991"",
+  ""address"": {
+    ""@type"": ""PostalAddress"",
+    ""streetAddress"": ""111 NE 1st St 8th Floor - #8636"",
+    ""addressLocality"": ""Miami"",
+    ""addressRegion"": ""FL"",
+    ""postalCode"": ""33132"",
+    ""addressCountry"": ""US""
+  },
+  ""geo"": {
+    ""@type"": ""GeoCoordinates"",
+    ""latitude"": 25.776497995652203,
+    ""longitude"": -80.1917415
+  }  
+}
+</script>","<script type=""application/ld+json"">
+{
+    ""@context"": ""https://schema.org"",
+    ""@type"": ""LegalService"",
+    ""@id"": ""https://www.familylawprotection.com/florida/locations/downtown-miami/#office"",
+    ""name"": ""Vasquez de Lara Law Group - Downtown Miami"",
+    ""legalName"": ""Vasquez de Lara Law Group"",
+    ""description"": ""Vasquez de Lara Law Group provides dedicated family law representation in Downtown Miami, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Brickell, Edgewater, and greater Miami-Dade County."",
+    ""parentOrganization"": {
+        ""@type"": ""Organization"",
+        ""@id"": ""https://www.familylawprotection.com/#organization"",
+        ""name"": ""Vasquez de Lara Law Group"",
+        ""url"": ""https://www.familylawprotection.com/""
+    },
+    ""url"": ""https://www.familylawprotection.com/florida/locations/downtown-miami/"",
+    ""logo"": ""https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png"",
+    ""image"": ""https://www.familylawprotection.com/wp-content/uploads/downtown-miami-office.jpg"",
+    ""priceRange"": ""Call for consultation"",
+    ""telephone"": ""+1-786-933-7991"",
+    ""address"": {
+        ""@type"": ""PostalAddress"",
+        ""streetAddress"": ""111 NE 1st St, 8th Floor - #8636"",
+        ""addressLocality"": ""Miami"",
+        ""addressRegion"": ""FL"",
+        ""postalCode"": ""33132"",
+        ""addressCountry"": ""US""
+    },
+    ""geo"": {
+        ""@type"": ""GeoCoordinates"",
+        ""latitude"": 25.7751,
+        ""longitude"": -80.1910
+    },
+    ""hasMap"": ""https://www.google.com/maps?cid=7798926999866152057"",
+    ""openingHoursSpecification"": [
+        {
+            ""@type"": ""OpeningHoursSpecification"",
+            ""dayOfWeek"": [""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday""],
+            ""opens"": ""08:30"",
+            ""closes"": ""18:00""
+        }
+    ],
+    ""sameAs"": [
+        ""https://www.facebook.com/VasquezdeLaraLawGroup"",
+        ""https://www.linkedin.com/company/vasquez-de-lara-law-group"",
+        ""https://www.yelp.com/biz/vasquez-de-lara-law-group-miami""
+    ],
+    ""areaServed"": [
+        { ""@type"": ""City"", ""name"": ""Miami"", ""sameAs"": ""https://en.wikipedia.org/wiki/Miami"" },
+        { ""@type"": ""Place"", ""name"": ""Downtown Miami"" },
+        { ""@type"": ""Place"", ""name"": ""Brickell"" },
+        { ""@type"": ""Place"", ""name"": ""Edgewater"" },
+        { ""@type"": ""Place"", ""name"": ""Wynwood"" },
+        { ""@type"": ""Place"", ""name"": ""Midtown"" },
+        { ""@type"": ""Place"", ""name"": ""Miami Design District"" },
+        { ""@type"": ""AdministrativeArea"", ""name"": ""Miami-Dade County"" }
+    ],
+    ""additionalProperty"": [
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Bayfront Park"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Kaseya Center (formerly FTX Arena)"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Government Center"" }
+    ],
+    ""employee"": [
+        {
+            ""@type"": ""Person"",
+            ""@id"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person"",
+            ""name"": ""Vanessa Vasquez de Lara"",
+            ""jobTitle"": ""Founding Attorney"",
+            ""url"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/"",
+            ""hasCredential"": {
+                ""@type"": ""EducationalOccupationalCredential"",
+                ""credentialCategory"": ""Bar Admission"",
+                ""recognizedBy"": { ""@type"": ""Organization"", ""name"": ""The Florida Bar"" }
+            },
+            ""sameAs"": [""https://www.linkedin.com/in/vanessavasquez/""]
+        }
+    ],
+    ""makesOffer"": [
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Divorce Representation"", ""description"": ""Full-service divorce representation including contested and uncontested divorce proceedings."", ""url"": ""https://www.familylawprotection.com/florida/divorce/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Custody"", ""description"": ""Legal advocacy for parental responsibility, time-sharing, and custody modifications."", ""url"": ""https://www.familylawprotection.com/florida/child-custody/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Alimony"", ""description"": ""Representation for spousal support, alimony modifications, and enforcement."", ""url"": ""https://www.familylawprotection.com/florida/alimony/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Paternity"", ""description"": ""Establishing or contesting paternity for parental rights and responsibilities."", ""url"": ""https://www.familylawprotection.com/florida/paternity/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Prenuptial & Postnuptial Agreements"", ""description"": ""Drafting and reviewing prenuptial and postnuptial agreements to protect your assets."", ""url"": ""https://www.familylawprotection.com/florida/prenup-postnup/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Support"", ""description"": ""Child support establishment, modification, and enforcement proceedings."", ""url"": ""https://www.familylawprotection.com/florida/child-support/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""High Net-Worth Divorce"", ""description"": ""Complex divorce representation involving significant assets, businesses, and investments."", ""url"": ""https://www.familylawprotection.com/miami/divorce-lawyer/high-net-worth-divorce/"" }}
+    ],
+    ""knowsAbout"": [
+        { ""@type"": ""Thing"", ""name"": ""Family Law"", ""sameAs"": ""https://en.wikipedia.org/wiki/Family_law"" },
+        { ""@type"": ""Thing"", ""name"": ""Divorce"", ""sameAs"": ""https://en.wikipedia.org/wiki/Divorce"" },
+        { ""@type"": ""Thing"", ""name"": ""Child Custody"", ""sameAs"": ""https://en.wikipedia.org/wiki/Child_custody"" }
+    ]
+}
+</script>",TRUE,TRUE,TRUE,
+Coral Gables,https://www.familylawprotection.com/florida/locations/coral-gables/,/florida/locations/coral-gables/,LegalService,Vasquez de Lara Law Group - Coral Gables,"201 Alhambra Cir, Suite 500, Coral Gables, FL 33134",+1-305-614-2135,12821060795505959230,N/A,"Coral Gables City Hall, Coral Gables Museum, Miracle Mile","Miracle Mile, South Miami, Coconut Grove, Brickell, The Roads",7,Vanessa Vasquez de Lara,"<script type=""application/ld+json"">
+{
+  ""@context"": ""https://schema.org"",
+  ""@type"": ""LegalService"",
+  ""name"": ""Vasquez de Lara Law Group"",
+  ""image"": ""https://www.familylawprotection.com/wp-content/uploads/2024/09/201-Alhambra-Cir-500-Coral-Gables-FL-33134.webp"",
+  ""@id"": """",
+  ""url"": ""https://www.familylawprotection.com/miami/locations/coral-gables/"",
+  ""telephone"": ""(305) 614-2135"",
+  ""address"": {
+    ""@type"": ""PostalAddress"",
+    ""streetAddress"": ""201 Alhambra Cir # 500"",
+    ""addressLocality"": ""Coral Gables"",
+    ""addressRegion"": ""FL"",
+    ""postalCode"": ""33134"",
+    ""addressCountry"": ""US""
+  },
+  ""geo"": {
+    ""@type"": ""GeoCoordinates"",
+    ""latitude"": 25.752801559317927,
+    ""longitude"": -80.25978317116474
+  },
+  ""openingHoursSpecification"": {
+    ""@type"": ""OpeningHoursSpecification"",
+    ""dayOfWeek"": [
+      ""Monday"",
+      ""Tuesday"",
+      ""Wednesday"",
+      ""Thursday"",
+      ""Friday""
+    ],
+    ""opens"": ""09:00"",
+    ""closes"": ""17:30""
+  } 
+}
+</script>","<script type=""application/ld+json"">
+{
+    ""@context"": ""https://schema.org"",
+    ""@type"": ""LegalService"",
+    ""@id"": ""https://www.familylawprotection.com/florida/locations/coral-gables/#office"",
+    ""name"": ""Vasquez de Lara Law Group - Coral Gables"",
+    ""legalName"": ""Vasquez de Lara Law Group"",
+    ""description"": ""Vasquez de Lara Law Group provides dedicated family law representation in Coral Gables, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Miracle Mile, South Miami, and Coconut Grove."",
+    ""parentOrganization"": {
+        ""@type"": ""Organization"",
+        ""@id"": ""https://www.familylawprotection.com/#organization"",
+        ""name"": ""Vasquez de Lara Law Group"",
+        ""url"": ""https://www.familylawprotection.com/""
+    },
+    ""url"": ""https://www.familylawprotection.com/florida/locations/coral-gables/"",
+    ""logo"": ""https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png"",
+    ""image"": ""https://www.familylawprotection.com/wp-content/uploads/coral-gables-office.jpg"",
+    ""priceRange"": ""Call for consultation"",
+    ""telephone"": ""+1-305-614-2135"",
+    ""address"": {
+        ""@type"": ""PostalAddress"",
+        ""streetAddress"": ""201 Alhambra Cir, Suite 500"",
+        ""addressLocality"": ""Coral Gables"",
+        ""addressRegion"": ""FL"",
+        ""postalCode"": ""33134"",
+        ""addressCountry"": ""US""
+    },
+    ""geo"": {
+        ""@type"": ""GeoCoordinates"",
+        ""latitude"": 25.7550,
+        ""longitude"": -80.2590
+    },
+    ""hasMap"": ""https://www.google.com/maps?cid=12821060795505959230"",
+    ""openingHoursSpecification"": [
+        {
+            ""@type"": ""OpeningHoursSpecification"",
+            ""dayOfWeek"": [""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday""],
+            ""opens"": ""08:30"",
+            ""closes"": ""18:00""
+        }
+    ],
+    ""sameAs"": [
+        ""https://www.facebook.com/VasquezdeLaraLawGroup"",
+        ""https://www.linkedin.com/company/vasquez-de-lara-law-group"",
+        ""https://www.yelp.com/biz/vasquez-de-lara-law-group-coral-gables""
+    ],
+    ""areaServed"": [
+        { ""@type"": ""City"", ""name"": ""Coral Gables"", ""sameAs"": ""https://en.wikipedia.org/wiki/Coral_Gables,_Florida"" },
+        { ""@type"": ""Place"", ""name"": ""Miracle Mile"" },
+        { ""@type"": ""Place"", ""name"": ""South Miami"" },
+        { ""@type"": ""Place"", ""name"": ""Coconut Grove"" },
+        { ""@type"": ""Place"", ""name"": ""Brickell"" },
+        { ""@type"": ""Place"", ""name"": ""The Roads"" },
+        { ""@type"": ""AdministrativeArea"", ""name"": ""Miami-Dade County"" }
+    ],
+    ""additionalProperty"": [
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Coral Gables City Hall"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Coral Gables Museum"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Miracle Mile Shopping District"" }
+    ],
+    ""employee"": [
+        {
+            ""@type"": ""Person"",
+            ""@id"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person"",
+            ""name"": ""Vanessa Vasquez de Lara"",
+            ""jobTitle"": ""Founding Attorney"",
+            ""url"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/"",
+            ""hasCredential"": {
+                ""@type"": ""EducationalOccupationalCredential"",
+                ""credentialCategory"": ""Bar Admission"",
+                ""recognizedBy"": { ""@type"": ""Organization"", ""name"": ""The Florida Bar"" }
+            },
+            ""sameAs"": [""https://www.linkedin.com/in/vanessavasquez/""]
+        }
+    ],
+    ""makesOffer"": [
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Divorce Representation"", ""description"": ""Full-service divorce representation including contested and uncontested divorce proceedings."", ""url"": ""https://www.familylawprotection.com/florida/divorce/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Custody"", ""description"": ""Legal advocacy for parental responsibility, time-sharing, and custody modifications."", ""url"": ""https://www.familylawprotection.com/florida/child-custody/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Alimony"", ""description"": ""Representation for spousal support, alimony modifications, and enforcement."", ""url"": ""https://www.familylawprotection.com/florida/alimony/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Paternity"", ""description"": ""Establishing or contesting paternity for parental rights and responsibilities."", ""url"": ""https://www.familylawprotection.com/florida/paternity/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Prenuptial & Postnuptial Agreements"", ""description"": ""Drafting and reviewing prenuptial and postnuptial agreements to protect your assets."", ""url"": ""https://www.familylawprotection.com/florida/prenup-postnup/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Support"", ""description"": ""Child support establishment, modification, and enforcement proceedings."", ""url"": ""https://www.familylawprotection.com/florida/child-support/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""High Net-Worth Divorce"", ""description"": ""Complex divorce representation involving significant assets, businesses, and investments."", ""url"": ""https://www.familylawprotection.com/miami/divorce-lawyer/high-net-worth-divorce/"" }}
+    ],
+    ""knowsAbout"": [
+        { ""@type"": ""Thing"", ""name"": ""Family Law"", ""sameAs"": ""https://en.wikipedia.org/wiki/Family_law"" },
+        { ""@type"": ""Thing"", ""name"": ""Divorce"", ""sameAs"": ""https://en.wikipedia.org/wiki/Divorce"" },
+        { ""@type"": ""Thing"", ""name"": ""Child Custody"", ""sameAs"": ""https://en.wikipedia.org/wiki/Child_custody"" }
+    ]
+}
+</script>",TRUE,TRUE,TRUE,
+Fort Lauderdale,https://www.familylawprotection.com/florida/locations/fort-lauderdale/ ,/florida/locations/fort-lauderdale/,LegalService,Vasquez de Lara Law Group - Fort Lauderdale,"500 E Broward Blvd, Suite 900, Fort Lauderdale, FL 33394",+1-954-947-6196,16073035431255937406,N/A,"FLL Airport, Mills Pond Park, Broward County Courthouse","Las Olas, Victoria Park, Wilton Manors, Oakland Park, Pompano Beach, Lauderhill",7,Vanessa Vasquez de Lara,,"<script type=""application/ld+json"">
+{
+    ""@context"": ""https://schema.org"",
+    ""@type"": ""LegalService"",
+    ""@id"": ""https://www.familylawprotection.com/florida/locations/fort-lauderdale/#office"",
+    ""name"": ""Vasquez de Lara Law Group - Fort Lauderdale"",
+    ""legalName"": ""Vasquez de Lara Law Group"",
+    ""description"": ""Vasquez de Lara Law Group provides dedicated family law representation in Fort Lauderdale, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Las Olas, Victoria Park, and Broward County."",
+    ""parentOrganization"": {
+        ""@type"": ""Organization"",
+        ""@id"": ""https://www.familylawprotection.com/#organization"",
+        ""name"": ""Vasquez de Lara Law Group"",
+        ""url"": ""https://www.familylawprotection.com/""
+    },
+    ""url"": ""https://www.familylawprotection.com/florida/locations/fort-lauderdale/"",
+    ""logo"": ""https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png"",
+    ""image"": ""https://www.familylawprotection.com/wp-content/uploads/fort-lauderdale-office.jpg"",
+    ""priceRange"": ""Call for consultation"",
+    ""telephone"": ""+1-954-947-6196"",
+    ""address"": {
+        ""@type"": ""PostalAddress"",
+        ""streetAddress"": ""500 E Broward Blvd, Suite 900"",
+        ""addressLocality"": ""Fort Lauderdale"",
+        ""addressRegion"": ""FL"",
+        ""postalCode"": ""33394"",
+        ""addressCountry"": ""US""
+    },
+    ""geo"": {
+        ""@type"": ""GeoCoordinates"",
+        ""latitude"": 26.1224,
+        ""longitude"": -80.1373
+    },
+    ""hasMap"": ""https://www.google.com/maps/place/?q=place_id:5a3aXPPjefUaFd4v9"",
+    ""openingHoursSpecification"": [
+        {
+            ""@type"": ""OpeningHoursSpecification"",
+            ""dayOfWeek"": [""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday""],
+            ""opens"": ""08:30"",
+            ""closes"": ""18:00"",
+            ""description"": ""By appointment only""
+        }
+    ],
+    ""sameAs"": [
+        ""https://www.facebook.com/VasquezdeLaraLawGroup"",
+        ""https://www.linkedin.com/company/vasquez-de-lara-law-group"",
+        ""https://www.yelp.com/biz/vasquez-de-lara-law-group-fort-lauderdale""
+    ],
+    ""areaServed"": [
+        { ""@type"": ""City"", ""name"": ""Fort Lauderdale"", ""sameAs"": ""https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida"" },
+        { ""@type"": ""Place"", ""name"": ""Las Olas"" },
+        { ""@type"": ""Place"", ""name"": ""Victoria Park"" },
+        { ""@type"": ""Place"", ""name"": ""Wilton Manors"" },
+        { ""@type"": ""Place"", ""name"": ""Oakland Park"" },
+        { ""@type"": ""Place"", ""name"": ""Pompano Beach"" },
+        { ""@type"": ""Place"", ""name"": ""Lauderhill"" },
+        { ""@type"": ""AdministrativeArea"", ""name"": ""Broward County"" }
+    ],
+    ""additionalProperty"": [
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Fort Lauderdale-Hollywood International Airport"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Mills Pond Park"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Broward County Courthouse"" }
+    ],
+    ""employee"": [
+        {
+            ""@type"": ""Person"",
+            ""@id"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person"",
+            ""name"": ""Vanessa Vasquez de Lara"",
+            ""jobTitle"": ""Founding Attorney"",
+            ""url"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/"",
+            ""hasCredential"": {
+                ""@type"": ""EducationalOccupationalCredential"",
+                ""credentialCategory"": ""Bar Admission"",
+                ""recognizedBy"": { ""@type"": ""Organization"", ""name"": ""The Florida Bar"" }
+            },
+            ""sameAs"": [""https://www.linkedin.com/in/vanessavasquez/""]
+        }
+    ],
+    ""makesOffer"": [
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Divorce Representation"", ""description"": ""Full-service divorce representation including contested and uncontested divorce proceedings."", ""url"": ""https://www.familylawprotection.com/florida/divorce/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Custody"", ""description"": ""Legal advocacy for parental responsibility, time-sharing, and custody modifications."", ""url"": ""https://www.familylawprotection.com/florida/child-custody/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Alimony"", ""description"": ""Representation for spousal support, alimony modifications, and enforcement."", ""url"": ""https://www.familylawprotection.com/florida/alimony/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Paternity"", ""description"": ""Establishing or contesting paternity for parental rights and responsibilities."", ""url"": ""https://www.familylawprotection.com/florida/paternity/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Prenuptial & Postnuptial Agreements"", ""description"": ""Drafting and reviewing prenuptial and postnuptial agreements to protect your assets."", ""url"": ""https://www.familylawprotection.com/florida/prenup-postnup/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Support"", ""description"": ""Child support establishment, modification, and enforcement proceedings."", ""url"": ""https://www.familylawprotection.com/florida/child-support/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""High Net-Worth Divorce"", ""description"": ""Complex divorce representation involving significant assets, businesses, and investments."", ""url"": ""https://www.familylawprotection.com/miami/divorce-lawyer/high-net-worth-divorce/"" }}
+    ],
+    ""knowsAbout"": [
+        { ""@type"": ""Thing"", ""name"": ""Family Law"", ""sameAs"": ""https://en.wikipedia.org/wiki/Family_law"" },
+        { ""@type"": ""Thing"", ""name"": ""Divorce"", ""sameAs"": ""https://en.wikipedia.org/wiki/Divorce"" },
+        { ""@type"": ""Thing"", ""name"": ""Child Custody"", ""sameAs"": ""https://en.wikipedia.org/wiki/Child_custody"" }
+    ]
+}
+</script>",TRUE,TRUE,TRUE,
+Miami Lakes,https://www.familylawprotection.com/florida/locations/miami-lakes/,/florida/locations/miami-lakes/,LegalService,Vasquez de Lara Law Group - Miami Lakes,"15450 New Barn Rd, Suite 200, Miami Lakes, FL 33014",+1-305-419-0120,7798926999866152057,Arbor Place Office Building,"Hard Rock Stadium, Miami Lakes Town Center","Palm Springs North, Hialeah, Miami Gardens, Opa-locka, Country Club",7,Vanessa Vasquez de Lara,,"<script type=""application/ld+json"">
+{
+    ""@context"": ""https://schema.org"",
+    ""@type"": ""LegalService"",
+    ""@id"": ""https://www.familylawprotection.com/florida/locations/miami-lakes/#office"",
+    ""name"": ""Vasquez de Lara Law Group - Miami Lakes"",
+    ""legalName"": ""Vasquez de Lara Law Group"",
+    ""description"": ""Vasquez de Lara Law Group provides dedicated family law representation in Miami Lakes, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Palm Springs North, Hialeah, and Miami Gardens."",
+    ""parentOrganization"": {
+        ""@type"": ""Organization"",
+        ""@id"": ""https://www.familylawprotection.com/#organization"",
+        ""name"": ""Vasquez de Lara Law Group"",
+        ""url"": ""https://www.familylawprotection.com/""
+    },
+    ""url"": ""https://www.familylawprotection.com/florida/locations/miami-lakes/"",
+    ""logo"": ""https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png"",
+    ""image"": ""https://www.familylawprotection.com/wp-content/uploads/miami-lakes-office.jpg"",
+    ""priceRange"": ""Call for consultation"",
+    ""telephone"": ""+1-305-419-0120"",
+    ""address"": {
+        ""@type"": ""PostalAddress"",
+        ""streetAddress"": ""15450 New Barn Rd, Suite 200"",
+        ""addressLocality"": ""Miami Lakes"",
+        ""addressRegion"": ""FL"",
+        ""postalCode"": ""33014"",
+        ""addressCountry"": ""US""
+    },
+    ""geo"": {
+        ""@type"": ""GeoCoordinates"",
+        ""latitude"": 25.9076,
+        ""longitude"": -80.3119
+    },
+    ""hasMap"": ""https://www.google.com/maps/place/?q=place_id:9RMy9tY13PKfwt5q8"",
+    ""openingHoursSpecification"": [
+        {
+            ""@type"": ""OpeningHoursSpecification"",
+            ""dayOfWeek"": [""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday""],
+            ""opens"": ""08:30"",
+            ""closes"": ""18:00"",
+            ""description"": ""By appointment only""
+        }
+    ],
+    ""sameAs"": [
+        ""https://www.facebook.com/VasquezdeLaraLawGroup"",
+        ""https://www.linkedin.com/company/vasquez-de-lara-law-group"",
+        ""https://www.yelp.com/biz/vasquez-de-lara-law-group-miami-lakes""
+    ],
+    ""areaServed"": [
+        { ""@type"": ""City"", ""name"": ""Miami Lakes"", ""sameAs"": ""https://en.wikipedia.org/wiki/Miami_Lakes,_Florida"" },
+        { ""@type"": ""Place"", ""name"": ""Palm Springs North"" },
+        { ""@type"": ""Place"", ""name"": ""Hialeah"" },
+        { ""@type"": ""Place"", ""name"": ""Miami Gardens"" },
+        { ""@type"": ""Place"", ""name"": ""Opa-locka"" },
+        { ""@type"": ""Place"", ""name"": ""Country Club"" },
+        { ""@type"": ""AdministrativeArea"", ""name"": ""Miami-Dade County"" }
+    ],
+    ""additionalProperty"": [
+        { ""@type"": ""PropertyValue"", ""name"": ""Located In"", ""value"": ""Arbor Place Office Building"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Hard Rock Stadium"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Miami Lakes Town Center"" }
+    ],
+    ""employee"": [
+        {
+            ""@type"": ""Person"",
+            ""@id"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person"",
+            ""name"": ""Vanessa Vasquez de Lara"",
+            ""jobTitle"": ""Founding Attorney"",
+            ""url"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/"",
+            ""hasCredential"": {
+                ""@type"": ""EducationalOccupationalCredential"",
+                ""credentialCategory"": ""Bar Admission"",
+                ""recognizedBy"": { ""@type"": ""Organization"", ""name"": ""The Florida Bar"" }
+            },
+            ""sameAs"": [""https://www.linkedin.com/in/vanessavasquez/""]
+        }
+    ],
+    ""makesOffer"": [
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Divorce Representation"", ""description"": ""Full-service divorce representation including contested and uncontested divorce proceedings."", ""url"": ""https://www.familylawprotection.com/florida/divorce/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Custody"", ""description"": ""Legal advocacy for parental responsibility, time-sharing, and custody modifications."", ""url"": ""https://www.familylawprotection.com/florida/child-custody/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Alimony"", ""description"": ""Representation for spousal support, alimony modifications, and enforcement."", ""url"": ""https://www.familylawprotection.com/florida/alimony/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Paternity"", ""description"": ""Establishing or contesting paternity for parental rights and responsibilities."", ""url"": ""https://www.familylawprotection.com/florida/paternity/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Prenuptial & Postnuptial Agreements"", ""description"": ""Drafting and reviewing prenuptial and postnuptial agreements to protect your assets."", ""url"": ""https://www.familylawprotection.com/florida/prenup-postnup/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Support"", ""description"": ""Child support establishment, modification, and enforcement proceedings."", ""url"": ""https://www.familylawprotection.com/florida/child-support/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""High Net-Worth Divorce"", ""description"": ""Complex divorce representation involving significant assets, businesses, and investments."", ""url"": ""https://www.familylawprotection.com/miami/divorce-lawyer/high-net-worth-divorce/"" }}
+    ],
+    ""knowsAbout"": [
+        { ""@type"": ""Thing"", ""name"": ""Family Law"", ""sameAs"": ""https://en.wikipedia.org/wiki/Family_law"" },
+        { ""@type"": ""Thing"", ""name"": ""Divorce"", ""sameAs"": ""https://en.wikipedia.org/wiki/Divorce"" },
+        { ""@type"": ""Thing"", ""name"": ""Child Custody"", ""sameAs"": ""https://en.wikipedia.org/wiki/Child_custody"" }
+    ]
+}
+</script>",TRUE,TRUE,TRUE,
+Pembroke Pines,https://www.familylawprotection.com/florida/locations/pembroke-pines/,/florida/locations/pembroke-pines/,LegalService,Vasquez de Lara Law Group - Pembroke Pines,"15800 Pines Blvd, Suite 300, Pembroke Pines, FL 33027",+1-954-324-2249,4632347678681435386,N/A,"Pembroke Lakes Mall, CB Smith Park","Hollywood, Miramar, Weston, Cooper City, Davie, Southwest Ranches",7,Vanessa Vasquez de Lara,,"<script type=""application/ld+json"">
+{
+    ""@context"": ""https://schema.org"",
+    ""@type"": ""LegalService"",
+    ""@id"": ""https://www.familylawprotection.com/florida/locations/pembroke-pines/#office"",
+    ""name"": ""Vasquez de Lara Law Group - Pembroke Pines"",
+    ""legalName"": ""Vasquez de Lara Law Group"",
+    ""description"": ""Vasquez de Lara Law Group provides dedicated family law representation in Pembroke Pines, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Hollywood, Miramar, Weston, and Broward County."",
+    ""parentOrganization"": {
+        ""@type"": ""Organization"",
+        ""@id"": ""https://www.familylawprotection.com/#organization"",
+        ""name"": ""Vasquez de Lara Law Group"",
+        ""url"": ""https://www.familylawprotection.com/""
+    },
+    ""url"": ""https://www.familylawprotection.com/florida/locations/pembroke-pines/"",
+    ""logo"": ""https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png"",
+    ""image"": ""https://www.familylawprotection.com/wp-content/uploads/pembroke-pines-office.jpg"",
+    ""priceRange"": ""Call for consultation"",
+    ""telephone"": ""+1-954-324-2249"",
+    ""address"": {
+        ""@type"": ""PostalAddress"",
+        ""streetAddress"": ""15800 Pines Blvd, Suite 300"",
+        ""addressLocality"": ""Pembroke Pines"",
+        ""addressRegion"": ""FL"",
+        ""postalCode"": ""33027"",
+        ""addressCountry"": ""US""
+    },
+    ""geo"": {
+        ""@type"": ""GeoCoordinates"",
+        ""latitude"": 26.0087,
+        ""longitude"": -80.3413
+    },
+    ""hasMap"": ""https://www.google.com/maps?cid=4632347678681435386"",
+    ""openingHoursSpecification"": [
+        {
+            ""@type"": ""OpeningHoursSpecification"",
+            ""dayOfWeek"": [""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday""],
+            ""opens"": ""08:30"",
+            ""closes"": ""18:00"",
+            ""description"": ""By appointment only""
+        }
+    ],
+    ""sameAs"": [
+        ""https://www.facebook.com/VasquezdeLaraLawGroup"",
+        ""https://www.linkedin.com/company/vasquez-de-lara-law-group"",
+        ""https://www.yelp.com/biz/vasquez-de-lara-law-group-pembroke-pines""
+    ],
+    ""areaServed"": [
+        { ""@type"": ""City"", ""name"": ""Pembroke Pines"", ""sameAs"": ""https://en.wikipedia.org/wiki/Pembroke_Pines,_Florida"" },
+        { ""@type"": ""Place"", ""name"": ""Hollywood"" },
+        { ""@type"": ""Place"", ""name"": ""Miramar"" },
+        { ""@type"": ""Place"", ""name"": ""Weston"" },
+        { ""@type"": ""Place"", ""name"": ""Cooper City"" },
+        { ""@type"": ""Place"", ""name"": ""Davie"" },
+        { ""@type"": ""Place"", ""name"": ""Southwest Ranches"" },
+        { ""@type"": ""AdministrativeArea"", ""name"": ""Broward County"" }
+    ],
+    ""additionalProperty"": [
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""Pembroke Lakes Mall"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Nearby Landmark"", ""value"": ""CB Smith Park"" },
+        { ""@type"": ""PropertyValue"", ""name"": ""Service Area Note"", ""value"": ""Serving Hollywood, Miramar, and Weston communities"" }
+    ],
+    ""employee"": [
+        {
+            ""@type"": ""Person"",
+            ""@id"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person"",
+            ""name"": ""Vanessa Vasquez de Lara"",
+            ""jobTitle"": ""Founding Attorney"",
+            ""url"": ""https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/"",
+            ""hasCredential"": {
+                ""@type"": ""EducationalOccupationalCredential"",
+                ""credentialCategory"": ""Bar Admission"",
+                ""recognizedBy"": { ""@type"": ""Organization"", ""name"": ""The Florida Bar"" }
+            },
+            ""sameAs"": [""https://www.linkedin.com/in/vanessavasquez/""]
+        }
+    ],
+    ""makesOffer"": [
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Divorce Representation"", ""description"": ""Full-service divorce representation including contested and uncontested divorce proceedings."", ""url"": ""https://www.familylawprotection.com/florida/divorce/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Custody"", ""description"": ""Legal advocacy for parental responsibility, time-sharing, and custody modifications."", ""url"": ""https://www.familylawprotection.com/florida/child-custody/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Alimony"", ""description"": ""Representation for spousal support, alimony modifications, and enforcement."", ""url"": ""https://www.familylawprotection.com/florida/alimony/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Paternity"", ""description"": ""Establishing or contesting paternity for parental rights and responsibilities."", ""url"": ""https://www.familylawprotection.com/florida/paternity/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Prenuptial & Postnuptial Agreements"", ""description"": ""Drafting and reviewing prenuptial and postnuptial agreements to protect your assets."", ""url"": ""https://www.familylawprotection.com/florida/prenup-postnup/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""Child Support"", ""description"": ""Child support establishment, modification, and enforcement proceedings."", ""url"": ""https://www.familylawprotection.com/florida/child-support/"" }},
+        { ""@type"": ""Offer"", ""itemOffered"": { ""@type"": ""Service"", ""name"": ""High Net-Worth Divorce"", ""description"": ""Complex divorce representation involving significant assets, businesses, and investments."", ""url"": ""https://www.familylawprotection.com/miami/divorce-lawyer/high-net-worth-divorce/"" }}
+    ],
+    ""knowsAbout"": [
+        { ""@type"": ""Thing"", ""name"": ""Family Law"", ""sameAs"": ""https://en.wikipedia.org/wiki/Family_law"" },
+        { ""@type"": ""Thing"", ""name"": ""Divorce"", ""sameAs"": ""https://en.wikipedia.org/wiki/Divorce"" },
+        { ""@type"": ""Thing"", ""name"": ""Child Custody"", ""sameAs"": ""https://en.wikipedia.org/wiki/Child_custody"" }
+    ]
+}
+</script>",TRUE,TRUE,TRUE,

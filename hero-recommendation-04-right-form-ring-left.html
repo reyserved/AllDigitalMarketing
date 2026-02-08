@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LJP Hero Concept 04 - Right Form, Left Orbital Ring</title>
+  <style>
+    :root {
+      --ljp-blue: #18509B;
+      --ljp-blue-deep: #10366B;
+      --ljp-amber: #EB9B1A;
+      --ljp-green: #018846;
+      --ink: #10294d;
+      --white: #ffffff;
+      --paper: #e7e8eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+      background: #0a1f3d;
+      color: var(--white);
+    }
+
+    .hero-pharma {
+      min-height: 100svh;
+      padding: clamp(16px, 2.5vw, 32px);
+      display: grid;
+      align-items: center;
+      background:
+        radial-gradient(45% 55% at 14% 10%, rgba(1, 136, 70, 0.22), transparent 72%),
+        radial-gradient(40% 50% at 88% 18%, rgba(235, 155, 26, 0.22), transparent 75%),
+        linear-gradient(134deg, #0d2f5f 0%, #18509B 48%, #0b2445 100%);
+      overflow: hidden;
+    }
+
+    .hero-pharma-inner {
+      width: min(1320px, 100%);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: clamp(16px, 2.6vw, 34px);
+      align-items: center;
+    }
+
+    .hero-pharma-left {
+      display: grid;
+      gap: 18px;
+      align-content: center;
+    }
+
+    .hero-pharma-left h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 4.5vw, 4.35rem);
+      line-height: 1.03;
+      letter-spacing: -0.02em;
+      max-width: 13.5ch;
+      text-wrap: balance;
+    }
+
+    .hero-pharma-left p {
+      margin: 0;
+      max-width: 58ch;
+      color: #e4eeff;
+      line-height: 1.62;
+      font-size: clamp(1.05rem, 1.35vw, 1.22rem);
+    }
+
+    .hero-pharma-proof-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .hero-pharma-proof-row span {
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background: rgba(255, 255, 255, 0.14);
+      padding: 9px 14px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      backdrop-filter: blur(6px);
+    }
+
+    .hero-pharma-orbital-wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(220px, 0.56fr);
+      gap: 14px;
+      align-items: center;
+      margin-top: 4px;
+    }
+
+    .hero-pharma-orbital-stage {
+      min-height: clamp(280px, 38vh, 380px);
+      display: grid;
+      place-items: center;
+      position: relative;
+      isolation: isolate;
+    }
+
+    .hero-pharma-orb {
+      width: min(420px, 95%);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      position: relative;
+      background: url("https://ljpzlf.com/wp-content/uploads/2026/02/pharma_waste-1-1.png") center/cover no-repeat;
+      box-shadow:
+        0 24px 50px rgba(3, 18, 40, 0.42),
+        inset 0 0 0 2px rgba(255, 255, 255, 0.26);
+    }
+
+    .hero-pharma-orb::before,
+    .hero-pharma-orb::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero-pharma-orb::before {
+      inset: -18px;
+      border: 1px dashed rgba(255, 255, 255, 0.34);
+    }
+
+    .hero-pharma-orb::after {
+      inset: -36px;
+      border: 1px solid rgba(1, 136, 70, 0.45);
+    }
+
+    .hero-pharma-marker {
+      position: absolute;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      background: rgba(14, 39, 74, 0.76);
+      padding: 8px 10px;
+      font-size: 0.74rem;
+      font-weight: 700;
+      backdrop-filter: blur(4px);
+    }
+
+    .m1 { top: 6%; left: 6%; }
+    .m2 { right: 7%; bottom: 14%; }
+    .m3 { left: 4%; bottom: 28%; }
+
+    .hero-pharma-process-notes {
+      display: grid;
+      gap: 8px;
+    }
+
+    .hero-pharma-note {
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background: rgba(12, 34, 66, 0.64);
+      padding: 11px 10px;
+    }
+
+    .hero-pharma-note strong {
+      display: block;
+      font-size: 0.83rem;
+      margin-bottom: 2px;
+      color: #ffffff;
+    }
+
+    .hero-pharma-note span {
+      display: block;
+      font-size: 0.76rem;
+      color: #dbe9ff;
+      line-height: 1.4;
+    }
+
+    .hero-pharma-right {
+      display: grid;
+      justify-items: end;
+    }
+
+    .hero-pharma-form-card {
+      width: min(430px, 100%);
+      background: var(--paper);
+      border-radius: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 24px 48px rgba(3, 17, 39, 0.44);
+      padding: 14px;
+      color: var(--ink);
+    }
+
+    .hero-pharma .elementor-form-fields-wrapper {
+      display: grid;
+      gap: 6px;
+    }
+
+    .hero-pharma .elementor-field-label {
+      display: inline-block;
+      margin-bottom: 4px;
+      font-size: 1.02rem;
+      font-weight: 500;
+      color: #111;
+    }
+
+    .hero-pharma .elementor-field {
+      width: 100%;
+      border: 1px solid #687383;
+      border-radius: 2px;
+      background: #fff;
+      color: #111;
+      min-height: 38px;
+      padding: 9px 11px;
+      font: inherit;
+      font-size: 0.98rem;
+    }
+
+    .hero-pharma textarea.elementor-field {
+      min-height: 88px;
+      resize: vertical;
+    }
+
+    .hero-pharma .elementor-field:focus {
+      outline: none;
+      border-color: var(--ljp-blue);
+      box-shadow: 0 0 0 3px rgba(24, 80, 155, 0.16);
+    }
+
+    .hero-pharma .elementor-g-recaptcha {
+      border: 1px solid #c8ccd3;
+      border-radius: 2px;
+      background: #f8f9fb;
+      width: 304px;
+      max-width: 100%;
+      padding: 10px 10px 8px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 8px;
+      color: #2a2a2a;
+      font-size: 0.92rem;
+    }
+
+    .hero-pharma-recaptcha-box {
+      width: 28px;
+      height: 28px;
+      border: 2px solid #5e646c;
+      background: #fff;
+    }
+
+    .hero-pharma-recaptcha-brand {
+      font-size: 0.62rem;
+      text-align: right;
+      color: #677181;
+      line-height: 1.2;
+    }
+
+    .hero-pharma .elementor-button {
+      border: 0;
+      border-radius: 4px;
+      min-height: 44px;
+      min-width: 94px;
+      padding: 11px 24px;
+      font: inherit;
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: #fff;
+      cursor: pointer;
+      background: var(--ljp-green);
+    }
+
+    @media (max-width: 1024px) {
+      .hero-pharma-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-pharma-right {
+        justify-items: start;
+      }
+
+      .hero-pharma-form-card {
+        width: min(520px, 100%);
+      }
+    }
+
+    @media (max-width: 820px) {
+      .hero-pharma {
+        padding: 14px 10px;
+      }
+
+      .hero-pharma-inner {
+        gap: 12px;
+      }
+
+      .hero-pharma-left h1 {
+        font-size: clamp(2rem, 7.5vw, 2.95rem);
+      }
+
+      .hero-pharma-left p {
+        font-size: 1rem;
+      }
+
+      .hero-pharma-right {
+        order: 1;
+      }
+
+      .hero-pharma-left {
+        order: 2;
+      }
+
+      .hero-pharma-orbital-wrap {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .hero-pharma-orbital-stage {
+        min-height: 280px;
+      }
+
+      .hero-pharma-orb {
+        width: min(360px, 95%);
+      }
+    }
+
+    @media (max-width: 680px) {
+      .hero-pharma {
+        min-height: 100svh;
+      }
+
+      .hero-pharma .elementor-field-label {
+        font-size: 0.95rem;
+      }
+
+      .hero-pharma .elementor-field,
+      .hero-pharma .elementor-button {
+        font-size: 0.95rem;
+      }
+
+      .hero-pharma .elementor-g-recaptcha {
+        transform: scale(0.92);
+        transform-origin: left top;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero-pharma">
+    <div class="hero-pharma-inner">
+      <div class="hero-pharma-left">
+        <h1>Sustainable Non-Hazardous Pharmaceutical Waste Disposal</h1>
+        <p>Protect your brand and the environment. We convert bulk pharmaceutical waste into renewable energy with fully documented, zero-landfill outcomes.</p>
+        <div class="hero-pharma-proof-row" aria-label="Proof points">
+          <span>100% Zero Landfill</span>
+          <span>Verified Chain-of-Custody</span>
+          <span>Waste-to-Energy</span>
+        </div>
+
+        <div class="hero-pharma-orbital-wrap">
+          <div class="hero-pharma-orbital-stage">
+            <div class="hero-pharma-orb" role="img" aria-label="Pharmaceutical processing visual in circular frame"></div>
+            <span class="hero-pharma-marker m1">Secure Pickup</span>
+            <span class="hero-pharma-marker m2">Destruction Verified</span>
+            <span class="hero-pharma-marker m3">Energy Recovery</span>
+          </div>
+
+          <div class="hero-pharma-process-notes" aria-label="Process overview">
+            <div class="hero-pharma-note"><strong>Start With A Consultation</strong><span>We review your waste streams, sustainability targets, and compliance needs.</span></div>
+            <div class="hero-pharma-note"><strong>Build A Custom Plan</strong><span>Your team gets a tailored non-hazardous disposal workflow built for zero-landfill goals.</span></div>
+            <div class="hero-pharma-note"><strong>Schedule Secure Pickup</strong><span>We coordinate collection timing around your operations and chain-of-custody requirements.</span></div>
+            <div class="hero-pharma-note"><strong>Get Certified Reporting</strong><span>After processing, you receive formal destruction and sustainability documentation for records.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-pharma-right">
+        <div class="hero-pharma-form-card" aria-label="Inquiry form">
+          <form class="elementor-form" method="post" name="New Form">
+            <div class="elementor-form-fields-wrapper elementor-labels-above">
+              <div class="elementor-field-group">
+                <label for="f4-name" class="elementor-field-label">Name</label>
+                <input type="text" id="f4-name" name="form_fields[name]" class="elementor-field" placeholder="Your name" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f4-number" class="elementor-field-label">Number</label>
+                <input type="tel" id="f4-number" name="form_fields[number]" class="elementor-field" placeholder="Your number" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f4-email" class="elementor-field-label">Email</label>
+                <input type="email" id="f4-email" name="form_fields[email]" class="elementor-field" placeholder="Your email" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f4-company" class="elementor-field-label">Company</label>
+                <input type="text" id="f4-company" name="form_fields[company]" class="elementor-field" placeholder="Your Company" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f4-message" class="elementor-field-label">Message</label>
+                <textarea id="f4-message" name="form_fields[message]" class="elementor-field" rows="4" placeholder="Message"></textarea>
+              </div>
+
+              <div class="elementor-field-group">
+                <div class="elementor-g-recaptcha" aria-label="reCAPTCHA mock">
+                  <span class="hero-pharma-recaptcha-box" aria-hidden="true"></span>
+                  <span>I'm not a robot</span>
+                  <span class="hero-pharma-recaptcha-brand">reCAPTCHA<br/>Privacy - Terms</span>
+                </div>
+              </div>
+
+              <div class="elementor-field-group">
+                <button class="elementor-button" type="submit">
+                  <span class="elementor-button-content-wrapper">
+                    <span class="elementor-button-text">Send</span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

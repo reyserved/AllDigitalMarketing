@@ -1,0 +1,24 @@
+00:00
+ Alright, so once again, I am handing you a landing page task. This one is just to develop a mockup in Figma.
+
+00:13
+ And I've linked, and this is what I'm showing right now, the existing page. It's not really a landing page at all. It's just a page that we're sending traffic to. But you can definitely leverage this for the content. So the core things that I want to change in the new landing page...
+
+00:32
+ would be just simplifying. So like less content, make it really focused on getting them to convert. Therefore, there's going to be no navigation. There's a sticky CTA. Ideally, the form is above the fold. I would also prefer some probably better, more strong imagery like a typical landing page does on like the left hand or right hand side.
+
+00:58
+ and really kind of drive home any sort of trust signals you can that are available already on the site and in general. And the third thing would be no external links. So like these are external links. Don't want to have that. Want to keep them on the same page. And then the fourth thing would be to make sure that we are
+
+01:25
+ pre-qualifying people um so based on their target audience they don't want one-offs or someone just looking to replace like one car door they're looking for uh to work with like large manufacturers and so that should be like super apparent in the content bolded that sort of thing
+
+01:43
+ Um, outside of that, you have creative freedom and, uh, you know, don't feel like you have to write a bunch of new content. You can just repurpose a lot of what they already have. Um, but at the moment, it's just not a very conversion friendly page, um,
+
+02:00
+ And I would also say definitely want to make sure that the page is optimized for mobile. You can tell that right now. It's definitely not. You have to scroll quite a bit to get to the form. There's a lot of just empty space, a lot of text. And so it's just not ideal from like a paid search lander perspective. So trying to change that. One thing I didn't mention is I listed in order the top keywords that this campaign converts on.
+
+02:31
+ Um, and, uh, as I'm shooting this, I'm realizing I have two landing pages. One's for heavy equipment. One is for polycarbonate. So I'm talking about polycarbonate right now, but all of this applies to heavy equipment. Um, it'll just be a slightly different page. I'll send you as far as the link. Thanks.
+

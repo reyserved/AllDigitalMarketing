@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LJP Hero Concept 02 - Evidence Wall</title>
+  <style>
+    :root {
+      --ljp-blue: #18509B;
+      --ljp-navy: #0F3264;
+      --ljp-amber: #EB9B1A;
+      --ljp-green: #018846;
+      --ink: #102A4F;
+      --paper: #F8FBFF;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", "Segoe UI", sans-serif;
+      background: #0a1f3f;
+      color: var(--white);
+    }
+
+    .hero {
+      min-height: 100vh;
+      padding: clamp(20px, 3vw, 40px);
+      background:
+        linear-gradient(128deg, #0b2851 0%, #18509B 42%, #0d2447 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        repeating-linear-gradient(
+          -40deg,
+          rgba(255, 255, 255, 0.04) 0px,
+          rgba(255, 255, 255, 0.04) 2px,
+          transparent 2px,
+          transparent 18px
+        );
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(1200px, 100%);
+      margin: 0 auto;
+      min-height: calc(100vh - clamp(40px, 6vw, 80px));
+      display: grid;
+      grid-template-columns: 1fr;
+      align-content: center;
+      gap: 16px;
+    }
+
+    .headline-block {
+      max-width: 840px;
+    }
+
+    .headline-block h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4.8vw, 4rem);
+      line-height: 1.04;
+      letter-spacing: -0.02em;
+      text-wrap: balance;
+    }
+
+    .headline-block p {
+      margin: 14px 0 0;
+      max-width: 64ch;
+      color: #e6f0ff;
+      line-height: 1.6;
+      font-size: clamp(1rem, 1.25vw, 1.16rem);
+    }
+
+    .hero-stage {
+      margin-top: clamp(16px, 2vw, 24px);
+      position: relative;
+      min-height: clamp(430px, 57vh, 560px);
+      display: grid;
+      place-items: center;
+    }
+
+    .evidence-wall {
+      width: min(1000px, 96%);
+      height: clamp(300px, 48vh, 430px);
+      border-radius: 24px;
+      background:
+        linear-gradient(130deg, rgba(16, 42, 79, 0.65), rgba(16, 42, 79, 0.15)),
+        url("https://ljpzlf.com/wp-content/uploads/2026/02/pharma_waste-1-1.png") center/cover no-repeat;
+      clip-path: polygon(3% 0, 100% 0, 97% 100%, 0 100%);
+      box-shadow: 0 34px 60px rgba(3, 15, 33, 0.48);
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .evidence-grid {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to right, rgba(255,255,255,0.09) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.09) 1px, transparent 1px);
+      background-size: 26px 26px;
+      opacity: 0.36;
+      mix-blend-mode: screen;
+    }
+
+    .stage-tag {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: rgba(235, 155, 26, 0.92);
+      color: #102a4f;
+      font-weight: 800;
+      font-size: 0.75rem;
+      padding: 8px 10px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .step-column {
+      position: absolute;
+      left: 18px;
+      top: 18px;
+      bottom: 18px;
+      width: min(240px, 38%);
+      display: grid;
+      gap: 8px;
+      align-content: start;
+      z-index: 2;
+    }
+
+    .step {
+      background: rgba(16, 42, 79, 0.76);
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      padding: 9px 10px;
+      border-radius: 12px;
+      font-size: 0.78rem;
+      line-height: 1.35;
+      backdrop-filter: blur(3px);
+    }
+
+    .step strong {
+      color: #ffffff;
+      display: block;
+      margin-bottom: 2px;
+      font-size: 0.8rem;
+    }
+
+    .intake-card {
+      position: absolute;
+      right: clamp(12px, 3vw, 38px);
+      bottom: clamp(-10px, 1vw, 8px);
+      width: min(390px, 94vw);
+      background: var(--paper);
+      color: var(--ink);
+      border-radius: 18px;
+      border: 1px solid rgba(24, 80, 155, 0.2);
+      box-shadow: 0 24px 45px rgba(4, 20, 44, 0.42);
+      transform: rotate(-1.2deg);
+      z-index: 4;
+      overflow: hidden;
+    }
+
+    .intake-head {
+      background: linear-gradient(130deg, var(--ljp-blue) 0%, var(--ljp-green) 100%);
+      color: #fff;
+      padding: 14px 16px;
+      position: relative;
+    }
+
+    .intake-head::after {
+      content: "Priority Intake";
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 0.64rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 800;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .intake-head h3 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .intake-body {
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .intake-body input,
+    .intake-body textarea {
+      width: 100%;
+      border: 1px solid #bed1eb;
+      border-radius: 9px;
+      padding: 10px;
+      background: #fff;
+      color: #12396d;
+      font: inherit;
+    }
+
+    .intake-body button {
+      border: 0;
+      border-radius: 999px;
+      padding: 12px;
+      background: linear-gradient(130deg, var(--ljp-blue) 0%, var(--ljp-green) 100%);
+      color: #fff;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .proof-line {
+      margin-top: 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .proof-line span {
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-inner {
+        min-height: auto;
+      }
+
+      .hero-stage {
+        min-height: 620px;
+      }
+
+      .evidence-wall {
+        height: 360px;
+      }
+
+      .step-column {
+        width: min(240px, 55%);
+      }
+
+      .intake-card {
+        transform: none;
+        right: 50%;
+        bottom: 0;
+        translate: 50% 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding: 18px 12px 20px;
+      }
+
+      .headline-block h1 {
+        font-size: clamp(1.75rem, 7.5vw, 2.4rem);
+      }
+
+      .hero-stage {
+        min-height: 660px;
+      }
+
+      .evidence-wall {
+        width: 100%;
+      }
+
+      .step-column {
+        width: 78%;
+      }
+
+      .step {
+        font-size: 0.73rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="headline-block">
+        <h1>Sustainable Non-Hazardous Pharmaceutical Waste Disposal</h1>
+        <p>Protect your brand and the environment. We convert bulk pharmaceutical waste into renewable energy with complete audit visibility from pickup to final certificate.</p>
+        <div class="proof-line" aria-label="Service highlights">
+          <span>100% Zero Landfill</span>
+          <span>Documented Compliance</span>
+          <span>Chain-of-Custody Integrity</span>
+        </div>
+      </div>
+
+      <div class="hero-stage">
+        <div class="evidence-wall" role="img" aria-label="Documented pharmaceutical waste handling operations">
+          <div class="evidence-grid"></div>
+          <span class="stage-tag">Verified Flow</span>
+
+          <div class="step-column" aria-label="Process steps">
+            <div class="step"><strong>1. Secure Pickup</strong>GPS-tracked collection with sealed containers.</div>
+            <div class="step"><strong>2. Controlled Processing</strong>Waste stream sorting and compliant handling controls.</div>
+            <div class="step"><strong>3. Energy Conversion</strong>Material converted through approved waste-to-energy channels.</div>
+          </div>
+        </div>
+
+        <form class="intake-card" aria-label="Quick intake form">
+          <div class="intake-head">
+            <h3>Start Your Disposal Intake</h3>
+          </div>
+          <div class="intake-body">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Company" />
+            <button type="button">Get Disposal Plan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

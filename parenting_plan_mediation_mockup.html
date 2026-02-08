@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parenting Plan Mediation in Arizona | Aurit Mediation</title>
+    <!-- Google Fonts Substitutes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-green: #014921;
+            --text-dark: #192615;
+            --bg-hero: #F0F8F2;
+            --bg-beige: #F5F2E8;
+            --accent-red-bg: #FCE8E8;
+            --accent-red-text: #D36060;
+            --accent-green-bg: #E6F7E4;
+            --white: #FFFFFF;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: var(--text-dark);
+            font-size: 18px;
+            line-height: 1.6;
+            background-color: var(--white);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'DM Serif Display', serif;
+            color: var(--text-dark);
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            font-size: 64px;
+            line-height: 1.1;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 48px;
+            line-height: 1.2;
+            margin-top: 60px;
+        }
+
+        h3 {
+            font-size: 32px;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            margin-top: 32px;
+        }
+
+        h4 {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 24px;
+            color: #333;
+        }
+
+        ul,
+        ol {
+            margin-bottom: 24px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Utility Classes */
+        .text-center {
+            text-align: center;
+        }
+
+        .text-green {
+            color: var(--primary-green);
+        }
+
+        .mt-large {
+            margin-top: 80px;
+        }
+
+        .mb-large {
+            margin-bottom: 80px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 60px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-green);
+            color: var(--white);
+            border: 2px solid var(--primary-green);
+        }
+
+        .btn-primary:hover {
+            background-color: #013618;
+            border-color: #013618;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary-green);
+            border: 2px solid var(--primary-green);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--primary-green);
+            color: var(--white);
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: var(--bg-hero);
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+
+        .hero .subheadline {
+            font-size: 24px;
+            font-weight: 500;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            color: var(--primary-green);
+        }
+
+        /* Content Sections */
+        .section-padding {
+            padding: 80px 0;
+        }
+
+        .bg-beige {
+            background-color: var(--bg-beige);
+        }
+
+        /* Comparison Table Style */
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .comparison-card {
+            background: var(--white);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border: 1px solid #eee;
+        }
+
+        .comparison-header {
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .row-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        .row-item:last-child {
+            border-bottom: none;
+        }
+
+        .icon-box {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+            flex-shrink: 0;
+            font-weight: bold;
+        }
+
+        .icon-check {
+            background-color: var(--accent-green-bg);
+            color: var(--primary-green);
+        }
+
+        .icon-cross {
+            background-color: var(--accent-red-bg);
+            color: var(--accent-red-text);
+        }
+
+        .row-label {
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .row-label strong {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        /* Service/Feature Cards */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .service-card {
+            background: var(--white);
+            border: 2px solid var(--primary-green);
+            border-radius: 24px;
+            padding: 32px;
+            transition: transform 0.3s;
+            height: 100%;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-card h4 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 24px;
+            color: var(--primary-green);
+        }
+
+        /* Generic Pillar Grid */
+        .pillar-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .pillar-item h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: var(--primary-green);
+        }
+
+        /* Process Steps */
+        .process-grid {
+            display: grid;
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .process-step {
+            background: var(--white);
+            padding: 24px;
+            border-radius: 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 24px;
+        }
+
+        .step-number {
+            background: var(--primary-green);
+            color: var(--white);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        /* Founders Section */
+        .founders-section {
+            text-align: center;
+            padding: 100px 0;
+            background-color: var(--bg-beige);
+        }
+
+        .pill-label {
+            background-color: var(--primary-green);
+            color: var(--white);
+            padding: 8px 20px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+
+        /* Testimonials */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 60px;
+        }
+
+        .testimonial-card {
+            padding: 32px;
+            border-radius: 24px;
+            background: #f9f9f9;
+            /* Fallback */
+        }
+
+        /* Sticky CTA Bar */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--white);
+            padding: 16px 0;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 32px;
+            }
+
+            .comparison-grid,
+            .pillar-grid,
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .sticky-cta {
+                padding: 12px 24px;
+            }
+
+            .hero {
+                padding: 60px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="pill-label"
+                style="background:transparent; border:1px solid var(--primary-green); color:var(--primary-green); margin-bottom: 16px;">Arizona
+                Mediation Services</span>
+            <h1>Parenting Plan Mediation in Arizona</h1>
+            <p class="subheadline">Create a Stable Future for Your Children with a Custom Parenting Plan</p>
+            <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+                <p class="text-center">Establishing a parenting plan is one of the most critical aspects of divorce or
+                    separation involving children. In Arizona, the courts require a comprehensive parenting plan that
+                    outlines how parents will share decision-making responsibilities and parenting time. At The Aurit
+                    Center for Divorce Mediation, we help you create a thoughtful, detailed parenting plan that
+                    prioritizes your children's well-being and minimizes future conflict.</p>
+            </div>
+            <div style="margin-top: 32px;">
+                <a href="https://auritmediation.com/contact/" class="btn btn-primary">Schedule Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How Arizona Law Supports -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="text-center">How Arizona Law Supports Parenting Plan Mediation</h2>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <p>Arizona law encourages families to resolve parenting matters peacefully. Under <strong>Arizona
+                        Revised Statutes § 25-403</strong>, the state prioritizes the "best interests of the child,"
+                    recognizing that collaborative agreements often serve children better than court-imposed orders.
+                    Mediation allows parents to reach their own settlement outside the courtroom.</p>
+                <p>Mediation agreements that meet Arizona’s requirements can be submitted to the court and entered as
+                    legally binding orders. Communications during mediation are protected under <strong>Rule 67.3 of the
+                        Arizona Rules of Family Law Procedure</strong>, meaning your discussions remain confidential.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Encouraged Section (Pillars) -->
+    <section class="section-padding bg-beige">
+        <div class="container">
+            <div class="text-center">
+                <h2>Why Arizona Courts Encourage Mediation</h2>
+                <p style="max-width: 800px; margin: 0 auto;">Arizona judges often recommend or order mediation before a
+                    custody trial under <strong>Rule 68 of the Arizona Rules of Family Law Procedure</strong>. State
+                    policy promotes mediation to:</p>
+            </div>
+
+            <div class="pillar-grid">
+                <div class="pillar-item">
+                    <h3>Reduce Congestion</h3>
+                    <p>Reduces court congestion and lowers costs to taxpayers by keeping cases out of the system.</p>
+                </div>
+                <div class="pillar-item">
+                    <h3>Support Cooperation</h3>
+                    <p>Supports cooperation between parents specifically for the benefit and well-being of children.</p>
+                </div>
+                <div class="pillar-item">
+                    <h3>Honor Agreements</h3>
+                    <p>Fosters agreements that families are more likely to honor because they created them together.</p>
+                </div>
+                <div class="pillar-item">
+                    <h3>Decrease Conflict</h3>
+                    <p>Decreases post-divorce conflict and minimizes the need for repeated court motions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="text-center">
+                <h2>Legal Benefits of Mediation vs. Litigation</h2>
+                <p>Arizona family courts strongly favor mediation for its positive outcomes. Here’s how it compares:</p>
+            </div>
+
+            <div class="comparison-grid">
+                <!-- Mediation Card (Left for emphasis) -->
+                <div class="comparison-card" style="border: 2px solid var(--primary-green); background-color: #FAFFFC;">
+                    <div class="comparison-header">
+                        <h3 class="text-green">Mediation</h3>
+                        <p>The Aurit Center Way</p>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-check">✓</div>
+                        <div class="row-label">
+                            <strong>Privacy</strong>
+                            Confidential; not public record
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-check">✓</div>
+                        <div class="row-label">
+                            <strong>Control</strong>
+                            You decide the terms
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-check">✓</div>
+                        <div class="row-label">
+                            <strong>Timeline</strong>
+                            Usually 2–4 months
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-check">✓</div>
+                        <div class="row-label">
+                            <strong>Cost</strong>
+                            Flat-fee pricing
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-check">✓</div>
+                        <div class="row-label">
+                            <strong>Compliance</strong>
+                            Parents likely to follow own terms
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Litigation Card -->
+                <div class="comparison-card" style="border-top: 4px solid var(--accent-red-text);">
+                    <div class="comparison-header">
+                        <h3>Litigation</h3>
+                        <p>Traditional Court Process</p>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-cross">✕</div>
+                        <div class="row-label">
+                            <strong>Privacy</strong>
+                            Filed and argued publicly in court
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-cross">✕</div>
+                        <div class="row-label">
+                            <strong>Control</strong>
+                            Judge decides outcomes
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-cross">✕</div>
+                        <div class="row-label">
+                            <strong>Timeline</strong>
+                            Often 12 months or more
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-cross">✕</div>
+                        <div class="row-label">
+                            <strong>Cost</strong>
+                            High retainers & hourly fees
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="icon-box icon-cross">✕</div>
+                        <div class="row-label">
+                            <strong>Compliance</strong>
+                            Lower likelihood of following orders
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developing Plan Section -->
+    <section class="section-padding bg-beige">
+        <div class="container">
+            <h2 class="text-center">Developing a Comprehensive Parenting Plan</h2>
+            <p class="text-center" style="max-width:800px; margin:0 auto 40px;">Our experienced mediators guide you
+                through every detail to ensure your plan is robust and practical. We assist you in addressing:</p>
+
+            <div class="services-grid">
+                <!-- 1 -->
+                <div class="service-card">
+                    <h4>1. The Regular Parenting Schedule</h4>
+                    <p>We help you design a routine that provides stability for your children and fits your work and
+                        lifestyle. Whether it's a 5-2-2-5, week-on/week-off, or a custom schedule, we find what works
+                        best for you.</p>
+                </div>
+                <!-- 2 -->
+                <div class="service-card">
+                    <h4>2. Holidays and Vacations</h4>
+                    <p>Holiday schedules often supersede the regular routine. We help you proactively plan for major
+                        holidays (Thanksgiving, Christmas/Hanukkah, etc.), school breaks, and family vacations to avoid
+                        last-minute stress.</p>
+                </div>
+                <!-- 3 -->
+                <div class="service-card">
+                    <h4>3. Decision-Making Authority</h4>
+                    <p>We facilitate agreements on how you will make significant decisions. Most clients in mediation
+                        choose <strong>Joint Legal Decision-Making</strong>, where parents consult and agree on major
+                        issues, but we can structure this to fit your specific circumstances.</p>
+                </div>
+                <!-- 4 -->
+                <div class="service-card">
+                    <h4>4. Transition & Logistics</h4>
+                    <p>The small details matter. We help you define how exchanges will occur, who provides
+                        transportation, and how to handle children's belongings, ensuring smooth transitions between
+                        homes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How Aurit Supports -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="text-center">How Aurit Supports Your Parenting Plan</h2>
+            <p style="max-width: 800px; margin: 0 auto; text-align: center;">At The Aurit Center, mediation is not
+                one-size-fits-all. Arizona parenting laws touch many areas of family life, and our mediators help you
+                resolve every aspect of your plan in a structured, legally compliant way. We provide comprehensive
+                mediation services including:</p>
+
+            <div class="pillar-grid" style="margin-top: 60px;">
+                <div class="pillar-item">
+                    <h3>Custody & Decision-Making</h3>
+                    <p>Work collaboratively to create arrangements that align with Arizona’s best-interest standards
+                        under ARS § 25-403 while minimizing conflict.</p>
+                </div>
+                <div class="pillar-item">
+                    <h3>Parenting Time Schedules</h3>
+                    <p>Develop detailed, court-ready parenting plans that address schedules, decision-making, and future
+                        flexibility.</p>
+                </div>
+                <div class="pillar-item">
+                    <h3>Child Support Integration</h3>
+                    <p>Resolve child support issues using Arizona’s guidelines while maintaining transparency and
+                        ensuring financial fairness for both homes.</p>
+                </div>
+                <div class="pillar-item">
+                    <h3>Virtual Mediation Options</h3>
+                    <p>Participate fully in the mediation process from anywhere in Arizona through secure, confidential
+                        virtual sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Aurit Mediation Process (New) -->
+    <section class="section-padding bg-beige">
+        <div class="container">
+            <h2 class="text-center">The Aurit Mediation Process</h2>
+            <div class="process-grid" style="max-width: 800px; margin: 40px auto 0;">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3 style="margin-top:0; font-size: 24px;">Free Consultation</h3>
+                        <p style="margin-bottom:0;">Meet your mediator, ask questions, and confirm if mediation is right
+                            for you. We explain pricing, the timeline, and what to expect.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3 style="margin-top:0; font-size: 24px;">Initial Mediation Meeting</h3>
+                        <p style="margin-bottom:0;">Set goals, review intake details, and confirm what documents we
+                            need. We outline the key topics for your parenting plan.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3 style="margin-top:0; font-size: 24px;">Parenting Plan Discussions</h3>
+                        <p style="margin-bottom:0;">Focus on schedules, decision-making, and logistics. We help you
+                            communicate effectively to reach agreements that work for both parents and children.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h3 style="margin-top:0; font-size: 24px;">Draft Your Agreement</h3>
+                        <p style="margin-bottom:0;">We prepare a clear Parenting Plan that includes all agreed-upon
+                            terms, ready for court approval.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div>
+                        <h3 style="margin-top:0; font-size: 24px;">Finalize and File</h3>
+                        <p style="margin-bottom:0;">You review the final documents. We file them with the court for you.
+                            Most couples finalize without ever stepping foot in a courtroom.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founders Section -->
+    <section class="founders-section">
+        <div class="container">
+            <span class="pill-label">Meet Our Founders</span>
+            <h2>Michael Aurit, JD, MDR, and Karen Aurit, MA</h2>
+            <p style="max-width: 800px; margin: 0 auto;">Created The Aurit Center to transform the divorce and
+                co-parenting experience in Arizona. Together, they have guided thousands of families toward peaceful,
+                legally compliant resolutions.</p>
+            <p style="max-width: 800px; margin: 24px auto 0;">Each mediator on our team is trained in Arizona family law
+                and court procedures, ensuring every agreement aligns with state requirements and ethical standards.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding">
+        <div class="container text-center">
+            <h2>What Our Clients Say</h2>
+            <ul
+                style="list-style:none; padding:0; font-weight:700; color:var(--primary-green); letter-spacing:1px; text-transform:uppercase;">
+                <li style="display:inline-block; margin:0 12px;">5.0 RATING</li>
+                <li style="display:inline-block; margin:0 12px;">10,000+ FAMILIES HELPED</li>
+                <li style="display:inline-block; margin:0 12px;">SERVING 15 COUNTIES</li>
+            </ul>
+
+            <div style="background:#f0f0f0; padding:40px; border-radius:12px; margin-top:40px;">
+                <p><em>[Insert Dynamic Client Testimonials Widget Here]</em></p>
+                <!-- Placeholder visuals for completeness -->
+                <div class="testimonial-grid">
+                    <div class="testimonial-card" style="background-color: #C0F4E0;">
+                        <p>★★★★★</p>
+                        <p> "The parenting plan we created is so detailed, we haven't had a single argument about
+                            scheduling in two years."</p>
+                    </div>
+                    <div class="testimonial-card" style="background-color: #FFE8B2;">
+                        <p>★★★★★</p>
+                        <p>"I was terrified of losing time with my kids. Mediation helped us find a 50/50 split that
+                            actually works."</p>
+                    </div>
+                    <div class="testimonial-card" style="background-color: #C0E7F4;">
+                        <p>★★★★★</p>
+                        <p>"Everything was explained clearly. The mediators made sure we focused on our daughter, not
+                            our past issues."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serving Clients -->
+    <section class="section-padding bg-hero">
+        <div class="container text-center">
+            <h2>Serving Clients Across Arizona</h2>
+            <p style="max-width: 800px; margin: 0 auto;">We provide direct support to parents looking for parenting plan
+                mediation in Phoenix, Chandler, Tempe, Flagstaff, Tucson, and everywhere between. Secure your children's
+                future privately through our convenient online mediation services or visit an Aurit Mediation location
+                near you to resolve your parenting matters with dignity.</p>
+            <div style="margin-top: 40px;">
+                <h3>Ready to create a parenting plan that works?</h3>
+                <p style="max-width: 600px; margin: 16px auto 0;">Schedule your free one-hour consultation to learn how
+                    our mediation process helps you reach a fair, child-focused agreement without the stress of court.
+                </p>
+                <a href="https://auritmediation.com/contact/" class="btn btn-primary" style="margin-top:24px;">Schedule
+                    a Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <div style="height: 100px;"></div> <!-- Spacer for sticky CTA -->
+
+    <!-- Sticky CTA -->
+    <div class="sticky-cta">
+        <a href="#" class="btn btn-outline" style="padding: 12px 24px; font-size: 14px;">Read Reviews</a>
+        <a href="https://auritmediation.com/contact/" class="btn btn-primary"
+            style="padding: 12px 24px; font-size: 14px;">Book My Consult</a>
+    </div>
+
+</body>
+
+</html>

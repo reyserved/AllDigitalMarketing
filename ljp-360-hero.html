@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LJP 360™ | All-in-One Sustainability & Circular Economy Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        /* ========================================
+           CSS Custom Properties (Brand Colors)
+           ======================================== */
+        :root {
+            --e-global-color-primary: #18509B;
+            --e-global-color-secondary: #EB9B1A;
+            --e-global-color-text: #000000;
+            --e-global-color-accent: #018846;
+            --font-primary: "Poppins", sans-serif;
+            --font-secondary: "Roboto", sans-serif;
+        }
+
+        /* ========================================
+           Reset & Base Styles
+           ======================================== */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font-secondary);
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #333;
+            background-color: #fff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ========================================
+           Hero Section - LJP Custom Hero Banner
+           Diagonal Cut with Polygon Clip-Path
+           ======================================== */
+        .hero-section {
+            position: relative;
+            overflow: hidden;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Background Image Layer (::before) - Tech/Dashboard aesthetic */
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            /* Placeholder: Replace with LJP 360 dashboard/control room image */
+            background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        /* Blue Gradient Overlay with Diagonal Cut (::after) */
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60%;
+            height: 100%;
+            z-index: 0;
+            background: linear-gradient(180deg, #18509b, #0e356b);
+            clip-path: polygon(0 0, 88% 0, 100% 12%, 100% 88%, 88% 100%, 0 100%);
+        }
+
+        /* ========================================
+           Hero Content
+           ======================================== */
+        .hero-container {
+            position: relative;
+            z-index: 1;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            width: 100%;
+        }
+
+        .hero-content {
+            max-width: 500px;
+        }
+
+        .hero-heading {
+            font-family: var(--font-primary);
+            font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.25;
+            margin: 0 0 20px 0;
+            letter-spacing: -0.01em;
+        }
+
+        .hero-description {
+            font-family: var(--font-secondary);
+            font-size: 1rem;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.7;
+            margin: 0 0 30px 0;
+        }
+
+        /* ========================================
+           Button Styles
+           ======================================== */
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-primary);
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background-color: var(--e-global-color-secondary);
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #d18917;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(235, 155, 26, 0.4);
+        }
+
+        .btn-secondary {
+            background-color: #ffffff;
+            color: var(--e-global-color-primary);
+            border: 2px solid #ffffff;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+            transform: translateY(-2px);
+        }
+
+        /* ========================================
+           Responsive Styles - Hero
+           ======================================== */
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column;
+                min-height: auto;
+            }
+
+            .hero-section::before {
+                right: auto;
+                left: 0;
+                top: 0;
+            }
+
+            .hero-section::after {
+                width: 100%;
+                top: 250px;
+                height: calc(100% - 250px);
+                clip-path: none;
+                left: 0;
+            }
+
+            .hero-container {
+                padding: 280px 20px 40px;
+            }
+
+            .hero-content {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-container {
+                padding: 260px 16px 30px;
+            }
+
+            .hero-heading {
+                font-size: 1.5rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .btn {
+                text-align: center;
+            }
+        }
+
+        /* ========================================
+           What Is Section
+           ======================================== */
+        .what-is-section {
+            position: relative;
+            background-color: #FAFAFA;
+            padding: 80px 0 60px;
+            overflow: visible;
+        }
+
+        .what-is-container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            align-items: flex-start;
+            gap: 60px;
+        }
+
+        .what-is-content {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .what-is-heading {
+            font-family: var(--font-primary);
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 700;
+            color: var(--e-global-color-primary);
+            line-height: 1.3;
+            margin: 0 0 20px 0;
+        }
+
+        .what-is-text {
+            font-family: var(--font-secondary);
+            font-size: 0.9375rem;
+            font-weight: 400;
+            color: #333;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        /* Stats Card - Positioned with translateY(-50%) */
+        .stats-card-wrapper {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .stats-card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+            padding: 30px 40px;
+            transform: translateY(-50%);
+            min-width: 280px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .stat-item:not(:last-child) {
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .stat-value {
+            font-family: var(--font-primary);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--e-global-color-primary);
+            margin: 0 0 5px 0;
+            line-height: 1.2;
+        }
+
+        .stat-value.accent {
+            color: var(--e-global-color-accent);
+        }
+
+        .stat-label {
+            font-family: var(--font-secondary);
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: #666;
+            margin: 0;
+        }
+
+        /* What Is Section Responsive */
+        @media (max-width: 992px) {
+            .what-is-container {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .what-is-content {
+                max-width: 100%;
+            }
+
+            .stats-card-wrapper {
+                justify-content: center;
+                width: 100%;
+            }
+
+            .stats-card {
+                transform: translateY(0);
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .what-is-section {
+                padding: 50px 0 40px;
+            }
+
+            .what-is-container {
+                padding: 0 20px;
+            }
+
+            .stats-card {
+                padding: 20px 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-heading">Simplify Sustainability with LJP 360™</h1>
+                <p class="hero-description">One strategic partner. End-to-end transparency. Achieve your most ambitious
+                    ESG goals with integrated waste, recycling, and sustainability management.</p>
+                <div class="hero-buttons">
+                    <a href="#form" class="btn btn-primary">Build Your 360° Solution</a>
+                    <a href="#services" class="btn btn-secondary">See What's Included</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is LJP 360 Section -->
+    <section class="what-is-section">
+        <div class="what-is-container">
+            <!-- Left Content -->
+            <div class="what-is-content">
+                <h2 class="what-is-heading">What is LJP 360™?</h2>
+                <p class="what-is-text">LJP 360™ is the all-in-one sustainability solution designed to simplify your
+                    path to a circular economy. We replace the patchwork of vendors with a <strong>single, strategic
+                        partner</strong> to help you divert waste, maximize its value, and achieve your most ambitious
+                    ESG goals.<br><br>Whether you're managing dry waste, complex liquid waste, packaged goods, or
+                    hard-to-recycle materials, our comprehensive services provide <strong>end-to-end
+                        transparency</strong> and documented impact metrics, turning your environmental liabilities into
+                    valuable assets.</p>
+            </div>
+
+            <!-- Right Stats Card -->
+            <div class="stats-card-wrapper">
+                <div class="stats-card">
+                    <div class="stat-item">
+                        <h3 class="stat-value accent">LJP 360™</h3>
+                        <p class="stat-label">All-in-One Platform</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-value">End-to-End</h3>
+                        <p class="stat-label">Visibility & Control</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-value">Simplified</h3>
+                        <p class="stat-label">Vendor Consolidation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

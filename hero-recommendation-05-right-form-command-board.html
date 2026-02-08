@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LJP Hero Concept 05 - Right Form Command Board</title>
+  <style>
+    :root {
+      --ljp-blue: #18509B;
+      --ljp-blue-deep: #10366B;
+      --ljp-amber: #EB9B1A;
+      --ljp-green: #018846;
+      --ink: #10294d;
+      --white: #ffffff;
+      --paper: #e7e8eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Sora", "Avenir Next", "Segoe UI", sans-serif;
+      background: #0a203d;
+      color: var(--white);
+    }
+
+    .hero {
+      min-height: 100svh;
+      padding: clamp(16px, 2.4vw, 30px);
+      display: grid;
+      align-items: center;
+      background:
+        radial-gradient(40% 50% at 18% 16%, rgba(1, 136, 70, 0.2), transparent 72%),
+        radial-gradient(36% 45% at 82% 12%, rgba(235, 155, 26, 0.2), transparent 76%),
+        linear-gradient(140deg, #0b2750 0%, #18509B 43%, #0a2344 100%);
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      width: min(1340px, 100%);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.18fr 0.82fr;
+      gap: clamp(16px, 2.3vw, 30px);
+      align-items: center;
+    }
+
+    .left-pane {
+      display: grid;
+      gap: 16px;
+    }
+
+    .copy h1 {
+      margin: 0;
+      font-size: clamp(2.1rem, 4.4vw, 4.2rem);
+      line-height: 1.03;
+      letter-spacing: -0.02em;
+      max-width: 13.7ch;
+      text-wrap: balance;
+    }
+
+    .copy p {
+      margin: 14px 0 0;
+      max-width: 60ch;
+      color: #e5efff;
+      line-height: 1.62;
+      font-size: clamp(1.03rem, 1.28vw, 1.18rem);
+    }
+
+    .proof-row {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+    }
+
+    .proof-row span {
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.12);
+      padding: 8px 12px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      backdrop-filter: blur(4px);
+    }
+
+    .board {
+      margin-top: 8px;
+      border-radius: 22px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.03));
+      box-shadow: 0 26px 50px rgba(4, 19, 42, 0.38);
+      padding: clamp(12px, 1.8vw, 20px);
+      display: grid;
+      grid-template-columns: minmax(300px, 0.95fr) minmax(220px, 1fr);
+      gap: 12px;
+      align-items: center;
+    }
+
+    .ring-zone {
+      min-height: clamp(260px, 34vh, 340px);
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    .ring-image {
+      width: min(360px, 94%);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background:
+        linear-gradient(160deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05)),
+        url("https://ljpzlf.com/wp-content/uploads/2026/02/pharma_waste-1-1.png") center/cover no-repeat;
+      box-shadow:
+        0 20px 46px rgba(5, 21, 45, 0.38),
+        inset 0 0 0 2px rgba(255, 255, 255, 0.28);
+      position: relative;
+    }
+
+    .ring-image::before,
+    .ring-image::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .ring-image::before {
+      inset: -16px;
+      border: 1px dashed rgba(255, 255, 255, 0.33);
+    }
+
+    .ring-image::after {
+      inset: -31px;
+      border: 1px solid rgba(1, 136, 70, 0.45);
+    }
+
+    .tag {
+      position: absolute;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      background: rgba(14, 39, 74, 0.74);
+      padding: 7px 10px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      backdrop-filter: blur(4px);
+    }
+
+    .t1 { top: 10%; left: 8%; }
+    .t2 { right: 7%; top: 24%; }
+    .t3 { left: 10%; bottom: 18%; }
+
+    .flow-stack {
+      display: grid;
+      gap: 9px;
+    }
+
+    .flow-item {
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(13, 37, 70, 0.62);
+      padding: 10px;
+      display: grid;
+      gap: 2px;
+    }
+
+    .flow-item strong {
+      font-size: 0.84rem;
+      color: #fff;
+    }
+
+    .flow-item span {
+      font-size: 0.75rem;
+      color: #dde9ff;
+      line-height: 1.42;
+    }
+
+    .right-pane {
+      display: grid;
+      justify-items: end;
+    }
+
+    .form-rail {
+      width: min(430px, 100%);
+      border-radius: 18px;
+      background: var(--paper);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 24px 48px rgba(3, 16, 36, 0.44);
+      padding: 14px;
+      color: var(--ink);
+    }
+
+    .rail-top {
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      background: linear-gradient(130deg, var(--ljp-blue-deep) 0%, var(--ljp-blue) 58%, var(--ljp-green) 100%);
+      color: #fff;
+      font-size: 0.83rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .elementor-form-fields-wrapper {
+      display: grid;
+      gap: 6px;
+    }
+
+    .elementor-field-label {
+      display: inline-block;
+      margin-bottom: 4px;
+      font-size: 1.01rem;
+      font-weight: 500;
+      color: #111;
+    }
+
+    .elementor-field {
+      width: 100%;
+      border: 1px solid #687383;
+      border-radius: 2px;
+      background: #fff;
+      color: #111;
+      min-height: 38px;
+      padding: 9px 11px;
+      font: inherit;
+      font-size: 0.98rem;
+    }
+
+    textarea.elementor-field {
+      min-height: 88px;
+      resize: vertical;
+    }
+
+    .elementor-field:focus {
+      outline: none;
+      border-color: var(--ljp-blue);
+      box-shadow: 0 0 0 3px rgba(24, 80, 155, 0.16);
+    }
+
+    .elementor-g-recaptcha {
+      border: 1px solid #c8ccd3;
+      border-radius: 2px;
+      background: #f8f9fb;
+      width: 304px;
+      max-width: 100%;
+      padding: 10px 10px 8px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 8px;
+      color: #2a2a2a;
+      font-size: 0.92rem;
+    }
+
+    .recaptcha-box {
+      width: 28px;
+      height: 28px;
+      border: 2px solid #5e646c;
+      background: #fff;
+    }
+
+    .recaptcha-brand {
+      font-size: 0.62rem;
+      text-align: right;
+      color: #677181;
+      line-height: 1.2;
+    }
+
+    .elementor-button {
+      border: 0;
+      border-radius: 4px;
+      min-height: 44px;
+      min-width: 94px;
+      padding: 11px 24px;
+      font: inherit;
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: #fff;
+      cursor: pointer;
+      background: var(--ljp-green);
+    }
+
+    @media (max-width: 1120px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .right-pane {
+        justify-items: start;
+      }
+
+      .form-rail {
+        width: min(520px, 100%);
+      }
+    }
+
+    @media (max-width: 860px) {
+      .hero {
+        padding: 14px 10px;
+      }
+
+      .hero-inner {
+        gap: 12px;
+      }
+
+      .right-pane {
+        order: 1;
+      }
+
+      .left-pane {
+        order: 2;
+      }
+
+      .copy h1 {
+        font-size: clamp(2rem, 7.2vw, 2.9rem);
+      }
+
+      .copy p {
+        font-size: 1rem;
+      }
+
+      .board {
+        grid-template-columns: 1fr;
+      }
+
+      .ring-zone {
+        min-height: 260px;
+      }
+
+      .ring-image {
+        width: min(330px, 94%);
+      }
+    }
+
+    @media (max-width: 680px) {
+      .hero {
+        min-height: 100svh;
+      }
+
+      .elementor-field-label,
+      .elementor-field,
+      .elementor-button {
+        font-size: 0.95rem;
+      }
+
+      .elementor-g-recaptcha {
+        transform: scale(0.92);
+        transform-origin: left top;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="left-pane">
+        <div class="copy">
+          <h1>Sustainable Non-Hazardous Pharmaceutical Waste Disposal</h1>
+          <p>Protect your brand and the environment. We convert bulk pharmaceutical waste into renewable energy with full traceability and compliant execution.</p>
+          <div class="proof-row" aria-label="Service highlights">
+            <span>100% Zero Landfill</span>
+            <span>Verified Chain-of-Custody</span>
+            <span>Waste-to-Energy Program</span>
+          </div>
+        </div>
+
+        <div class="board">
+          <div class="ring-zone">
+            <div class="ring-image" role="img" aria-label="Circular pharmaceutical processing visual"></div>
+            <span class="tag t1">Secure Pickup</span>
+            <span class="tag t2">Compliant Handling</span>
+            <span class="tag t3">Energy Recovery</span>
+          </div>
+
+          <div class="flow-stack" aria-label="Process flow details">
+            <div class="flow-item"><strong>Step 1: Intake</strong><span>Batch validation, source checks, and custody logging.</span></div>
+            <div class="flow-item"><strong>Step 2: Processing</strong><span>Controlled destruction workflow aligned to handling standards.</span></div>
+            <div class="flow-item"><strong>Step 3: Reporting</strong><span>Certificate-ready documentation for internal and regulatory records.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-pane">
+        <div class="form-rail" aria-label="Inquiry form">
+          <div class="rail-top">Request A Disposal Plan</div>
+          <form class="elementor-form" method="post" name="New Form">
+            <div class="elementor-form-fields-wrapper elementor-labels-above">
+              <div class="elementor-field-group">
+                <label for="f5-name" class="elementor-field-label">Name</label>
+                <input type="text" id="f5-name" name="form_fields[name]" class="elementor-field" placeholder="Your name" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f5-number" class="elementor-field-label">Number</label>
+                <input type="tel" id="f5-number" name="form_fields[number]" class="elementor-field" placeholder="Your number" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f5-email" class="elementor-field-label">Email</label>
+                <input type="email" id="f5-email" name="form_fields[email]" class="elementor-field" placeholder="Your email" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f5-company" class="elementor-field-label">Company</label>
+                <input type="text" id="f5-company" name="form_fields[company]" class="elementor-field" placeholder="Your Company" required />
+              </div>
+
+              <div class="elementor-field-group">
+                <label for="f5-message" class="elementor-field-label">Message</label>
+                <textarea id="f5-message" name="form_fields[message]" class="elementor-field" rows="4" placeholder="Message"></textarea>
+              </div>
+
+              <div class="elementor-field-group">
+                <div class="elementor-g-recaptcha" aria-label="reCAPTCHA mock">
+                  <span class="recaptcha-box" aria-hidden="true"></span>
+                  <span>I'm not a robot</span>
+                  <span class="recaptcha-brand">reCAPTCHA<br/>Privacy - Terms</span>
+                </div>
+              </div>
+
+              <div class="elementor-field-group">
+                <button class="elementor-button" type="submit">
+                  <span class="elementor-button-content-wrapper">
+                    <span class="elementor-button-text">Send</span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

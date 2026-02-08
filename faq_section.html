@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neurosurgery FAQ Section</title>
+    <!-- Importing Poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Brand Colors */
+            --brand-primary: #1C244B;
+            /* Dark Blue */
+            --brand-secondary: #F3F5F8;
+            /* Light Grey/Blue Background */
+            --brand-accent: #467FF7;
+            /* Bright Blue */
+            --brand-teal: #23759B;
+            /* Muted Teal Blue */
+            --text-dark: #1C244B;
+            --text-light: #515962;
+            --white: #FFFFFF;
+            --border-color: #E6E8EA;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--brand-secondary);
+            padding: 40px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .faq-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0;
+        }
+
+        .faq-title {
+            text-align: left;
+            color: var(--brand-primary);
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .faq-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: none;
+            width: 60px;
+            height: 4px;
+            background-color: var(--brand-accent);
+            border-radius: 2px;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(28, 36, 75, 0.05);
+            /* Subtle shadow */
+            border: 1px solid var(--white);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 8px 24px rgba(28, 36, 75, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .faq-item.active {
+            border-color: rgba(70, 127, 247, 0.3);
+            /* Brand accent subtle border */
+        }
+
+        /* Question Header */
+        .faq-question {
+            padding: 24px 30px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            background: none;
+            border: none;
+            text-align: left;
+            position: relative;
+        }
+
+        .faq-question h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--brand-primary);
+            padding-right: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Icon Wrapper */
+        .faq-icon {
+            width: 24px;
+            height: 24px;
+            position: relative;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-icon::before,
+        .faq-icon::after {
+            content: '';
+            position: absolute;
+            background-color: var(--brand-accent);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        /* Horizontal bar */
+        .faq-icon::before {
+            width: 100%;
+            height: 2px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        /* Vertical bar */
+        .faq-icon::after {
+            width: 2px;
+            height: 100%;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Active State Animations */
+        .faq-item.active .faq-icon {
+            transform: rotate(90deg);
+            /* Optional rotation effect */
+        }
+
+        .faq-item.active .faq-icon::after {
+            transform: translateX(-50%) rotate(90deg);
+            /* Flattens vertical bar into horizontal */
+            opacity: 0;
+            /* Or just hide it to make a minus */
+        }
+
+        /* Answer Content */
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+            background-color: #fafbfd;
+            /* Very subtle contrast for answer bg */
+        }
+
+        .faq-answer p {
+            margin: 0;
+            padding: 0 30px 30px 30px;
+            color: var(--text-light);
+            font-size: 15px;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        /* Left Border Accent for Active State */
+        .faq-item.active {
+            border-left: 4px solid var(--brand-accent);
+            border-radius: 4px 12px 12px 4px;
+            /* Adjust radius for flat left side */
+        }
+
+        @media (max-width: 600px) {
+            .faq-question {
+                padding: 20px;
+            }
+
+            .faq-answer p {
+                padding: 0 20px 24px 20px;
+            }
+
+            .faq-title {
+                font-size: 26px;
+            }
+
+            .faq-question h3 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="faq-container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                <h3>What symptoms suggest I might have a herniated disc?</h3>
+                <div class="faq-icon"></div>
+            </button>
+            <div class="faq-answer">
+                <p>Common signs include sharp or burning pain radiating to the arms or legs, numbness, tingling, or
+                    muscle weakness, especially following injury or strain.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                <h3>Can a herniated disc heal without surgery?</h3>
+                <div class="faq-icon"></div>
+            </button>
+            <div class="faq-answer">
+                <p>Yes. Many herniated discs improve naturally or with conservative treatment such as physical therapy
+                    and medications.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                <h3>How long does herniated disc surgery take?</h3>
+                <div class="faq-icon"></div>
+            </button>
+            <div class="faq-answer">
+                <p>Most minimally invasive procedures, like microdiscectomy, typically take 1–2 hours, followed by
+                    outpatient recovery.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item">
+            <button class="faq-question">
+                <h3>When should I consider surgery?</h3>
+                <div class="faq-icon"></div>
+            </button>
+            <div class="faq-answer">
+                <p>Surgery may be necessary if you have severe pain that doesn’t improve after 6–12 weeks, worsening
+                    neurological symptoms, or loss of bladder/bowel control.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isActive = faqItem.classList.contains('active');
+
+                // Close all other items (optional - remove this block if you want multiple open)
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                    item.querySelector('.faq-answer').style.maxHeight = null;
+                });
+
+                // Toggle current item
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                    const answer = faqItem.querySelector('.faq-answer');
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

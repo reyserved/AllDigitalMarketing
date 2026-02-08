@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Hazardous Pharmaceutical Waste Disposal | Zero Landfill | LJP Waste Solutions</title>
+    <meta name="description"
+        content="Secure, sustainable disposal for non-hazardous pharmaceutical waste. Protect your brand and reach Zero Landfill goals with our waste-to-energy solutions. Request a quote.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Based on ljp-css.txt variables */
+        :root {
+            --primary: #18509B;
+            --secondary: #EB9B1A;
+            --accent: #018846;
+            /* Green for sustainability */
+            --text-dark: #333333;
+            --text-light: #666666;
+            --white: #ffffff;
+            --off-white: #F8F8F8;
+            --light-gray: #F0F0F0;
+            --font-primary: 'Poppins', sans-serif;
+            --font-secondary: 'Roboto', sans-serif;
+        }
+
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-secondary);
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: var(--white);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: var(--font-primary);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--text-light);
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Utilities */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-white {
+            color: var(--white);
+        }
+
+        .bg-gray {
+            background-color: var(--off-white);
+        }
+
+        .section-padding {
+            padding: 80px 0;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            font-family: var(--font-primary);
+            font-weight: 600;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background-color: var(--secondary);
+            /* Orange CTA */
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background-color: #d68b15;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(235, 155, 26, 0.3);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid var(--white);
+            color: var(--white);
+            margin-left: 20px;
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--white);
+            color: var(--primary);
+        }
+
+        /* Header (Mockup) */
+        header {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-primary);
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+        }
+
+        .logo span {
+            color: var(--accent);
+            margin-left: 5px;
+        }
+
+        /* Hero Section - Split Panel Layout */
+        .hero {
+            display: flex;
+            min-height: 600px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Left Content Panel */
+        .hero-content-panel {
+            width: 55%;
+            background: linear-gradient(135deg, var(--primary) 0%, #0d3a78 100%);
+            color: var(--white);
+            padding: 80px 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Diagonal Edge Effect */
+        .hero-content-panel::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -80px;
+            width: 160px;
+            height: 100%;
+            background: linear-gradient(135deg, var(--primary) 0%, #0d3a78 100%);
+            clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+            z-index: 3;
+        }
+
+        /* Right Image Panel */
+        .hero-image-panel {
+            width: 45%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* ========================================
+           INSERT YOUR HERO IMAGE HERE
+           Replace the background-color below with:
+           background-image: url('YOUR-IMAGE-FILENAME.jpg');
+           background-size: cover;
+           background-position: center;
+           ======================================== */
+        .hero-image-placeholder {
+            width: 100%;
+            height: 100%;
+            background-color: #e0e0e0;
+            /* Placeholder gray */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .hero-image-placeholder .insert-label {
+            background: var(--secondary);
+            color: var(--white);
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-family: var(--font-primary);
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-image-placeholder .insert-instructions {
+            color: #888;
+            font-size: 0.9rem;
+            max-width: 300px;
+            line-height: 1.5;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.15;
+        }
+
+        .hero p.subhead {
+            font-size: 1.15rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2.5rem;
+            font-weight: 300;
+            line-height: 1.7;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .hero .btn-secondary {
+            margin-left: 0;
+            /* Reset for flex layout */
+        }
+
+        /* Hero Trust Badges */
+        .hero-trust-badges {
+            margin-top: 35px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .hero-trust-item {
+            display: flex;
+            align-items: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.95);
+            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 16px;
+            border-radius: 50px;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-trust-item svg {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+            fill: var(--secondary);
+        }
+
+        /* Prop Card Icons */
+        .prop-card-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--light-gray);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .prop-card-icon svg {
+            width: 30px;
+            height: 30px;
+            fill: var(--primary);
+        }
+
+        /* Process Section (How it Works) */
+        .process-section {
+            background-color: var(--primary);
+            /* Deep Blue */
+            color: var(--white);
+            text-align: center;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .process-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .process-icon {
+            margin-bottom: 25px;
+            height: 60px;
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .process-icon svg {
+            width: 50px;
+            height: 50px;
+            fill: var(--white);
+        }
+
+        .process-step h3 {
+            color: var(--white);
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .process-step p {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            max-width: 250px;
+        }
+
+        @media (max-width: 900px) {
+            .process-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Form Section - Below Hero */
+        .form-section {
+            background-color: var(--off-white);
+            padding: 60px 0;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .form-benefits h2 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 30px;
+            line-height: 1.3;
+        }
+
+        .benefits-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .benefits-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            line-height: 1.5;
+        }
+
+        .benefits-list li .checkmark {
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-right: 12px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .benefits-list li strong {
+            color: var(--primary);
+        }
+
+        /* Certifications Section - Lower Left Form Area */
+        .certifications-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(24, 80, 155, 0.1);
+        }
+
+        .certifications-section h4 {
+            font-size: 1rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .cert-badges-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .cert-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 15px 18px;
+            border-radius: 10px;
+            border: 1px solid rgba(24, 80, 155, 0.12);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .cert-badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(24, 80, 155, 0.1);
+            border-color: var(--primary);
+        }
+
+        .cert-badge-icon {
+            width: 44px;
+            height: 44px;
+            min-width: 44px;
+            background: linear-gradient(135deg, var(--primary) 0%, #0e3a6b 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cert-badge-icon svg {
+            width: 22px;
+            height: 22px;
+            fill: var(--white);
+            stroke: var(--white);
+        }
+
+        .cert-badge-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cert-badge-title {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--primary);
+            line-height: 1.2;
+        }
+
+        .cert-badge-subtitle {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        @media (max-width: 600px) {
+            .cert-badges-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .form-container {
+            background: var(--white);
+            padding: 35px 40px;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .form-container h3 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .form-container .form-intro {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 0.95rem;
+            font-family: var(--font-secondary);
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #aaa;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-container .btn-submit {
+            background-color: var(--accent);
+            color: var(--white);
+            border: none;
+            padding: 14px 35px;
+            font-family: var(--font-primary);
+            font-weight: 600;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .form-container .btn-submit:hover {
+            background-color: #006030;
+            transform: translateY(-2px);
+        }
+
+        /* Trust Bar */
+        .trust-bar {
+            padding: 40px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .trust-flex {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            opacity: 0.6;
+            filter: grayscale(100%);
+        }
+
+        .trust-logo-placeholder {
+            font-weight: 700;
+            color: #ccc;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Value Props */
+        .value-props {
+            background-color: var(--white);
+        }
+
+        .section-header {
+            margin-bottom: 60px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .props-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .prop-card {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            border-top: 4px solid var(--secondary);
+        }
+
+        .prop-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .prop-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+
+        .prop-card p {
+            margin-bottom: 0;
+            font-size: 1rem;
+        }
+
+        /* Educational Section */
+        .educational {
+            background-color: var(--primary);
+            /* Blue Background for Contrast */
+            color: var(--white);
+            position: relative;
+        }
+
+        .edu-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .edu-content h2 {
+            color: var(--white);
+            font-size: 2.5rem;
+        }
+
+        .edu-content p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+        }
+
+        .edu-image-placeholder {
+            background-color: rgba(255, 255, 255, 0.1);
+            height: 400px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            font-weight: 500;
+        }
+
+        /* Service Features */
+        .features {
+            background-color: var(--off-white);
+        }
+
+        .features-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .features-list li {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+            /* Green Accent */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+        }
+
+        .features-list strong {
+            display: block;
+            color: var(--primary);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-family: var(--font-primary);
+        }
+
+        /* Social Proof */
+        .testimonials {
+            background-color: var(--white);
+            text-align: center;
+        }
+
+        .quote-box {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 1.5rem;
+            color: var(--primary);
+            font-style: italic;
+            font-family: var(--font-primary);
+            line-height: 1.6;
+        }
+
+        .quote-author {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: var(--text-light);
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, var(--accent) 0%, #006030 100%);
+            /* Green gradient */
+            color: var(--white);
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+
+        .final-cta p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Form (Mockup) */
+        .form-mockup {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
+            /* Centered form if used differently, usually side by side in hero */
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: #888;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                min-height: auto;
+            }
+
+            .hero-content-panel {
+                width: 100%;
+                padding: 60px 30px;
+            }
+
+            .hero-content-panel::after {
+                display: none;
+                /* Hide diagonal on mobile */
+            }
+
+            .hero-image-panel {
+                width: 100%;
+                min-height: 300px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p.subhead {
+                font-size: 1rem;
+            }
+
+            .hero-cta-group {
+                flex-direction: column;
+            }
+
+            .hero .btn-secondary {
+                margin-left: 0;
+            }
+
+            .edu-grid,
+            .features-list,
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-container {
+                padding: 30px 25px;
+            }
+
+            .trust-flex {
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+
+            .nav-flex {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-flex">
+            <div class="logo">LJP <span>WASTE SOLUTIONS</span></div>
+            <div>
+                <a href="#" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">Request a
+                    Consultation</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section - Split Panel Layout -->
+    <section class="hero">
+        <!-- Left Content Panel -->
+        <div class="hero-content-panel">
+            <div class="hero-content">
+                <h1>Secure, Sustainable Non-Hazardous Pharmaceutical Waste Disposal</h1>
+                <p class="subhead">Protect your brand and the environment. We convert your bulk pharmaceutical waste
+                    into renewable energy—100% Zero Landfill, 100% Verified.</p>
+                <div class="hero-cta-group">
+                    <a href="#" class="btn btn-primary">Request a Consultation</a>
+                    <a href="#" class="btn btn-secondary">Learn Our Process</a>
+                </div>
+                <!-- Trust Badges -->
+                <div class="hero-trust-badges">
+                    <div class="hero-trust-item">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                        ISO Certified
+                    </div>
+                    <div class="hero-trust-item">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                        DEA Compliant
+                    </div>
+                    <div class="hero-trust-item">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                        Zero Landfill Verified
+                    </div>
+                    <div class="hero-trust-item">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                        DOT Compliant
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Image Panel -->
+        <div class="hero-image-panel">
+            <!-- =============================================
+                 TO INSERT YOUR HERO IMAGE:
+                 1. Replace this entire placeholder div with:
+                    <img src="YOUR-IMAGE-FILENAME.jpg" alt="Secure pharmaceutical waste disposal facility" style="width:100%; height:100%; object-fit:cover;">
+                 
+                 OR
+                 
+                 2. In the CSS, find ".hero-image-placeholder" and replace:
+                    background-color: #e0e0e0;
+                    WITH:
+                    background-image: url('YOUR-IMAGE-FILENAME.jpg');
+                    background-size: cover;
+                    background-position: center;
+                 ============================================= -->
+            <div class="hero-image-placeholder">
+                <span class="insert-label">INSERT HERO IMAGE HERE</span>
+                <span class="insert-instructions">Replace this placeholder with your image. See instructions in the
+                    HTML/CSS comments above.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <div class="container">
+            <div class="form-grid">
+                <!-- Left Column: Benefits -->
+                <div class="form-benefits">
+                    <h2>Why Choose LJP for Non-Hazardous Pharmaceutical Waste Disposal?</h2>
+                    <ul class="benefits-list">
+                        <li>
+                            <span class="checkmark">✓</span>
+                            <span><strong>Absolute Brand Protection:</strong> Your expired, off-spec, or discontinued
+                                products are a liability. We guarantee complete destruction, preventing black market
+                                resale and protecting your reputation.</span>
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            <span><strong>100% Zero Landfill Verified:</strong> Don't just dispose of waste; transform
+                                it. We process your non-hazardous pharmaceuticals through our Waste-to-Energy program,
+                                contributing to your sustainability goals and providing full reporting for your ESG
+                                metrics.</span>
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            <span><strong>Total Compliance Confidence:</strong> Navigating the line between RCRA
+                                hazardous vs. non-hazardous waste is complex. Our experts ensure your non-hazardous
+                                specific manufacturing waste streams (NIOSH, DOT) are managed in full compliance with
+                                federal and state regulations.</span>
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            <span><strong>Bulk Liquid & Solid Disposal:</strong> From drums to tankers, we handle
+                                large-scale disposal needs with GPS-tracked fleets and secure chain-of-custody
+                                protocols.</span>
+                        </li>
+                        <li>
+                            <span class="checkmark">✓</span>
+                            <span><strong>Witnessed Destruction & Custom Reporting:</strong> Verified destruction
+                                reports and detailed sustainability data on waste diverted from landfills and converted
+                                to energy.</span>
+                        </li>
+                    </ul>
+
+                    <!-- Certifications Section - Fills Lower Left Whitespace -->
+                    <div class="certifications-section">
+                        <h4>Our Certifications & Compliance</h4>
+                        <div class="cert-badges-grid">
+                            <div class="cert-badge">
+                                <div class="cert-badge-icon">
+                                    <!-- ISO Certificate Icon -->
+                                    <svg viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
+                                    </svg>
+                                </div>
+                                <div class="cert-badge-text">
+                                    <span class="cert-badge-title">ISO Certified</span>
+                                    <span class="cert-badge-subtitle">Quality Management</span>
+                                </div>
+                            </div>
+                            <div class="cert-badge">
+                                <div class="cert-badge-icon">
+                                    <!-- DEA Compliance Icon -->
+                                    <svg viewBox="0 0 24 24">
+                                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" fill="none"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div class="cert-badge-text">
+                                    <span class="cert-badge-title">DEA Compliant</span>
+                                    <span class="cert-badge-subtitle">Controlled Substance</span>
+                                </div>
+                            </div>
+                            <div class="cert-badge">
+                                <div class="cert-badge-icon">
+                                    <!-- DOT Icon -->
+                                    <svg viewBox="0 0 24 24">
+                                        <path
+                                            d="M18 4H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-6 4c1.93 0 3.5 1.57 3.5 3.5S13.93 15 12 15s-3.5-1.57-3.5-3.5S10.07 8 12 8z" />
+                                    </svg>
+                                </div>
+                                <div class="cert-badge-text">
+                                    <span class="cert-badge-title">DOT Compliant</span>
+                                    <span class="cert-badge-subtitle">Transportation Safety</span>
+                                </div>
+                            </div>
+                            <div class="cert-badge">
+                                <div class="cert-badge-icon">
+                                    <!-- Zero Landfill Icon -->
+                                    <svg viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                                    </svg>
+                                </div>
+                                <div class="cert-badge-text">
+                                    <span class="cert-badge-title">Zero Landfill Verified</span>
+                                    <span class="cert-badge-subtitle">100% Waste Diversion</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Column: Form -->
+                <div class="form-container">
+                    <h3>Get Your Custom Pharmaceutical Waste Disposal Plan</h3>
+                    <p class="form-intro">Complete our secure form, and an expert will reach out to discuss a clear
+                        strategy for your pharmaceutical waste streams.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address" placeholder="Your address">
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Number</label>
+                            <input type="tel" id="number" name="number" placeholder="Your number">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+
+
+    <!-- Value Propositions -->
+    <section class="section-padding value-props">
+        <div class="container">
+            <div class="text-center section-header">
+                <h2>Beyond Disposal. A Strategic Partnership.</h2>
+            </div>
+            <div class="props-grid">
+                <!-- Prop 1 -->
+                <div class="prop-card">
+                    <div class="prop-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                        </svg>
+                    </div>
+                    <h3>1. Absolute Brand Protection</h3>
+                    <p>Your expired, off-spec, or discontinued products are a liability. We guarantee complete
+                        destruction, preventing black market resale and protecting your reputation.</p>
+                </div>
+                <!-- Prop 2 -->
+                <div class="prop-card">
+                    <div class="prop-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                        </svg>
+                    </div>
+                    <h3>2. 100% Zero Landfill Verified</h3>
+                    <p>Don't just dispose of waste; transform it. We process your non-hazardous pharmaceuticals through
+                        our Waste-to-Energy program, contributing to your sustainability goals and providing full
+                        reporting for your ESG metrics.</p>
+                </div>
+                <!-- Prop 3 -->
+                <div class="prop-card">
+                    <div class="prop-card-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                        </svg>
+                    </div>
+                    <h3>3. Total Compliance Confidence</h3>
+                    <p>Navigating the line between RCRA hazardous vs. non-hazardous waste is complex. Our experts ensure
+                        your non-hazardous specific manufacturing waste streams (NIOSH, DOT) are managed in full
+                        compliance with federal and state regulations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section-padding process-section">
+        <div class="container">
+            <div class="text-center section-header">
+                <h2 style="color: var(--white);">Here’s how it works:</h2>
+            </div>
+            <div class="process-grid">
+                <!-- Step 1 -->
+                <div class="process-step">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z" />
+                        </svg>
+                    </div>
+                    <h3>1. Request a Consultation</h3>
+                    <p>Let’s discuss your sustainability goals and waste management needs.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="process-step">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M14 17H4v2h10v-2zm6-8H4v2h16V9zM4 15h16v-2H4v2zM4 5v2h16V5H4z" />
+                        </svg>
+                    </div>
+                    <h3>2. Receive a Custom Plan</h3>
+                    <p>We’ll work with you to create a tailored pharmaceutical waste disposal plan that meets your
+                        compliance and zero-landfill goals.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="process-step">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                        </svg>
+                    </div>
+                    <h3>3. Schedule Your Service</h3>
+                    <p>We’ll arrange for a secure pickup of your bulk pharmaceutical waste at a time that works for you.
+                    </p>
+                </div>
+                <!-- Step 4 -->
+                <div class="process-step">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                        </svg>
+                    </div>
+                    <h3>4. Receive Certified Destruction</h3>
+                    <p>Once the process is complete, you’ll receive a formal Certificate of Destruction and
+                        sustainability reporting for your records.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Section -->
+    <section class="section-padding educational">
+        <div class="container">
+            <div class="edu-grid">
+                <div class="edu-content">
+                    <h2>Is Your Pharmaceutical Waste Really "Non-Hazardous"?</h2>
+                    <p>Many organizations struggle to classify non-RCRA pharmaceutical waste. While not classified as
+                        "hazardous" under federal RCRA standards, these materials—like expired OTC medications, specific
+                        manufacturing byproducts, and non-controlled substances—still pose environmental risks if
+                        landfilled.</p>
+                    <br>
+                    <p>LJP Waste Solutions takes the guesswork out of compliance. We audit your waste streams to ensure
+                        proper classification and provide a secure chain of custody from your facility to our
+                        waste-to-energy partners.</p>
+                </div>
+                <div class="edu-image">
+                    <div class="edu-image-placeholder">
+                        <span style="color: rgba(255,255,255,0.7);">[Graphic: Waste Classification / Compliance
+                            Flowchart]</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Features -->
+    <section class="section-padding features">
+        <div class="container">
+            <div class="text-center section-header">
+                <h2>Comprehensive Capabilities for Pharma Manufacturers & Healthcare</h2>
+            </div>
+            <ul class="features-list">
+                <li>
+                    <strong>Bulk Liquid & Solid Disposal</strong>
+                    From drums to tankers, we handle large-scale disposal needs.
+                </li>
+                <li>
+                    <strong>Secure Transportation</strong>
+                    GPS-tracked fleets and secure chain-of-custody protocols.
+                </li>
+                <li>
+                    <strong>Witnessed Destruction</strong>
+                    Verified destruction reports for complete peace of mind.
+                </li>
+                <li>
+                    <strong>Custom Sustainability Reporting</strong>
+                    Detailed data on how much waste was diverted from landfills and converted to energy.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Social Proof / Testimonials -->
+    <section class="section-padding testimonials">
+        <div class="container">
+            <div class="quote-box">
+                "LJP transformed our waste stream management. We moved from simple disposal to a sustainability-focused
+                model that supports our corporate Zero Landfill goals."
+            </div>
+            <div class="quote-author">
+                — Director of Facilities, Biotechnology Firm
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section-padding final-cta">
+        <div class="container">
+            <h2>Ready to Upgrade Your Pharmaceutical Waste Strategy?</h2>
+            <p>Safe, secure, and sustainable solutions are one call away.</p>
+            <a href="#" class="btn btn-primary" style="background-color: var(--white); color: var(--accent);">Get a
+                Custom Quote</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            &copy; 2026 LJP Waste Solutions. All Rights Reserved. | Privacy Policy
+        </div>
+    </footer>
+
+</body>
+
+</html>

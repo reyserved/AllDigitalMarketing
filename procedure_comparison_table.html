@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spine Procedure Comparison Table</title>
+    <!-- Importing Poppins font to match the brand typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Brand Colors extracted from neuro-endo.txt */
+            --brand-primary: #1C244B;
+            /* Dark Blue */
+            --brand-secondary: #F3F5F8;
+            /* Light Grey/Blue Background */
+            --brand-accent: #467FF7;
+            /* Bright Blue */
+            --brand-red: #CE505B;
+            /* Accent Red */
+            --brand-teal: #23759B;
+            /* Muted Teal Blue */
+            --text-dark: #1C244B;
+            /* Primary Text */
+            --text-light: #515962;
+            /* Secondary Text */
+            --white: #FFFFFF;
+            --border-color: #E6E8EA;
+            /* Subtle Border */
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--brand-secondary);
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        /* Table Container for Card-like appearance */
+        .procedure-table-container {
+            width: 100%;
+            max-width: 1200px;
+            background: var(--white);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(28, 36, 75, 0.08);
+            /* Colored shadow based on brand primary */
+            overflow: hidden;
+            /* Clips the rounded corners */
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            /* Subtle highlight */
+        }
+
+        /* Custom Scrollbar for matching the premium aesthetic */
+        .procedure-table-container::-webkit-scrollbar {
+            height: 6px;
+            /* Thin and unobtrusive */
+        }
+
+        .procedure-table-container::-webkit-scrollbar-track {
+            background: transparent;
+            /* Blends with background */
+        }
+
+        .procedure-table-container::-webkit-scrollbar-thumb {
+            background-color: rgba(28, 36, 75, 0.15);
+            /* Brand color with low opacity */
+            border-radius: 10px;
+        }
+
+        .procedure-table-container::-webkit-scrollbar-thumb:hover {
+            background-color: rgba(28, 36, 75, 0.3);
+        }
+
+        .procedure-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        /* Header Styling */
+        .procedure-table thead {
+            background-color: var(--brand-primary);
+            color: var(--white);
+        }
+
+        .procedure-table th {
+            padding: 24px;
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            border-bottom: 4px solid var(--brand-accent);
+            /* Striking accent line */
+        }
+
+        /* Body Styling */
+        .procedure-table tbody tr {
+            transition: all 0.3s ease;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .procedure-table td {
+            padding: 20px 24px;
+            color: var(--text-light);
+            font-size: 15px;
+            line-height: 1.6;
+            vertical-align: top;
+        }
+
+        /* Specific Column Styling */
+        .procedure-table td:first-child {
+            color: var(--brand-primary);
+            font-weight: 600;
+            font-size: 16px;
+            min-width: 180px;
+            /* Ensure procedure names don't wrap too aggressively */
+        }
+
+        .procedure-table td:last-child {
+            font-weight: 500;
+            color: var(--brand-teal);
+            /* Distinct color for recovery time */
+        }
+
+        /* Alternating Rows & Hover Effects */
+        .procedure-table tbody tr:nth-child(even) {
+            background-color: rgba(243, 245, 248, 0.5);
+            /* Very subtle brand secondary */
+        }
+
+        .procedure-table tbody tr:hover {
+            background-color: #F8FAFC;
+            transform: scale(1.002);
+            /* Micro-interaction pop */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            z-index: 1;
+            /* Bring above other rows */
+            position: relative;
+        }
+
+        /* Specific Highlight for "Best For" column to make it readable */
+        .procedure-table td:nth-child(2) {
+            font-style: italic;
+            color: #4a5568;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .procedure-table-container {
+                border-radius: 12px;
+                overflow-x: auto;
+                /* Enable horizontal scroll */
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            }
+
+            .procedure-table {
+                min-width: 800px;
+                /* Force table to maintain width on mobile so it scrolls */
+            }
+
+            .procedure-table th,
+            .procedure-table td {
+                padding: 16px;
+            }
+        }
+
+        /* A neat badge style for key terms if needed, applying to Recovery Time specifically */
+        .recovery-badge {
+            display: inline-block;
+            background-color: rgba(35, 117, 155, 0.1);
+            color: var(--brand-teal);
+            padding: 4px 10px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="procedure-table-container">
+        <table class="procedure-table">
+            <thead>
+                <tr>
+                    <th width="30%">Feature</th>
+                    <th width="35%">Bulging Disc</th>
+                    <th width="35%">Herniated Disc</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Outer Disc Layer</td>
+                    <td>Intact but protrudes beyond vertebra</td>
+                    <td>Torn with nucleus pulposus leakage</td>
+                </tr>
+                <tr>
+                    <td>Symptom Onset</td>
+                    <td>Gradual, often asymptomatic initially</td>
+                    <td>Sudden onset with sharper symptoms</td>
+                </tr>
+                <tr>
+                    <td>Common Locations</td>
+                    <td>Lumbar and cervical spine</td>
+                    <td>Lumbar and cervical spine</td>
+                </tr>
+                <tr>
+                    <td>Treatment Approach</td>
+                    <td>Conservative first, surgery if needed</td>
+                    <td>Conservative first, surgery if needed</td>
+                </tr>
+                <tr>
+                    <td>Prognosis</td>
+                    <td>Often stabilizes or improves</td>
+                    <td>May require surgery more frequently</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer caption outside the white card to blend with background -->
+    <div style="max-width: 1200px; width: 100%; margin-top: 15px; color: #515962; font-size: 14px; font-weight: 500;">
+        All surgeries occur in our all-in-one facility, ensuring seamless care.
+    </div>
+
+</body>
+
+</html>

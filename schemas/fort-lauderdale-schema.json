@@ -1,0 +1,207 @@
+{
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "@id": "https://www.familylawprotection.com/florida/locations/fort-lauderdale/#office",
+    "name": "Vasquez de Lara Law Group - Fort Lauderdale",
+    "legalName": "Vasquez de Lara Law Group",
+    "description": "Vasquez de Lara Law Group provides dedicated family law representation in Fort Lauderdale, FL. Our attorneys handle divorce, child custody, alimony, and support matters for families in Las Olas, Victoria Park, and Broward County.",
+    "parentOrganization": {
+        "@type": "Organization",
+        "@id": "https://www.familylawprotection.com/#organization",
+        "name": "Vasquez de Lara Law Group",
+        "url": "https://www.familylawprotection.com/"
+    },
+    "url": "https://www.familylawprotection.com/florida/locations/fort-lauderdale/",
+    "logo": "https://www.familylawprotection.com/wp-content/uploads/vasquez-de-lara-logo.png",
+    "image": "https://www.familylawprotection.com/wp-content/uploads/fort-lauderdale-office.jpg",
+    "priceRange": "Call for consultation",
+    "telephone": "+1-954-947-6196",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "500 E Broward Blvd, Suite 900",
+        "addressLocality": "Fort Lauderdale",
+        "addressRegion": "FL",
+        "postalCode": "33394",
+        "addressCountry": "US"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 26.1224,
+        "longitude": -80.1373
+    },
+    "hasMap": "https://www.google.com/maps/place/?q=place_id:5a3aXPPjefUaFd4v9",
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "08:30",
+            "closes": "18:00",
+            "description": "By appointment only"
+        }
+    ],
+    "sameAs": [
+        "https://www.facebook.com/VasquezdeLaraLawGroup",
+        "https://www.linkedin.com/company/vasquez-de-lara-law-group",
+        "https://www.yelp.com/biz/vasquez-de-lara-law-group-fort-lauderdale"
+    ],
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Fort Lauderdale",
+            "sameAs": "https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida"
+        },
+        {
+            "@type": "Place",
+            "name": "Las Olas"
+        },
+        {
+            "@type": "Place",
+            "name": "Victoria Park"
+        },
+        {
+            "@type": "Place",
+            "name": "Wilton Manors"
+        },
+        {
+            "@type": "Place",
+            "name": "Oakland Park"
+        },
+        {
+            "@type": "Place",
+            "name": "Pompano Beach"
+        },
+        {
+            "@type": "Place",
+            "name": "Lauderhill"
+        },
+        {
+            "@type": "AdministrativeArea",
+            "name": "Broward County"
+        }
+    ],
+    "additionalProperty": [
+        {
+            "@type": "PropertyValue",
+            "name": "Nearby Landmark",
+            "value": "Fort Lauderdale-Hollywood International Airport"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Nearby Landmark",
+            "value": "Mills Pond Park"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "Nearby Landmark",
+            "value": "Broward County Courthouse"
+        }
+    ],
+    "employee": [
+        {
+            "@type": "Person",
+            "@id": "https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/#person",
+            "name": "Vanessa Vasquez de Lara",
+            "jobTitle": "Founding Attorney",
+            "url": "https://www.familylawprotection.com/attorneys/vanessa-vasquez-de-lara/",
+            "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bar Admission",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "The Florida Bar"
+                }
+            },
+            "sameAs": [
+                "https://www.linkedin.com/in/vanessavasquez/"
+            ]
+        }
+    ],
+    "makesOffer": [
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Divorce Representation",
+                "description": "Full-service divorce representation including contested and uncontested divorce proceedings.",
+                "url": "https://www.familylawprotection.com/florida/divorce/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Child Custody",
+                "description": "Legal advocacy for parental responsibility, time-sharing, and custody modifications.",
+                "url": "https://www.familylawprotection.com/florida/child-custody/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Alimony",
+                "description": "Representation for spousal support, alimony modifications, and enforcement.",
+                "url": "https://www.familylawprotection.com/florida/alimony/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Paternity",
+                "description": "Establishing or contesting paternity for parental rights and responsibilities.",
+                "url": "https://www.familylawprotection.com/florida/paternity/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Prenuptial & Postnuptial Agreements",
+                "description": "Drafting and reviewing prenuptial and postnuptial agreements to protect your assets.",
+                "url": "https://www.familylawprotection.com/florida/prenup-postnup/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Child Support",
+                "description": "Child support establishment, modification, and enforcement proceedings.",
+                "url": "https://www.familylawprotection.com/florida/child-support/"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "High Net-Worth Divorce",
+                "description": "Complex divorce representation involving significant assets, businesses, and investments.",
+                "url": "https://www.familylawprotection.com/miami/divorce-lawyer/high-net-worth-divorce/"
+            }
+        }
+    ],
+    "knowsAbout": [
+        {
+            "@type": "Thing",
+            "name": "Family Law",
+            "sameAs": "https://en.wikipedia.org/wiki/Family_law"
+        },
+        {
+            "@type": "Thing",
+            "name": "Divorce",
+            "sameAs": "https://en.wikipedia.org/wiki/Divorce"
+        },
+        {
+            "@type": "Thing",
+            "name": "Child Custody",
+            "sameAs": "https://en.wikipedia.org/wiki/Child_custody"
+        }
+    ]
+}

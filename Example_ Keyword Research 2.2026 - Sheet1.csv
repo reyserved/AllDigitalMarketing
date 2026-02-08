@@ -1,0 +1,46 @@
+Seed Keyword,Keyword,Tag,Intent,Volume
+arbon,arbon,Brand,Navigational,1900
+arbon equipment,arbon equipment,Brand,Navigational,1900
+arbon equipment,arbon equipment corporation,Brand + Qualifier,Navigational,1900
+arbon equipment,arbon equipment locations,Brand + GEO,Navigational,70
+commercial door,commercial door,Core,Transactional,4400
+commercial door company,commercial door company,Core,Commercial,880
+commercial door company,commercial door company near me,Core + GEO,Transactional,880
+commercial door repair,commercial door repair,Core,Commercial,4400
+commercial door repair,commercial door repair companies,Core + Qualifier,Commercial,30
+commercial door repair,commercial door repair company near me,Core + Qualifier + GEO,Transactional,110
+commercial door repair,commercial door repair near me,Core + Qualifier,Transactional,1300
+commercial door,commercial doors near me,Core + GEO,Transactional,1000
+commercial overhead door repair,commercial overhead door repair,Core,Commercial,2400
+commercial overhead door repair,commercial overhead door repair near me,Qualifier + Core  + Qualifier + GEO,Transactional,210
+commercial overhead door,commercial overhead doors near me,Qualifier + Core  + GEO,Transactional,320
+commercial roll up door,commercial roll up door,Core,Transactional,390
+cooler door repair,cooler door repair,Core,"Informational, Commercial",40
+dock door repair,dock door repair,Core,Commercial,170
+dock door repair,dock door repair near me,Core + GEO,Transactional,70
+dock leveler,dock leveler maintenance,Loading Dock + Qualifier,Informational,40
+dock leveler,dock leveler repair,Loading Dock + Qualifier,Commercial,320
+dock leveler,dock levelers for sale,Loading Dock + Qualifier,Transactional,110
+dock maintenance,dock maintenance,Loading Dock,Commercial,70
+dock plate,dock plate repair,Loading Dock + Qualifier,Informational,210
+industrial door,industrial door company,Core + Qualifier,"Informational, Transactional",480
+industrial door installation,industrial door installation,Turnkey Installation,Commercial,40
+industrial door parts,industrial door parts,Replacement Parts,Informational,30
+industrial door repair,industrial door repair,Core + Qualifier,Commercial,880
+industrial door repair,industrial door repair company near me,Core + Qualifier + GEO,Transactional,30
+industrial door repair,industrial door repair near me,Core + Qualifier + GEO,Transactional,880
+industrial door service,industrial door service,Core,commercial,40
+loading dock doors,loading dock doors,Loading Dock,Commercial,210
+loading dock equipment,loading dock equipment near me,Loading Dock + GEO,Transactional,50
+loading dock leveler,loading dock leveler installation,Loading Dock + Qualifier,Informational,30
+loading dock leveler,loading dock leveler repair near me,Loading Dock + Qualifier + GEO,Transactional,30
+overhead door,overhead door company,Core + Qualifier,Navigational,14800
+overhead door repair,overhead door company,Core + Qualifier,Navigational,14800
+overhead door repair,overhead door repair,Core,Commercial,2900
+overhead door repair,overhead door repair near me,Core + GEO,Transactional,720
+overhead door service,overhead door service,Core,Commercial,480
+roll up door repair,roll up door repair,Core,Commercial,390
+roll up door repair,roll up door repair near me,Core + GEO,Transactional,260
+roll up door repair service,roll up door repair services near me,Core + Qualifier + GEO + Qualifier,Transactional,30
+roll up door,roll up doors near me,Core + GEO,Transactional,480
+warehouse door repair,warehouse door repair,Core,Informational,140

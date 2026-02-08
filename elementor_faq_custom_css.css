@@ -1,0 +1,105 @@
+/** 
+ * Custom CSS for Elementor FAQ Toggle 
+ * Paste this into your WordPress Customizer > Additional CSS 
+ * or the Elementor Page Custom CSS area.
+ */
+
+/* 1. RESET & CONTAINER STYLING */
+/* Styles each individual FAQ item card */
+.elementor-widget-toggle .elementor-toggle-item {
+    background-color: #FFFFFF !important;  /* Ensure card is white */
+    border: 1px solid #E6E8EA !important;  /* Subtle brand border */
+    border-radius: 12px !important;        /* Smooth premium corners */
+    margin-bottom: 16px !important;        /* Space between questions */
+    box-shadow: 0 4px 12px rgba(28, 36, 75, 0.05); /* Soft premium shadow */
+    transition: all 0.3s ease !important;
+    overflow: hidden;
+}
+
+/* Hover Effect for the entire card */
+.elementor-widget-toggle .elementor-toggle-item:hover {
+    box-shadow: 0 10px 24px rgba(28, 36, 75, 0.1) !important;
+    transform: translateY(-2px);
+    border-color: rgba(70, 127, 247, 0.3) !important; /* Subtle accent color on hover */
+}
+
+/* 2. TITLE (QUESTION) STYLING */
+.elementor-widget-toggle .elementor-tab-title {
+    padding: 24px 30px !important;
+    background: transparent !important; /* Remove default elementor grey backgrounds */
+    border: none !important;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Active State Title Background */
+.elementor-widget-toggle .elementor-tab-title.elementor-active {
+    background-color: #FCFDFF !important; /* Very subtle styling for active state */
+    border-bottom: 1px solid #F0F2F5 !important;
+}
+
+/* Typography for the Question */
+.elementor-widget-toggle .elementor-tab-title .elementor-toggle-title {
+    color: #1C244B !important; /* Brand Primary Dark Blue */
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 1.4em;
+}
+
+/* 3. ICON STYLING */
+/* Position the icon */
+.elementor-widget-toggle .elementor-tab-title .elementor-toggle-icon {
+    order: 10; /* Moves icon to the right if flex is used, otherwise elementor default is usually right */
+    color: #467FF7 !important; /* Brand Accent Blue */
+    padding-left: 15px;
+}
+
+/* Target the SVG fill directly to ensure brand color */
+.elementor-widget-toggle .elementor-toggle-icon svg path {
+    fill: #467FF7 !important;
+}
+
+/* 4. CONTENT (ANSWER) STYLING */
+.elementor-widget-toggle .elementor-tab-content {
+    padding: 24px 30px 30px 30px !important;
+    background-color: #FAFBFD !important; /* Very light grey/blue tint for answer area */
+    border-top: none !important;
+    color: #515962 !important; /* Brand Secondary Text */
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px !important;
+    line-height: 1.7em;
+    font-weight: 400 !important;
+}
+
+/* 5. ACTIVE BORDER ACCENT */
+/* Adds the blue stripe on the left when active */
+.elementor-widget-toggle .elementor-tab-title.elementor-active {
+    border-left: 4px solid #467FF7 !important;
+    padding-left: 26px !important; /* Adjust padding to account for the border width so text doesn't shift */
+}
+
+/* Adjust inactive padding to match active state visual alignment */
+.elementor-widget-toggle .elementor-tab-title:not(.elementor-active) {
+    border-left: 4px solid transparent !important;
+    padding-left: 26px !important;
+}
+
+/* Mobile Responsiveness Tweaks */
+@media (max-width: 767px) {
+    .elementor-widget-toggle .elementor-tab-title {
+        padding: 18px 20px !important;
+    }
+    .elementor-widget-toggle .elementor-tab-title .elementor-toggle-title {
+        font-size: 16px !important;
+    }
+    .elementor-widget-toggle .elementor-tab-content {
+        padding: 20px 20px 25px 20px !important;
+    }
+    .elementor-widget-toggle .elementor-tab-title.elementor-active,
+    .elementor-widget-toggle .elementor-tab-title:not(.elementor-active) {
+        padding-left: 16px !important;
+    }
+}

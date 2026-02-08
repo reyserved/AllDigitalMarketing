@@ -1,0 +1,587 @@
+element.style {
+    --nfil-header-height-top: 40px;
+    --nfil-header-height-bottom: 123px;
+    --nfil-header-height-total: 163px;
+    --wpadminbar-height: 32px;
+    --nfil-offset-height: 155px;
+}
+body:has(main .e-con[class*=" nfil-"]) {
+    background: var(--e-global-color-f291f91);
+}
+@media (max-width: 1200px) {
+    .elementor-kit-95 {
+        --e-global-typography-658acbd-font-size: 70px;
+        --e-global-typography-022fc4f-font-size: 70px;
+        --e-global-typography-a5acfd0-font-size: 70px;
+        --e-global-typography-4e65f41-font-size: 25px;
+        --e-global-typography-4e65f41-letter-spacing: 3px;
+        --e-global-typography-8c24f17-font-size: 60px;
+        --e-global-typography-321e635-font-size: 46px;
+        --e-global-typography-047755c-font-size: 40px;
+        --e-global-typography-448e7e7-font-size: 26px;
+        --e-global-typography-5b16e98-font-size: 17px;
+        --e-global-typography-58d50a0-font-size: 42px;
+        --e-global-typography-ac8a448-font-size: 30px;
+    }
+}
+@media (max-width: 1366px) {
+    .elementor-kit-95 {
+        --e-global-typography-5b16e98-font-size: 20px;
+        --e-global-typography-5b16e98-letter-spacing: 0px;
+        --e-global-typography-99064a1-font-size: 15px;
+        --e-global-typography-d110ffc-font-size: 30px;
+        --e-global-typography-d110ffc-letter-spacing: 0px;
+        --e-global-typography-8be4738-font-size: 30px;
+        --e-global-typography-8be4738-letter-spacing: 0px;
+        --e-global-typography-da243fc-font-size: 130px;
+        font-size: var(--e-global-typography-text-font-size);
+        line-height: var(--e-global-typography-text-line-height);
+        letter-spacing: var(--e-global-typography-text-letter-spacing);
+    }
+}
+.elementor-kit-95 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-98262d0: #C57848;
+    --e-global-color-3fcc6006: #393939;
+    --e-global-color-52ef9cf: #084D7CE6;
+    --e-global-color-89aeefa: #232428;
+    --e-global-color-6d15af7: #333333;
+    --e-global-color-2643081: #2F2E2E;
+    --e-global-color-de74540: #CFCFCF;
+    --e-global-color-195a707: #242323;
+    --e-global-color-d4b27ef: #0D9EFF;
+    --e-global-color-8e4af1a: #FFFFFF;
+    --e-global-color-8b3526d: #0D9EFF;
+    --e-global-color-f291f91: #1B252F;
+    --e-global-color-c7838c9: #FBFBFB;
+    --e-global-color-6117baa8: #FFF;
+    --e-global-color-fff8804: #00000000;
+    --e-global-color-b520964: #1C91FE;
+    --e-global-color-be416aa: #232428;
+    --e-global-color-d299915: #084D7CE6;
+    --e-global-color-3f79fa1: #0D9EFFB0;
+    --e-global-color-815c46c: #1B252FAB;
+    --e-global-color-6ecfa72: #FF6600;
+    --e-global-color-15bb361: #F8FAFC0F;
+    --e-global-typography-primary-font-family: "Kano Regular";
+    --e-global-typography-primary-font-size: 40px;
+    --e-global-typography-primary-font-weight: 400;
+    --e-global-typography-primary-text-transform: none;
+    --e-global-typography-primary-line-height: 1.25em;
+    --e-global-typography-primary-letter-spacing: 0px;
+    --e-global-typography-secondary-font-family: "Kano Regular";
+    --e-global-typography-secondary-font-size: 41px;
+    --e-global-typography-secondary-font-weight: 700;
+    --e-global-typography-secondary-text-transform: none;
+    --e-global-typography-secondary-line-height: 1.25em;
+    --e-global-typography-secondary-letter-spacing: 0px;
+    --e-global-typography-text-font-family: "Kano Regular";
+    --e-global-typography-text-font-size: 25px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-line-height: 1.4em;
+    --e-global-typography-text-letter-spacing: 0.5px;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-45ed07e-font-family: "Kano Regular";
+    --e-global-typography-45ed07e-font-size: 20px;
+    --e-global-typography-45ed07e-font-weight: 400;
+    --e-global-typography-45ed07e-line-height: 1.3em;
+    --e-global-typography-45ed07e-letter-spacing: 0.05px;
+Show all properties (246 more)
+}
+body {
+    overflow-x: clip;
+}
+body, h1, .entry-title a, .entry-content h1, h2, .entry-content h2, h3, .entry-content h3, h4, .entry-content h4, h5, .entry-content h5, h6, .entry-content h6 {
+    color: var(--ast-global-color-3);
+}
+body, button, input, select, textarea, .ast-button, .ast-custom-button {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    font-weight: inherit;
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: var(--ast-body-line-height, 1.65em);
+}
+body {
+    overflow-x: hidden;
+}
+body {
+    background-color: #fff;
+}
+.ast-button, .ast-custom-button, body, button, input[type=button], input[type=submit], textarea {
+    line-height: 1.85714285714286;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    color: #808285;
+    background: #fff;
+    font-style: normal;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+injected stylesheet
+body {
+    line-height: inherit;
+    margin: 0px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+:where(body) {
+    margin: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --e-global-color-astglobalcolor0: #0170B9;
+    --e-global-color-astglobalcolor1: #3a3a3a;
+    --e-global-color-astglobalcolor2: #3a3a3a;
+    --e-global-color-astglobalcolor3: #4B4F58;
+    --e-global-color-astglobalcolor4: #F5F5F5;
+    --e-global-color-astglobalcolor5: #FFFFFF;
+    --e-global-color-astglobalcolor6: #E5E5E5;
+    --e-global-color-astglobalcolor7: #424242;
+    --e-global-color-astglobalcolor8: #000000;
+}
+:root {
+    --ast-border-color: #dddddd;
+}
+:root {
+    --ast-global-color-0: #0170B9;
+    --ast-global-color-1: #3a3a3a;
+    --ast-global-color-2: #3a3a3a;
+    --ast-global-color-3: #4B4F58;
+    --ast-global-color-4: #F5F5F5;
+    --ast-global-color-5: #FFFFFF;
+    --ast-global-color-6: #E5E5E5;
+    --ast-global-color-7: #424242;
+    --ast-global-color-8: #000000;
+}
+:root {
+    --ast-post-nav-space: 0;
+    --ast-container-default-xlg-padding: 6.67em;
+    --ast-container-default-lg-padding: 5.67em;
+    --ast-container-default-slg-padding: 4.34em;
+    --ast-container-default-md-padding: 3.34em;
+    --ast-container-default-sm-padding: 6.67em;
+    --ast-container-default-xs-padding: 2.4em;
+    --ast-container-default-xxs-padding: 1.4em;
+    --ast-code-block-background: #EEEEEE;
+    --ast-comment-inputs-background: #FAFAFA;
+    --ast-normal-container-width: 1200px;
+    --ast-narrow-container-width: 750px;
+    --ast-blog-title-font-weight: normal;
+    --ast-blog-meta-weight: inherit;
+}
+:root {
+    --page-title-display: block;
+}
+:root {
+    --direction-multiplier: 1;
+}
+:root {
+    --wp--style--block-gap: 24px;
+}
+:root {
+    --wp--style--global--content-size: 800px;
+    --wp--style--global--wide-size: 1200px;
+}
+:root {
+    --wp--preset--aspect-ratio--square: 1;
+    --wp--preset--aspect-ratio--4-3: 4 / 3;
+    --wp--preset--aspect-ratio--3-4: 3 / 4;
+    --wp--preset--aspect-ratio--3-2: 3 / 2;
+    --wp--preset--aspect-ratio--2-3: 2 / 3;
+    --wp--preset--aspect-ratio--16-9: 16 / 9;
+    --wp--preset--aspect-ratio--9-16: 9 / 16;
+    --wp--preset--color--black: #000000;
+    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+    --wp--preset--color--white: #ffffff;
+    --wp--preset--color--pale-pink: #f78da7;
+    --wp--preset--color--vivid-red: #cf2e2e;
+    --wp--preset--color--luminous-vivid-orange: #ff6900;
+    --wp--preset--color--luminous-vivid-amber: #fcb900;
+    --wp--preset--color--light-green-cyan: #7bdcb5;
+    --wp--preset--color--vivid-green-cyan: #00d084;
+    --wp--preset--color--pale-cyan-blue: #8ed1fc;
+    --wp--preset--color--vivid-cyan-blue: #0693e3;
+    --wp--preset--color--vivid-purple: #9b51e0;
+    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+    --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+    --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+    --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+    --wp--preset--font-size--small: 13px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 36px;
+    --wp--preset--font-size--x-large: 42px;
+    --wp--preset--spacing--20: 0.44rem;
+    --wp--preset--spacing--30: 0.67rem;
+    --wp--preset--spacing--40: 1rem;
+    --wp--preset--spacing--50: 1.5rem;
+    --wp--preset--spacing--60: 2.25rem;
+    --wp--preset--spacing--70: 3.38rem;
+    --wp--preset--spacing--80: 5.06rem;
+    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+    --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+}
+:root {
+    --e-a-color-white: #fff;
+    --e-a-color-black: #000;
+    --e-a-color-logo: #fff;
+    --e-a-color-primary: #f3bafd;
+    --e-a-color-primary-bold: #d004d4;
+    --e-a-color-secondary: #515962;
+    --e-a-color-success: #0a875a;
+    --e-a-color-danger: #dc2626;
+    --e-a-color-info: #2563eb;
+    --e-a-color-warning: #f59e0b;
+    --e-a-color-accent: #93003f;
+    --e-a-color-global: #1dddbf;
+    --e-a-color-accent-promotion: #93003f;
+    --e-a-bg-default: #fff;
+    --e-a-bg-invert: #0c0d0e;
+    --e-a-bg-hover: #f1f2f3;
+    --e-a-bg-active: #e6e8ea;
+    --e-a-bg-active-bold: #d5d8dc;
+    --e-a-bg-loading: #f9fafa;
+    --e-a-bg-logo: #000;
+    --e-a-bg-primary: #fae8ff;
+    --e-a-bg-secondary: #515962;
+    --e-a-bg-success: #f2fdf5;
+    --e-a-bg-info: #f0f7ff;
+    --e-a-bg-danger: #fef1f4;
+    --e-a-bg-warning: #fffbeb;
+    --e-a-bg-chip: #f1f2f3;
+    --e-a-color-txt: #515962;
+    --e-a-color-txt-muted: #818a96;
+    --e-a-color-txt-disabled: #babfc5;
+    --e-a-color-txt-invert: #fff;
+    --e-a-color-txt-accent: #0c0d0e;
+    --e-a-color-txt-hover: #3f444b;
+    --e-a-color-txt-active: #0c0d0e;
+    --e-a-border-color: #e6e8ea;
+    --e-a-border-color-bold: #d5d8dc;
+    --e-a-border-color-focus: #babfc5;
+    --e-a-border-color-accent: #0c0d0e;
+    --e-a-border: 1px solid var(--e-a-border-color);
+    --e-a-border-bold: 1px solid var(--e-a-border-color-bold);
+    --e-a-border-radius: 3px;
+    --e-a-btn-color: #0c0d0e;
+    --e-a-btn-color-invert: var(--e-a-color-txt-invert);
+    --e-a-btn-color-disabled: var(--e-a-color-txt-disabled);
+    --e-a-btn-bg: #515962;
+    --e-a-btn-bg-hover: #3a4046;
+    --e-a-btn-bg-active: #23262a;
+    --e-a-btn-bg-disabled: #d5d8dc;
+    --e-a-btn-bg-primary: #f3bafd;
+    --e-a-btn-bg-primary-hover: #f5d0fe;
+Show all properties (23 more)
+}
+:root {
+    --direction-multiplier: 1;
+}
+<style>
+:root, :host {
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+    --fa-font-light: normal 300 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-thin: normal 100 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-duotone: normal 900 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-light: normal 300 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+    --fa-font-sharp-solid: normal 900 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-regular: normal 400 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-light: normal 300 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-thin: normal 100 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-duotone-solid: normal 900 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-light: normal 300 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Sharp Duotone";
+}
+injected stylesheet
+:root {
+    --ait-border-spacing-x: 0;
+    --ait-border-spacing-y: 0;
+    --ait-translate-x: 0;
+    --ait-translate-y: 0;
+    --ait-rotate: 0;
+    --ait-skew-x: 0;
+    --ait-skew-y: 0;
+    --ait-scale-x: 1;
+    --ait-scale-y: 1;
+    --ait-pan-x: ;
+    --ait-pan-y: ;
+    --ait-pinch-zoom: ;
+    --ait-scroll-snap-strictness: proximity;
+    --ait-gradient-from-position: ;
+    --ait-gradient-via-position: ;
+    --ait-gradient-to-position: ;
+    --ait-ordinal: ;
+    --ait-slashed-zero: ;
+    --ait-numeric-figure: ;
+    --ait-numeric-spacing: ;
+    --ait-numeric-fraction: ;
+    --ait-ring-inset: ;
+    --ait-ring-offset-width: 0px;
+    --ait-ring-offset-color: #fff;
+    --ait-ring-color: rgba(59, 130, 246, .5);
+    --ait-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-ring-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow-colored: 0 0 rgba(0, 0, 0, 0);
+    --ait-blur: ;
+    --ait-brightness: ;
+    --ait-contrast: ;
+    --ait-grayscale: ;
+    --ait-hue-rotate: ;
+    --ait-invert: ;
+    --ait-saturate: ;
+    --ait-sepia: ;
+    --ait-drop-shadow: ;
+    --ait-backdrop-blur: ;
+    --ait-backdrop-brightness: ;
+    --ait-backdrop-contrast: ;
+    --ait-backdrop-grayscale: ;
+    --ait-backdrop-hue-rotate: ;
+    --ait-backdrop-invert: ;
+    --ait-backdrop-opacity: ;
+    --ait-backdrop-saturate: ;
+    --ait-backdrop-sepia: ;
+    --ait-contain-size: ;
+    --ait-contain-layout: ;
+    --ait-contain-paint: ;
+Show all properties (1 more)
+}
+injected stylesheet
+html, :root, .aitopia.light, .aitopia :host([class="light"]) {
+    --ait-main-color: 1, 167, 125;
+    --ait-master-color: 1, 167, 125;
+    --ait-primary-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-text-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-content-text-color: rgba(var(--ait-fg-rgb), .65);
+    --ait-primary-title-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-secondary-text-color: rgba(var(--ait-fg-rgb), .4);
+    --ait-bg-opacity: 1;
+    --ait-html-bg-color: rgb(240, 242, 245);
+    --ait-option-bg-color: #f0f2f5;
+    --ait-option-card-bg-color: white;
+    --ait-option-card-border: 1px solid #f0f0f0;
+    --ait-border-radius-lg: 12px;
+    --ait-border-radius: 8px;
+    --ait-sidebar-bg-color: #fff;
+    --ait-sidebar-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    --ait-sidebar-border-color: #ececec;
+    --ait-sidebar-icon-color: #545758;
+    --ait-sidebar-icon-hover-color: rgba(var(--ait-main-color), .1);
+    --ait-sidebar-icon-border-color: #ececee;
+    --ait-sidebar-scrollbar-color: #e1e1e1;
+    --ait-sidebar-scrollbar-hover-color: #d9d9d9;
+    --ait-fg-rgb: 0, 0, 0;
+    --ait-bg-rgb: 255, 255, 255;
+    --ait-switchbar-bg-color: #f0f1f5;
+    --ait-switchbar-btn-hover-bg-color: #e9e9ef;
+    --ait-switchbar-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .15);
+    --ait-tab-menu-hover-bg-color: rgba(var(--ait-main-color), .1);
+    --ait-tab-menu-hover-text-color: var(--ait-primary-text-color);
+    --ait-tab-menu-active-bg-color: rgba(var(--ait-main-color), .9);
+    --ait-tab-menu-active-orange-bg-color: rgba(224, 124, 13, .9);
+    --ait-tab-menu-disabled-bg-color: rgba(var(--ait-main-color), .2);
+    --ait-tab-menu-active-bg-active-color: rgb(0, 211, 157);
+    --ait-tab-menu-active-text-color: #fff;
+    --ait-loading-color: #fff;
+    --ait-link-color: rgba(var(--ait-main-color), .9);
+    --ait-master-link-color: rgba(var(--ait-master-color), .6);
+    --ait-master-link-hover-color: rgba(var(--ait-master-color), 1);
+    --ait-download-button-bg-color: rgba(255, 255, 255, .5);
+    --ait-loading-bg-color: #f5f5f5;
+    --ait-border-color: rgba(0, 0, 0, .15);
+    --ait-pre-bg: rgba(var(--ait-fg-rgb), .05);
+    --ait-sidebar-bg-color-sub: rgba(245, 245, 245, var(--ait-bg-opacity)) !important;
+}
+injected stylesheet
+:root {
+    --ait-height-vh-100: 100vh;
+    --ait-height-100: 100dvh;
+    --ait-height-vh-95: 95vh;
+    --ait-height-95: 95dvh;
+    --ait-height-vh-90: 90vh;
+    --ait-height-90: 90dvh;
+    --ait-height-vh-75: 75vh;
+    --ait-height-75: 75dvh;
+}
+html {
+    font-size: 93.75%;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    --wp-admin--admin-bar--height: 32px;
+    scroll-padding-top: var(--wp-admin--admin-bar--height);
+}
+injected stylesheet
+html, .aitopia :host {
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+::selection {
+    background-color: var(--ast-global-color-0);
+    color: #ffffff;
+}
+::selection {
+    color: #fff;
+    background: #0274be;
+}
+::selection {
+    background-color: var(--ast-global-color-0);
+    color: #ffffff;
+}
+::selection {
+    color: #fff;
+    background: #0274be;
+}
+<style>
+@font-face {
+    font-family: 'Kano Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url(https://nfil.net/wp-content/uploads/2020/09/Kano-regular.eot);
+    src: url(https://nfil.net/wp-content/uploads/2020/09/Kano-regular.eot?#iefix) format('embedded-opentype'), url(https://nfil.net/wp-content/uploads/2020/09/Kano.woff2) format('woff2'), url(https://nfil.net/wp-content/uploads/2020/09/Kano-regular.woff) format('woff'), url(https://nfil.net/wp-content/uploads/2020/09/Kano-regular.ttf) format('truetype'), url(https://nfil.net/wp-content/uploads/2020/09/Kano-regular.svg#KanoRegular) format('svg');
+}
+
+background-attachmentscroll
+background-clipborder-box
+background-colorrgb(27, 37, 47)
+background-imagenone
+background-originpadding-box
+background-position-x0%
+background-position-y0%
+background-repeatrepeat
+background-sizeauto
+border-bottom-colorrgb(75, 79, 88)
+border-bottom-stylenone
+border-bottom-width0px
+border-image-outset0
+border-image-repeatstretch
+border-image-slice100%
+border-image-sourcenone
+border-image-width1
+border-left-colorrgb(75, 79, 88)
+border-left-stylenone
+border-left-width0px
+border-right-colorrgb(75, 79, 88)
+border-right-stylenone
+border-right-width0px
+border-top-colorrgb(75, 79, 88)
+border-top-stylenone
+border-top-width0px
+box-sizingborder-box
+colorrgb(75, 79, 88)
+displayblock
+font-family"Kano Regular", sans-serif
+font-feature-settingsnormal
+font-size25px
+font-stylenormal
+font-variation-settingsnormal
+font-weight400
+height8496.06px
+letter-spacing0.5px
+line-height35px
+margin-bottom0px
+margin-left0px
+margin-right0px
+margin-top0px
+outline-colorrgb(75, 79, 88)
+outline-stylenone
+outline-width0px
+overflow-xclip
+padding-bottom0px
+padding-left0px
+padding-right0px
+padding-top0px
+tab-size4
+text-size-adjust100%
+vertical-alignbaseline
+width1042px
+-webkit-font-smoothingantialiased
+-webkit-tap-highlight-colorrgba(0, 0, 0, 0)
+Rendered Fonts
+Family name: Kano regular
+PostScript name: Kano-regular
+Font origin: Network resource(13 glyphs)

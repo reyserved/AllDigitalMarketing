@@ -1,0 +1,600 @@
+element.style {
+}
+@media (max-width: 1366px) {
+    .elementor-kit-6 {
+        --e-global-typography-primary-font-size: 35px;
+        --e-global-typography-primary-line-height: 45px;
+        --e-global-typography-secondary-font-size: 65px;
+        --e-global-typography-secondary-line-height: 75px;
+    }
+}
+.elementor-kit-6 {
+    --e-global-color-primary: #000000;
+    --e-global-color-secondary: #C92A39;
+    --e-global-color-text: #282E36;
+    --e-global-color-accent: #FFFFFF;
+    --e-global-color-90a0d20: #BCC4C7;
+    --e-global-color-9b53dfc: #52565C;
+    --e-global-color-f0e926c: #F9FAFA;
+    --e-global-color-784572d: #1D252D;
+    --e-global-color-0d1b5c3: #034DAD;
+    --e-global-color-9bbdc94: #F10202;
+    --e-global-color-83ea458: #1D252D;
+    --e-global-color-d2c1013: #F7F8FA;
+    --e-global-color-a8ae1b8: #EFEFEF;
+    --e-global-color-fd02c01: #2B3E50;
+    --e-global-typography-primary-font-family: "Ubuntu";
+    --e-global-typography-primary-font-size: 48px;
+    --e-global-typography-primary-font-weight: 700;
+    --e-global-typography-primary-text-transform: capitalize;
+    --e-global-typography-primary-line-height: 58px;
+    --e-global-typography-primary-letter-spacing: 0px;
+    --e-global-typography-primary-word-spacing: 0px;
+    --e-global-typography-secondary-font-family: "Ubuntu";
+    --e-global-typography-secondary-font-size: 72px;
+    --e-global-typography-secondary-font-weight: 700;
+    --e-global-typography-secondary-text-transform: capitalize;
+    --e-global-typography-secondary-line-height: 82px;
+    --e-global-typography-text-font-family: "Ubuntu";
+    --e-global-typography-text-font-size: 16px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-line-height: 26px;
+    --e-global-typography-text-letter-spacing: 0px;
+    --e-global-typography-text-word-spacing: 0px;
+    --e-global-typography-accent-font-family: "Ubuntu";
+    --e-global-typography-accent-font-size: 16px;
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-accent-line-height: 26px;
+    --e-global-typography-605eb25-font-family: "Ubuntu";
+    --e-global-typography-605eb25-font-size: 24px;
+    --e-global-typography-605eb25-font-weight: 700;
+    --e-global-typography-605eb25-line-height: 30px;
+    --e-global-typography-2b6e042-font-family: "Ubuntu";
+    --e-global-typography-2b6e042-font-size: 40px;
+    --e-global-typography-2b6e042-font-weight: 700;
+    --e-global-typography-2b6e042-line-height: 50px;
+    --e-global-typography-17299bf-font-family: "Ubuntu";
+    --e-global-typography-17299bf-font-size: 20px;
+    --e-global-typography-17299bf-font-weight: 500;
+    --e-global-typography-17299bf-line-height: 30px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f9fafb;
+    color: var(--da-dark);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+injected stylesheet
+body {
+    line-height: inherit;
+    margin: 0px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --da-dark: #1D252D;
+    --da-red: #C92A39;
+    --da-gray: #52565C;
+    --da-light: #F7F8FA;
+    --da-border: #EFEFEF;
+}
+:root {
+    --da-red: #C92A39;
+    --da-dark: #1D252D;
+    --da-border: #e5e7eb;
+    --da-bg-hover: #FEF2F2;
+}
+:root {
+    --da-dark: #1D252D;
+    --da-red: #C92A39;
+    --da-gray: #52565C;
+    --da-light: #F7F8FA;
+    --da-border: #EFEFEF;
+}
+:root {
+    --da-red: #C92A39;
+}
+:root {
+    --page-title-display: block;
+}
+:root {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
+:root {
+    --wp-block-synced-color: #7a00df;
+    --wp-block-synced-color--rgb: 122, 0, 223;
+    --wp-bound-block-color: var(--wp-block-synced-color);
+    --wp-editor-canvas-background: #ddd;
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color--rgb: 0, 124, 186;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-10--rgb: 0, 107, 160.5;
+    --wp-admin-theme-color-darker-20: #005a87;
+    --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+    --wp-admin-border-width-focus: 2px;
+}
+<style>
+:root, :host {
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+    --fa-font-light: normal 300 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-thin: normal 100 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-duotone: normal 900 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-light: normal 300 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+    --fa-font-sharp-solid: normal 900 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-regular: normal 400 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-light: normal 300 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-thin: normal 100 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-duotone-solid: normal 900 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-light: normal 300 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Sharp Duotone";
+}
+injected stylesheet
+:root {
+    --ait-border-spacing-x: 0;
+    --ait-border-spacing-y: 0;
+    --ait-translate-x: 0;
+    --ait-translate-y: 0;
+    --ait-rotate: 0;
+    --ait-skew-x: 0;
+    --ait-skew-y: 0;
+    --ait-scale-x: 1;
+    --ait-scale-y: 1;
+    --ait-pan-x: ;
+    --ait-pan-y: ;
+    --ait-pinch-zoom: ;
+    --ait-scroll-snap-strictness: proximity;
+    --ait-gradient-from-position: ;
+    --ait-gradient-via-position: ;
+    --ait-gradient-to-position: ;
+    --ait-ordinal: ;
+    --ait-slashed-zero: ;
+    --ait-numeric-figure: ;
+    --ait-numeric-spacing: ;
+    --ait-numeric-fraction: ;
+    --ait-ring-inset: ;
+    --ait-ring-offset-width: 0px;
+    --ait-ring-offset-color: #fff;
+    --ait-ring-color: rgba(59, 130, 246, .5);
+    --ait-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-ring-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow-colored: 0 0 rgba(0, 0, 0, 0);
+    --ait-blur: ;
+    --ait-brightness: ;
+    --ait-contrast: ;
+    --ait-grayscale: ;
+    --ait-hue-rotate: ;
+    --ait-invert: ;
+    --ait-saturate: ;
+    --ait-sepia: ;
+    --ait-drop-shadow: ;
+    --ait-backdrop-blur: ;
+    --ait-backdrop-brightness: ;
+    --ait-backdrop-contrast: ;
+    --ait-backdrop-grayscale: ;
+    --ait-backdrop-hue-rotate: ;
+    --ait-backdrop-invert: ;
+    --ait-backdrop-opacity: ;
+    --ait-backdrop-saturate: ;
+    --ait-backdrop-sepia: ;
+    --ait-contain-size: ;
+    --ait-contain-layout: ;
+    --ait-contain-paint: ;
+Show all properties (1 more)
+}
+injected stylesheet
+html, :root, .aitopia.light, .aitopia :host([class="light"]) {
+    --ait-main-color: 1, 167, 125;
+    --ait-master-color: 1, 167, 125;
+    --ait-primary-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-text-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-content-text-color: rgba(var(--ait-fg-rgb), .65);
+    --ait-primary-title-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-secondary-text-color: rgba(var(--ait-fg-rgb), .4);
+    --ait-bg-opacity: 1;
+    --ait-html-bg-color: rgb(240, 242, 245);
+    --ait-option-bg-color: #f0f2f5;
+    --ait-option-card-bg-color: white;
+    --ait-option-card-border: 1px solid #f0f0f0;
+    --ait-border-radius-lg: 12px;
+    --ait-border-radius: 8px;
+    --ait-sidebar-bg-color: #fff;
+    --ait-sidebar-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    --ait-sidebar-border-color: #ececec;
+    --ait-sidebar-icon-color: #545758;
+    --ait-sidebar-icon-hover-color: rgba(var(--ait-main-color), .1);
+    --ait-sidebar-icon-border-color: #ececee;
+    --ait-sidebar-scrollbar-color: #e1e1e1;
+    --ait-sidebar-scrollbar-hover-color: #d9d9d9;
+    --ait-fg-rgb: 0, 0, 0;
+    --ait-bg-rgb: 255, 255, 255;
+    --ait-switchbar-bg-color: #f0f1f5;
+    --ait-switchbar-btn-hover-bg-color: #e9e9ef;
+    --ait-switchbar-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .15);
+    --ait-tab-menu-hover-bg-color: rgba(var(--ait-main-color), .1);
+    --ait-tab-menu-hover-text-color: var(--ait-primary-text-color);
+    --ait-tab-menu-active-bg-color: rgba(var(--ait-main-color), .9);
+    --ait-tab-menu-active-orange-bg-color: rgba(224, 124, 13, .9);
+    --ait-tab-menu-disabled-bg-color: rgba(var(--ait-main-color), .2);
+    --ait-tab-menu-active-bg-active-color: rgb(0, 211, 157);
+    --ait-tab-menu-active-text-color: #fff;
+    --ait-loading-color: #fff;
+    --ait-link-color: rgba(var(--ait-main-color), .9);
+    --ait-master-link-color: rgba(var(--ait-master-color), .6);
+    --ait-master-link-hover-color: rgba(var(--ait-master-color), 1);
+    --ait-download-button-bg-color: rgba(255, 255, 255, .5);
+    --ait-loading-bg-color: #f5f5f5;
+    --ait-border-color: rgba(0, 0, 0, .15);
+    --ait-pre-bg: rgba(var(--ait-fg-rgb), .05);
+    --ait-sidebar-bg-color-sub: rgba(245, 245, 245, var(--ait-bg-opacity)) !important;
+}
+injected stylesheet
+:root {
+    --ait-height-vh-100: 100vh;
+    --ait-height-100: 100dvh;
+    --ait-height-vh-95: 95vh;
+    --ait-height-95: 95dvh;
+    --ait-height-vh-90: 90vh;
+    --ait-height-90: 90dvh;
+    --ait-height-vh-75: 75vh;
+    --ait-height-75: 75dvh;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+injected stylesheet
+html, .aitopia :host {
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ubuntu/v21/4iCs6KVjbNBYlgoKcg72nU6AF7xm.woff2) format('woff2');
+    unicode-range: U +0460 -052F, U +1C80 -1C8A, U +20B4, U +2DE0 -2DFF, U + A640-A69F, U + FE2E-FE2F;
+}
+
+background-colorrgb(249, 250, 251)
+box-sizingborder-box
+colorrgb(29, 37, 45)
+displayblock
+font-familyUbuntu, sans-serif
+font-feature-settingsnormal
+font-size16px
+font-variation-settingsnormal
+font-weight400
+height6631.89px
+line-height24px
+margin-bottom0px
+margin-left0px
+margin-right0px
+margin-top0px
+padding-bottom0px
+padding-left0px
+padding-right0px
+padding-top0px
+tab-size4
+text-size-adjust100%
+width1303.64px
+-webkit-font-smoothingantialiased
+-webkit-tap-highlight-colorrgba(0, 0, 0, 0)
+Rendered Fonts
+Family name: Ubuntu
+PostScript name: Ubuntu-Regular
+Font origin: Network resource(13 glyphs)
+
+
+element.style {
+}
+@media (max-width: 1366px) {
+    .elementor-kit-6 {
+        --e-global-typography-primary-font-size: 35px;
+        --e-global-typography-primary-line-height: 45px;
+        --e-global-typography-secondary-font-size: 65px;
+        --e-global-typography-secondary-line-height: 75px;
+    }
+}
+.elementor-kit-6 {
+    --e-global-color-primary: #000000;
+    --e-global-color-secondary: #C92A39;
+    --e-global-color-text: #282E36;
+    --e-global-color-accent: #FFFFFF;
+    --e-global-color-90a0d20: #BCC4C7;
+    --e-global-color-9b53dfc: #52565C;
+    --e-global-color-f0e926c: #F9FAFA;
+    --e-global-color-784572d: #1D252D;
+    --e-global-color-0d1b5c3: #034DAD;
+    --e-global-color-9bbdc94: #F10202;
+    --e-global-color-83ea458: #1D252D;
+    --e-global-color-d2c1013: #F7F8FA;
+    --e-global-color-a8ae1b8: #EFEFEF;
+    --e-global-color-fd02c01: #2B3E50;
+    --e-global-typography-primary-font-family: "Ubuntu";
+    --e-global-typography-primary-font-size: 48px;
+    --e-global-typography-primary-font-weight: 700;
+    --e-global-typography-primary-text-transform: capitalize;
+    --e-global-typography-primary-line-height: 58px;
+    --e-global-typography-primary-letter-spacing: 0px;
+    --e-global-typography-primary-word-spacing: 0px;
+    --e-global-typography-secondary-font-family: "Ubuntu";
+    --e-global-typography-secondary-font-size: 72px;
+    --e-global-typography-secondary-font-weight: 700;
+    --e-global-typography-secondary-text-transform: capitalize;
+    --e-global-typography-secondary-line-height: 82px;
+    --e-global-typography-text-font-family: "Ubuntu";
+    --e-global-typography-text-font-size: 16px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-line-height: 26px;
+    --e-global-typography-text-letter-spacing: 0px;
+    --e-global-typography-text-word-spacing: 0px;
+    --e-global-typography-accent-font-family: "Ubuntu";
+    --e-global-typography-accent-font-size: 16px;
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-accent-line-height: 26px;
+    --e-global-typography-605eb25-font-family: "Ubuntu";
+    --e-global-typography-605eb25-font-size: 24px;
+    --e-global-typography-605eb25-font-weight: 700;
+    --e-global-typography-605eb25-line-height: 30px;
+    --e-global-typography-2b6e042-font-family: "Ubuntu";
+    --e-global-typography-2b6e042-font-size: 40px;
+    --e-global-typography-2b6e042-font-weight: 700;
+    --e-global-typography-2b6e042-line-height: 50px;
+    --e-global-typography-17299bf-font-family: "Ubuntu";
+    --e-global-typography-17299bf-font-size: 20px;
+    --e-global-typography-17299bf-font-weight: 500;
+    --e-global-typography-17299bf-line-height: 30px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+injected stylesheet
+body {
+    line-height: inherit;
+    margin: 0px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+:root {
+    --page-title-display: block;
+}
+<style>
+:root, :host {
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+    --fa-font-light: normal 300 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-thin: normal 100 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-duotone: normal 900 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-light: normal 300 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+    --fa-font-sharp-solid: normal 900 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-regular: normal 400 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-light: normal 300 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-thin: normal 100 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-duotone-solid: normal 900 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-light: normal 300 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Sharp Duotone";
+}
+injected stylesheet
+:root {
+    --ait-border-spacing-x: 0;
+    --ait-border-spacing-y: 0;
+    --ait-translate-x: 0;
+    --ait-translate-y: 0;
+    --ait-rotate: 0;
+    --ait-skew-x: 0;
+    --ait-skew-y: 0;
+    --ait-scale-x: 1;
+    --ait-scale-y: 1;
+    --ait-pan-x: ;
+    --ait-pan-y: ;
+    --ait-pinch-zoom: ;
+    --ait-scroll-snap-strictness: proximity;
+    --ait-gradient-from-position: ;
+    --ait-gradient-via-position: ;
+    --ait-gradient-to-position: ;
+    --ait-ordinal: ;
+    --ait-slashed-zero: ;
+    --ait-numeric-figure: ;
+    --ait-numeric-spacing: ;
+    --ait-numeric-fraction: ;
+    --ait-ring-inset: ;
+    --ait-ring-offset-width: 0px;
+    --ait-ring-offset-color: #fff;
+    --ait-ring-color: rgba(59, 130, 246, .5);
+    --ait-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-ring-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow-colored: 0 0 rgba(0, 0, 0, 0);
+    --ait-blur: ;
+    --ait-brightness: ;
+    --ait-contrast: ;
+    --ait-grayscale: ;
+    --ait-hue-rotate: ;
+    --ait-invert: ;
+    --ait-saturate: ;
+    --ait-sepia: ;
+    --ait-drop-shadow: ;
+    --ait-backdrop-blur: ;
+    --ait-backdrop-brightness: ;
+    --ait-backdrop-contrast: ;
+    --ait-backdrop-grayscale: ;
+    --ait-backdrop-hue-rotate: ;
+    --ait-backdrop-invert: ;
+    --ait-backdrop-opacity: ;
+    --ait-backdrop-saturate: ;
+    --ait-backdrop-sepia: ;
+    --ait-contain-size: ;
+    --ait-contain-layout: ;
+    --ait-contain-paint: ;
+Show all properties (1 more)
+}
+injected stylesheet
+html, :root, .aitopia.light, .aitopia :host([class="light"]) {
+    --ait-main-color: 1, 167, 125;
+    --ait-master-color: 1, 167, 125;
+    --ait-primary-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-text-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-content-text-color: rgba(var(--ait-fg-rgb), .65);
+    --ait-primary-title-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-secondary-text-color: rgba(var(--ait-fg-rgb), .4);
+    --ait-bg-opacity: 1;
+    --ait-html-bg-color: rgb(240, 242, 245);
+    --ait-option-bg-color: #f0f2f5;
+    --ait-option-card-bg-color: white;
+    --ait-option-card-border: 1px solid #f0f0f0;
+    --ait-border-radius-lg: 12px;
+    --ait-border-radius: 8px;
+    --ait-sidebar-bg-color: #fff;
+    --ait-sidebar-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    --ait-sidebar-border-color: #ececec;
+    --ait-sidebar-icon-color: #545758;
+    --ait-sidebar-icon-hover-color: rgba(var(--ait-main-color), .1);
+    --ait-sidebar-icon-border-color: #ececee;
+    --ait-sidebar-scrollbar-color: #e1e1e1;
+    --ait-sidebar-scrollbar-hover-color: #d9d9d9;
+    --ait-fg-rgb: 0, 0, 0;
+    --ait-bg-rgb: 255, 255, 255;
+    --ait-switchbar-bg-color: #f0f1f5;
+    --ait-switchbar-btn-hover-bg-color: #e9e9ef;
+    --ait-switchbar-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .15);
+    --ait-tab-menu-hover-bg-color: rgba(var(--ait-main-color), .1);
+    --ait-tab-menu-hover-text-color: var(--ait-primary-text-color);
+    --ait-tab-menu-active-bg-color: rgba(var(--ait-main-color), .9);
+    --ait-tab-menu-active-orange-bg-color: rgba(224, 124, 13, .9);
+    --ait-tab-menu-disabled-bg-color: rgba(var(--ait-main-color), .2);
+    --ait-tab-menu-active-bg-active-color: rgb(0, 211, 157);
+    --ait-tab-menu-active-text-color: #fff;
+    --ait-loading-color: #fff;
+    --ait-link-color: rgba(var(--ait-main-color), .9);
+    --ait-master-link-color: rgba(var(--ait-master-color), .6);
+    --ait-master-link-hover-color: rgba(var(--ait-master-color), 1);
+    --ait-download-button-bg-color: rgba(255, 255, 255, .5);
+    --ait-loading-bg-color: #f5f5f5;
+    --ait-border-color: rgba(0, 0, 0, .15);
+    --ait-pre-bg: rgba(var(--ait-fg-rgb), .05);
+    --ait-sidebar-bg-color-sub: rgba(245, 245, 245, var(--ait-bg-opacity)) !important;
+}
+injected stylesheet
+:root {
+    --ait-height-vh-100: 100vh;
+    --ait-height-100: 100dvh;
+    --ait-height-vh-95: 95vh;
+    --ait-height-95: 95dvh;
+    --ait-height-vh-90: 90vh;
+    --ait-height-90: 90dvh;
+    --ait-height-vh-75: 75vh;
+    --ait-height-75: 75dvh;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+injected stylesheet
+html, .aitopia :host {
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+background-colorrgb(255, 255, 255)
+box-sizingborder-box
+colorrgb(51, 51, 51)
+displayblock
+font-family-apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+font-feature-settingsnormal
+font-size16px
+font-variation-settingsnormal
+font-weight400
+height4966.76px
+line-height24px
+margin-bottom0px
+margin-left0px
+margin-right0px
+margin-top0px
+tab-size4
+text-size-adjust100%
+width1303.64px
+-webkit-font-smoothingantialiased
+-webkit-tap-highlight-colorrgba(0, 0, 0, 0)
+Rendered Fonts
+Family name: .SF NS
+PostScript name: .SFNS-Regular_wdth_opsz110000_GRAD_wght
+Font origin: Local file(13 glyphs)

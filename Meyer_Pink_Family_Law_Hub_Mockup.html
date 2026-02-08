@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Law & Divorce Attorneys in California | MeyerPink Law</title>
+    <meta name="description"
+        content="Compassionate and aggressive family law representation. MeyerPink Law's specialized attorneys protect your future in divorce, custody, and support matters across California.">
+
+    <!-- MeyerPink Design System -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+        :root {
+            /* Branding Colors */
+            --primary-gold: #B3922F;
+            --primary-black: #000000;
+            --text-gold: #F7D285;
+            --text-dark: #333333;
+            --white: #FFFFFF;
+            --light-bg: #F9FAFB;
+
+            /* Typography */
+            --font-heading: "Fira Sans", sans-serif;
+            --font-body: "Open Sans", sans-serif;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: var(--font-heading);
+            color: var(--primary-black);
+            margin-top: 0;
+        }
+
+        .highlight-gold {
+            color: var(--primary-gold);
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            background-color: var(--white);
+            padding: 80px 20px 60px;
+            text-align: center;
+            border-bottom: 4px solid var(--primary-gold);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero h1 .underline {
+            border-bottom: 3px solid var(--primary-gold);
+            padding-bottom: 8px;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
+            font-weight: 300;
+        }
+
+        /* --- Main Container --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        /* --- Section Styling --- */
+        .attorney-section {
+            margin-bottom: 100px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary-gold);
+            margin: 15px auto 0;
+        }
+
+        .section-header p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* --- Attorney Grid --- */
+        .attorney-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            justify-content: center;
+        }
+
+        /* --- Attorney Card --- */
+        .attorney-card {
+            background: var(--white);
+            border: 1px solid #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .attorney-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(179, 146, 47, 0.15);
+            /* Gold shadow hint */
+            border-color: var(--primary-gold);
+        }
+
+        .attorney-image-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 100%;
+            /* 1:1 Aspect Ratio */
+            overflow: hidden;
+            background-color: #f4f4f4;
+        }
+
+        .attorney-image-wrapper img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .attorney-card:hover .attorney-image-wrapper img {
+            transform: scale(1.03);
+        }
+
+        .attorney-info {
+            padding: 30px 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .attorney-name {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-black);
+            margin-bottom: 5px;
+        }
+
+        .attorney-title {
+            font-family: var(--font-body);
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary-gold);
+            /* Gold Title */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .attorney-bio-snippet {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .btn-profile {
+            display: inline-block;
+            background-color: var(--primary-black);
+            color: var(--white);
+            padding: 12px 28px;
+            font-family: var(--font-heading);
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--primary-black);
+            align-self: center;
+        }
+
+        .btn-profile:hover {
+            background-color: var(--primary-gold);
+            border-color: var(--primary-gold);
+            color: var(--white);
+        }
+
+        /* --- Estate Section (Secondary) --- */
+        .estate-section {
+            background-color: var(--light-bg);
+            padding: 80px 0;
+            border-top: 1px solid #eaeaea;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .attorney-grid {
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <h1><span class="underline">Family Law & Divorce</span> Attorneys in California</h1>
+        <p>Protecting your future during life's most defining moments. Our dedicated attorneys combine compassionate
+            counsel with aggressive advocacy to secure what matters most to your family.</p>
+    </header>
+
+    <div class="container">
+
+        <!-- SECTION 1: FAMILY LAW (PRIMARY) -->
+        <section class="attorney-section">
+            <div class="section-header">
+                <h2>Our Family Law Team</h2>
+                <p>Specialized representation for Divorce, Child Custody, and Complex Support disputes.</p>
+            </div>
+
+            <div class="attorney-grid">
+                <!-- ATTORNEY 1: Jessie (Family Law Associate) -->
+                <div class="attorney-card">
+                    <div class="attorney-image-wrapper">
+                        <!-- Placeholder for Jessie's Image from current site -->
+                        <img src="https://meyerpink.com/wp-content/uploads/2024/07/12-300x300.png"
+                            alt="Jessie - Associate Attorney Family Law">
+                    </div>
+                    <div class="attorney-info">
+                        <div>
+                            <div class="attorney-name">Jessie [Last Name]</div>
+                            <div class="attorney-title">Associate Attorney | Family Law</div>
+                            <div class="attorney-bio-snippet">
+                                Jessie represents clients throughout the Central Valley, handling complex family law
+                                matters that often intersect with estate planning needs. Known for strategic negotiation
+                                and steadfast advocacy.
+                            </div>
+                        </div>
+                        <a href="#" class="btn-profile">View Profile</a>
+                    </div>
+                </div>
+
+                <!-- Note: Adding a generic "Family Law Team" card if only one specific associate was found, 
+                     or we can feature Partners here as well if they practice both. 
+                     Assuming Partners oversee Family Law, we list them here or in a "Leadership" section. 
+                     For this mockup, I'll place the Partners below in the 'Leadership / Estate' section 
+                     unless they are explicitly Family Law primary. 
+                     
+                     Let's add a placeholder for a second Family Law attorney to balance the grid visually. -->
+
+                <div class="attorney-card">
+                    <div class="attorney-image-wrapper">
+                        <img src="https://meyerpink.com/wp-content/uploads/2025/07/Jay-Pink-Headshots-2025-65-_BP26260_websize.jpg"
+                            alt="Partner Attorney">
+                    </div>
+                    <div class="attorney-info">
+                        <div>
+                            <div class="attorney-name">Jay Pink</div>
+                            <div class="attorney-title">Founding Partner | Family & Estate</div>
+                            <div class="attorney-bio-snippet">
+                                As a Founding Partner, Jay brings extensive experience in protecting family assets
+                                during divorce and transitions. He provides high-level strategic oversight for complex
+                                support cases.
+                            </div>
+                        </div>
+                        <a href="#" class="btn-profile">View Profile</a>
+                    </div>
+                </div>
+
+                <div class="attorney-card">
+                    <div class="attorney-image-wrapper">
+                        <!-- Placeholder matching style -->
+                        <img src="https://meyerpink.com/wp-content/uploads/2025/07/Jeremy-Meyer-Headshots-2025-15-_BP26260_websize.jpg"
+                            style="filter: grayscale(100%); opacity: 0.3;" alt="Attorney Placeholder">
+                        <!-- Since I don't have Jeremy's image URL handy in snippet, using a styled placeholder or re-using one for layout demo -->
+                    </div>
+                    <div class="attorney-info">
+                        <div>
+                            <div class="attorney-name">Jeremy Meyer</div>
+                            <div class="attorney-title">Founding Partner | Wealth Preservation</div>
+                            <div class="attorney-bio-snippet">
+                                Jeremy ensures that family law settlements are structured to preserve long-term wealth,
+                                integrating tax strategy with divorce outcomes for high-net-worth clients.
+                            </div>
+                        </div>
+                        <a href="#" class="btn-profile">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- SECTION 2: ESTATE PLANNING (SECONDARY) -->
+    <div class="estate-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Estate Planning & Wealth Preservation</h2>
+                <p>Holistic planning to secure your legacy for generations to come.</p>
+            </div>
+
+            <!-- Content for Estate Planning can go here, reused components -->
+            <div style="text-align: center; color: #777;">
+                <p>Our estate planning team (CFP®, CPA insights) works in tandem with our family law division to provide
+                    comprehensive protection.</p>
+                <div style="margin-top: 30px;">
+                    <a href="#" class="btn-profile"
+                        style="background-color: var(--white); color: var(--primary-black); border-color: var(--primary-black);">View
+                        Practice Area</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

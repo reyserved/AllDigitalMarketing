@@ -1,0 +1,43 @@
+Map ID,Content Phase,Content Category,Content Type,Content Role,Page Title Structure,Idealized URL,Target Seed Keyword,Existing Client URL
+1,Phase 01,Core Content Pages,Authority Pages,Attorney Hub,Scott M. Brown & Associates Attorneys,/attorneys/,family law attorneys texas,https://sbrownlawyer.com/attorneys/
+2,Phase 01,Core Content Pages,Location Pages,Location Hub,Texas Family Law Office Locations,/texas/locations/,family law office locations texas,https://sbrownlawyer.com/texas/locations/
+3,Phase 03,Core Content Pages,Practice Area Pages,Divorce Hub,Divorce Lawyer in Texas,/divorce/,divorce lawyer texas,https://sbrownlawyer.com/divorce/
+4,Phase 03,Core Content Pages,Practice Area Pages,Child Custody Hub,Child Custody Lawyer in Texas,/child-custody/,child custody lawyer texas,https://sbrownlawyer.com/child-custody/
+5,Phase 03,Core Content Pages,Practice Area Pages,Child Support Hub,Child Support Lawyer in Texas,/child-support/,child support lawyer texas,https://sbrownlawyer.com/child-support/
+6,Phase 03,Core Content Pages,Practice Area Pages,Spousal Support / Alimony Hub,Spousal Support / Alimony Lawyer in Texas,/spousal-support/,alimony lawyer texas,https://sbrownlawyer.com/attorneys-working-to-achieve-your-alimony-goals/
+7,Phase 03,Core Content Pages,Practice Area Pages,Property Division Hub,Property Division Lawyer in Texas,/property-division/,property division lawyer texas,https://sbrownlawyer.com/division-of-property/
+8,Phase 03,Core Content Pages,Practice Area Pages,Paternity Hub,Paternity Lawyer in Texas,/paternity/,paternity lawyer texas,https://sbrownlawyer.com/paternity/
+9,Phase 03,Core Content Pages,Practice Area Pages,Guardianship Hub,Guardianship Lawyer in Texas,/guardianship/,guardianship lawyer texas,
+10,Phase 03,Core Content Pages,Procedural Pages,Contested Divorce,Contested Divorce in Texas,/divorce/contested/,contested divorce texas,https://sbrownlawyer.com/complex-and-contested-divorce-attorneys/
+11,Phase 03,Core Content Pages,Procedural Pages,Uncontested Divorce,Uncontested Divorce in Texas,/divorce/uncontested/,uncontested divorce texas,https://sbrownlawyer.com/uncontested-divorce-lawyer-in-pearland/
+12,Phase 03,Core Content Pages,Procedural Pages,Child Custody Modification,Child Custody Modification in Texas,/child-custody/modification/,child custody modification texas,https://sbrownlawyer.com/modification-of-custody/
+13,Phase 03,Core Content Pages,Procedural Pages,Child Support Modification,Child Support Modification in Texas,/child-support/modification/,child support modification texas,https://sbrownlawyer.com/child-support-modifications/
+14,Phase 03,Core Content Pages,Procedural Pages,Child Support Enforcement,Child Support Enforcement in Texas,/child-support/enforcement/,child support enforcement texas,https://sbrownlawyer.com/enforcing-child-support-orders/
+15,Phase 03,Core Content Pages,Procedural Pages,Parenting Plans,Parenting Plans in Texas,/child-custody/parenting-plans/,parenting plans texas,https://sbrownlawyer.com/creative-custody-agreements/
+16,Phase 03,Core Content Pages,Procedural Pages,Temporary Spousal Support,Temporary Spousal Support in Texas,/spousal-support/temporary/,temporary spousal support texas,
+17,Phase 03,Core Content Pages,Procedural Pages,Equitable Distribution,Equitable Distribution / Community Property in Texas,/property-division/equitable-distribution/,how is community property divided texas,https://sbrownlawyer.com/how-is-community-property-divided/
+18,Phase 03,Core Content Pages,Procedural Pages,Establishing Paternity,Establishing Paternity in Texas,/paternity/establishing/,establish paternity texas,https://sbrownlawyer.com/paternity-attorney/
+19,Phase 03,Core Content Pages,Procedural Pages,Emergency Custody Orders,Emergency Custody Orders in Texas,/child-custody/emergency/,emergency custody texas,https://sbrownlawyer.com/child-custody/emergency/
+20,Phase 03,Core Content Pages,Procedural Pages,Marital vs Separate Property,Marital vs Separate Property in Texas,/divorce/marital-vs-separate-property/,marital vs separate property texas,https://sbrownlawyer.com/assets-and-liability/
+21,Phase 03,Core Content Pages,Procedural Pages,Long-Term Spousal Support,Long-Term Spousal Support in Texas,/spousal-support/long-term/,long term spousal support texas,https://sbrownlawyer.com/the-unique-aspects-of-alimony-spousal-maintenance-in-texas/
+22,Phase 03,Core Content Pages,Procedural Pages,Guardianship of a Minor,Guardianship of a Minor in Texas,/guardianship/minor/,guardianship of a minor texas,
+23,Phase 03,Core Content Pages,Procedural Pages,Adult Guardianship,Adult Guardianship in Texas,/guardianship/adult/,adult guardianship texas,
+24,Phase 03,Core Content Pages,Procedural Pages,Challenging Paternity,Challenging Paternity in Texas,/paternity/challenging/,challenge paternity texas,
+25,Phase 03,Core Content Pages,Procedural Pages,Legal Separation,Legal Separation in Texas,/divorce/legal-separation/,legal separation texas,
+26,Phase 03,Core Content Pages,Procedural Pages,Divorce Mediation,Divorce Mediation in Texas,/divorce/mediation/,divorce mediation texas,
+27,Phase 03,Core Content Pages,Procedural Pages,Collaborative Divorce,Collaborative Divorce in Texas,/divorce/collaborative/,collaborative divorce texas,
+28,Phase 03,Core Content Pages,Procedural Pages,Temporary Guardianship,Temporary Guardianship in Texas,/guardianship/temporary/,temporary guardianship texas,
+29,Phase 04,Core Content Pages,Situational Pages,High-Conflict Divorce,High-Conflict Divorce in Texas,/divorce/high-conflict/,high conflict divorce texas,https://sbrownlawyer.com/complex-and-contested-divorce-attorneys/
+30,Phase 04,Core Content Pages,Situational Pages,Relocation / Move-Away Custody Disputes,Relocation / Move-Away Custody Disputes in Texas,/child-custody/relocation/,parental relocation custody texas,https://sbrownlawyer.com/parental-relocation/
+31,Phase 04,Core Content Pages,Situational Pages,Divorce Involving Business Ownership,Divorce Involving Business Ownership in Texas,/divorce/business-owner/,business owner divorce texas,https://sbrownlawyer.com/business-owner-divorce/
+32,Phase 04,Core Content Pages,Situational Pages,High-Conflict Custody,High-Conflict Custody in Texas,/child-custody/high-conflict/,contested custody texas,https://sbrownlawyer.com/contested-custody/
+33,Phase 04,Core Content Pages,Situational Pages,Child Support Disputes After Income Changes,Child Support Disputes After Income Changes in Texas,/child-support/income-change/,child support income change texas,https://sbrownlawyer.com/child-support-modifications/
+34,Phase 04,Core Content Pages,Situational Pages,Back Child Support / Arrears,Back Child Support / Arrears in Texas,/child-support/arrears/,back child support texas,https://sbrownlawyer.com/enforcing-child-support-orders/
+35,Phase 04,Core Content Pages,Situational Pages,Long-Term Marriage Divorce,Long-Term Marriage Divorce in Texas,/divorce/long-term-marriage/,gray divorce texas,https://sbrownlawyer.com/gray-divorce/
+36,Phase 04,Core Content Pages,Situational Pages,Business Valuation and Division,Business Valuation and Division in Texas Divorce,/property-division/business-valuation/,business valuation divorce texas,https://sbrownlawyer.com/business-and-professional-practices-in-divorce/
+37,Phase 04,Core Content Pages,Situational Pages,Emergency Guardianship,Emergency Guardianship in Texas,/guardianship/emergency/,emergency guardianship texas,
+38,Phase 04,Core Content Pages,Situational Pages,Parenting Time Disputes,Parenting Time Disputes in Texas,/child-custody/parenting-time-disputes/,parenting time disputes texas,https://sbrownlawyer.com/family-law/visitation/
+39,Phase 04,Core Content Pages,Situational Pages,High-Income Spousal Support Disputes,High-Income Spousal Support Disputes in Texas,/spousal-support/high-income/,high income spousal support texas,https://sbrownlawyer.com/high-net-worth-divorce/
+40,Phase 04,Core Content Pages,Situational Pages,Self-Employed or Variable Income Support,Self-Employed or Variable Income Child Support in Texas,/child-support/variable-income/,self employed child support texas,
+41,Phase 04,Core Content Pages,Situational Pages,Supervised Visitation,Supervised Visitation in Texas,/child-custody/supervised-visitation/,supervised visitation texas,
+42,Phase 04,Core Content Pages,Situational Pages,Hidden Assets and Financial Misconduct,Hidden Assets and Financial Misconduct in Texas Divorce,/divorce/hidden-assets/,hidden assets divorce texas,https://sbrownlawyer.com/hidden-assets/

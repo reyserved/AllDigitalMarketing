@@ -1,0 +1,291 @@
+Map ID,IdealURL,Target Seed Keyword
+1,/,{brand}
+2,.com/{state}/divorce/,divorce in {state}
+3,.com/{state}/child-custody/,child custody in {state}
+4,.com/{state}/child-support/,child support in {state}
+5,.com/{state}/alimony/,alimony in {state}
+6,.com/{state}/property-division/,property division in {state}
+7,.com/{state}/paternity/,paternity in {state}
+8,.com/{state}/guardianship/,guardianship in {state}
+9,.com/{state}/adoption/,adoption in {state}
+10,.com/{state}/prenup-postnup/,prenuptial agreements {state}
+11,.com/{state}/locations/,{brand} office locations {state}
+12,.com/{state}/locations/{city 1}/,{city 1} divorce lawyers
+13,.com/{state}/locations/{city 2}/,{city 2} divorce lawyers
+14,.com/{state}/locations/{city 3}/,{city 3} divorce lawyers
+15,.com/{state}/locations/{city 1}/divorce-mediation/,{city 1} divorce mediation
+16,.com/{state}/locations/{city 1}/collaborative-divorce/,{city 1} collaborative divorce lawyer
+17,.com/{state}/locations/{city 1}/uncontested-divorce/,{city 1} uncontested divorce lawyer
+18,.com/{state}/locations/{city 1}/contested-divorce/,{city 1} contested divorce lawyer
+19,.com/{state}/locations/{city 1}/child-custody/,{city 1} child custody lawyer
+20,.com/{state}/locations/{city 1}/child-support/,{city 1} child support lawyer
+21,.com/{state}/locations/{city 1}/alimony/,{city 1} alimony lawyer
+22,.com/{state}/locations/{city 1}/property-division/,{city 1} property division lawyer
+23,.com/{state}/locations/{city 1}/paternity/,{city 1} paternity lawyer
+24,.com/{state}/locations/{city 1}/military-divorce/,{city 1} military divorce lawyer
+25,.com/{state}/locations/{city 2}/divorce-mediation/,{city 2} divorce mediation
+26,.com/{state}/locations/{city 2}/collaborative-divorce/,{city 2} collaborative divorce lawyer
+27,.com/{state}/locations/{city 2}/uncontested-divorce/,{city 2} uncontested divorce lawyer
+28,.com/{state}/locations/{city 2}/contested-divorce/,{city 2} contested divorce lawyer
+29,.com/{state}/locations/{city 2}/child-custody/,{city 2} child custody lawyer
+30,.com/{state}/locations/{city 2}/child-support/,{city 2} child support lawyer
+31,.com/{state}/locations/{city 2}/alimony/,{city 2} alimony lawyer
+32,.com/{state}/locations/{city 2}/property-division/,{city 2} property division lawyer
+33,.com/{state}/locations/{city 2}/paternity/,{city 2} paternity lawyer
+34,.com/{state}/locations/{city 2}/military-divorce/,{city 2} military divorce lawyer
+35,.com/{state}/locations/{city 3}/divorce-mediation/,{city 3} divorce mediation
+36,.com/{state}/locations/{city 3}/collaborative-divorce/,{city 3} collaborative divorce lawyer
+37,.com/{state}/locations/{city 3}/uncontested-divorce/,{city 3} uncontested divorce lawyer
+38,.com/{state}/locations/{city 3}/contested-divorce/,{city 3} contested divorce lawyer
+39,.com/{state}/locations/{city 3}/child-custody/,{city 3} child custody lawyer
+40,.com/{state}/locations/{city 3}/child-support/,{city 3} child support lawyer
+41,.com/{state}/locations/{city 3}/alimony/,{city 3} alimony lawyer
+42,.com/{state}/locations/{city 3}/property-division/,{city 3} property division lawyer
+43,.com/{state}/locations/{city 3}/paternity/,{city 3} paternity lawyer
+44,.com/{state}/locations/{city 3}/military-divorce/,{city 3} military divorce lawyer
+45,.com/{state}/attorneys/,{state} attorneys
+46,.com/{state}/attorneys/{attorney 1 first name - attorney 1 last name}/,attorney {attorney first name 1} {attorney last name 1}
+47,.com/{state}/attorneys/{attorney 2 first name - attorney 2 last name}/,attorney {attorney first name 2} {attorney last name 2}
+48,.com/{state}/attorneys/{attorney 1 first name - attorney 1 last name}/reviews/,attorney {attorney first name 1} {attorney last name 1} reviews
+49,.com/{state}/attorneys/{attorney 2 first name - attorney 2 last name}/reviews/,attorney {attorney first name 2} {attorney last name 2} reviews
+50,.com/{state}/areas/,{brand} service areas {state}
+51,.com/{state}/areas/{county1}/,{county 1} divorce lawyers
+52,.com/{state}/areas/{county2}/,{county 2} divorce lawyers
+53,.com/{state}/areas/{county3}/,{county 3} divorce lawyers
+54,.com/{state}/areas/{county1}/{city1}/,{service area city 1} divorce lawyers
+55,.com/{state}/areas/{county1}/{city2}/,{service area city 2} divorce lawyers
+56,.com/{state}/areas/{county1}/{city3}/,{service area city 3} divorce lawyers
+57,.com/{state}/divorce/filing-for-divorce/,how to file for divorce in {state}
+58,.com/{state}/divorce/annulment/,annulment {state}
+59,.com/{state}/divorce/legal-separation/,legal separation {state}
+60,.com/{state}/divorce/mediation/,divorce mediation {state}
+61,.com/{state}/divorce/collaborative/,collaborative divorce {state}
+62,.com/{state}/divorce/contested/,contested divorce {state}
+63,.com/{state}/divorce/uncontested/,uncontested divorce {state}
+64,.com/{state}/divorce/default/,default divorce {state}
+65,.com/{state}/divorce/summary-dissolution/,simplified divorce {state}
+66,.com/{state}/divorce/how-long/,modify divorce decree {state}
+67,.com/{state}/divorce/divorce-costs/,cost of divorce in {state}
+68,.com/{state}/divorce/process-duration/,how long does a divorce take in {state}
+69,.com/{state}/divorce/child-custody/,child custody and divorce {state}
+70,.com/{state}/divorce/child-support/,divorce and child support {state}
+71,.com/{state}/divorce/alimony/,alimony in {state}
+72,.com/{state}/divorce/property-division/,property division divorce {state}
+74,.com/{state}/divorce/arbitration-vs-litigation/,arbitration vs litigation
+75,.com/{state}/divorce/interstate/,interstate divorce {state}
+76,.com/{state}/divorce/dating-after/,dating after divorce {state}
+77,.com/{state}/divorce/international/,international divorce {state}
+78,.com/{state}/divorce/narcissist/,divorcing a narcissist {state}
+79,.com/{state}/divorce/marital-abandonment/,marital abandonment {state}
+80,.com/{state}/divorce/gray-over-50/,gray divorce {state}
+81,.com/{state}/divorce/social-media/,social media and divorce {state}
+82,.com/{state}/divorce/laws/,{state} divorce laws
+83,.com/{state}/divorce-grounds/,grounds for divorce in {state}
+84,.com/{state}/divorce/no-fault-vs-fault/,fault vs no fault divorce {state}
+85,.com/{state}/domestic-violence/protective-orders/,protective order {state}
+86,.com/{state}/divorce/residency-requirements/,divorce residency requirements {state}
+87,.com/{state}/divorce/same-sex-couples-lgbt/,same sex divorce {state}
+88,.com/{state}/divorce/tax-implications/,divorce tax implications {state}
+89,.com/{state}/child-custody/modification/,child custody modification {state}
+90,.com/{state}/child-custody/enforcement/,child custody enforcement {state}
+91,.com/{state}/child-custody/termination/,terminating parental rights {state}
+92,.com/{state}/child-custody/temporary-order/,temporary custody order {state}
+93,.com/{state}/child-custody/co-parenting-tools/,co parenting apps approved by {state} courts
+94,.com/{state}/child-custody/parental-alienation/,parental alienation {state} custody
+95,.com/{state}/child-custody/contempt-of-court-orders/,contempt of court child custody {state}
+96,.com/{state}/child-custody/parenting-plan-violation/,parenting plan violation {state}
+97,.com/{state}/child-custody/hearing-preparation/,how to prepare for child custody hearing
+98,.com/{state}/child-custody/co-parenting-narcissist/,co parenting with a narcissist {state}
+99,.com/{state}/child-custody/co-parenting-difficult-spouse/,co parenting with a difficult ex {state}
+100,.com/{state}/child-custody/name-change/,child name change {state}
+101,.com/{state}/child-custody/relocating-children/,relocating with child after divorce {state}
+102,.com/{state}/child-custody/special-needs-children/,special needs child custody {state}
+103,.com/{state}/child-custody/military-families/,military child custody {state}
+104,.com/{state}/child-custody/50-50-custody/,50/50 custody {state}
+105,.com/{state}/child-custody/abandonment-laws/,child abandonment laws {state}
+106,.com/{state}/child-custody/co-parenting-agreement/,co parenting agreement {state}
+107,.com/{state}/child-custody/placement-laws/,child placement laws {state}
+108,.com/{state}/child-custody/role-guardian-ad-litem-gal/,guardian ad litem {state}
+109,.com/{state}/child-custody/child-preference-age/,what age can a child choose parent in {state}
+110,.com/{state}/child-custody/laws/,{state} child custody laws
+111,.com/{state}/child-custody/sole-custody/,sole custody {state}
+112,.com/{state}/child-custody/full-custody/,full custody {state}
+113,.com/{state}/child-custody/grandparent-third-party-visitation/,grandparents visitation rights {state}
+114,.com/{state}/child-custody/legal-custody/,legal custody {state}
+115,.com/{state}/child-custody/physical-custody/,physical custody {state}
+116,.com/{state}/child-custody/hybrid-arrangements/,hybrid custody {state}
+117,.com/{state}/child-custody/joint-custody-vs-sole-custody/,joint custody vs sole custody {state}
+118,.com/{state}/child-custody/unmarried-parents-custody-rights/,unmarried parents custody rights {state}
+119,.com/{state}/child-custody/best-interest-of-child/,best interest of the child {state}
+120,.com/{state}/child-custody/visitation-rights-schedule-options/,child visitation schedule {state}
+121,.com/{state}/child-support/modification/,child support modification {state}
+122,.com/{state}/child-support/enforcement/,{state} child support enforcement
+123,.com/{state}/child-support/termination/,when does child support end in {state}
+124,.com/{state}/child-support/how-to-file/,how to file for child support in {state}
+125,.com/{state}/child-support/single-parent-support/,single parent help {state}
+126,.com/{state}/child-support/self-employed/,child support for self employed in {state}
+127,.com/{state}/child-support/wage-garnishments/,wage garnishment child support {state}
+128,.com/{state}/child-support/special-needs-children/,child support for special needs child {state}
+129,.com/{state}/child-support/military-families/,child support military {state}
+130,.com/{state}/child-support/unemployment-payment-obligations/,child support if unemployed {state}
+131,.com/{state}/child-support/no-support-agreement/,can parents waive child support in {state}
+132,.com/{state}/child-support/retroactive/,retroactive child support {state}
+133,.com/{state}/child-support/support-end-age/,when does child support end
+134,.com/{state}/child-support/laws/,{state} child support laws
+135,.com/{state}/child-support/documents-required/,documents needed for child support {state}
+136,.com/{state}/child-support/income-shares-vs-percentage/,income shares vs percentage of income
+137,.com/{state}/child-support/voluntary-unemployment-obligations,voluntary unemployment and child support {state}
+138,.com/{state}/child-support/tax-implications/,is child support taxable in {state}
+139,.com/{state}/child-support/arrears-penalties/,child support arrears {state}
+140,.com/{state}/alimony/modification/,alimony modification {state}
+141,.com/{state}/alimony/enforcement/,enforce alimony {state}
+142,.com/{state}/alimony/termination/,terminate alimony {state}
+143,.com/{state}/alimony/appeal-court-orders/,alimony appeal {state}
+144,.com/{state}/alimony/avoid-paying/,how to avoid paying alimony in {state}
+145,.com/{state}/alimony/post-divorce-budgeting/,post divorce budgeting {state}
+146,.com/{state}/alimony/mediation-process/,alimony mediation {state}
+147,.com/{state}/alimony/documentation-required/,documents needed for alimony in {state}
+148,.com/{state}/alimony/gray-divorce/,gray divorce {state}
+149,.com/{state}/alimony/high-asset-divorces/,high asset divorce {state}
+150,.com/{state}/alimony/retirement-obligations/,alimony after retirement {state}
+151,.com/{state}/alimony/remarriage-impact/,remarriage effect on alimony {state}
+152,.com/{state}/alimony/long-term-marriages/,alimony long term marriage {state}
+153,.com/{state}/alimony/stay-at-home-parent/,stay at home parent alimony {state}
+154,.com/{state}/alimony/marriage-length-for-alimony/,how long do you have to be married to get alimony {state}
+155,.com/{state}/alimony/laws/,{state} alimony laws
+156,.com/{state}/alimony/temporary/,temporary alimony {state}
+157,.com/{state}/alimony/bridge-the-gap/,bridge the gap alimony {state}
+158,.com/{state}/alimony/rehabilitative/,rehabilitative alimony {state}
+159,.com/{state}/alimony/durational/,durational alimony {state}
+160,.com/{state}/alimony/permanent-lifetime/,permanent alimony {state}
+161,.com/{state}/alimony/types/,types of alimony in {state}
+162,.com/{state}/alimony/payment-reimbursement/,alimony reimbursement {state}
+163,.com/{state}/alimony/cohabitation/,cohabitation effect on alimony {state}
+164,.com/{state}/alimony/factors-courts-consider/,factors for alimony in {state}
+165,.com/{state}/alimony/tax-implications/,alimony tax laws {state}
+166,.com/{state}/alimony/unemployment-obligations/,paying alimony while unemployed {state}
+167,.com/{state}/alimony/arrears-penalties/,alimony arrears {state}
+168,.com/{state}/property-division/modification/,modify divorce decree {state}
+169,.com/{state}/property-division/enforcement/,enforce divorce decree {state}
+170,.com/{state}/property-division/petition/,property division petition {state}
+171,.com/{state}/property-division/appeal-court-orders/,appeal divorce decree {state}
+172,.com/{state}/property-division/who-gets-house/,who gets the house in a divorce {state}
+173,.com/{state}/property-division/documentation-required/,divorce property division documents {state}
+174,.com/{state}/property-division/mediation/,divorce mediation {state}
+175,.com/{state}/property-division/hidden-assets/,hidden assets in divorce {state}
+176,.com/{state}/property-division/qdro-retirement-accounts/,QDRO {state} divorce
+177,.com/{state}/property-division/high-net-worth/,high net worth divorce {state}
+178,.com/{state}/property-division/military-divorce/,military divorce {state}
+179,.com/{state}/property-division/business-owner-entrepreneur/,divorce business owner {state}
+180,.com/{state}/property-division/cryptocurrency/,divorce cryptocurrency {state}
+181,.com/{state}/property-division/future-inheritances/,inheritance in divorce {state}
+182,.com/{state}/property-division/long-term-marriages/,long term marriage divorce {state}
+183,.com/{state}/property-division/stay-at-home-parents/,divorce stay at home parent {state}
+184,.com/{state}/property-division/non-marital-property/,non marital property {state}
+185,.com/{state}/property-division/laws/,property division laws in {state}
+186,.com/{state}/property-division/marital-property/,marital property {state}
+187,.com/{state}/property-division/community-property-state/,is {state} a community property state
+188,.com/{state}/property-division/equitable-vs-community/,{state} equitable distribution or community property
+189,.com/{state}/property-division/investment-valuation/,divorce investment valuation {state}
+190,.com/{state}/property-division/business-valuation/,business valuation divorce {state}
+191,.com/{state}/property-division/separate-vs-marital/,separate vs marital property {state}
+192,.com/{state}/property-division/commingled-assets/,commingled assets divorce {state}
+193,.com/{state}/property-division/factors-courts-consider/,factors in property division {state} divorce
+194,.com/{state}/property-division/tax-implications/,tax consequences divorce property division {state}
+195,.com/{state}/guardianship/petitioning/,how to petition for guardianship in {state}
+196,.com/{state}/guardianship/establishing/,how to establish guardianship in {state}
+197,.com/{state}/guardianship/appointing-guardian/,appointing a legal guardian in {state}
+198,.com/{state}/guardianship/modifying/,modify guardianship {state}
+199,.com/{state}/guardianship/reviewing/,guardianship review process {state}
+200,.com/{state}/guardianship/terminating/,how to terminate guardianship in {state}
+201,.com/{state}/guardianship/contesting/,contesting guardianship in {state}
+202,.com/{state}/guardianship/minor/,minor guardianship {state}
+203,.com/{state}/guardianship/adult/,adult guardianship {state}
+204,.com/{state}/guardianship/guardian-ad-litem-guardianship-cases/,guardianship guardian ad litem {state}
+205,.com/{state}/guardianship/incapacitated-adult/,guardianship for incapacitated adult {state}
+206,.com/{state}/guardianship/non-citizen-minor/,guardianship for undocumented minor {state}
+207,.com/{state}/guardianship/emergency-temporary/,emergency guardianship {state}
+208,.com/{state}/guardianship/elder/,elderly guardianship {state}
+209,.com/{state}/guardianship/special-needs/,special needs guardianship {state}
+210,.com/{state}/guardianship/laws/,what is guardianship in {state}
+211,.com/{state}/guardianship/documentation-required/,guardianship paperwork {state}
+212,.com/{state}/guardianship/guardian-rights-responsibilities/,guardian responsibilities {state}
+213,.com/{state}/guardianship/ward-rights-protections/,ward rights under guardianship {state}
+214,.com/{state}/guardianship/power-of-attorney-directives/,power of attorney vs guardianship {state}
+215,.com/{state}/guardianship/trusts-conservatorships/,conservatorship vs guardianship {state}
+216,.com/{state}/guardianship/guardianship-vs-conservatorship/,difference between guardianship and conservatorship {state}
+217,.com/{state}/guardianship/person-vs-estate/,guardian of person vs estate {state}
+218,.com/{state}/paternity/establishing/,establishing paternity in {state}
+219,.com/{state}/paternity/challenging-disestablishing/,how to disestablish paternity in {state}
+220,.com/{state}/paternity/voluntary-acknowledgement/,voluntary acknowledgment of paternity {state}
+221,.com/{state}/paternity/surrogacy-assisted-reproduction/,paternity laws surrogacy {state}
+222,.com/{state}/paternity/same-sex-families/,paternity rights same sex couples {state}
+223,.com/{state}/paternity/dna-testing-orders/,dna paternity testing {state}
+224,.com/{state}/paternity/posthumous/,posthumous paternity {state}
+225,.com/{state}/paternity/infidelity/,paternity and infidelity {state}
+226,.com/{state}/paternity/military-families/,military paternity rights {state}
+227,.com/{state}/paternity/deceased-father/,paternity rights deceased father {state}
+228,.com/{state}/paternity/fraud-consequences/,paternity fraud {state}
+229,.com/{state}/paternity/laws/,{state} paternity laws
+230,.com/{state}/paternity/court-order/,court ordered paternity test {state}
+231,.com/{state}/paternity/fathers-rights/,fathers rights in {state}
+232,.com/{state}/adoption/process/,adoption process in {state}
+233,.com/{state}/adoption/contesting-process/,how to contest an adoption in {state}
+234,.com/{state}/adoption/reverse-vacate-orders/,reverse adoption in {state}
+235,.com/{state}/adoption/domestic/,domestic adoption {state}
+236,.com/{state}/adoption/international/,international adoption {state}
+237,.com/{state}/adoption/foster-care/,foster care adoption {state}
+238,.com/{state}/adoption/kinship/,kinship adoption {state}
+239,.com/{state}/adoption/stepparent/,stepparent adoption {state}
+240,.com/{state}/adoption/adult/,adult adoption {state}
+241,.com/{state}/adoption/embryo/,embryo adoption {state}
+242,.com/{state}/adoption/lgbt/,LGBT adoption {state}
+243,.com/{state}/adoption/single-parent/,single parent adoption {state}
+244,.com/{state}/adoption/preparing-family/,preparing for adoption
+245,.com/{state}/adoption/attachment-and-bonding-strategies/,adoption bonding strategies
+246,.com/{state}/adoption/talking-about/,how to talk to your child about adoption
+247,.com/{state}/adoption/transracial/,transracial adoption pros and cons
+248,.com/{state}/adoption/transcultural/,transcultural adoption
+249,.com/{state}/adoption/parental-rights-consent/,parental consent for adoption in {state}
+250,.com/{state}/adoption/laws/,{state} adoption laws
+251,.com/{state}/adoption/interstate-compact/,ICPC adoption {state}
+252,.com/{state}/adoption/decree-final-orders/,final adoption decree {state}
+253,.com/{state}/adoption/assistance-agreements/,adoption assistance {state}
+254,.com/{state}/adoption/open-vs-closed-requirements/,open vs closed adoption {state}
+255,.com/{state}/adoption/post-adoption-contact/,post adoption contact agreement {state}
+256,.com/{state}/prenup-postnup/enforcing-prenuptial-agreements/,enforce prenuptial agreement {state}
+257,.com/{state}/prenup-postnup/challenging-prenuptial-agreement/,contesting prenuptial agreement {state}
+258,.com/{state}/prenup-postnup/prenuptial-agreement-drafting/,prenuptial agreement lawyer {state}
+259,.com/{state}/prenup-postnup/talking-about-prenuptial-agreements/,how to talk about prenuptial agreements
+260,.com/{state}/prenup-postnup/prenuptial-negotiation-tips/,prenuptial agreement negotiation {state}
+261,.com/{state}/prenup-postnup/prenups-high-net-worth/,high net worth prenuptial agreement {state}
+262,.com/{state}/prenup-postnup/prenups-entrepreneurs-family-business/,prenuptial agreement business owner {state}
+263,.com/{state}/prenup-postnup/prenups-same-sex-couples/,same sex prenuptial agreement {state}
+264,.com/{state}/prenup-postnup/prenups-young-professionals/,prenuptial agreement young couples {state}
+265,.com/{state}/prenup-postnup/prenups-military-families/,military prenuptial agreement {state}
+266,.com/{state}/prenup-postnup/prenups-age-gaps/,age gap prenuptial agreement {state}
+267,.com/{state}/prenup-postnup/insuring-prenup-obligations/,prenuptial agreement insurance {state}
+268,.com/{state}/prenup-postnup/laws/,what is a prenuptial agreement in {state}
+269,.com/{state}/prenup-postnup/history-of-prenups/,history of prenuptial agreements
+270,.com/{state}/prenup-postnup/prenup-vs-postnup/,prenup vs postnup {state}
+271,.com/{state}/prenup-postnup/uniform-premarital-agreement-act/,uniform premarital agreement act
+272,.com/{state}/prenup-postnup/prenuptial-laws/,{state} prenuptial agreement laws
+273,.com/{state}/prenup-postnup/key-provisions-prenups/,prenuptial agreement clauses {state}
+274,.com/{state}/reviews/,{brand} reviews
+275,.com/{state}/blog/,{brand} family law blog
+276,.com/our-story/,{brand} story
+277,.com/privacy-policy/,{brand} privacy policy
+278,.com/terms-of-service/,{brand} terms of service
+279,.com/awards/,{brand} awards
+280,.com/news/,{brand} news
+281,.com/careers/,{brand} careers
+282,.com/{state}/child-support/calculator/,{state} child support calculator
+283,.com/{state}/alimony/calculator/,{state} alimony calculator
+284,.com/{state}/property-division/worksheet/,{state} divorce property division worksheet
+285,.com/{state}/child-custody/parenting-plans/template,{state} parenting plan template
+286,.com/{state}/divorce/forms-diy/,{state} diy divorce forms
+287,.com/{state}/events/,{state} family law education events
+288,.com/{state}/events/{webinar1},{state} divorce webinar
+289,.com/{state}/events/{webinar2},{state} co-parenting webinar
+290,.com/{state}/events/{workshop1},{state} divorce seminar
+291,.com/{state}/events/{workshop2},{state} co-parenting seminar

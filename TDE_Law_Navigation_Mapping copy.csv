@@ -1,0 +1,55 @@
+Level,Top-Level Item,Sub-Level 1,Sub-Level 2,Current URL,Proposed URL,Status,Notes
+1,Home,,,https://tdefamilylaw.com/,https://tdefamilylaw.com/,Keep,
+1,Practice Areas,,,https://tdefamilylaw.com/family-law/,https://tdefamilylaw.com/practice-areas/,Rename,Renamed from 'Family Law' for clarity
+2,Practice Areas,Divorce,,https://tdefamilylaw.com/family-law/divorce/,https://tdefamilylaw.com/practice-areas/divorce/,Move,
+3,Practice Areas,Divorce,Uncontested Divorce,https://tdefamilylaw.com/family-law/uncontested-divorce-lawyer/,https://tdefamilylaw.com/practice-areas/divorce/uncontested/,Move,
+3,Practice Areas,Divorce,Contested Divorce,https://tdefamilylaw.com/family-law/contested-divorce-lawyer/,https://tdefamilylaw.com/practice-areas/divorce/contested/,Move,
+3,Practice Areas,Divorce,High Asset Divorce,https://tdefamilylaw.com/family-law/high-asset-divorce/,https://tdefamilylaw.com/practice-areas/divorce/high-asset/,Move,
+3,Practice Areas,Divorce,LGBTQ+ Divorce,https://tdefamilylaw.com/family-law/lgbtq-divorce/,https://tdefamilylaw.com/practice-areas/divorce/lgbtq/,Move,
+3,Practice Areas,Divorce,Divorcing a Narcissist,https://tdefamilylaw.com/family-law/divorcing-a-narcissist/,https://tdefamilylaw.com/practice-areas/divorce/narcissist/,Move,
+3,Practice Areas,Divorce,Legal Separation,https://tdefamilylaw.com/family-law/legal-separation/,https://tdefamilylaw.com/practice-areas/divorce/legal-separation/,Move,
+3,Practice Areas,Divorce,Mediation vs Litigation,https://tdefamilylaw.com/family-law/mediation-or-litigation-guide/,https://tdefamilylaw.com/practice-areas/divorce/mediation-vs-litigation/,Move,
+2,Practice Areas,Child Custody,,https://tdefamilylaw.com/family-law/child-custody-lawyer/,https://tdefamilylaw.com/practice-areas/child-custody/,Move,
+3,Practice Areas,Child Custody,Custody Modification,https://tdefamilylaw.com/family-law/custody-modification-lawyer/,https://tdefamilylaw.com/practice-areas/child-custody/modification/,Move,
+3,Practice Areas,Child Custody,Visitation & Parenting,https://tdefamilylaw.com/family-law/parental-visitation/,https://tdefamilylaw.com/practice-areas/child-custody/visitation/,Move,
+3,Practice Areas,Child Custody,Visitation Modification,https://tdefamilylaw.com/family-law/visitation-modification/,https://tdefamilylaw.com/practice-areas/child-custody/visitation-modification/,Move,
+2,Practice Areas,Child Support,,,https://tdefamilylaw.com/practice-areas/child-support/,New,NEW - Dedicated service page needed
+3,Practice Areas,Child Support,Support Modification,https://tdefamilylaw.com/family-law/child-support-modification/,https://tdefamilylaw.com/practice-areas/child-support/modification/,Move,
+3,Practice Areas,Child Support,Child Support Calculator,,https://tdefamilylaw.com/practice-areas/child-support/calculator/,New,"NEW - Interactive tool (MSV: 2,900)"
+2,Practice Areas,Alimony & Spousal Support,,https://tdefamilylaw.com/family-law/alimony-spousal-support/,https://tdefamilylaw.com/practice-areas/alimony/,Move,
+3,Practice Areas,Alimony & Spousal Support,Alimony Calculator,,https://tdefamilylaw.com/practice-areas/alimony/calculator/,New,NEW - Interactive tool
+2,Practice Areas,Property Division,,https://tdefamilylaw.com/family-law/property-division-enforcement/,https://tdefamilylaw.com/practice-areas/property-division/,Move,Currently only covers enforcement
+2,Practice Areas,Parental Rights,,https://tdefamilylaw.com/family-law/parental-rights/,https://tdefamilylaw.com/practice-areas/parental-rights/,Move,
+3,Practice Areas,Parental Rights,Father's Rights,https://tdefamilylaw.com/family-law/fathers-rights-lawyer/,https://tdefamilylaw.com/practice-areas/parental-rights/fathers-rights/,Move,
+3,Practice Areas,Parental Rights,Mother's Rights,https://tdefamilylaw.com/family-law/mothers-rights-lawyer-in-atlanta/,https://tdefamilylaw.com/practice-areas/parental-rights/mothers-rights/,Move,
+3,Practice Areas,Parental Rights,Grandparent's Rights,https://tdefamilylaw.com/family-law/grandparents-rights-lawyer/,https://tdefamilylaw.com/practice-areas/parental-rights/grandparents-rights/,Move,
+3,Practice Areas,Parental Rights,Paternity,https://tdefamilylaw.com/family-law/paternity-lawyer-in-atlanta/,https://tdefamilylaw.com/practice-areas/parental-rights/paternity/,Move,
+3,Practice Areas,Parental Rights,Legitimation,https://tdefamilylaw.com/family-law/legitimation-lawyer/,https://tdefamilylaw.com/practice-areas/parental-rights/legitimation/,Move,
+2,Practice Areas,Adoption,,,https://tdefamilylaw.com/practice-areas/adoption/,New,NEW - Major gap (MSV: 720)
+3,Practice Areas,Adoption,Stepparent Adoption,,https://tdefamilylaw.com/practice-areas/adoption/stepparent/,New,NEW
+3,Practice Areas,Adoption,Adoption Process,,https://tdefamilylaw.com/practice-areas/adoption/process/,New,NEW
+2,Practice Areas,Guardianship,,,https://tdefamilylaw.com/practice-areas/guardianship/,New,NEW - Major gap
+3,Practice Areas,Guardianship,Petitioning for Guardianship,,https://tdefamilylaw.com/practice-areas/guardianship/petition/,New,NEW
+2,Practice Areas,Prenuptial & Postnuptial,,https://tdefamilylaw.com/family-law/prenuptial-agreement-atlanta/,https://tdefamilylaw.com/practice-areas/prenup-postnup/,Move,Combined page
+3,Practice Areas,Prenuptial & Postnuptial,Postnuptial Agreements,https://tdefamilylaw.com/family-law/postnuptial-agreement-lawyer/,https://tdefamilylaw.com/practice-areas/prenup-postnup/postnuptial/,Move,
+2,Practice Areas,Legal Modifications,,https://tdefamilylaw.com/modifications/,https://tdefamilylaw.com/practice-areas/modifications/,Move,
+2,Practice Areas,Emergency Orders,,https://tdefamilylaw.com/divorce-emergency-orders-overview/,https://tdefamilylaw.com/practice-areas/emergency-orders/,Move,
+3,Practice Areas,Emergency Orders,Protective Orders (TPO),https://tdefamilylaw.com/temporary-protective-orders-tpo-emergency-orders-lawyer-in-atlanta/,https://tdefamilylaw.com/practice-areas/emergency-orders/protective-orders/,Move,
+3,Practice Areas,Emergency Orders,Contempt,https://tdefamilylaw.com/contempt-lawyer-in-atlanta/,https://tdefamilylaw.com/practice-areas/emergency-orders/contempt/,Move,
+1,Attorneys,,,https://tdefamilylaw.com/atlanta-attorneys/,https://tdefamilylaw.com/attorneys/,Move,Simplified URL
+2,Attorneys,Tessie D. Edwards,,https://tdefamilylaw.com/tessie-d-edwards/,https://tdefamilylaw.com/attorneys/tessie-edwards/,Move,
+2,Attorneys,Lolita K. Beyah,,https://tdefamilylaw.com/atlanta-attorneys/lolita-k-beyah/,https://tdefamilylaw.com/attorneys/lolita-beyah/,Move,
+2,Attorneys,John Evans,,https://tdefamilylaw.com/atlanta-attorneys/john-evans/,https://tdefamilylaw.com/attorneys/john-evans/,Move,
+2,Attorneys,Barry Eidex,,https://tdefamilylaw.com/atlanta-attorneys/barry-eidex/,https://tdefamilylaw.com/attorneys/barry-eidex/,Move,
+2,Attorneys,McCoy G. Martinez,,https://tdefamilylaw.com/atlanta-attorneys/mccoy-g-martinez/,https://tdefamilylaw.com/attorneys/mccoy-martinez/,Move,
+2,Attorneys,Vernon Foley,,https://tdefamilylaw.com/atlanta-attorneys/vernon-foley/,https://tdefamilylaw.com/attorneys/vernon-foley/,Move,
+1,Locations,,,,https://tdefamilylaw.com/locations/,New,NEW - Locations hub
+2,Locations,Atlanta Office,,,https://tdefamilylaw.com/locations/atlanta/,New,NEW
+2,Locations,Gwinnett Office,,https://tdefamilylaw.com/gwinnett-divorce-attorney/,https://tdefamilylaw.com/locations/gwinnett/,Move,
+1,Resources,,,https://tdefamilylaw.com/resources/,https://tdefamilylaw.com/resources/,Keep,
+2,Resources,Child Support Calculator,,,https://tdefamilylaw.com/resources/child-support-calculator/,New,Linked from Practice Areas too
+2,Resources,Alimony Calculator,,,https://tdefamilylaw.com/resources/alimony-calculator/,New,Linked from Practice Areas too
+2,Resources,Georgia Divorce Laws,,,https://tdefamilylaw.com/resources/georgia-divorce-laws/,New,NEW - High MSV guide
+2,Resources,Blog,,https://tdefamilylaw.com/blog/,https://tdefamilylaw.com/resources/blog/,Move,Moved under Resources
+1,Contact,,,https://tdefamilylaw.com/contact-us/,https://tdefamilylaw.com/contact/,Move,Simplified URL
+2,Contact,Schedule Consultation,,https://tdefamilylaw.com/schedule-a-consultation/,https://tdefamilylaw.com/contact/schedule/,Move,

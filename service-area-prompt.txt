@@ -1,0 +1,15 @@
+Variables:
+Full NAP Address = 
+City Name = 
+Primary County Name =
+State Abbreviation =
+Adjacent County = 
+
+Please list the top 20 ZIP codes by population for [city name] and [primary county name], [state abbreviation]. 
+
+Then, adjust this list to prioritize the 20 ZIP codes closest to [city name] within a 13 mile radius as a starting point. Prioritize closer cities/ZIP codes (e.g., similar to including Butler, WI in a Menomonee Falls query). Finally, expand to include [adjacent county name(s), e.g., Washington County] for a more holistic coverage within the radius, ranking primarily by proximity (distance first) and then by population descending. Provide the results in a markdown table with columns for Rank, ZIP Code, Primary City, County, Approximate Distance (miles), and Population. Use the most recent available data or projections for the current year.
+
+---
+Please list the top 20 ZIP codes by population for [city name] and [primary county name], [state abbreviation]. 
+
+Then, adjust this list to prioritize the 20 ZIP codes closest to [city name] within a [specify radius, e.g., 13] mile radius as a starting point. Prioritize closer cities/ZIP codes (e.g., similar to including Butler, WI in a Menomonee Falls query). Finally, expand to include [adjacent county name(s), e.g., Washington County] for a more holistic coverage within the radius, ranking primarily by proximity (distance first) and then by population descending. Provide the results in a markdown table with columns for Rank, ZIP Code, Primary City, County, Approximate Distance (miles), and Population. Use the most recent available data or projections for [current year or future year, e.g., 2025].

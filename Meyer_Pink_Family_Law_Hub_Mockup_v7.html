@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Law & Divorce Attorneys in California | MeyerPink Law</title>
+    <meta name="description"
+        content="Compassionate and aggressive family law representation. MeyerPink Law's specialized attorneys protect your future in divorce, custody, and support matters across California.">
+
+    <!-- MeyerPink Design System & Library Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+        :root {
+            /* Branding Colors - REVISED PREMIUM PALETTE */
+            --primary-gold: #B3922F;
+            --primary-blue: #284CAA;
+            --muted-purple: #63657C;
+
+            /* Backgrounds */
+            --light-purple-bg: #F9FAFC;
+            --white: #FFFFFF;
+
+            /* Gradients */
+            --gradient-hero: linear-gradient(180deg, #284CAABD 0%, #03051DA3 100%);
+            --gradient-section: linear-gradient(135deg, #284CAA 0%, #1E3A8A 100%);
+
+            /* Typography */
+            --font-heading: "Fira Sans", sans-serif;
+            --font-serif: "Playfair Display", serif;
+            --font-body: "Open Sans", sans-serif;
+
+            /* Layout & Finishes */
+            --container-width: 1312px;
+            --section-padding: 100px 40px;
+            --card-shadow: 0 10px 50px rgba(40, 76, 170, 0.08);
+            --card-radius: 0px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--muted-purple);
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-heading);
+            color: var(--primary-blue);
+            margin-top: 0;
+            letter-spacing: -0.5px;
+        }
+
+        h4,
+        h5,
+        h6,
+        .subheadline {
+            color: var(--muted-purple);
+        }
+
+        /* --- Components --- */
+        .btn-primary {
+            display: inline-block;
+            background: var(--primary-gold);
+            color: var(--white);
+            padding: 18px 48px;
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px solid var(--primary-gold);
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border-radius: 0px;
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--primary-gold);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(179, 146, 47, 0.2);
+        }
+
+        .btn-outline {
+            display: inline-block;
+            background: transparent;
+            color: var(--primary-blue);
+            padding: 16px 42px;
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px solid var(--primary-blue);
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            position: relative;
+            padding: 180px 40px 120px;
+            background: var(--primary-blue);
+            background-image: var(--gradient-hero),
+                url('https://meyerpink.com/wp-content/uploads/2021/09/family-law-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+        }
+
+        .hero-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: 5rem;
+            line-height: 1.1;
+            margin-bottom: 35px;
+            color: var(--white);
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h1 .highlight {
+            font-style: italic;
+            color: var(--primary-gold);
+            font-weight: 400;
+        }
+
+        .hero p.subheadline {
+            font-size: 1.35rem;
+            max-width: 780px;
+            margin: 0 auto 50px;
+            color: #E2E8F0;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        /* --- TRUST STRIP --- */
+        .awards-strip {
+            background-color: var(--white);
+            padding: 50px 40px;
+            position: relative;
+            z-index: 10;
+            margin-top: -60px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+            border-bottom: 1px solid #f0f0f0;
+            max-width: var(--container-width);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .awards-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            flex-wrap: wrap;
+        }
+
+        .award-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            opacity: 0.85;
+            transition: opacity 0.3s;
+            padding-right: 40px;
+            border-right: 1px solid #eee;
+        }
+
+        .award-item:last-child {
+            border-right: none;
+            padding-right: 0;
+        }
+
+        .award-item:hover {
+            opacity: 1;
+        }
+
+        .award-item img {
+            height: 70px;
+            width: auto;
+        }
+
+        .award-text {
+            font-family: var(--font-heading);
+            font-size: 0.85rem;
+            color: var(--primary-blue);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        /* --- GRID STYLES --- */
+        .attorney-section {
+            padding: var(--section-padding);
+            background: var(--light-purple-bg);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+
+        .section-header h2 {
+            font-size: 3.2rem;
+            margin-bottom: 25px;
+        }
+
+        .section-header p {
+            max-width: 700px;
+            margin: 0 auto 25px;
+            font-size: 1.1rem;
+        }
+
+        .section-divider {
+            width: 80px;
+            height: 2px;
+            background: var(--primary-gold);
+            margin: 0 auto;
+        }
+
+        .grid-container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+
+        .attorney-card {
+            background: transparent;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.4s ease;
+            position: relative;
+        }
+
+        .attorney-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-image-wrap {
+            height: 520px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            background: var(--white);
+            box-shadow: var(--card-shadow);
+        }
+
+        .card-image-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+            transition: transform 0.7s ease;
+        }
+
+        .attorney-card:hover .card-image-wrap img {
+            transform: scale(1.05);
+        }
+
+        .card-info {
+            background: var(--white);
+            padding: 30px;
+            width: 90%;
+            margin: -60px auto 0;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+            border-top: 3px solid var(--primary-gold);
+            text-align: center;
+            transition: box-shadow 0.3s ease;
+            min-height: 280px;
+            /* Equal Height Strategy */
+        }
+
+        .attorney-card:hover .card-info {
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- CONTENT ROWS --- */
+        .content-row-dark {
+            background: var(--gradient-section);
+            padding: var(--section-padding);
+            color: var(--white);
+        }
+
+        .content-row-light {
+            background: var(--white);
+            padding: var(--section-padding);
+        }
+
+        .row-container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+            align-items: center;
+        }
+
+        .text-col h3 {
+            font-family: var(--font-serif);
+            font-size: 2.8rem;
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+
+        .content-row-dark .text-col h3 {
+            color: var(--white);
+        }
+
+        .content-row-dark .text-col p {
+            color: #E0E7FF;
+            font-size: 1.1rem;
+        }
+
+        .content-row-light .text-col h3 {
+            color: var(--primary-blue);
+        }
+
+        .content-row-light .text-col p {
+            font-size: 1.1rem;
+        }
+
+        .image-outer {
+            position: relative;
+            padding: 20px 0 0 20px;
+        }
+
+        .image-outer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid var(--primary-gold);
+            z-index: 0;
+        }
+
+        .image-col img {
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            box-shadow: var(--card-shadow);
+        }
+
+        /* --- ROADMAP --- */
+        .roadmap-section {
+            padding: var(--section-padding);
+            background-color: var(--light-purple-bg);
+            /* Matches grid bg for continuity if needed, or white */
+            text-align: center;
+        }
+
+        .roadmap-steps {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            position: relative;
+            max-width: var(--container-width);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .roadmap-steps::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 100px;
+            right: 100px;
+            height: 1px;
+            background: #D1D5DB;
+            z-index: 0;
+        }
+
+        .step-circle {
+            width: 80px;
+            height: 80px;
+            background: var(--white);
+            border: 2px solid var(--primary-blue);
+            color: var(--primary-blue);
+            border-radius: 0px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-family: var(--font-serif);
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .step:hover .step-circle {
+            background: var(--primary-blue);
+            color: var(--white);
+            transform: rotate(45deg);
+        }
+
+        .step:hover .step-circle span {
+            transform: rotate(-45deg);
+            display: block;
+        }
+
+        /* --- REVIEWS --- */
+        .reviews-section {
+            padding: 80px 40px;
+            background: var(--white);
+            border-top: 1px solid #eee;
+        }
+
+        /* Responsive */
+        @media (max-width: 1100px) {
+
+            .grid-container,
+            .row-container,
+            .awards-strip,
+            .roadmap-steps {
+                max-width: 100%;
+            }
+
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            .grid-container,
+            .row-container {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+
+            .awards-strip {
+                margin-top: 0;
+            }
+
+            .card-info {
+                width: 95%;
+                margin-top: -40px;
+            }
+
+            .image-outer {
+                padding: 0;
+            }
+
+            .image-outer::before {
+                display: none;
+            }
+
+            .roadmap-steps::before {
+                display: none;
+            }
+
+            .roadmap-steps {
+                flex-direction: column;
+                gap: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO (Optimized for Family Law) -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1>California <span class="highlight">Family Law</span> & <span class="highlight">Divorce</span> Attorneys
+            </h1>
+            <p class="subheadline">
+                Navigating life’s most difficult transitions with clarity, strategy, and compassion.
+                Merging aggressive legal advocacy with sophisticated financial protection.
+            </p>
+            <a href="#consultation" class="btn-primary">Start Your Journey</a>
+        </div>
+    </section>
+
+    <!-- TRUST SIGNALS -->
+    <section class="awards-strip">
+        <div class="awards-container">
+            <div class="award-item">
+                <img src="https://meyerpink.com/wp-content/uploads/2025/11/2025-Readers-Choice-Ribbon-Icon-214x300.png"
+                    alt="Union Democrat Readers Choice 2025">
+                <div class="award-text">Readers' Choice<br>Winner 2025</div>
+            </div>
+            <div class="award-item">
+                <img src="https://meyerpink.com/wp-content/uploads/2025/08/Best-of-209-2025-Logo.png" alt="Best of 209">
+                <div class="award-text">Best of 209<br>Top Attorney</div>
+            </div>
+            <div class="award-item" style="border:none;">
+                <div class="award-text" style="color: var(--primary-gold); font-size: 2rem; line-height:1;">40+</div>
+                <div class="award-text">Years of<br>Experience</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. FAMILY LAW TEAM (Prioritized) -->
+    <section class="attorney-section">
+        <div class="section-header">
+            <h2>Meet the Family Law Team</h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="grid-container" style="justify-content: center;">
+            <!-- Card 1: Jay Pink (Divorce Lead) -->
+            <div class="attorney-card">
+                <div class="card-image-wrap">
+                    <img src="https://meyerpink.com/wp-content/uploads/2025/07/Jay-Pink-Headshots-2025-65-_BP26260_websize.jpg"
+                        alt="Jay Pink">
+                </div>
+                <div class="card-info">
+                    <!-- HTML WIDGET CONTENT -->
+                    <span
+                        style="font-family: 'Playfair Display', serif; color: #284CAA; font-size: 1.8rem; line-height: 1.2; display: block; margin-bottom: 5px;">
+                        <strong style="font-weight: 400;">Jay Pink</strong>
+                    </span>
+                    <span
+                        style="color: #B3922F; font-family: 'Fira Sans', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1.5px; display: block; margin-bottom: 15px;">
+                        Founding Partner | Divorce Lead
+                    </span>
+                    <span
+                        style="color: #63657C; font-family: 'Open Sans', sans-serif; font-size: 0.9rem; line-height: 1.6; display: block;">
+                        Jay specializes in high-conflict divorce, complex asset division, and protecting business
+                        interests during marital dissolution.
+                    </span>
+                    <a href="#"
+                        style="display: inline-block; margin-top: 15px; color: #B3922F; font-size: 0.8rem; font-family: 'Fira Sans', sans-serif; font-weight: 700; text-transform: uppercase; text-decoration: none; letter-spacing: 1px;">
+                        View Full Bio &rarr;
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2: April (Family Law Specialist) -->
+            <div class="attorney-card">
+                <div class="card-image-wrap">
+                    <img src="https://meyerpink.com/wp-content/uploads/2024/07/12-300x300.png" alt="April">
+                </div>
+                <div class="card-info">
+                    <!-- HTML WIDGET CONTENT -->
+                    <span
+                        style="font-family: 'Playfair Display', serif; color: #284CAA; font-size: 1.8rem; line-height: 1.2; display: block; margin-bottom: 5px;">
+                        <strong style="font-weight: 400;">April [Last Name]</strong>
+                    </span>
+                    <span
+                        style="color: #B3922F; font-family: 'Fira Sans', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1.5px; display: block; margin-bottom: 15px;">
+                        Partner | Certified Family Law Specialist
+                    </span>
+                    <span
+                        style="color: #63657C; font-family: 'Open Sans', sans-serif; font-size: 0.9rem; line-height: 1.6; display: block;">
+                        April leads critical support cases where divorce, custody, or guardianship impact long-term
+                        financial arrangements.
+                    </span>
+                    <a href="#"
+                        style="display: inline-block; margin-top: 15px; color: #B3922F; font-size: 0.8rem; font-family: 'Fira Sans', sans-serif; font-weight: 700; text-transform: uppercase; text-decoration: none; letter-spacing: 1px;">
+                        View Full Bio &rarr;
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3: New Associate (Placeholder for Balance) -->
+            <div class="attorney-card">
+                <div class="card-image-wrap">
+                    <img src="https://meyerpink.com/wp-content/uploads/2021/09/family-law-hero.jpg" alt="Associate"
+                        style="opacity:0.3; filter: grayscale(100%);">
+                </div>
+                <div class="card-info">
+                    <!-- HTML WIDGET CONTENT -->
+                    <span
+                        style="font-family: 'Playfair Display', serif; color: #284CAA; font-size: 1.8rem; line-height: 1.2; display: block; margin-bottom: 5px;">
+                        <strong style="font-weight: 400;">Associate Attorney</strong>
+                    </span>
+                    <span
+                        style="color: #B3922F; font-family: 'Fira Sans', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1.5px; display: block; margin-bottom: 15px;">
+                        Family Law | Custody
+                    </span>
+                    <span
+                        style="color: #63657C; font-family: 'Open Sans', sans-serif; font-size: 0.9rem; line-height: 1.6; display: block;">
+                        Dedicated legal support for custody mediation and spousal support calculations.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTENT: THE BRIDGE (Why Estate Planning Matters) -->
+    <section class="content-row-dark">
+        <div class="row-container">
+            <div class="text-col">
+                <h3>A Holistic Approach: <br>Sanctuary & Strategy</h3>
+                <p>Divorce feels chaotic, but your future shouldn't. We built our firm to be a sanctuary of clarity.</p>
+                <p style="margin-top: 15px; color: #E0E7FF;">
+                    We invite you to visit our offices—a quiet space designed for focus, away from the noise. Here, our
+                    Family Law and Estate Planning teams work together to ensure you leave with total peace of mind.
+                </p>
+                <div style="border-left: 2px solid var(--primary-gold); padding-left: 20px; margin: 30px 0;">
+                    <p style="color: #E2E8F0; font-style: italic;">"Our estate planning team steps in where the family
+                        law team leaves off, updating trusts and beneficiary designations to reflect your new reality."
+                    </p>
+                </div>
+                <a href="#consultation" class="btn-primary" style="border: 1px solid white;">SCHEDULE A PRIVATE
+                    MEETING</a>
+            </div>
+            <div class="image-col image-outer">
+                <img src="https://meyerpink.com/wp-content/uploads/2019/12/office-building.jpg" alt="Meyer Pink Office">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ESTATE PLANNING TEAM (The "After" Care) -->
+    <section class="attorney-section" style="background: var(--white);">
+        <div class="section-header">
+            <h2>The Estate Planning Team</h2>
+            <p>Experts in Wealth Preservation & Post-Divorce Asset Protection</p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="grid-container"
+            style="justify-content: center; grid-template-columns: repeat(1, 1fr); max-width: 500px;">
+            <!-- Card 1: Jeremy Meyer (Estate Lead) - Centered/Featured -->
+            <div class="attorney-card">
+                <div class="card-image-wrap">
+                    <img src="https://meyerpink.com/wp-content/uploads/2025/07/Jeremy-Meyer-Headshots-2025-15-_BP26260_websize.jpg"
+                        alt="Jeremy Meyer">
+                </div>
+                <div class="card-info">
+                    <!-- HTML WIDGET CONTENT -->
+                    <span
+                        style="font-family: 'Playfair Display', serif; color: #284CAA; font-size: 1.8rem; line-height: 1.2; display: block; margin-bottom: 5px;">
+                        <strong style="font-weight: 400;">Jeremy Meyer</strong>
+                    </span>
+                    <span
+                        style="color: #B3922F; font-family: 'Fira Sans', sans-serif; font-weight: 700; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1.5px; display: block; margin-bottom: 15px;">
+                        Founding Partner | Estate Lead
+                    </span>
+                    <span
+                        style="color: #63657C; font-family: 'Open Sans', sans-serif; font-size: 0.9rem; line-height: 1.6; display: block;">
+                        Jeremy ensures that your hard-won assets are secured for the future. He handles post-divorce
+                        trust restatements, wealth preservation, and advanced tax strategies.
+                    </span>
+                    <a href="#"
+                        style="display: inline-block; margin-top: 15px; color: #B3922F; font-size: 0.8rem; font-family: 'Fira Sans', sans-serif; font-weight: 700; text-transform: uppercase; text-decoration: none; letter-spacing: 1px;">
+                        View Full Bio &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPLEX ASSETS (Content) -->
+    <section class="content-row-light" style="background: var(--light-purple-bg);">
+        <div class="row-container">
+            <div class="image-col image-outer" style="order: 0;">
+                <img src="https://meyerpink.com/wp-content/uploads/2019/12/meeting-room.jpg" alt="Consultation Room">
+            </div>
+            <div class="text-col" style="padding-left: 20px;">
+                <h3>Complex Asset Division</h3>
+                <p>We possess specialized knowledge in business valuation, real estate division, and high-asset property
+                    protection. Whether it's stock options, business equity, or inheritance rights, we ensure nothing is
+                    left on the table.</p>
+                <br>
+                <a href="#" class="btn-outline">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROADMAP -->
+    <section class="roadmap-section">
+        <div class="roadmap-container">
+            <h2>Your Roadmap to Resolution</h2>
+            <p style="color:var(--muted-purple); max-width:600px; margin: 20px auto;">A clear, strategic path from
+                conflict to closure.</p>
+
+            <div class="roadmap-steps">
+                <div class="step">
+                    <div class="step-circle"><span>1</span></div>
+                    <h4>Assessment</h4>
+                    <p style="font-size:0.9rem;">Deep dive into your goals & finances.</p>
+                </div>
+                <div class="step">
+                    <div class="step-circle"><span>2</span></div>
+                    <h4>Strategy</h4>
+                    <p style="font-size:0.9rem;">Custom legal & financial plan.</p>
+                </div>
+                <div class="step">
+                    <div class="step-circle"><span>3</span></div>
+                    <h4>Resolution</h4>
+                    <p style="font-size:0.9rem;">Negotiation or Litigation.</p>
+                </div>
+                <div class="step">
+                    <div class="step-circle"><span>4</span></div>
+                    <h4>Future</h4>
+                    <p style="font-size:0.9rem;">Estate update & fresh start.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews-section">
+        <div class="reviews-container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+            </div>
+            <!-- ELFSIGHT WIDGET CODE start -->
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core="" defer=""
+                data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1"></script>
+            <div class="elfsight-app-be516724-6e00-4d97-b55f-0fa42037dda2"
+                data-miwrid="c81feb08-15d6-4193-bc17-d68a42ee4566"></div>
+        </div>
+    </section>
+
+</body>
+
+</html>

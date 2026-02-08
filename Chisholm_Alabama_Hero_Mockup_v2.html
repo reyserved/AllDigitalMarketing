@@ -1,0 +1,2176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraising Services for Nonprofits in Alabama | Chisholm Law Firm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* ============================================
+           CSS VARIABLES & RESET
+           Chisholm Law Firm Official Brand Styles
+        ============================================ */
+        :root {
+            /* Chisholm Brand Colors - FROM OFFICIAL CSS */
+            --chisholm-navy: #122944;
+            /* fl-topbar-bg, fl-header-text */
+            --chisholm-navy-dark: #0a2946;
+            /* fl-footer-bg */
+            --chisholm-navy-light: #1a3a5c;
+            /* slightly lighter variant */
+            --chisholm-gold: #e7af07;
+            /* rc-sticky-cta-bg */
+            --chisholm-gold-light: #f6c747;
+            /* fl-topbar-hover, fl-header-hover */
+            --chisholm-gold-glow: rgba(231, 175, 7, 0.3);
+
+            /* Accent Colors - FROM OFFICIAL CSS */
+            --chisholm-accent: #2b7bb9;
+            /* fl-accent */
+
+            /* Supporting Colors - FROM OFFICIAL CSS */
+            --white: #ffffff;
+            --off-white: #f2f2f2;
+            /* fl-body-bg */
+            --gray-100: #f2f2f2;
+            --gray-200: #e9ecef;
+            --gray-300: #dee2e6;
+            --gray-500: #757575;
+            /* fl-body-text */
+            --gray-700: #495057;
+            --gray-900: #333333;
+            /* fl-heading-text */
+
+            /* Typography - MONTSERRAT */
+            --font-display: Montserrat, sans-serif;
+            --font-body: Montserrat, sans-serif;
+
+            /* Spacing */
+            --section-padding: 100px;
+            --container-max: 1320px;
+
+            /* Transitions */
+            --transition-fast: 0.2s ease;
+            --transition-medium: 0.4s ease;
+            --transition-slow: 0.6s ease;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 14px;
+            line-height: 1.45;
+            font-weight: 400;
+            color: var(--gray-500);
+            background-color: var(--off-white);
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* ============================================
+           TOP BAR
+        ============================================ */
+        .top-bar {
+            background: var(--chisholm-navy-dark);
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .top-bar-inner {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .top-bar a {
+            color: var(--white);
+            text-decoration: none;
+            opacity: 0.9;
+            transition: var(--transition-fast);
+        }
+
+        .top-bar a:hover {
+            opacity: 1;
+            color: var(--chisholm-gold-light);
+        }
+
+        .top-bar-phone {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            color: var(--chisholm-gold-light) !important;
+        }
+
+        /* ============================================
+           MAIN NAVIGATION
+        ============================================ */
+        .main-nav {
+            background: var(--white);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .main-nav-inner {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+            text-decoration: none;
+        }
+
+        .logo-main {
+            font-family: var(--font-display);
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--chisholm-navy);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-sub {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--gray-500);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--gray-700);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            padding: 8px 0;
+            position: relative;
+            transition: var(--transition-fast);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--chisholm-gold);
+            transition: var(--transition-medium);
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--chisholm-navy);
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--chisholm-navy) !important;
+            color: var(--white) !important;
+            padding: 12px 24px !important;
+            border-radius: 6px;
+            font-weight: 600 !important;
+        }
+
+        .nav-cta:hover {
+            background: var(--chisholm-navy-dark) !important;
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        /* ============================================
+           HERO SECTION - WITH BACKGROUND IMAGE
+        ============================================ */
+        .hero {
+            position: relative;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Background Image Layer */
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+        }
+
+        /* Dark Overlay with Gradient */
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg,
+                    rgba(15, 29, 61, 0.92) 0%,
+                    rgba(26, 46, 90, 0.85) 50%,
+                    rgba(15, 29, 61, 0.88) 100%);
+            z-index: 2;
+        }
+
+        /* Gold Accent Glow */
+        .hero-glow {
+            position: absolute;
+            top: -200px;
+            right: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(201, 162, 39, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            z-index: 3;
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 0.5;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.8;
+                transform: scale(1.05);
+            }
+        }
+
+        .hero-container {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero-content {
+            max-width: 720px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(201, 162, 39, 0.15);
+            border: 1px solid rgba(201, 162, 39, 0.4);
+            padding: 10px 20px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--chisholm-gold-light);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 28px;
+        }
+
+        .hero-badge svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.8rem, 5vw, 4rem);
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.12;
+            margin-bottom: 24px;
+        }
+
+        .hero-title .highlight {
+            color: var(--chisholm-gold-light);
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero-title .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 6px;
+            left: 0;
+            right: 0;
+            height: 12px;
+            background: rgba(201, 162, 39, 0.25);
+            z-index: -1;
+            border-radius: 4px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.75;
+            margin-bottom: 36px;
+            max-width: 600px;
+        }
+
+        /* Trust Indicators */
+        .hero-trust {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 44px;
+            flex-wrap: wrap;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .trust-icon {
+            width: 22px;
+            height: 22px;
+            fill: var(--chisholm-gold-light);
+        }
+
+        /* CTA Buttons */
+        .hero-ctas {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 18px 36px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition-medium);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--chisholm-gold) 0%, var(--chisholm-gold-light) 100%);
+            color: var(--chisholm-navy-dark);
+            box-shadow: 0 4px 24px rgba(201, 162, 39, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 32px rgba(201, 162, 39, 0.5);
+        }
+
+        .btn-primary svg {
+            width: 18px;
+            height: 18px;
+            transition: var(--transition-fast);
+        }
+
+        .btn-primary:hover svg {
+            transform: translateX(4px);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.18);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        /* ============================================
+           SERVICES SECTION
+        ============================================ */
+        .services-section {
+            padding: var(--section-padding) 0;
+            background: var(--white);
+        }
+
+        .container {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 64px;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--chisholm-gold);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 700;
+            color: var(--chisholm-navy);
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--gray-500);
+            line-height: 1.7;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .service-card {
+            background: var(--off-white);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: var(--transition-medium);
+            border: 1px solid var(--gray-200);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+            border-color: var(--chisholm-gold);
+        }
+
+        .service-card-image {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .service-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-slow);
+        }
+
+        .service-card:hover .service-card-image img {
+            transform: scale(1.08);
+        }
+
+        .service-card-image::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: linear-gradient(to top, var(--off-white), transparent);
+        }
+
+        .service-card-content {
+            padding: 28px;
+        }
+
+        .service-card-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--chisholm-navy) 0%, var(--chisholm-navy-dark) 100%);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            margin-top: -50px;
+            position: relative;
+            box-shadow: 0 8px 20px rgba(26, 46, 90, 0.3);
+        }
+
+        .service-card-icon svg {
+            width: 28px;
+            height: 28px;
+            fill: var(--chisholm-gold-light);
+        }
+
+        .service-card-title {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: var(--chisholm-navy);
+            margin-bottom: 12px;
+        }
+
+        .service-card-text {
+            font-size: 15px;
+            color: var(--gray-500);
+            line-height: 1.65;
+            margin-bottom: 20px;
+        }
+
+        .service-card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--chisholm-gold);
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            transition: var(--transition-fast);
+        }
+
+        .service-card-link svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+            transition: var(--transition-fast);
+        }
+
+        .service-card-link:hover {
+            color: var(--chisholm-navy);
+        }
+
+        .service-card-link:hover svg {
+            transform: translateX(4px);
+        }
+
+        /* ============================================
+           CHALLENGES SECTION (with image)
+        ============================================ */
+        .challenges-section {
+            padding: var(--section-padding) 0;
+            background: linear-gradient(180deg, var(--gray-100) 0%, var(--white) 100%);
+        }
+
+        .challenges-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .challenges-image {
+            position: relative;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .challenges-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .challenges-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(26, 46, 90, 0.1) 0%, transparent 50%);
+            z-index: 1;
+        }
+
+        /* Floating Stats Card */
+        .floating-stats {
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+            background: var(--white);
+            border-radius: 16px;
+            padding: 24px 32px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+            z-index: 10;
+            display: flex;
+            gap: 32px;
+        }
+
+        .floating-stat {
+            text-align: center;
+        }
+
+        .floating-stat-value {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--chisholm-navy);
+            line-height: 1;
+        }
+
+        .floating-stat-label {
+            font-size: 12px;
+            color: var(--gray-500);
+            margin-top: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .challenges-content {
+            padding-left: 20px;
+        }
+
+        .challenges-content .section-title {
+            text-align: left;
+        }
+
+        .challenges-list {
+            list-style: none;
+            margin-top: 32px;
+        }
+
+        .challenges-list li {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .challenges-list li:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .challenge-number {
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            background: var(--chisholm-gold);
+            color: var(--chisholm-navy-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .challenge-text h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--chisholm-navy);
+            margin-bottom: 6px;
+        }
+
+        .challenge-text p {
+            font-size: 15px;
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        /* ============================================
+           COMMUNITY SECTION
+        ============================================ */
+        .community-section {
+            padding: var(--section-padding) 0;
+            background: var(--chisholm-navy);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .community-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        .community-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.15;
+        }
+
+        .community-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(15, 29, 61, 0.95) 0%, rgba(26, 46, 90, 0.9) 100%);
+            z-index: 2;
+        }
+
+        .community-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+        }
+
+        .community-content .section-label {
+            color: var(--chisholm-gold-light);
+        }
+
+        .community-content .section-title {
+            color: var(--white);
+        }
+
+        .community-content .section-subtitle {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .nonprofit-types {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 24px;
+            margin-top: 56px;
+        }
+
+        .nonprofit-type {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 32px 20px;
+            text-align: center;
+            transition: var(--transition-medium);
+        }
+
+        .nonprofit-type:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: var(--chisholm-gold);
+            transform: translateY(-6px);
+        }
+
+        .nonprofit-type-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--chisholm-gold) 0%, var(--chisholm-gold-light) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .nonprofit-type-icon svg {
+            width: 32px;
+            height: 32px;
+            fill: var(--chisholm-navy-dark);
+        }
+
+        .nonprofit-type-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--white);
+            line-height: 1.4;
+        }
+
+        /* ============================================
+           CTA SECTION
+        ============================================ */
+        .cta-section {
+            padding: var(--section-padding) 0;
+            background: var(--white);
+        }
+
+        .cta-card {
+            background: linear-gradient(135deg, var(--chisholm-navy) 0%, var(--chisholm-navy-dark) 100%);
+            border-radius: 32px;
+            padding: 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-card::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(201, 162, 39, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-content .section-label {
+            color: var(--chisholm-gold-light);
+        }
+
+        .cta-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.75rem, 3vw, 2.25rem);
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.25;
+            margin-bottom: 20px;
+        }
+
+        .cta-text {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.7;
+            margin-bottom: 32px;
+        }
+
+        .cta-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 36px;
+        }
+
+        .cta-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 15px;
+        }
+
+        .cta-feature svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--chisholm-gold-light);
+        }
+
+        .cta-image {
+            position: relative;
+            z-index: 1;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* ============================================
+           AREAS WE SERVE SECTION
+        ============================================ */
+        .areas-section {
+            padding: var(--section-padding) 0;
+            background: var(--gray-100);
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            margin-top: 56px;
+        }
+
+        .area-card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: var(--transition-medium);
+        }
+
+        .area-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        }
+
+        .area-card-header {
+            background: linear-gradient(135deg, var(--chisholm-navy) 0%, var(--chisholm-navy-light) 100%);
+            padding: 18px 24px;
+        }
+
+        .area-card-header h3 {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--white);
+            margin: 0;
+        }
+
+        .area-card-body {
+            padding: 24px;
+        }
+
+        .area-location {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .area-location:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .area-pin {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            margin-top: 2px;
+        }
+
+        .area-pin svg {
+            width: 22px;
+            height: 22px;
+            fill: var(--chisholm-gold);
+        }
+
+        .area-location-content h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--chisholm-navy);
+            margin: 0 0 6px 0;
+        }
+
+        .area-location-content h4 span {
+            font-weight: 500;
+            color: var(--gray-500);
+        }
+
+        .area-location-content p {
+            font-size: 14px;
+            color: var(--gray-500);
+            line-height: 1.55;
+            margin: 0;
+        }
+
+        /* ============================================
+           STICKY CTA BAR
+        ============================================ */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            padding: 14px 24px;
+            box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .sticky-rating {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+
+        .sticky-rating svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--chisholm-gold);
+        }
+
+        .sticky-rating-text {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--gray-700);
+        }
+
+        .sticky-btn {
+            background: var(--chisholm-gold);
+            color: var(--chisholm-navy-dark);
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            transition: var(--transition-fast);
+        }
+
+        .sticky-btn:hover {
+            background: var(--chisholm-gold-light);
+            transform: translateY(-2px);
+        }
+
+        /* ============================================
+           GENERIC CONTENT SECTIONS & WHY US GRID
+        ============================================ */
+        .content-section {
+            padding: var(--section-padding) 0;
+            background: var(--white);
+        }
+
+        .content-section.alt-bg {
+            background: var(--off-white);
+        }
+
+        .content-block {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* WHY US GRID STYLES */
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 48px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .why-card {
+            padding: 48px 32px;
+            border-radius: 16px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .why-card.style-light {
+            background: #EAEAE5;
+            /* Warm beige */
+            color: var(--chisholm-navy);
+        }
+
+        .why-card.style-gold {
+            background: var(--chisholm-gold);
+            color: var(--chisholm-navy);
+        }
+
+        .why-card-image-wrapper {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid var(--white);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 24px;
+        }
+
+        .why-card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .why-card-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.3;
+            max-width: 300px;
+        }
+
+        .why-card-text {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            margin-bottom: 32px;
+            flex-grow: 1;
+        }
+
+        .why-btn {
+            display: inline-block;
+            padding: 14px 28px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .why-card.style-light .why-btn {
+            background: var(--chisholm-gold);
+            color: var(--chisholm-navy);
+        }
+
+        .why-card.style-light .why-btn:hover {
+            background: var(--chisholm-gold-light);
+        }
+
+        .why-card.style-gold .why-btn {
+            background: #F2F2F2;
+            color: var(--chisholm-navy);
+        }
+
+        .why-card.style-gold .why-btn:hover {
+            background: var(--white);
+        }
+
+        /* ============================================
+           RESPONSIVE
+        ============================================ */
+        @media (max-width: 1200px) {
+            .nonprofit-types {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .challenges-grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+
+            .challenges-content {
+                padding-left: 0;
+                order: 1;
+            }
+
+            .challenges-image {
+                order: 2;
+            }
+
+            .cta-card {
+                grid-template-columns: 1fr;
+                padding: 60px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --section-padding: 60px;
+            }
+
+            .areas-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                min-height: auto;
+                padding: 80px 0 120px;
+            }
+
+            .hero-title {
+                font-size: 2.2rem;
+            }
+
+            .hero-trust {
+                gap: 20px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nonprofit-types {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .floating-stats {
+                position: static;
+                margin-top: 24px;
+                justify-content: center;
+            }
+
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .content-title {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--chisholm-navy);
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .content-text {
+            font-size: 1.125rem;
+            color: var(--gray-500);
+            margin-bottom: 24px;
+            line-height: 1.8;
+        }
+
+        .content-list {
+            list-style: none;
+            margin: 24px 0;
+        }
+
+        .content-list li {
+            position: relative;
+            padding-left: 32px;
+            margin-bottom: 16px;
+            font-size: 1.125rem;
+            color: var(--gray-500);
+        }
+
+        .content-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--chisholm-gold);
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        /* ============================================
+           FAQ SECTION
+        ============================================ */
+        .faq-section {
+            padding: var(--section-padding) 0;
+            background: var(--white);
+        }
+
+        .faq-grid {
+            max-width: 900px;
+            margin: 0 auto;
+            margin-top: 48px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--gray-200);
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+        }
+
+        .faq-question {
+            font-family: var(--font-display);
+            font-size: 1.25rem;
+            color: var(--chisholm-navy);
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
+        .faq-answer {
+            color: var(--gray-500);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .nonprofit-types {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-ctas {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Top Utility Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <a href="#">Client Reviews</a>
+            <a href="#" class="top-bar-phone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+                </svg>
+                1-844-913-1995
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="main-nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-main">CHISHOLM</span>
+                <span class="logo-sub">Law Firm</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Nonprofit Formation</a></li>
+                <li><a href="#">Trademarks</a></li>
+                <li><a href="#" class="active">Fundraising</a></li>
+                <li><a href="#">Client Reviews</a></li>
+                <li><a href="#" class="nav-cta">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION - With Birmingham Skyline
+    ============================================ -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/alabama_birmingham_skyline_1769779763873.png"
+                alt="Birmingham Alabama Skyline at golden hour">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-glow"></div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                    </svg>
+                    Alabama Nonprofits
+                </div>
+
+                <h1 class="hero-title">
+                    Fundraising Services for <span class="highlight">Alabama</span> Nonprofits
+                </h1>
+
+                <p class="hero-subtitle">
+                    Alabama's nonprofit sector is built on community trust. Whether your organization serves a single
+                    county or operates across multiple regions, we provide strategic guidance for sustainable
+                    fundraising
+                    capacity—relationship-driven, compliance-aware, and designed for long-term growth.
+                </p>
+
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                        </svg>
+                        10,000+ Clients
+                    </div>
+                    <div class="trust-item">
+                        <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                        4.6 Star Rating
+                    </div>
+                    <div class="trust-item">
+                        <svg class="trust-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm-2 14l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+                        </svg>
+                        Compliance Focused
+                    </div>
+                </div>
+
+                <div class="hero-ctas">
+                    <a href="#" class="btn btn-primary">
+                        Get a Free Consultation
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+                        </svg>
+                        Call 1-844-913-1995
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FUNDRAISING ENVIRONMENT SECTION
+    ============================================ -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="content-title">Understanding the Fundraising Environment in Alabama</h2>
+                <p class="content-text">
+                    Fundraising in Alabama is shaped by the state's community-based nonprofit culture. Donor behavior
+                    here centers on individual giving, personal relationships, and local trust. Organizations that
+                    invest in long-term donor cultivation tend to build more resilient revenue.
+                </p>
+                <div class="content-text">
+                    The typical funding mix includes:
+                    <ul class="content-list">
+                        <li><strong>Individual gifts</strong> — Often the largest revenue source, driven by personal and
+                            community connections</li>
+                        <li><strong>Events and campaigns</strong> — Galas, golf tournaments, and grassroots fundraisers
+                            remain popular, especially in smaller communities</li>
+                        <li><strong>Regional grants</strong> — Available but competitive; most are local or
+                            state-focused rather than national</li>
+                        <li><strong>Corporate sponsorships</strong> — Common for event-based fundraising and community
+                            partnerships</li>
+                    </ul>
+                </div>
+                <p class="content-text">
+                    Fundraising expectations differ across the state. Metro areas like Birmingham, Huntsville, and
+                    Mobile offer more diverse donor bases and corporate giving opportunities. Rural communities and
+                    smaller cities often rely on smaller donor pools, repeat giving, and relationship-driven outreach.
+                </p>
+                <p class="content-text">
+                    For nonprofit leadership, understanding these dynamics is essential for making informed decisions
+                    about nonprofit fundraising strategy in Alabama.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SERVICES SECTION
+    ============================================ -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Offer</span>
+                <h2 class="section-title">Our Fundraising Services in Alabama</h2>
+                <p class="section-subtitle">
+                    Chisholm Law Firm offers nonprofit fundraising consulting in Alabama and related services designed
+                    to support long-term capacity building. Our approach is strategic, practical, and tailored to
+                    Alabama's nonprofit environment.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/nonprofit_board_meeting_1769779742053.png"
+                            alt="Nonprofit board members in a strategic planning meeting">
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
+                            </svg>
+                        </div>
+                        <h3 class="service-card-title">Fundraising Consulting</h3>
+                        <p class="service-card-text">
+                            We work with nonprofit leadership to assess current revenue streams, align fundraising
+                            priorities, and develop actionable plans for growth.
+                        </p>
+                        <a href="#" class="service-card-link">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/community_volunteers_1769779805089.png"
+                            alt="Community volunteers working together at a food bank">
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z" />
+                            </svg>
+                        </div>
+                        <h3 class="service-card-title">Monthly Coaching</h3>
+                        <p class="service-card-text">
+                            Consistency matters. Our coaching services provide ongoing accountability and support as
+                            your team implements fundraising plans and adjusts strategy over time.
+                        </p>
+                        <a href="#" class="service-card-link">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-card-image">
+                        <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/nonprofit_board_meeting_1769779742053.png"
+                            alt="Team training session for nonprofit staff">
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                            </svg>
+                        </div>
+                        <h3 class="service-card-title">Team Training</h3>
+                        <p class="service-card-text">
+                            Effective fundraising requires the right messaging and donor engagement skills. We offer
+                            training for staff and board members focused on strengthening communication.
+                        </p>
+                        <a href="#" class="service-card-link">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CHALLENGES SECTION
+    ============================================ -->
+    <section class="challenges-section">
+        <div class="container">
+            <div class="challenges-grid">
+                <div class="challenges-content">
+                    <span class="section-label">Common Obstacles</span>
+                    <h2 class="section-title">Common Fundraising Challenges Facing Alabama Nonprofits</h2>
+
+                    <ul class="challenges-list">
+                        <li>
+                            <span class="challenge-number">1</span>
+                            <div class="challenge-text">
+                                <h4>Dependence on Repeat Donors</h4>
+                                <p>A handful of loyal supporters carry the majority of individual giving, creating
+                                    vulnerability if those relationships change.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="challenge-number">2</span>
+                            <div class="challenge-text">
+                                <h4>Heavy Reliance on Annual Events</h4>
+                                <p>Signature fundraisers generate significant revenue, but organizations struggle when
+                                    events underperform or can't be held.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="challenge-number">3</span>
+                            <div class="challenge-text">
+                                <h4>Board Role Confusion</h4>
+                                <p>Expectations around board participation in fundraising are often undefined, leading
+                                    to inconsistent engagement.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="challenge-number">4</span>
+                            <div class="challenge-text">
+                                <h4>ED-Driven Fundraising</h4>
+                                <p>Without dedicated development staff, executive directors balance fundraising with
+                                    program oversight and operations.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="challenge-number">5</span>
+                            <div class="challenge-text">
+                                <h4>Limited Donor Cultivation</h4>
+                                <p>Smaller teams focus on immediate asks rather than long-term stewardship, affecting
+                                    donor retention over time.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="challenges-image">
+                    <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/community_volunteers_1769779805089.png"
+                        alt="Community volunteers supporting local nonprofits in Alabama">
+                    <div class="floating-stats">
+                        <div class="floating-stat">
+                            <div class="floating-stat-value">10K+</div>
+                            <div class="floating-stat-label">Clients Served</div>
+                        </div>
+                        <div class="floating-stat">
+                            <div class="floating-stat-value">50</div>
+                            <div class="floating-stat-label">States</div>
+                        </div>
+                        <div class="floating-stat">
+                            <div class="floating-stat-value">99%</div>
+                            <div class="floating-stat-label">Success</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         COMMUNITY / NONPROFIT TYPES SECTION
+    ============================================ -->
+    <section class="community-section">
+        <div class="community-bg">
+            <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/alabama_birmingham_skyline_1769779763873.png"
+                alt="">
+        </div>
+        <div class="community-overlay"></div>
+
+        <div class="container community-content">
+            <span class="section-label">Who We Support</span>
+            <h2 class="section-title">Nonprofits We Commonly Support in Alabama</h2>
+            <p class="section-subtitle">
+                We provide fundraising support across Alabama's nonprofit sector. The organizations we work with most
+                often include:
+            </p>
+
+            <div class="nonprofit-types">
+                <div class="nonprofit-type">
+                    <div class="nonprofit-type-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </div>
+                    <h3 class="nonprofit-type-title">Human Services & Community</h3>
+                </div>
+
+                <div class="nonprofit-type">
+                    <div class="nonprofit-type-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                        </svg>
+                    </div>
+                    <h3 class="nonprofit-type-title">Education & Youth Development</h3>
+                </div>
+
+                <div class="nonprofit-type">
+                    <div class="nonprofit-type-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M18 11v2h4v-2h-4zm-2 6.61c.96.71 2.21 1.65 3.2 2.39.4-.53.8-1.07 1.2-1.6-.99-.74-2.24-1.68-3.2-2.4-.4.54-.8 1.08-1.2 1.61zM20.4 5.6c-.4-.53-.8-1.07-1.2-1.6-.99.74-2.24 1.68-3.2 2.4.4.53.8 1.07 1.2 1.6.96-.72 2.21-1.65 3.2-2.4zM4 9c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h1v4h2v-4h1l5 3V6L8 9H4zm11.5 3c0-1.33-.58-2.53-1.5-3.35v6.69c.92-.81 1.5-2.01 1.5-3.34z" />
+                        </svg>
+                    </div>
+                    <h3 class="nonprofit-type-title">Faith-Affiliated & Mission-Driven</h3>
+                </div>
+
+                <div class="nonprofit-type">
+                    <div class="nonprofit-type-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z" />
+                        </svg>
+                    </div>
+                    <h3 class="nonprofit-type-title">Health & Family Support</h3>
+                </div>
+
+                <div class="nonprofit-type">
+                    <div class="nonprofit-type-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                        </svg>
+                    </div>
+                    <h3 class="nonprofit-type-title">Housing & Economic Stability</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         COMPLIANCE SECTION
+    ============================================ -->
+    <section class="content-section alt-bg">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="content-title">Fundraising Compliance Considerations in Alabama</h2>
+                <p class="content-text">
+                    As nonprofits in Alabama expand their fundraising activities, compliance becomes an important
+                    consideration. The <strong>Alabama Office of the Attorney General</strong> oversees charitable
+                    solicitation through its Consumer Protection and Licensing & Registration functions.
+                </p>
+                <p class="content-text">
+                    Nonprofits should maintain awareness of:
+                </p>
+                <ul class="content-list">
+                    <li><strong>Registration requirements</strong> tied to charitable solicitation</li>
+                    <li><strong>Reporting obligations</strong> that may apply as fundraising activity grows or changes
+                    </li>
+                    <li><strong>State-level oversight</strong> that applies to organizations soliciting contributions in
+                        Alabama</li>
+                </ul>
+                <p class="content-text">
+                    Chisholm Law Firm brings familiarity with Alabama's regulatory environment to our work with
+                    nonprofits. We help organizations understand the compliance landscape as part of responsible
+                    fundraising planning—without providing procedural filing guidance.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         AREAS WE SERVE SECTION
+    ============================================ -->
+    <section class="areas-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Service Coverage</span>
+                <h2 class="section-title">Areas We Serve Across Alabama</h2>
+                <p class="section-subtitle">
+                    Chisholm Law Firm supports nonprofits throughout Alabama. Because fundraising realities differ
+                    across the state, regional context matters.
+                </p>
+            </div>
+
+            <div class="areas-grid">
+                <!-- Central Alabama -->
+                <div class="area-card">
+                    <div class="area-card-header">
+                        <h3>Central Alabama</h3>
+                    </div>
+                    <div class="area-card-body">
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Birmingham <span>(Jefferson County)</span></h4>
+                                <p>Alabama's largest city and a major hub for nonprofit activity, social services, and
+                                    community organizations.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Tuscaloosa <span>(Tuscaloosa County)</span></h4>
+                                <p>Home to the University of Alabama and a growing base of education and youth
+                                    development nonprofits.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Anniston <span>(Calhoun County)</span></h4>
+                                <p>Regional hub for health services and community-based organizations in eastern
+                                    Alabama.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- North Alabama -->
+                <div class="area-card">
+                    <div class="area-card-header">
+                        <h3>North Alabama</h3>
+                    </div>
+                    <div class="area-card-body">
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Huntsville <span>(Madison County)</span></h4>
+                                <p>Rapidly growing technology hub with active STEM education, aerospace, and
+                                    veteran-focused nonprofits.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Decatur <span>(Morgan County)</span></h4>
+                                <p>Strong base of faith-affiliated and community service organizations serving the
+                                    Tennessee Valley.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Florence <span>(Lauderdale County)</span></h4>
+                                <p>Regional center for arts, culture, and education nonprofits in the Shoals region.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- South Alabama -->
+                <div class="area-card">
+                    <div class="area-card-header">
+                        <h3>South Alabama</h3>
+                    </div>
+                    <div class="area-card-body">
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Montgomery <span>(Montgomery County)</span></h4>
+                                <p>State capital with strong presence of policy, advocacy, and civil rights-focused
+                                    organizations.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Selma <span>(Dallas County)</span></h4>
+                                <p>Historic community with deep roots in civil rights and ongoing social justice
+                                    nonprofit work.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Dothan <span>(Houston County)</span></h4>
+                                <p>Regional hub for agricultural community support, healthcare, and family services
+                                    nonprofits.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gulf Coast -->
+                <div class="area-card">
+                    <div class="area-card-header">
+                        <h3>Gulf Coast & Southwest</h3>
+                    </div>
+                    <div class="area-card-body">
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Mobile <span>(Mobile County)</span></h4>
+                                <p>Port city with diverse nonprofit sector including maritime, cultural, and community
+                                    development organizations.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Fairhope <span>(Baldwin County)</span></h4>
+                                <p>Growing community with active arts, environmental conservation, and educational
+                                    foundations.</p>
+                            </div>
+                        </div>
+                        <div class="area-location">
+                            <div class="area-pin">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                                </svg>
+                            </div>
+                            <div class="area-location-content">
+                                <h4>Gulf Shores <span>(Baldwin County)</span></h4>
+                                <p>Coastal community with tourism-related, environmental, and hurricane relief
+                                    nonprofits.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         WHY WORK WITH US SECTION
+    ============================================ -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-block" style="text-align: center;">
+                <h2 class="content-title">Why Nonprofits in Alabama Work With Chisholm Law Firm</h2>
+                <p class="content-text" style="max-width: 700px; margin: 0 auto;">
+                    Nonprofit leaders in Alabama choose to work with us because we understand the realities of
+                    community-based fundraising. We offer a balanced approach:
+                </p>
+            </div>
+
+            <div class="why-grid">
+                <!-- Card 1: Strategic -->
+                <div class="why-card style-light">
+                    <div class="why-card-image-wrapper">
+                        <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/nonprofit_board_meeting_1769779742053.png"
+                            alt="Strategic Planning" class="why-card-image">
+                    </div>
+                    <h3 class="why-card-title">Strategic Planning & Leadership</h3>
+                    <p class="why-card-text">
+                        We focus on sustainable capacity and informed decision-making, helping leadership weigh options
+                        for long-term growth rather than quick fixes.
+                    </p>
+                    <a href="#" class="why-btn">Explore Consulting</a>
+                </div>
+
+                <!-- Card 2: Local Expertise -->
+                <div class="why-card style-gold">
+                    <div class="why-card-image-wrapper">
+                        <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/community_volunteers_1769779805089.png"
+                            alt="Alabama Community Expertise" class="why-card-image">
+                    </div>
+                    <h3 class="why-card-title">Local & Operational Expertise</h3>
+                    <p class="why-card-text">
+                        We combine legal compliance with operational strategy, all grounded in a deep familiarity with
+                        regional differences across Alabama.
+                    </p>
+                    <a href="#" class="why-btn">Meet The Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FAQ SECTION
+    ============================================ -->
+    <section class="faq-section alt-bg">
+        <div class="container">
+            <div class="content-block">
+                <h2 class="content-title">Fundraising FAQs for Alabama Nonprofits</h2>
+            </div>
+
+            <div class="faq-grid">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <div class="faq-question">How do Alabama nonprofits typically balance individual giving and events?
+                    </div>
+                    <div class="faq-answer">
+                        Most Alabama nonprofits rely on a combination of both. Events generate visibility and donor
+                        engagement, while individual giving—cultivated through relationships—provides more sustainable,
+                        year-round revenue. Organizations that invest in donor stewardship alongside events tend to
+                        build stronger financial footing.
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <div class="faq-question">What role should boards play in fundraising for Alabama nonprofits?</div>
+                    <div class="faq-answer">
+                        Boards should be engaged partners in fundraising. This may include making personal
+                        contributions, opening doors to their networks, participating in donor cultivation, and
+                        supporting fundraising events. Clear expectations set during onboarding help establish
+                        productive board engagement over time.
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <div class="faq-question">When should an Alabama nonprofit reassess its fundraising strategy?</div>
+                    <div class="faq-answer">
+                        Key moments include leadership transitions, significant changes in revenue, shifts in mission or
+                        programming, or after a major campaign or event cycle. Regular strategic review—annually at
+                        minimum—helps organizations stay responsive to changing conditions.
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <div class="faq-question">How do fundraising expectations differ between rural and metro areas in
+                        Alabama?</div>
+                    <div class="faq-answer">
+                        Metro-area nonprofits often have access to larger donor pools, more corporate giving
+                        opportunities, and diverse funding sources. Rural organizations typically rely more heavily on
+                        grassroots campaigns, repeat donors, and personal relationships. Both contexts require tailored
+                        strategies.
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item">
+                    <div class="faq-question">What compliance considerations should Alabama nonprofits keep in mind as
+                        fundraising grows?</div>
+                    <div class="faq-answer">
+                        As fundraising activity expands, nonprofits should stay aware of charitable solicitation
+                        registration and reporting requirements under the Alabama Attorney General's oversight.
+                        Maintaining compliance supports organizational credibility and responsible stewardship.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         BOTTOM CTA SECTION
+    ============================================ -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <span class="section-label">Get Started</span>
+                    <h2 class="cta-title">Speak With a Fundraising Consultant</h2>
+                    <p class="cta-text">
+                        If your Alabama nonprofit is making decisions about fundraising strategy, leadership roles, or
+                        long-term revenue planning, we invite you to schedule a conversation.
+                    </p>
+
+                    <div class="cta-features">
+                        <div class="cta-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            No obligation
+                        </div>
+                        <div class="cta-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            Alabama-focused
+                        </div>
+                        <div class="cta-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                            Compliance-aware
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-primary">
+                        Schedule a Free Consultation
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="cta-image">
+                    <img src="/Users/reymartjansarigumba/.gemini/antigravity/brain/6a70b6bc-3fa9-4c7a-b809-6ea6e02e2bb0/nonprofit_board_meeting_1769779742053.png"
+                        alt="Nonprofit leadership team discussing strategy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky CTA Bar -->
+    <div class="sticky-cta">
+        <a href="#" class="sticky-rating" style="color: inherit;">
+            Read Reviews
+        </a>
+        <div class="sticky-rating">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+            </svg>
+            <span class="sticky-rating-text">4.6 stars (based on 442 Ratings)</span>
+        </div>
+        <a href="#" class="sticky-btn">Book My Consult</a>
+    </div>
+
+    <!-- Add padding at bottom for sticky bar -->
+    <div style="height: 80px;"></div>
+</body>
+
+</html>

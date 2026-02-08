@@ -1,0 +1,291 @@
+Content Category,Content Type,Content Role,Ideal Keyword Structure,Build Status,IdealURL,Target Seed Keyword
+Core Content Pages,Home Page,Home Page,{Brand},,/,{brand}
+Core Content Pages,Individual Service Pages,Divorce,Divorce in {state},,.com/{state}/divorce/,divorce in {state}
+Core Content Pages,Individual Service Pages,Child Custody,Child Custody in {state},,.com/{state}/child-custody/,child custody in {state}
+Core Content Pages,Individual Service Pages,Child Support,Child Support in {state},,.com/{state}/child-support/,child support in {state}
+Core Content Pages,Individual Service Pages,Alimony,Alimony in {state},,.com/{state}/alimony/,alimony in {state}
+Core Content Pages,Individual Service Pages,Property Division,Property Division in {state},,.com/{state}/property-division/,property division in {state}
+Core Content Pages,Individual Service Pages,Paternity,Paternity in {state},,.com/{state}/paternity/,paternity in {state}
+Core Content Pages,Individual Service Pages,Guardianship,Guardianship in {state},,.com/{state}/guardianship/,guardianship in {state}
+Core Content Pages,Individual Service Pages,Adoption,Adoption in {state},,.com/{state}/adoption/,adoption in {state}
+Core Content Pages,Individual Service Pages,Pre/Postnup ,Prenuptial & Postnuptial Agreements in {state},,.com/{state}/prenup-postnup/,prenuptial agreements {state}
+Core Content Pages,Location Pages,Location Hub,{Brand} {state} Family Law Office Locations,,.com/{state}/locations/,{brand} office locations {state}
+Core Content Pages,Location Pages,Individual Location Pages,{city 1} Divorce & Family Lawyers,,.com/{state}/locations/{city 1}/,{city 1} divorce lawyers
+Core Content Pages,Location Pages,Individual Location Pages,{city 2} Divorce & Family Lawyers,,.com/{state}/locations/{city 2}/,{city 2} divorce lawyers
+Core Content Pages,Location Pages,Individual Location Pages,{city 3} Divorce & Family Lawyers,,.com/{state}/locations/{city 3}/,{city 3} divorce lawyers
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Divorce Mediation,,.com/{state}/locations/{city 1}/divorce-mediation/,{city 1} divorce mediation
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Collaborative Divorce Lawyer,,.com/{state}/locations/{city 1}/collaborative-divorce/,{city 1} collaborative divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Uncontested Divorce Lawyer,,.com/{state}/locations/{city 1}/uncontested-divorce/,{city 1} uncontested divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Contested Divorce Lawyer,,.com/{state}/locations/{city 1}/contested-divorce/,{city 1} contested divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Child Custody Lawyer,,.com/{state}/locations/{city 1}/child-custody/,{city 1} child custody lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Child Support Lawyer,,.com/{state}/locations/{city 1}/child-support/,{city 1} child support lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Alimony Lawyer,,.com/{state}/locations/{city 1}/alimony/,{city 1} alimony lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Property Division Lawyer,,.com/{state}/locations/{city 1}/property-division/,{city 1} property division lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Paternity Lawyer,,.com/{state}/locations/{city 1}/paternity/,{city 1} paternity lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 1} Military Divorce Lawyer,,.com/{state}/locations/{city 1}/military-divorce/,{city 1} military divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Divorce Mediation,,.com/{state}/locations/{city 2}/divorce-mediation/,{city 2} divorce mediation
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Collaborative Divorce Lawyer,,.com/{state}/locations/{city 2}/collaborative-divorce/,{city 2} collaborative divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Uncontested Divorce Lawyer,,.com/{state}/locations/{city 2}/uncontested-divorce/,{city 2} uncontested divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Contested Divorce Lawyer,,.com/{state}/locations/{city 2}/contested-divorce/,{city 2} contested divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Child Custody Lawyer,,.com/{state}/locations/{city 2}/child-custody/,{city 2} child custody lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Child Support Lawyer,,.com/{state}/locations/{city 2}/child-support/,{city 2} child support lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Alimony Lawyer,,.com/{state}/locations/{city 2}/alimony/,{city 2} alimony lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Property Division Lawyer,,.com/{state}/locations/{city 2}/property-division/,{city 2} property division lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Paternity Lawyer,,.com/{state}/locations/{city 2}/paternity/,{city 2} paternity lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 2} Military Divorce Lawyer,,.com/{state}/locations/{city 2}/military-divorce/,{city 2} military divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Divorce Mediation,,.com/{state}/locations/{city 3}/divorce-mediation/,{city 3} divorce mediation
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Collaborative Divorce Lawyer,,.com/{state}/locations/{city 3}/collaborative-divorce/,{city 3} collaborative divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Uncontested Divorce Lawyer,,.com/{state}/locations/{city 3}/uncontested-divorce/,{city 3} uncontested divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Contested Divorce Lawyer,,.com/{state}/locations/{city 3}/contested-divorce/,{city 3} contested divorce lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Child Custody Lawyer,,.com/{state}/locations/{city 3}/child-custody/,{city 3} child custody lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Child Support Lawyer,,.com/{state}/locations/{city 3}/child-support/,{city 3} child support lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Alimony Lawyer,,.com/{state}/locations/{city 3}/alimony/,{city 3} alimony lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Property Division Lawyer,,.com/{state}/locations/{city 3}/property-division/,{city 3} property division lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Paternity Lawyer,,.com/{state}/locations/{city 3}/paternity/,{city 3} paternity lawyer
+Core Content Pages,Location Pages,Location Support Pages,{city 3} Military Divorce Lawyer,,.com/{state}/locations/{city 3}/military-divorce/,{city 3} military divorce lawyer
+Core Content Pages,Attorney Pages,Attorney Hub,{state} Attorneys,,.com/{state}/attorneys/,{state} attorneys
+Core Content Pages,Attorney Pages,Individual Attorney Pages,Attorney {attorney first name 1} {attorney last name 1},,.com/{state}/attorneys/{attorney 1 first name - attorney 1 last name}/,attorney {attorney first name 1} {attorney last name 1}
+Core Content Pages,Attorney Pages,Individual Attorney Pages,Attorney {attorney first name 2} {attorney last name 2},,.com/{state}/attorneys/{attorney 2 first name - attorney 2 last name}/,attorney {attorney first name 2} {attorney last name 2}
+Core Content Pages,Attorney Pages,Individual Attorney Review Pages,Attorney {attorney first name 1} {attorney last name 1} Reviews,,.com/{state}/attorneys/{attorney 1 first name - attorney 1 last name}/reviews/,attorney {attorney first name 1} {attorney last name 1} reviews
+Core Content Pages,Attorney Pages,Individual Attorney Review Pages,Attorney {attorney first name 2} {attorney last name 2} Reviews,,.com/{state}/attorneys/{attorney 2 first name - attorney 2 last name}/reviews/,attorney {attorney first name 2} {attorney last name 2} reviews
+Core Content Pages,Service Area Pages,Service Area Hub,{Brand} {state} Family Law Office Service Areas,,.com/{state}/areas/,{brand} service areas {state}
+Core Content Pages,Service Area Pages,Individual Service Area Pages (Counties),{service area county 1} Divorce & Family Lawyers,,.com/{state}/areas/{county1}/,{county 1} divorce lawyers
+Core Content Pages,Service Area Pages,Individual Service Area Pages (Counties),{service area county 2} Divorce & Family Lawyers,,.com/{state}/areas/{county2}/,{county 2} divorce lawyers
+Core Content Pages,Service Area Pages,Individual Service Area Pages (Counties),{service area county 3} Divorce & Family Lawyers,,.com/{state}/areas/{county3}/,{county 3} divorce lawyers
+Core Content Pages,Service Area Pages,Individual Service Area Pages (Cities),{service area city 1} Divorce & Family Lawyers,,.com/{state}/areas/{county1}/{city1}/,{service area city 1} divorce lawyers
+Core Content Pages,Service Area Pages,Individual Service Area Pages (Cities),{service area city 2} Divorce & Family Lawyers,,.com/{state}/areas/{county1}/{city2}/,{service area city 2} divorce lawyers
+Core Content Pages,Service Area Pages,Individual Service Area Pages (Cities),{service area city 3} Divorce & Family Lawyers,,.com/{state}/areas/{county1}/{city3}/,{service area city 3} divorce lawyers
+Supporting Content,Divorce Supporting Content,Procedure Content,Filing for Divorce in {state},,.com/{state}/divorce/filing-for-divorce/,how to file for divorce in {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Annulment in {state},,.com/{state}/divorce/annulment/,annulment {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Legal Separation in {state},,.com/{state}/divorce/legal-separation/,legal separation {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Divorce Mediation in {state},,.com/{state}/divorce/mediation/,divorce mediation {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Collaborative Divorce in {state},,.com/{state}/divorce/collaborative/,collaborative divorce {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Contested Divorce in {state},,.com/{state}/divorce/contested/,contested divorce {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Uncontested Divorce in {state},,.com/{state}/divorce/uncontested/,uncontested divorce {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Default Divorce in {state},,.com/{state}/divorce/default/,default divorce {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Summary Dissolution (Simplified Divorce) in {state},,.com/{state}/divorce/summary-dissolution/,simplified divorce {state}
+Supporting Content,Divorce Supporting Content,Procedure Content,Modifying a Divorce Decree After Finalization in {state},,.com/{state}/divorce/how-long/,modify divorce decree {state}
+Supporting Content,Divorce Supporting Content,Situational Content,How Much Does A Divorce Cost In {state},,.com/{state}/divorce/divorce-costs/,cost of divorce in {state}
+Supporting Content,Divorce Supporting Content,Situational Content,How Long Does A Divorce Take In {state},,.com/{state}/divorce/process-duration/,how long does a divorce take in {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Divorce and Child Custody in {state},,.com/{state}/divorce/child-custody/,child custody and divorce {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Divorce and Child Support in {state},,.com/{state}/divorce/child-support/,divorce and child support {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Divorce and Alimony in {state},,.com/{state}/divorce/alimony/,alimony in {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Divorce and Property Division in {state},,.com/{state}/divorce/property-division/,property division divorce {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Arbitration vs. Litigation,,.com/{state}/divorce/arbitration-vs-litigation/,arbitration vs litigation
+Supporting Content,Divorce Supporting Content,Situational Content,Interstate Divorce in {state},,.com/{state}/divorce/interstate/,interstate divorce {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Dating Again After Divorce in {state},,.com/{state}/divorce/dating-after/,dating after divorce {state}
+Supporting Content,Divorce Supporting Content,Situational Content,International Divorce in {state},,.com/{state}/divorce/international/,international divorce {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Divorcing a Narcissist in {state},,.com/{state}/divorce/narcissist/,divorcing a narcissist {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Marital Abandonment and Divorce in {state}: What You Need to Know,,.com/{state}/divorce/marital-abandonment/,marital abandonment {state}
+Supporting Content,Divorce Supporting Content,Situational Content,"Navigating ""Gray Divorce"": Considerations for Older Couples in {state}",,.com/{state}/divorce/gray-over-50/,gray divorce {state}
+Supporting Content,Divorce Supporting Content,Situational Content,Social Media and Divorce: What You Need to Know in {state},,.com/{state}/divorce/social-media/,social media and divorce {state}
+Supporting Content,Divorce Supporting Content,Legal Description Content,Divorce Laws In {state},,.com/{state}/divorce/laws/,{state} divorce laws
+Supporting Content,Divorce Supporting Content,Legal Description Content,Grounds For Divorce In {state},,.com/{state}/divorce-grounds/,grounds for divorce in {state}
+Supporting Content,Divorce Supporting Content,Legal Description Content,Understanding Fault vs. No-Fault Divorce in {state},,.com/{state}/divorce/no-fault-vs-fault/,fault vs no fault divorce {state}
+Supporting Content,Divorce Supporting Content,Legal Description Content,Domestic Violence & Protective Orders in {state},,.com/{state}/domestic-violence/protective-orders/,protective order {state}
+Supporting Content,Divorce Supporting Content,Legal Description Content,Divorce Residency Requirements in {state},,.com/{state}/divorce/residency-requirements/,divorce residency requirements {state}
+Supporting Content,Divorce Supporting Content,Legal Description Content,Legal Considerations for Same-Sex Divorce in {state},,.com/{state}/divorce/same-sex-couples-lgbt/,same sex divorce {state}
+Supporting Content,Divorce Supporting Content,Legal Description Content,Tax Implications of Divorce in {state}: A Comprehensive Guide,,.com/{state}/divorce/tax-implications/,divorce tax implications {state}
+Supporting Content,Child Custody Supporting Content,Procedure Content,Child Custody Modification in {state},,.com/{state}/child-custody/modification/,child custody modification {state}
+Supporting Content,Child Custody Supporting Content,Procedure Content,Child Custody Enforcement in {state},,.com/{state}/child-custody/enforcement/,child custody enforcement {state}
+Supporting Content,Child Custody Supporting Content,Procedure Content,Child Custody Termination in {state},,.com/{state}/child-custody/termination/,terminating parental rights {state}
+Supporting Content,Child Custody Supporting Content,Procedure Content,Temporary Custody Order in {state},,.com/{state}/child-custody/temporary-order/,temporary custody order {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,{state} Approved Co-Parenting Apps & Tools,,.com/{state}/child-custody/co-parenting-tools/,co parenting apps approved by {state} courts
+Supporting Content,Child Custody Supporting Content,Situational Content,Addressing Parental Alienation in {state} Custody Disputes,,.com/{state}/child-custody/parental-alienation/,parental alienation {state} custody
+Supporting Content,Child Custody Supporting Content,Situational Content,Contempt Of Court With Child Custody in {state},,.com/{state}/child-custody/contempt-of-court-orders/,contempt of court child custody {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,Violation Of Parenting Plan in {state},,.com/{state}/child-custody/parenting-plan-violation/,parenting plan violation {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,How to Prepare for a Child Custody Hearing,,.com/{state}/child-custody/hearing-preparation/,how to prepare for child custody hearing
+Supporting Content,Child Custody Supporting Content,Situational Content,Co-Parenting with a Narcissist in {state},,.com/{state}/child-custody/co-parenting-narcissist/,co parenting with a narcissist {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,Co-Parenting with a Difficult Ex in {state},,.com/{state}/child-custody/co-parenting-difficult-spouse/,co parenting with a difficult ex {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,Name Change For Child in {state},,.com/{state}/child-custody/name-change/,child name change {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,Relocating with Children After Divorce in {state},,.com/{state}/child-custody/relocating-children/,relocating with child after divorce {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,Managing Custody Arrangements for Children with Special Needs,,.com/{state}/child-custody/special-needs-children/,special needs child custody {state}
+Supporting Content,Child Custody Supporting Content,Situational Content,Navigating Custody Challenges in Military Families,,.com/{state}/child-custody/military-families/,military child custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,50/50 Custody in {state},,.com/{state}/child-custody/50-50-custody/,50/50 custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Abandonment Laws in {state},,.com/{state}/child-custody/abandonment-laws/,child abandonment laws {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Co-Parenting Agreement,,.com/{state}/child-custody/co-parenting-agreement/,co parenting agreement {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Child Placement Laws in {state},,.com/{state}/child-custody/placement-laws/,child placement laws {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Guardian Ad Litem in {state},,.com/{state}/child-custody/role-guardian-ad-litem-gal/,guardian ad litem {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,At What Age Can a Child Choose Which Parent to Live With in {state},,.com/{state}/child-custody/child-preference-age/,what age can a child choose parent in {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Child Custody Laws in {state},,.com/{state}/child-custody/laws/,{state} child custody laws
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Sole Custody in {state},,.com/{state}/child-custody/sole-custody/,sole custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Full Custody in {state},,.com/{state}/child-custody/full-custody/,full custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Visitation Rights for Grandparents & Third Parties in {state},,.com/{state}/child-custody/grandparent-third-party-visitation/,grandparents visitation rights {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Legal Custody in {state},,.com/{state}/child-custody/legal-custody/,legal custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Physical Custody in {state},,.com/{state}/child-custody/physical-custody/,physical custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Hybrid Custody Arrangements in {state},,.com/{state}/child-custody/hybrid-arrangements/,hybrid custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Understanding Joint Custody vs. Sole Custody in {state},,.com/{state}/child-custody/joint-custody-vs-sole-custody/,joint custody vs sole custody {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Legal Implications of Unmarried Parents Seeking Custody in {state},,.com/{state}/child-custody/unmarried-parents-custody-rights/,unmarried parents custody rights {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Determining the Best Interest of the Child in {state},,.com/{state}/child-custody/best-interest-of-child/,best interest of the child {state}
+Supporting Content,Child Custody Supporting Content,Legal Description Content,Visitation Rights and Schedules in {state},,.com/{state}/child-custody/visitation-rights-schedule-options/,child visitation schedule {state}
+Supporting Content,Child Support Supporting Content,Procedure Content,Child Support Modification in {state},,.com/{state}/child-support/modification/,child support modification {state}
+Supporting Content,Child Support Supporting Content,Procedure Content,Child Support Enforcement in {state},,.com/{state}/child-support/enforcement/,{state} child support enforcement
+Supporting Content,Child Support Supporting Content,Procedure Content,Child Support Termination in {state},,.com/{state}/child-support/termination/,when does child support end in {state}
+Supporting Content,Child Support Supporting Content,Procedure Content,Petition for Child Support in {state},,.com/{state}/child-support/how-to-file/,how to file for child support in {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Supporting Kids as a Single Parent in {state},,.com/{state}/child-support/single-parent-support/,single parent help {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Child Support for Self-Employed Parents in {state},,.com/{state}/child-support/self-employed/,child support for self employed in {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Understanding Wage Garnishment for Child Support in {state},,.com/{state}/child-support/wage-garnishments/,wage garnishment child support {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Child Support for Children with Special Needs in {state},,.com/{state}/child-support/special-needs-children/,child support for special needs child {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Child Support for Military Families in {state},,.com/{state}/child-support/military-families/,child support military {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Child Support Payments when Unemployed in {state},,.com/{state}/child-support/unemployment-payment-obligations/,child support if unemployed {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Can Parents Agree to No Child Support in {state},,.com/{state}/child-support/no-support-agreement/,can parents waive child support in {state}
+Supporting Content,Child Support Supporting Content,Situational Content,Retroactive Child Support Orders in {state},,.com/{state}/child-support/retroactive/,retroactive child support {state}
+Supporting Content,Child Support Supporting Content,Legal Description Content,When Does Child Support End,,.com/{state}/child-support/support-end-age/,when does child support end
+Supporting Content,Child Support Supporting Content,Legal Description Content,{state} Child Support Laws,,.com/{state}/child-support/laws/,{state} child support laws
+Supporting Content,Child Support Supporting Content,Legal Description Content,Documentation Required for Child Support Cases in {state},,.com/{state}/child-support/documents-required/,documents needed for child support {state}
+Supporting Content,Child Support Supporting Content,Legal Description Content,Income Shares vs. Percentage-of-Income Models,,.com/{state}/child-support/income-shares-vs-percentage/,income shares vs percentage of income
+Supporting Content,Child Support Supporting Content,Legal Description Content,Voluntary Unemployment & Child Support in {state},,.com/{state}/child-support/voluntary-unemployment-obligations,voluntary unemployment and child support {state}
+Supporting Content,Child Support Supporting Content,Legal Description Content,Tax Consequences of Child Support in {state},,.com/{state}/child-support/tax-implications/,is child support taxable in {state}
+Supporting Content,Child Support Supporting Content,Legal Description Content,Overview of Child Support Arrears and Penalties in {state},,.com/{state}/child-support/arrears-penalties/,child support arrears {state}
+Supporting Content,Alimony Supporting Content,Procedure Content,Alimony Modification in {state},,.com/{state}/alimony/modification/,alimony modification {state}
+Supporting Content,Alimony Supporting Content,Procedure Content,Alimony Enforcement in {state},,.com/{state}/alimony/enforcement/,enforce alimony {state}
+Supporting Content,Alimony Supporting Content,Procedure Content,Alimony Termination in {state},,.com/{state}/alimony/termination/,terminate alimony {state}
+Supporting Content,Alimony Supporting Content,Procedure Content,Alimony Appeals in {state},,.com/{state}/alimony/appeal-court-orders/,alimony appeal {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Avoid Paying Alimony in {state},,.com/{state}/alimony/avoid-paying/,how to avoid paying alimony in {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Budgeting for Post-Divorce Life in {state},,.com/{state}/alimony/post-divorce-budgeting/,post divorce budgeting {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Alimony Mediation in {state},,.com/{state}/alimony/mediation-process/,alimony mediation {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Documentation Required for Alimony Cases in {state},,.com/{state}/alimony/documentation-required/,documents needed for alimony in {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Gray Divorce (“Over 50”) in {state},,.com/{state}/alimony/gray-divorce/,gray divorce {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Alimony in High-Asset Divorces in {state},,.com/{state}/alimony/high-asset-divorces/,high asset divorce {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Alimony Obligations during Retirement in {state},,.com/{state}/alimony/retirement-obligations/,alimony after retirement {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Impact of Remarriage on Alimony Payments in {state},,.com/{state}/alimony/remarriage-impact/,remarriage effect on alimony {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Alimony for Long-Term Marriages in {state},,.com/{state}/alimony/long-term-marriages/,alimony long term marriage {state}
+Supporting Content,Alimony Supporting Content,Situational Content,Alimony for Stay-at-Home Parents in {state},,.com/{state}/alimony/stay-at-home-parent/,stay at home parent alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Length of Marriage to Get Alimony in {state},,.com/{state}/alimony/marriage-length-for-alimony/,how long do you have to be married to get alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,{state} Alimony Laws,,.com/{state}/alimony/laws/,{state} alimony laws
+Supporting Content,Alimony Supporting Content,Legal Description Content,Temporary Alimony in {state},,.com/{state}/alimony/temporary/,temporary alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Bridge the Gap Alimony in {state},,.com/{state}/alimony/bridge-the-gap/,bridge the gap alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Rehabilitative Alimony in {state},,.com/{state}/alimony/rehabilitative/,rehabilitative alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Durational Alimony in {state},,.com/{state}/alimony/durational/,durational alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Permanent (Lifetime) Alimony in {state},,.com/{state}/alimony/permanent-lifetime/,permanent alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Alimony Types in {state},,.com/{state}/alimony/types/,types of alimony in {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Alimony Payment Reimbursement in {state},,.com/{state}/alimony/payment-reimbursement/,alimony reimbursement {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Cohabitation on Alimony in {state},,.com/{state}/alimony/cohabitation/,cohabitation effect on alimony {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Factors Courts Consider when Awarding Alimony in {state},,.com/{state}/alimony/factors-courts-consider/,factors for alimony in {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Tax Implications of Alimony Payments in {state},,.com/{state}/alimony/tax-implications/,alimony tax laws {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Alimony Payments when Unemployed in {state},,.com/{state}/alimony/unemployment-obligations/,paying alimony while unemployed {state}
+Supporting Content,Alimony Supporting Content,Legal Description Content,Overview of Alimony Arrears and Enforcement Mechanisms in {state},,.com/{state}/alimony/arrears-penalties/,alimony arrears {state}
+Supporting Content,Property Division Supporting Content,Procedure Content,Property Division Modification in {state},,.com/{state}/property-division/modification/,modify divorce decree {state}
+Supporting Content,Property Division Supporting Content,Procedure Content,Property Division Enforcement in {state},,.com/{state}/property-division/enforcement/,enforce divorce decree {state}
+Supporting Content,Property Division Supporting Content,Procedure Content,Petition for Property Division in {state},,.com/{state}/property-division/petition/,property division petition {state}
+Supporting Content,Property Division Supporting Content,Procedure Content,Appealing Property Division Orders in {state},,.com/{state}/property-division/appeal-court-orders/,appeal divorce decree {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Who Gets the House in a Divorce in {state},,.com/{state}/property-division/who-gets-house/,who gets the house in a divorce {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Documentation Required for Property Division Cases in {state},,.com/{state}/property-division/documentation-required/,divorce property division documents {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Understanding the Role of Mediation in Property Division Disputes,,.com/{state}/property-division/mediation/,divorce mediation {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Uncovering Hidden Assets in {state},,.com/{state}/property-division/hidden-assets/,hidden assets in divorce {state}
+Supporting Content,Property Division Supporting Content,Situational Content,QDROs: Dividing Retirement Funds in a {state} Divorce,,.com/{state}/property-division/qdro-retirement-accounts/,QDRO {state} divorce
+Supporting Content,Property Division Supporting Content,Situational Content,High-Net-Worth Divorces in {state},,.com/{state}/property-division/high-net-worth/,high net worth divorce {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Military Divorce & Property Division in {state},,.com/{state}/property-division/military-divorce/,military divorce {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Business Owner Property Division during Divorce in {state},,.com/{state}/property-division/business-owner-entrepreneur/,divorce business owner {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Dividing Cryptocurrency in a Divorce: A Guide for {state},,.com/{state}/property-division/cryptocurrency/,divorce cryptocurrency {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Future Inheritances in {state} Divorce Property Division Cases,,.com/{state}/property-division/future-inheritances/,inheritance in divorce {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Property Division for Long-Term Marriages in {state},,.com/{state}/property-division/long-term-marriages/,long term marriage divorce {state}
+Supporting Content,Property Division Supporting Content,Situational Content,Property Division for Stay-at-Home Parents in {state},,.com/{state}/property-division/stay-at-home-parents/,divorce stay at home parent {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Non-Marital Property in {state},,.com/{state}/property-division/non-marital-property/,non marital property {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Property Division Laws in {state},,.com/{state}/property-division/laws/,property division laws in {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Marital Property in {state},,.com/{state}/property-division/marital-property/,marital property {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Is {state} A Community Property state,,.com/{state}/property-division/community-property-state/,is {state} a community property state
+Supporting Content,Property Division Supporting Content,Legal Description Content,Is {state} an Equitable Distribution or Community Property State,,.com/{state}/property-division/equitable-vs-community/,{state} equitable distribution or community property
+Supporting Content,Property Division Supporting Content,Legal Description Content,Investment Valuations for Property Division in {state},,.com/{state}/property-division/investment-valuation/,divorce investment valuation {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Business Valuations during Divorce in {state},,.com/{state}/property-division/business-valuation/,business valuation divorce {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Understanding Separate vs. Marital Property in {state},,.com/{state}/property-division/separate-vs-marital/,separate vs marital property {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Legal Implications of Commingled Assets in {state},,.com/{state}/property-division/commingled-assets/,commingled assets divorce {state}
+Supporting Content,Property Division Supporting Content,Legal Description Content,Factors Courts Consider in Property Division in {state},,.com/{state}/property-division/factors-courts-consider/,factors in property division {state} divorce
+Supporting Content,Property Division Supporting Content,Legal Description Content,Tax Consequences of Property Division in Divorce in {state},,.com/{state}/property-division/tax-implications/,tax consequences divorce property division {state}
+Supporting Content,Guardianship Supporting Content,Procedure Content,Petitioning For Legal Guardianship,,.com/{state}/guardianship/petitioning/,how to petition for guardianship in {state}
+Supporting Content,Guardianship Supporting Content,Procedure Content,Establishing Guardianship in {state},,.com/{state}/guardianship/establishing/,how to establish guardianship in {state}
+Supporting Content,Guardianship Supporting Content,Procedure Content,Selecting & Appointing a Guardian in {state},,.com/{state}/guardianship/appointing-guardian/,appointing a legal guardian in {state}
+Supporting Content,Guardianship Supporting Content,Procedure Content,Modifying Guardianship in {state},,.com/{state}/guardianship/modifying/,modify guardianship {state}
+Supporting Content,Guardianship Supporting Content,Procedure Content,Reviewing Guardianship in {state},,.com/{state}/guardianship/reviewing/,guardianship review process {state}
+Supporting Content,Guardianship Supporting Content,Procedure Content,Terminating Guardianship in {state},,.com/{state}/guardianship/terminating/,how to terminate guardianship in {state}
+Supporting Content,Guardianship Supporting Content,Procedure Content,Contesting a Guardianship Petition in {state},,.com/{state}/guardianship/contesting/,contesting guardianship in {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Minor Guardianship in {state},,.com/{state}/guardianship/minor/,minor guardianship {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Adult Guardianship in {state},,.com/{state}/guardianship/adult/,adult guardianship {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Guardian ad Litem in Guardianship Cases in {state},,.com/{state}/guardianship/guardian-ad-litem-guardianship-cases/,guardianship guardian ad litem {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Incapacitated Adult Guardianship in {state},,.com/{state}/guardianship/incapacitated-adult/,guardianship for incapacitated adult {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Guardianship for Non-U.S. Citizen Minors in {state},,.com/{state}/guardianship/non-citizen-minor/,guardianship for undocumented minor {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Emergency & Temporary Guardianship in {state},,.com/{state}/guardianship/emergency-temporary/,emergency guardianship {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Elder Guardianship in {state},,.com/{state}/guardianship/elder/,elderly guardianship {state}
+Supporting Content,Guardianship Supporting Content,Situational Content,Guardianship for Special Needs Individuals in {state},,.com/{state}/guardianship/special-needs/,special needs guardianship {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Guardianship Laws in {state},,.com/{state}/guardianship/laws/,what is guardianship in {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Documentation for Guardianship Proceedings in {state},,.com/{state}/guardianship/documentation-required/,guardianship paperwork {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Rights & Responsibilities of a Guardian in {state},,.com/{state}/guardianship/guardian-rights-responsibilities/,guardian responsibilities {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Rights & Protections for the Ward in {state},,.com/{state}/guardianship/ward-rights-protections/,ward rights under guardianship {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Powers of Attorney & Advance Directives in {state},,.com/{state}/guardianship/power-of-attorney-directives/,power of attorney vs guardianship {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Trusts & Conservatorships in {state},,.com/{state}/guardianship/trusts-conservatorships/,conservatorship vs guardianship {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Differences Between Guardianship and Conservatorship in {state},,.com/{state}/guardianship/guardianship-vs-conservatorship/,difference between guardianship and conservatorship {state}
+Supporting Content,Guardianship Supporting Content,Legal Description Content,Guardian of the Person vs. Guardian of the Estate in {state},,.com/{state}/guardianship/person-vs-estate/,guardian of person vs estate {state}
+Supporting Content,Paternity Supporting Content,Procedure Content,Establishing Paternity In {state},,.com/{state}/paternity/establishing/,establishing paternity in {state}
+Supporting Content,Paternity Supporting Content,Procedure Content,Challenging or Disestablishing Paternity in {state},,.com/{state}/paternity/challenging-disestablishing/,how to disestablish paternity in {state}
+Supporting Content,Paternity Supporting Content,Procedure Content,Voluntary Acknowledgment of Paternity in {state},,.com/{state}/paternity/voluntary-acknowledgement/,voluntary acknowledgment of paternity {state}
+Supporting Content,Paternity Supporting Content,Situational Content,Paternity during Surrogacy & Assisted Reproduction in {state},,.com/{state}/paternity/surrogacy-assisted-reproduction/,paternity laws surrogacy {state}
+Supporting Content,Paternity Supporting Content,Situational Content,Paternity during Same-sex Families in {state},,.com/{state}/paternity/same-sex-families/,paternity rights same sex couples {state}
+Supporting Content,Paternity Supporting Content,Situational Content,DNA Testing during Paternity Cases in {state},,.com/{state}/paternity/dna-testing-orders/,dna paternity testing {state}
+Supporting Content,Paternity Supporting Content,Situational Content,Posthumous Paternity in {state},,.com/{state}/paternity/posthumous/,posthumous paternity {state}
+Supporting Content,Paternity Supporting Content,Situational Content,Paternity Cases in {state} with Infidelity,,.com/{state}/paternity/infidelity/,paternity and infidelity {state}
+Supporting Content,Paternity Supporting Content,Situational Content,Paternity for Military Families in {state},,.com/{state}/paternity/military-families/,military paternity rights {state}
+Supporting Content,Paternity Supporting Content,Situational Content,Paternity in Cases of Deceased Fathers in {state},,.com/{state}/paternity/deceased-father/,paternity rights deceased father {state}
+Supporting Content,Paternity Supporting Content,Situational Content,Paternity Fraud Consequences in {state},,.com/{state}/paternity/fraud-consequences/,paternity fraud {state}
+Supporting Content,Paternity Supporting Content,Legal Description Content,{state} Paternity Laws,,.com/{state}/paternity/laws/,{state} paternity laws
+Supporting Content,Paternity Supporting Content,Legal Description Content,Court Order Of Paternity,,.com/{state}/paternity/court-order/,court ordered paternity test {state}
+Supporting Content,Paternity Supporting Content,Legal Description Content,Fathers Rights in {state},,.com/{state}/paternity/fathers-rights/,fathers rights in {state}
+Supporting Content,Adoption Supporting Content,Procedure Content,Adoption Process in {state},,.com/{state}/adoption/process/,adoption process in {state}
+Supporting Content,Adoption Supporting Content,Procedure Content,Contesting Adoptions in {state},,.com/{state}/adoption/contesting-process/,how to contest an adoption in {state}
+Supporting Content,Adoption Supporting Content,Procedure Content,Reverse or Vacate an Adoption in {state},,.com/{state}/adoption/reverse-vacate-orders/,reverse adoption in {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Domestic Adoption in {state},,.com/{state}/adoption/domestic/,domestic adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,International Adoption in {state},,.com/{state}/adoption/international/,international adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Foster Care Adoption in {state},,.com/{state}/adoption/foster-care/,foster care adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Relative (Kinship) Adoption in {state},,.com/{state}/adoption/kinship/,kinship adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Stepparent Adoption in {state},,.com/{state}/adoption/stepparent/,stepparent adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Adult Adoption in {state},,.com/{state}/adoption/adult/,adult adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Embryo Adoption in {state},,.com/{state}/adoption/embryo/,embryo adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,LGBT Adoption in {state},,.com/{state}/adoption/lgbt/,LGBT adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Single Parent Adoption in {state},,.com/{state}/adoption/single-parent/,single parent adoption {state}
+Supporting Content,Adoption Supporting Content,Situational Content,Preparing Your Family for Adoption,,.com/{state}/adoption/preparing-family/,preparing for adoption
+Supporting Content,Adoption Supporting Content,Situational Content,Attachment & Bonding Strategies,,.com/{state}/adoption/attachment-and-bonding-strategies/,adoption bonding strategies
+Supporting Content,Adoption Supporting Content,Situational Content,Talking about Adoption,,.com/{state}/adoption/talking-about/,how to talk to your child about adoption
+Supporting Content,Adoption Supporting Content,Situational Content,Transracial Adoption Considerations,,.com/{state}/adoption/transracial/,transracial adoption pros and cons
+Supporting Content,Adoption Supporting Content,Situational Content,Transcultural Adoption Considerations,,.com/{state}/adoption/transcultural/,transcultural adoption
+Supporting Content,Adoption Supporting Content,Legal Description Content,Parental Rights & Consent in {state},,.com/{state}/adoption/parental-rights-consent/,parental consent for adoption in {state}
+Supporting Content,Adoption Supporting Content,Legal Description Content,Adoption Laws in {state},,.com/{state}/adoption/laws/,{state} adoption laws
+Supporting Content,Adoption Supporting Content,Legal Description Content,Interstate Compact on the Placement of Children (ICPC),,.com/{state}/adoption/interstate-compact/,ICPC adoption {state}
+Supporting Content,Adoption Supporting Content,Legal Description Content,Adoption Decree & Final Orders in {state},,.com/{state}/adoption/decree-final-orders/,final adoption decree {state}
+Supporting Content,Adoption Supporting Content,Legal Description Content,Adoption Assistance Agreements in {state},,.com/{state}/adoption/assistance-agreements/,adoption assistance {state}
+Supporting Content,Adoption Supporting Content,Legal Description Content,Legal Requirements for Open vs. Closed Adoptions in {state},,.com/{state}/adoption/open-vs-closed-requirements/,open vs closed adoption {state}
+Supporting Content,Adoption Supporting Content,Legal Description Content,Post-Adoption Contact Agreements in {state},,.com/{state}/adoption/post-adoption-contact/,post adoption contact agreement {state}
+Supporting Content,Prenup Supporting Content,Procedure Content,Enforcing Prenuptial Agreements in {state},,.com/{state}/prenup-postnup/enforcing-prenuptial-agreements/,enforce prenuptial agreement {state}
+Supporting Content,Prenup Supporting Content,Procedure Content,Challenging a Prenuptial Agreement in {state},,.com/{state}/prenup-postnup/challenging-prenuptial-agreement/,contesting prenuptial agreement {state}
+Supporting Content,Prenup Supporting Content,Procedure Content,Prenuptial Agreement Drafting in {state},,.com/{state}/prenup-postnup/prenuptial-agreement-drafting/,prenuptial agreement lawyer {state}
+Supporting Content,Prenup Supporting Content,Situational Content,How to Start Talking about Prenuptial Agreements,,.com/{state}/prenup-postnup/talking-about-prenuptial-agreements/,how to talk about prenuptial agreements
+Supporting Content,Prenup Supporting Content,Situational Content,Prenuptial Negotiation Tips in {state},,.com/{state}/prenup-postnup/prenuptial-negotiation-tips/,prenuptial agreement negotiation {state}
+Supporting Content,Prenup Supporting Content,Situational Content,Prenuptial Agreements for High-Net-Worth Couples in {state},,.com/{state}/prenup-postnup/prenups-high-net-worth/,high net worth prenuptial agreement {state}
+Supporting Content,Prenup Supporting Content,Situational Content,Prenuptial Agreements for Entrepreneurs & Business Owners in {state},,.com/{state}/prenup-postnup/prenups-entrepreneurs-family-business/,prenuptial agreement business owner {state}
+Supporting Content,Prenup Supporting Content,Situational Content,Prenuptial Agreements for Same-Sex Couples in {state},,.com/{state}/prenup-postnup/prenups-same-sex-couples/,same sex prenuptial agreement {state}
+Supporting Content,Prenup Supporting Content,Situational Content,Prenups for Young Professionals in {state},,.com/{state}/prenup-postnup/prenups-young-professionals/,prenuptial agreement young couples {state}
+Supporting Content,Prenup Supporting Content,Situational Content,Prenups for Military Families in {state},,.com/{state}/prenup-postnup/prenups-military-families/,military prenuptial agreement {state}
+Supporting Content,Prenup Supporting Content,Situational Content,Prenups for Couples with Significant Age Gaps in {state},,.com/{state}/prenup-postnup/prenups-age-gaps/,age gap prenuptial agreement {state}
+Supporting Content,Prenup Supporting Content,Situational Content,Insuring Prenup Obligations in {state},,.com/{state}/prenup-postnup/insuring-prenup-obligations/,prenuptial agreement insurance {state}
+Supporting Content,Prenup Supporting Content,Legal Description Content,Prenuptial Agreement Laws in {state},,.com/{state}/prenup-postnup/laws/,what is a prenuptial agreement in {state}
+Supporting Content,Prenup Supporting Content,Legal Description Content,History of Prenups,,.com/{state}/prenup-postnup/history-of-prenups/,history of prenuptial agreements
+Supporting Content,Prenup Supporting Content,Legal Description Content,Prenup vs Postnups in {state},,.com/{state}/prenup-postnup/prenup-vs-postnup/,prenup vs postnup {state}
+Supporting Content,Prenup Supporting Content,Legal Description Content,Uniform Premarital Agreement Act (UPAA),,.com/{state}/prenup-postnup/uniform-premarital-agreement-act/,uniform premarital agreement act
+Supporting Content,Prenup Supporting Content,Legal Description Content,Prenuptial Laws in {state},,.com/{state}/prenup-postnup/prenuptial-laws/,{state} prenuptial agreement laws
+Supporting Content,Prenup Supporting Content,Legal Description Content,Key Provisions of Prenuptial Agreements in {state},,.com/{state}/prenup-postnup/key-provisions-prenups/,prenuptial agreement clauses {state}
+Brand Content,Brand Supporting Content,Review Hub Page,Reviews | {brand},,.com/{state}/reviews/,{brand} reviews
+Brand Content,Brand Supporting Content,Blog Hub Page,Family Law Blog | {brand},,.com/{state}/blog/,{brand} family law blog
+Brand Content,Brand Supporting Content,About / Firm Story,Our Story | {brand},,.com/our-story/,{brand} story
+Brand Content,Brand Supporting Content,Privacy Policy,Privacy Policy,,.com/privacy-policy/,{brand} privacy policy
+Brand Content,Brand Supporting Content,Terms of Service,Terms of Service,,.com/terms-of-service/,{brand} terms of service
+Brand Content,Brand Supporting Content,Awards,Awards | {brand},,.com/awards/,{brand} awards
+Brand Content,Brand Supporting Content,In the News,In the News | {brand},,.com/news/,{brand} news
+Brand Content,Brand Supporting Content,Careers,Careers | {brand},,.com/careers/,{brand} careers
+Tools / Resources Pages,Child Support Supporting Content,Child Support Calculator,{year} {state} Child Support Calculator,,.com/{state}/child-support/calculator/,{state} child support calculator
+Tools / Resources Pages,Alimony Supporting Content,Alimony Calculator,{year} {state} Alimony Calculator,,.com/{state}/alimony/calculator/,{state} alimony calculator
+Tools / Resources Pages,Property Division Supporting Content,Property Division Worksheet,{state} Property Division Worksheet,,.com/{state}/property-division/worksheet/,{state} divorce property division worksheet
+Tools / Resources Pages,Child Custody Supporting Content,Parenting Plan Template,{state} Parenting Plan Template,,.com/{state}/child-custody/parenting-plans/template,{state} parenting plan template
+Tools / Resources Pages,Divorce Supporting Content,DIY Divorce Forms,{state} DIY Divorce Forms,,.com/{state}/divorce/forms-diy/,{state} diy divorce forms
+Event Pages,Events,Hub Page,{year} {state} Family Law Education Events,,.com/{state}/events/,{state} family law education events
+Event Pages,Events,Recorded Webinars,{year} {state} Divorce Webinar,,.com/{state}/events/{webinar1},{state} divorce webinar
+Event Pages,Events,Recorded Webinars,{year} {state} Co-Parenting Webinar,,.com/{state}/events/{webinar2},{state} co-parenting webinar
+Event Pages,Events,Live Workshops (Seminars),{year} {state} Divorce Seminar (Workshop),,.com/{state}/events/{workshop1},{state} divorce seminar
+Event Pages,Events,Live Workshops (Seminars),{year} {state} Co-Parenting Seminar (Workshop),,.com/{state}/events/{workshop2},{state} co-parenting seminar

@@ -1,0 +1,671 @@
+Page path and screen class,Character Count,Sessions,Key events,Total users,Bounce rate,New users,Engaged sessions,Views,Active users,Average engagement time per active user,H1,H2-1,H2-2
+/state-of-sales/,16,308,0,300,73%,266,82,309,297,3.515151515,2025 State of Sales | Small to Mid-Size Businesses,The State of Sales: Crafting High-Performing Sales Organizations,Sales Strategy
+/client-solutions/,18,249,2,206,18%,28,205,269,203,39.22167488,Tailored Sales Solutions for Your Business,Fractional Sales Leader: Your Source for Sales Success,Certified Sales Operating Management SystemTM
+/contact-us/,12,153,0,152,25%,50,115,205,152,24.02631579,Contact Us,,
+/podcasts/,10,126,0,114,25%,58,94,121,113,21.14159292,Sales Against The Odds,Latest Episode,Episode Library
+/free-sales-resources/,22,95,0,75,59%,43,39,135,74,51.66216216,Free Sales Tools and Resources,Not sure where to start? Here are our top picks:,The AI Security Playbook: 6 Essentials Every Sales Organization Needs
+/case-studies/,14,92,0,87,52%,58,44,102,86,18.80232558,Sales Success Stories and Case Studies,Featured Case Studies,
+/private-equity-solutions/tech-mfg-case-study/,46,89,0,50,43%,44,51,98,49,126.3877551,Investment Profile and Challenges,$5M Turnaround: Inside Sales Xceleration's Sales Growth Strategy,Portfolio Company Challenges
+/sales-strategy/,16,83,0,70,18%,7,68,87,70,76.52857143,Sales Strategy Consulting Services,Transform Your Sales with Proven Expertise,Build Your Sales Strategy with Our Proven Framework
+/frequently-asked-questions/,28,65,0,57,22%,11,51,64,57,57.68421053,Frequently Asked Questions,General Questions,Engagement & Pricing
+/private-equity-solutions/healthcare-managed-services-case-study/,65,62,0,60,34%,27,41,61,60,27.01666667,Company Profile and Challenges,25x Return On Investment In One Year: How Sales Xceleration Increased Value,Platform/Portfolio Company Challenges
+/turn-chaos-into-clarity-building-sales-infrastructure-that-scales/,67,59,0,56,39%,26,36,50,56,7.910714286,#N/A,#N/A,#N/A
+/private-equity-solutions/private-equity/,41,57,0,42,46%,10,31,59,40,22.925,Private Equity Growth with Expert Sales Strategies,Accelerate Growth. Maximize Returns.,Maximizing Organic Growth
+/how-we-serve/,14,55,0,46,13%,5,48,55,46,38.95652174,How We Serve,"“Integrity, character and ethics, lived out in service for others""",Sales Xceleration Day of Giving
+/testimonials/,14,52,0,44,35%,17,34,48,44,60.54545455,Client Testimonials and Success Stories from Sales Xceleration,,
+/sales-team/,12,50,0,45,12%,5,44,53,45,17.95555556,Sales Team Development Services,Your Foundation for Scalable and Efficient Growth,Read Real Success Stories
+/sales-impact-assessment,24,49,0,49,98%,49,1,49,49,0.4489795918,#N/A,#N/A,#N/A
+/private-equity-solutions/,26,47,0,38,15%,1,40,66,37,86.21621622,"Creating Scalable, Profitable Revenue Growth",Our Advisors have a proven track record of collaborating with PE Firms,Maximize Your Return on Investment
+/blog/,6,46,0,33,35%,16,30,49,33,42.6969697,Expert Sales Tips and Insights from Sales Xceleration,Not sure where to start? Here are our top picks:,Complete Library
+/private-equity-solutions/portfolio-company/,44,46,0,40,30%,8,32,46,40,15.15,Accelerate Your Sales Success with Proven Expertise,Maximizing Sales Growth,Certified Sales Leadership
+/private-equity-solutions/contact/,34,44,0,44,16%,21,37,40,44,8.727272727,Contact Our PE Team,,
+/sales-infrastructure/,22,42,0,37,29%,8,30,43,36,49.47222222,Sales Infrastructure Consulting Services,What is Sales Infrastructure?,Your Foundation for Scalable and Efficient Growth
+/private-equity-solutions/case-studies/,39,41,0,32,12%,3,36,45,32,17.8125,Private Equity Case Studies,"Let’s build your path to profitability, together.",
+/sales-management/,18,41,0,37,44%,16,23,41,37,23.64864865,Sales Management Consulting Services,Transform Your Sales with Proven Expertise,How We Build Your Sales Success
+/fractional-sales-leader/,25,36,0,34,89%,33,4,35,34,1.294117647,#N/A,#N/A,#N/A
+/ai-for-sales/,14,35,0,31,20%,7,28,33,31,22.87096774,Artificial Intelligence (AI) for Sales,Embrace AI to Enhance Sales Strategies,
+/industries/technology/,23,32,0,22,38%,7,20,29,22,55.59090909,Fractional Sales Leadership for Tech Companies,Scale Revenue in Competitive Markets,Key Sales Challenges in the Tech Space
+/answer-your-customers-three-whys-to-ensure-your-sales-process-is-perfectly-aligned/,84,31,0,23,81%,22,6,27,23,10.95652174,Answer Your Customer’s Three Whys to Ensure Your Sales Process is Perfectly Aligned,Why do anything? Confirming the Business Necessity,Why you? Choosing Who to Work With and What Solution to Buy
+/sales-agility-assessment,25,31,0,31,100%,30,0,30,31,0.6451612903,#N/A,#N/A,#N/A
+/ai-sales-tools-readiness-assessment/,37,30,0,28,37%,10,19,42,28,18.92857143,AI Readiness Check: Is Your Sales Organization Ready to Transform?,,
+/ten-strategies-to-use-when-your-competitor-lowers-their-price/,63,30,0,27,47%,26,16,26,27,66.44444444,#N/A,#N/A,#N/A
+/the-power-of-data-how-to-drive-sales-growth-with-analytics/,60,29,0,29,59%,28,12,36,29,17.27586207,#N/A,#N/A,#N/A
+/important-benefits-and-pitfalls-of-ai-for-sales/,49,27,0,23,74%,22,7,25,23,15.65217391,Important Benefits and Pitfalls of AI for Sales,What Is AI?,And What Is ChatGPT?
+/industries/professional-services/,34,25,0,21,56%,12,11,24,20,26.7,Fractional Sales Leadership for Professional Services,Scale Revenue in Competitive Markets,Key Sales Challenges in Professional Services
+/which-role-is-right-for-your-new-hire-account-manager-or-business-development-representative/,94,25,0,23,56%,23,11,25,23,13.7826087,Which Role is Right for Your New Hire: Account Manager or Business Development Representative?,Account Manager (AM),Business Development Representative (BDR)
+/industries/manufacturing/,26,24,0,21,42%,10,14,23,21,18.61904762,Fractional Sales Leadership for Manufacturing Companies,Scale Revenue in Competitive Markets,Key Sales Challenges in Manufacturing
+/the-consequences-of-price-reductions/,38,24,0,22,63%,21,9,23,22,21.27272727,The Consequences of Price Reductions,Think Twice Before You Discount,When should you offer discounts?
+/four-essential-elements-to-include-in-your-sales-action-plan-to-increase-sales/,80,23,0,21,48%,21,12,21,21,28.66666667,Four Essential Elements to Include in Your Sales Action Plan to Increase Sales,Is There a Difference Between a Sales Plan and a Sales Action Plan?,Sales Action Plan Essential #1: Alignment with Your Sales Plan
+/7-things-sales-managers-do-wrong/,34,22,0,20,68%,20,7,22,20,9.1,7 Things Sales Managers Do WRONG,Not Setting Clear Goals and Targets,Not Providing Enough Training and Support
+/case-study/revitalizing-sales-strategy-for-sustained-growth-human-resources-case-study/,88,22,0,22,82%,20,4,22,22,8.318181818,Payroll Human Resources: Revitalizing Sales Strategy for Sustained Growth,Company Profile,Sales Success Snapshot
+/how-clear-messaging-turns-noise-into-revenue-with-donald-miller/,65,22,0,17,59%,7,9,20,17,8.117647059,How Clear Messaging Turns Noise Into Revenue with Donald Miller,,
+/youre-fired-why-you-might-have-to-let-your-top-salesperson-go/,63,21,0,20,29%,19,15,21,20,20.6,You’re Fired! Why You Might Have to Let Your Top Salesperson Go.,,
+/the-private-equity-power-move-how-fractional-sales-leadership-drives-faster-value-creation/,92,20,0,18,75%,17,5,15,18,23.22222222,#N/A,#N/A,#N/A
+/industries/,12,19,0,15,11%,0,17,17,15,25.06666667,Industries We Serve,Industry-Recognized for Driving Growth,Proven Sales Leadership for Your Industry
+/sales-xcelerators-peer-group/,30,19,0,19,5%,2,18,19,19,11.21052632,Sales Xcelerators Peer Group,,
+/discounting-is-bad-for-businesses-especially-when-protecting-against-inflation/,80,18,0,17,78%,17,4,19,17,7.823529412,#N/A,#N/A,#N/A
+/ebooks/,8,18,0,15,39%,8,11,18,15,15.06666667,Sales eBooks for SMBs from Sales Xceleration,Unlock Sales Growth with AI,State of Sales: Small to Mid-Size Business
+/sales-connection/thank-you/,28,18,14,16,0%,0,18,17,16,4.75,#N/A,#N/A,#N/A
+/the-biggest-industry-trends-impacting-the-sales-profession/,60,17,0,15,71%,14,5,14,15,8.8,#N/A,#N/A,#N/A
+/why-when-who-hiring-fractional-vp-sales/,41,17,0,17,47%,16,9,16,17,36.05882353,"Sales Consulting 101: The “Why, When & Who” of Hiring a Fractional VP of Sales",,
+/7-best-practices-for-managing-indirect-sales-channels/,55,16,0,13,63%,12,6,15,13,29.53846154,#N/A,#N/A,#N/A
+/guide-to-use-fractional-executive/,35,16,0,15,69%,14,5,12,15,19.26666667,#N/A,#N/A,#N/A
+/mastering-ai-for-sales-prospecting/,36,16,0,14,69%,14,5,14,14,7.714285714,Mastering AI for Sales Prospecting,AI’s Role in Sales Prospecting,Building the Sales Pipeline
+/overcoming-sales-objections-techniques-to-turn-a-no-into-a-yes/,64,16,0,13,50%,12,8,15,13,14.92307692,#N/A,#N/A,#N/A
+/active-listening-in-sales/,27,15,0,15,87%,15,2,14,15,13.86666667,Active Listening in Sales: The Secret to Selling More by Overcoming Objections and Providing Real Solutions,,
+/building-a-modern-sales-operating-system/,42,15,0,13,53%,12,7,14,13,28.76923077,#N/A,#N/A,#N/A
+/case-study/electrical-manufacturing-sales-strategy-and-processes-provide-immediate-growth/,91,15,0,15,73%,11,4,15,15,13.33333333,Electrical Manufacturing: Sales Strategy and Processes Provide Immediate Growth,Executive Summary,The Big Win
+/discount-selling-price/,24,15,0,13,67%,13,5,13,13,39.76923077,Should You Discount Your Selling Price?,,
+/privacy-policy/,16,15,0,15,53%,9,7,14,15,9.466666667,Privacy Policy,,
+/treating-everyone-same-isnt-really-fair-treatment/,51,15,0,13,80%,13,3,13,13,14.07692308,#N/A,#N/A,#N/A
+/7-things-to-measure-to-evaluate-sales-representative-performance/,66,14,0,12,57%,11,6,13,12,20.5,7 Things to Measure to Evaluate Sales Representative Performance,Sales Revenue/Margin,Number of Deals Closed
+/case-study/food-and-beverage-driving-25-higher-topline-revenue-for-a-compostable-packaging-company/,100,14,0,12,57%,7,6,13,12,7.25,Food and Beverage: Driving 25% Higher Topline Revenue for a Compostable Packaging Company,Company Profile,Sales Success Snapshot
+/case-study/specialty-electrical-component-distributor/,55,14,0,11,43%,6,8,14,11,42.18181818,Specialty Electrical Component Distributor: Aligning Management with Sales to Reduce Costs,Executive Summary,The Big Win
+/whats-your-superpower-and-how-are-you-using-it-to-help-others/,63,14,0,14,64%,13,5,14,14,23.28571429,What’s Your Superpower? (And How Are You Using It to Help Others?),X-Ray Vision,Strength
+/four-painful-manufacturing-sales-challenges-and-the-cure-hiding-in-plain-sight/,80,13,0,12,77%,10,3,9,12,3.583333333,Four Painful Manufacturing Sales Challenges (and the Cure Hiding in Plain Sight),,
+/infographics/,14,13,0,9,54%,8,6,14,9,25.44444444,#N/A,#N/A,#N/A
+/salesperson-reputations-bad-overcome-trap/,43,13,0,13,54%,13,6,12,13,24.07692308,Why Salesperson Reputations Are So Bad (and How to Overcome This Trap),,
+/the-competitive-advantage-of-hiring-sales-talent-in-a-slow-economy/,68,13,0,10,46%,5,7,9,10,12.3,The Competitive Advantage of Hiring Sales Talent in a Slow Economy,Great Sales Talent Is More Accessible in a Down Market,"Hire Now, Train While It’s Quiet"
+/the-rise-of-fractional-sales-leadership-a-growing-opportunity-for-sales-leaders/,81,13,0,13,85%,12,2,6,13,2.846153846,The Rise of Fractional Sales Leadership: A Growing Opportunity for Sales Leaders,,
+/the-rise-of-skills-based-hiring/,33,13,0,8,46%,4,7,12,8,21.25,The Rise of Skills-Based Hiring,What is Skills-Based Hiring?,Why is This Shift Happening Now?
+/tool-virtual-onboarding-for-new-hires/,39,13,0,13,92%,12,1,13,13,0.7692307692,#N/A,#N/A,#N/A
+/how-to-define-and-analyze-your-target-market-for-growth/,57,12,0,10,58%,8,5,9,10,15.5,How to Define and Analyze Your Target Market for Growth,Target Market Segments,Target Market Examples
+/industries/franchises/,23,12,0,11,17%,4,10,10,11,21.54545455,Fractional Sales Leadership for Franchises,Key Sales Challenges in Franchising,Why Fractional Sales Leadership Fits Franchises
+/its-ok-if-your-sales-rep-makes-more-than-you/,46,12,0,10,67%,10,4,10,10,25,#N/A,#N/A,#N/A
+/the-secret-to-aligning-sales-and-operations-for-success/,57,12,0,12,42%,6,7,13,12,4.833333333,The Secret to Aligning Sales and Operations for Success,,
+/case-study/commercial-and-residential-paving/,46,11,0,10,45%,5,6,11,10,17,Commercial and Residential Paving: Driving Growth With a Disciplined Sales Process,Executive Summary,The Big Win
+/case-study/influencer-marketing-agency-building-a-future-proof-sales-infrastructure/,85,11,0,9,45%,6,6,11,9,8,Influencer Marketing Agency: Building a Future-Proof Sales Infrastructure,Company Profile,Sales Success Snapshot
+/case-study/medical-equipment-healthcare-improving-sales-infrastructure-for-long-term-success/,94,11,0,9,64%,5,4,10,9,8.555555556,Medical Equipment Healthcare: Improving Sales Infrastructure for Long-Term Success,Company Profile,Sales Success Snapshot
+/case-study/technology/,23,11,0,11,55%,10,5,12,11,3.090909091,Technology: Learning to Build a True Sales Organization,,
+/html-sitemap/,14,11,0,11,64%,7,4,12,11,5,HTML Sitemap,,
+/sales-hiring-strategy-how-to-hire-top-sales-talent-2/,54,11,0,11,73%,9,3,9,11,3.818181818,Sales Hiring Strategy: How to Hire Top Sales Talent,1. Define Your Ideal Candidate,2. Source Candidates Via Multiple Platforms And Channels
+/virtual-meeting-checklist/,27,11,0,10,18%,4,9,12,10,50.7,#N/A,#N/A,#N/A
+/whats-wallet-time-fund-sales-tool-kit/,39,11,0,10,73%,10,3,10,10,57.1,“What’s in your Wallet?” Time to Fund Your Sales Tool Kit,,
+/why-outsourcing-leadership-roles-is-the-best-business-decision-you-can-make/,77,11,0,7,82%,5,2,11,7,7.142857143,Why Outsourcing Leadership Roles Is the Best Business Decision You Can Make,The Generalist vs. Specialist Debate,What Are the Benefits of a Fractional Executive?
+/5-sales-compensation-plan-mistakes-that-damage-morale-and-ruin-revenue/,72,10,0,10,80%,8,2,10,10,19.9,Five Sales Compensation Plan Mistakes that Damage Morale and Ruin Revenue,,
+/case-study/hand-crafted-brick-oven-manufacturer/,49,10,0,9,50%,5,5,9,9,40.33333333,Brick Oven Manufacturer: Record-Breaking Revenue Achieved by Strengthening Sales Processes,Executive Summary,The Big Win
+/case-study/it-professional-services-building-a-sustainable-sales-strategy-for-accelerated-growth/,98,10,0,10,90%,9,1,10,10,5.5,IT Professional Services: Building a Sustainable Sales Strategy for Accelerated Growth,Executive Summary,The Big Win
+/essential-sales-metrics-to-track-for-success/,46,10,0,9,40%,8,6,9,9,24.77777778,#N/A,#N/A,#N/A
+/firing-a-salesperson-poor-performance/,39,10,0,7,60%,7,4,9,7,24.85714286,#N/A,#N/A,#N/A
+/increase-selling-price/,24,10,0,9,60%,7,4,8,9,9,Should You Increase Your Selling Price?,,
+/when-one-door-closes-another-opens-and-leads-to-opportunity-if-you-let-it/,75,10,0,10,50%,10,5,10,10,5,"When One Door Closes, Another Opens and Leads to Opportunity (If You Let It)",When One Door Closes…,Another Door Opens
+/5-strategies-for-building-a-resilient-sales-team/,50,9,0,9,44%,8,5,9,9,28.11111111,#N/A,#N/A,#N/A
+/c/link/,8,9,0,9,100%,9,0,9,9,0,#N/A,#N/A,#N/A
+/industries/financial-services/,31,9,0,9,44%,6,5,8,9,14.11111111,Fractional Sales Leadership for Financial Services,Scale Revenue in Competitive Markets,Key Sales Challenges in Financial Services
+/industries/legal/,18,9,0,9,67%,7,3,8,9,4.333333333,Fractional Sales Leadership for Legal Firms,Key Sales Challenges in the Legal Industry,Why Fractional Sales Leadership Fits Legal Firms
+/straight-commission-sales-compensation-terrible-idea-8-reasons-why/,68,9,0,8,67%,8,3,9,8,43.5,#N/A,#N/A,#N/A
+/using-ride-along-better-sales-management-coaching/,51,9,0,9,44%,9,5,9,9,140.3333333,Using the Ride-Along for Better Sales Management and Coaching,,
+/7-tips-to-increase-sales-a-guide-for-success/,46,8,0,8,75%,6,2,7,8,6.25,#N/A,#N/A,#N/A
+/7-ways-change-sales-culture-increase-profits/,46,8,0,8,88%,8,1,8,8,4.75,#N/A,#N/A,#N/A
+/case-study/developing-a-strategy-for-ensured-success/,54,8,0,7,38%,5,5,7,7,35.42857143,Medical Device Healthcare: Developing a Strategy for Ensured Success,Executive Summary,The Big Win
+/case-study/internet-service-provider-improving-close-rates-to-44-09/,69,8,0,7,63%,4,3,7,7,1.571428571,Internet Service Provider: Improving Close Rates to 44.09%,Company Profile,Sales Success Snapshot
+/case-study/lab-equipment-microbiology-technology-company/,58,8,0,7,75%,6,2,7,7,3.428571429,Lab Equipment/Microbiology: Building a Field Sales Strategy to Attain Growth,Executive Summary,The Big Win
+/future-proof-your-sales-4-essential-technologies-and-trends/,61,8,0,5,88%,5,1,6,5,2.6,Future-Proof Your Sales: 4 Essential Technologies and Trends,1. CRM Systems,2. Virtual Selling
+/harness-the-power-of-artificial-intelligence-to-drive-sales/,61,8,0,8,100%,8,0,6,8,0,Harness the Power of Artificial Intelligence to Drive Sales,Customer Insights and Personalization,Enhanced Lead Generation
+/how-do-you-keep-sales-human-in-an-ai-driven-world/,51,8,0,6,88%,5,1,7,6,7.5,How Do You Keep Sales Human In An AI-Driven World?,Key takeaways:,Episode highlights:
+/how-to-build-a-sales-contingency-plan-that-lasts/,50,8,0,7,88%,4,1,7,6,21.16666667,#N/A,#N/A,#N/A
+/set-right-expectations-lead-charge/,36,8,0,7,100%,6,0,4,7,4.428571429,#N/A,#N/A,#N/A
+/the-top-5-sales-mistakes/,26,8,0,7,75%,7,2,8,7,20.14285714,#N/A,#N/A,#N/A
+/time-to-turn-over-a-new-leaf-here-are-signs-you-should-watch-for/,66,8,0,8,63%,5,3,7,7,26.42857143,Time to Turn Over a New Leaf? Here Are Signs You Should Watch For,When is a Leaf Not a Leaf?,Signs It Might be Time to Rethink Your Future
+/whats-the-1-sales-challenge-for-smbs/,38,8,0,6,50%,4,4,8,6,6,#N/A,#N/A,#N/A
+/why-68-cant-trust-sales-forecasts-sales-xceleration/,53,8,0,6,50%,1,4,5,6,4.5,Why 68% Can’t Trust Sales Forecasts | Sales Xceleration,Why Forecasting Fails Before the Forecast Ever Begins,Why Most Sales Teams are Flying Blind
+/5-areas-sales-teams-should-focus-on-for-results/,49,7,0,6,86%,5,1,5,6,11.16666667,#N/A,#N/A,#N/A
+/5-tips-to-boost-your-sales-performance/,40,7,0,6,43%,6,4,7,6,18.33333333,5 Tips to Boost Your Sales Performance,1. Evaluate Your Sales Performance from the Previous Year,2. Develop a Sales Strategy with Realistic Goals
+/achieving-sales-excellence-choosing-effective-sales-channels-for-b2b-companies-under-100m/,91,7,0,7,71%,6,2,6,7,2,Achieving Sales Excellence: Choosing Effective Sales Channels for B2B Companies Under $100M,"Who, What, How, and Where",The Significance of Sales Channels
+/ai-statement/,14,7,0,7,57%,4,3,7,7,4.142857143,AI Statement,,
+/hiring-a-sales-team-the-dos-and-donts-of-finding-the-right-candidates/,71,7,0,7,43%,3,4,6,7,3.428571429,Hiring a Sales Team? The Dos and Don’ts of Finding the Right Candidates,,
+/how-firing-your-top-salesperson-might-fire-up-overall-sales-performance/,73,7,0,7,57%,5,3,5,7,33.42857143,How Firing Your Top Salesperson Might Fire Up Overall Sales Performance?,There’s No “I” in Team,Recognizing a Disruptive Influence
+/how-to-use-ai-for-b2b-lead-generation-strategies-to-boost-sales/,65,7,0,7,100%,7,0,4,7,0.7142857143,How to Use AI for B2B Lead Generation: Strategies to Boost Sales,B2B Lead Generation Challenges,Best AI Tools for B2B Lead Generation:
+/leadership-question-1-treating-everyone-the-same/,50,7,0,6,71%,6,2,6,6,10.66666667,#N/A,#N/A,#N/A
+/maximizing-productivity-at-every-level-an-introduction-to-level-10-sales-meetings/,83,7,0,7,86%,7,1,7,7,8,Maximizing Productivity at Every Level: An Introduction to Level 10 Sales Meetings,Best Practices for Running a Level 10 Sales Meeting,
+/professionalism-in-virtual-meetings-how-it-impacts-the-remote-work-debate/,75,7,0,7,86%,7,1,7,7,19.14285714,Professionalism in Virtual Meetings: How It Impacts the Remote Work Debate,The Effects of a Lack of Professionalism in Virtual Meetings,Establishing Professionalism Guidelines for Remote Teams
+/sales-connection/,18,7,0,7,43%,3,4,7,7,9.285714286,Sales Connection,,
+/sales-forecasting-the-future-how-ai-turns-sales-strategy-from-guesswork-into-growth/,85,7,0,7,29%,5,5,7,7,6.857142857,Sales Forecasting the Future: How AI Turns Sales Strategy from Guesswork into Growth,Traditional Forecasting Is Biased and Backward Looking,Aligning Sales Strategy for Accurate Forecasting with AI
+/sales-hiring-strategy-how-to-hire-top-sales-talent/,52,7,0,7,86%,6,1,8,7,3,Sales Hiring Strategy: How to Hire Top Sales Talent,1. Define Your Ideal Candidate,2. Source Candidates Via Multiple Platforms And Channels
+/sales-impact-assessment/,25,7,0,7,86%,7,1,8,7,0.1428571429,#N/A,#N/A,#N/A
+/sales-tips-and-strategies-for-business-facing-seasonal-fluctuations/,69,7,0,5,100%,4,0,4,5,9.4,Business.com – Sales Tips and Strategies for Business Facing Seasonal Fluctuations,"If your business faces seasonal fluctuations in sales, it is important to prepare for those dips.",1. Adjust for the impact of seasonality when forecasting sales.
+/sales-xceleration-spotlight-why-many-small-businesses-dont-prepare-a-sales-forecast/,85,7,0,7,71%,6,2,5,7,5,Sales Xceleration Spotlight: Why Many Small Businesses Don’t Prepare a Sales Forecast,,
+/the-high-performance-traits-that-power-a-high-performance-sales-team/,70,7,0,7,71%,7,2,7,7,2.571428571,Forbes – The High-Performance Traits that Power A High-Performance Sales Team,High-Performance Sales Team Traits,
+/trust-and-commitment-the-cornerstone-of-successful-international-distribution-sales/,85,7,0,7,100%,7,0,4,7,0.5714285714,#N/A,#N/A,#N/A
+/what-it-really-takes-to-build-a-resilient-business/,52,7,0,7,71%,5,2,7,7,0.5714285714,What It Really Takes To Build A Resilient Business,,
+/3-ways-to-smooth-the-friction-between-sales-and-marketing/,59,6,0,6,100%,6,0,3,6,0,SMB CEO – 3 Ways to Smooth the Friction Between Sales and Marketing,Marketing vs. Sales: What’s the Difference?,
+/4-sales-process-failures-threatening-your-sales-growth/,56,6,0,6,83%,6,1,7,6,103.1666667,#N/A,#N/A,#N/A
+/confronting-the-maturity-wall-a-critical-juncture-for-private-equity/,70,6,0,5,50%,5,3,5,5,2.2,#N/A,#N/A,#N/A
+/dont-prescribe-a-sales-solution-before-you-diagnose-the-problem/,65,6,0,5,83%,5,1,5,5,15.6,Don’t Prescribe a Sales Solution Before You Diagnose the Problem,,
+/how-to-improve-sales-team-performance-individual-salesperson-goals/,68,6,0,6,83%,6,1,6,6,2,#N/A,#N/A,#N/A
+/how-to-use-your-past-to-shape-a-more-purposeful-future/,56,6,0,6,50%,6,3,6,6,12.16666667,How to Use Your Past to Shape a More Purposeful Future,,
+/how-top-salespeople-thrive-in-a-fast-paced-world/,50,6,0,6,83%,6,1,5,6,1.833333333,How Top Salespeople Thrive in a Fast-Paced World,,
+/selling-value-if-you-dont-have-a-value-proposition-your-sales-can-suffer/,74,6,0,5,17%,2,5,5,5,45.2,#N/A,#N/A,#N/A
+/smarter-sales-with-ai-without-the-security-risk/,49,6,0,5,67%,4,2,5,5,3.4,Smarter Sales with AI—Without the Security Risk,Securing Success: AI Safety and Data Protocols Every SMB Sales Teams,Why AI Security Matters More Than Ever
+/the-leadership-traits-that-predict-breakout-success/,53,6,0,6,50%,4,3,9,6,4.666666667,The Leadership Traits That Predict Breakout Success,,
+/time-matters-how-you-can-help-your-sales-managers-be-more-efficient-and-effective/,83,6,0,5,67%,5,2,4,5,8.8,#N/A,#N/A,#N/A
+/what-you-need-to-know-about-hiring-during-a-recession/,55,6,0,4,100%,4,0,4,4,0.5,What You Need to Know About Hiring During a Recession,It’s Still a Candidate’s Market: What You Need to Know About Hiring During a Recession,What to Consider When Hiring During a Recession
+/why-organizations-need-to-align-sales-and-marketing-processes/,63,6,0,6,100%,6,0,4,6,0,#N/A,#N/A,#N/A
+/why-outsourced-sales-management-works-so-well-for-so-many-businesses/,70,6,0,5,83%,5,1,6,5,4.4,#N/A,#N/A,#N/A
+/wondering-how-to-overcome-sales-challenges-focus-on-these-3-areas/,67,6,0,6,67%,5,2,6,6,5,Wondering How to Overcome Sales Challenges? Focus on These 3 Areas,Key Takeaways,1. Take a second look at onboarding sales reps
+/12-ways-to-make-sure-your-vision-casting-makes-ripples/,56,5,0,5,100%,5,0,4,5,0,12 Ways to Make Sure Your Vision Casting Makes Ripples,,
+/5-keys-to-effective-networking-for-sales-organizations/,56,5,0,4,80%,4,1,4,4,0.25,#N/A,#N/A,#N/A
+/achieving-sales-excellence-a-strategic-roadmap-for-b2b-companies-with-revenues-below-100m/,91,5,0,5,80%,5,1,5,5,0,Achieving Sales Excellence: A Strategic Roadmap for B2B Companies with Revenues Below $100M,Four Focal areas for this series:,The remaining 12 areas for additional focus:
+/build-a-better-mousetrap-but-will-they-come-why-manufacturing-needs-sales-marketing/,85,5,0,5,100%,5,0,5,5,0,#N/A,#N/A,#N/A
+/case-study/expanding-business-with-sales-playbook/,51,5,0,5,20%,2,4,5,5,65.6,Construction Technology: Expanding Business with Sales Playbook,Executive Summary,The Big Win
+/case-study/full-service-marketing-agency/,42,5,0,5,40%,4,3,5,5,1,Full-Service Marketing Agency: Developing a Sales Management Cadence that Grows Revenue,Executive Summary,The Big Win
+/case-study/logistics/,22,5,0,5,80%,5,1,5,5,1.2,Logistics: Defining a Sales Story to Help Drive Revenue Results,,
+/creating-a-sales-process-that-meets-modern-buyer-needs/,56,5,0,5,80%,4,1,5,5,4.2,Creating a Sales Process That Meets Modern Buyer Needs,Component 1: Sales Process,Component 2: Sales Compensation Plans
+/crm-definition-and-tips-for-success/,37,5,0,5,60%,4,2,4,5,16.8,What is a CRM (and Why Is It Essential To Your Sales Team’s Success)?,,
+/five-steps-to-master-personalization-in-sales/,47,5,0,4,80%,4,1,4,4,0.25,Five Steps to Master Personalization in Sales,Understanding the Power of Personalization,Five Actionable Steps to Tailor Your Sales Approach
+/harnessing-ai-powered-sales-assistants-for-smb-success/,56,5,0,5,60%,3,2,5,5,31.6,Harnessing AI-Powered Sales Assistants for SMB Success,Steps to Set Up an AI Sales Assistant in ChatGPT,Improving Lead Generation and Customer Engagement
+/hiring-fractional-sales-leader/,32,5,0,5,60%,5,2,5,5,7.8,Hiring a Fractional Sales Leader – A Staffing Solution That Works,,
+/hiring-smarter-the-importance-of-understanding-an-ideal-candidate-profile/,75,5,0,5,100%,5,0,3,5,0.4,Hiring Smarter: The Importance of Understanding an Ideal Candidate Profile,,
+/how-to-implement-a-crisis-sales-plan/,38,5,0,4,40%,4,3,5,4,32,How to Implement a Crisis Sales Plan,,
+/how-to-increase-sales-7-ways-to-enhance-sales-performance/,59,5,0,5,80%,4,1,4,5,31,How to Increase Sales: 7 Ways to Enhance Sales Performance,Sales Team Performance Lagging? You Need a Sales Process Improvement Plan:,1. Understand Where You Are
+/industries/private-equity/,27,5,0,5,80%,5,1,6,5,5,Fractional Sales Leadership for Private Equity,Key Sales Challenges in Private Equity,Why Fractional Sales Leadership Fits Private Equity
+/rapid-fire-questions-on-growing-your-business/,47,5,0,4,80%,3,1,4,4,0,Rapid-Fire Questions on Growing Your Business,,
+/study-reveals-alarming-sales-compensation-plan-trends/,55,5,0,5,60%,5,2,5,5,32.8,#N/A,#N/A,#N/A
+/the-ai-advantage-how-sales-leaders-can-drive-growth-and-efficiency-in-the-new-year/,84,5,0,5,80%,4,1,4,5,0.8,The AI Advantage: How Sales Leaders Can Drive Growth and Efficiency in the New Year,1. Assess Current Sales Processes and Identify Needs,2. Start Small with Targeted AI Tools
+/the-importance-of-building-a-top-performing-sales-team/,56,5,0,4,40%,2,3,5,4,5.25,The Importance of Building a Top-Performing Sales Team,,
+/the-sales-strategy-shift-most-founders-miss/,45,5,0,5,100%,5,0,5,5,2.6,The Sales Strategy Shift Most Founders Miss,Key takeaways:,Episode highlights:
+/thriving-with-outsourced-sales-leadership/,43,5,0,5,60%,4,2,5,5,12.6,Thriving with Outsourced Sales Leadership,Success Story 1: A Technology Company,Success Story 2: A Manufacturing Company
+/tie-a-bow-on-your-company/,27,5,0,5,100%,5,0,5,5,0,Tie A BOW on Your Company,,
+/update-sales-plan-strategy-now-future-sales-success/,53,5,0,5,80%,5,1,5,5,1,#N/A,#N/A,#N/A
+/using-the-3-cs-to-improve-sales-performance/,45,5,0,5,80%,4,1,3,5,6.6,Using the 3 Cs to Improve Sales Performance,,
+/why-a-crm-is-essential-for-successful-sales-a-representatives-perspective/,75,5,0,4,60%,3,2,5,4,11.5,Why a CRM is Essential for Successful Sales: A Representative’s Perspective,,
+/3-strategies-for-enhanced-efficiency-and-consistent-revenue-generation/,72,4,0,4,75%,3,1,3,4,12.75,#N/A,#N/A,#N/A
+/5-hiring-strategies-you-cant-overlook-if-you-want-to-avoid-the-wrong-hire/,75,4,0,4,75%,3,1,3,4,1.25,5 Hiring Strategies You Can’t Overlook if You Want to Avoid the Wrong Hire,1. Avoid Common Hiring Myths,2. Define Clear Roles and Responsibilities
+/5-reasons-to-focus-on-increasing-sales-with-existing-customers/,64,4,0,4,75%,2,1,2,4,9,5 Reasons to Focus on Increasing Sales with Existing Customers,Reason #1: To Strengthen Your Existing Customer Relationships – For Their Benefit and Yours,Reason #2: To Boost the ROI of Your Sales Efforts
+/5-reasons-your-business-needs-a-sales-process-gps/,51,4,0,4,100%,4,0,4,4,2,#N/A,#N/A,#N/A
+/a-beginners-guide-to-sales-forecasting/,40,4,0,4,25%,2,3,4,4,5,A Beginner’s Guide to Sales Forecasting,Why Does Sales Forecasting Matter?,Sales Forecasting Examples
+/boost-your-sales-game-top-10-sales-drivers-for-success/,56,4,0,4,75%,4,1,4,4,2.75,#N/A,#N/A,#N/A
+/cant-get-no-sales-satisfaction-sales-lessons-learned-rolling-stones-part-7-8-part-series/,90,4,0,4,100%,4,0,4,4,0,#N/A,#N/A,#N/A
+/cant-get-no-sales-satisfaction-sales-lessons/,46,4,0,4,100%,4,0,4,4,0.25,#N/A,#N/A,#N/A
+/case-study/aerospace-manufacturing-turning-a-10-decrease-in-sales-into-a-14-increase/,86,4,0,3,50%,2,2,3,3,253.6666667,Aerospace Manufacturing: Turning a 10% Decrease in Sales into a 14% Increase,Company Profile,Sales Success Snapshot
+/case-study/air-purification-systems-company/,45,4,0,4,25%,2,3,4,4,86.75,Air Purification Systems: Building Sales Infrastructure to Expand into a New Channel,Executive Summary,The Big Win
+/case-study/food-agriculture-company/,37,4,0,4,25%,1,3,4,4,88.75,Food & Agriculture: From Declining Sales to Exceeding Revenue Growth,Executive Summary,The Big Win
+/case-study/information-security-services/,42,4,0,4,25%,2,3,4,4,94.25,Information Security: Accelerating Growth with CSL Training and Effective Tools and Processes,Executive Summary,The Big Win
+/case-study/marketing-growth/,29,4,0,4,100%,4,0,4,4,2.5,Marketing Consultancy: A Sales Plateau Converted to $4 Million in Growth,,
+/choose-your-path-and-make-a-difference/,40,4,0,4,100%,4,0,4,4,0.25,Choose Your Path and Make a Difference,“Fear Disguised as Practicality”,“You Can Fail at What You Don’t Want”
+/compensation-plans-performance-management/,43,4,0,4,75%,3,1,4,4,4.25,Compensation Plans and Performance Management,,
+/confessions-of-the-misunderstood-salesperson/,46,4,0,4,75%,4,1,4,4,0.25,Confessions of the Misunderstood Salesperson,,
+/do-you-know-the-4-parts-of-a-successful-sales-compensation-plan/,65,4,0,4,50%,3,2,4,4,10.25,Do You Know the 4 Parts of a Successful Sales Compensation Plan?,,
+/five-keys-to-more-successful-sales-compensation-plans/,55,4,0,3,75%,2,1,3,3,0,Five Keys to More Successful Sales Compensation Plans,The Bottom Line:,
+/fractional-work-the-ultimate-smart-business-competitive-advantage/,67,4,0,4,100%,4,0,2,4,1.75,Fractional Work: The Ultimate Smart-Business Competitive Advantage,What is Fractional Work?,The Growth of Fractional Work
+/halftime-is-prime-time-to-move-from-success-to-significance/,61,4,0,4,75%,3,1,4,4,0.5,Halftime is Prime Time to Move from Success to Significance,,
+/hiring-a-sales-professional-use-fresh-strategies-to-sell-your-organization-to-top-talent/,90,4,0,4,100%,4,0,4,4,0,Hiring a Sales Professional? Use Fresh Strategies to ‘Sell’ Your Organization to Top Talent,,
+/how-sales-teams-can-practice-proactive-rather-than-reactive-hiring/,68,4,0,4,25%,1,3,4,4,31,How Sales Teams Can Practice Proactive Rather than Reactive Hiring,,
+/how-smbs-should-address-inflation-in-5-key-steps/,50,4,0,4,100%,4,0,4,4,0,How SMBs Should Address Inflation in 5 Key Steps,What challenges does a recession pose to SMBs?,Why does the recession affect SMBs so disproportionately?
+/how-to-develop-a-sales-compensation-plan/,42,4,0,4,75%,4,1,3,4,45.75,How to Develop a Sales Compensation Plan,,
+/how-to-unstick-a-stalled-deal-even-if-it-means-no-deal-at-all/,63,4,0,4,75%,4,1,4,4,14.25,How to Unstick a Stalled Deal (Even if it Means No Deal at All),,
+/improving-sales-success-starts-with-your-sales-executive-hiring-process/,73,4,0,4,25%,3,3,4,4,37.5,Improving Sales Success Starts with Your Sales Executive Hiring Process,,
+/independence-way-finding-the-freedom-to-fulfill-your-purpose/,62,4,0,4,75%,3,1,4,4,3.5,Independence Way: Finding the Freedom to Fulfill Your Purpose,"Life, Liberty, and the Pursuit of Happiness",Beyond The Pursuit
+/infographics/talent-accounts-for-29-of-the-difference-b-w-high-low-performing-organizations/,93,4,0,4,100%,4,0,4,4,0,#N/A,#N/A,#N/A
+/is-small-business-success-possible-during-a-period-of-inflation/,65,4,0,4,100%,2,0,3,4,9,Is Small Business Success Possible During a Period of Inflation?,The Impact of Inflation on Small Business,5 Strategies to Combat Inflation
+/is-your-sales-manager-still-selling-big-mistake-heres-why/,59,4,0,4,75%,3,1,4,4,0,Is Your Sales Manager Still Selling? Big Mistake. Here’s Why:,,
+/kesti-entrepreneurs-guide-increasing-sales/,44,4,0,4,25%,4,3,4,4,33.75,#N/A,#N/A,#N/A
+/lost-order-dont-lose-connection/,33,4,0,4,50%,4,2,4,4,21.5,You Lost the Order – Don’t Make Things Worse by Losing the Connection,,
+/mastering-virtual-selling-to-accelerate-growth/,48,4,0,4,75%,3,1,4,4,2,Mastering Virtual Selling to Accelerate Growth,What Is Virtual Selling?,What Are Some Benefits of Virtual Selling?
+/next-level-sales-success-why-you-absolutely-must-assess-and-evaluate-your-sales-team-regularly/,96,4,0,4,50%,3,2,4,4,3.5,Next-Level Sales Success: Why You Absolutely MUST Assess and Evaluate Your Sales Team Regularly,"The Difference Between Measurement, Assessment, and Evaluation",Sales Team Member Skills to Assess
+/now-sure-fire-way-sell/,24,4,0,4,100%,4,0,4,4,0,"That Was Then, This Is Now: The Sure-Fire Way to Sell More",,
+/redefining-your-sales-strategy-around-customer-needs/,54,4,0,4,100%,4,0,2,4,0.25,#N/A,#N/A,#N/A
+/revenue-growth/,16,4,0,4,100%,4,0,4,4,0,I Need Revenue Growth NOW and I Don’t Have Time for All That Sales Strategy Stuff,,
+/sales-agility-excellence-the-sales-infrastructure-you-need-to-enable-success/,78,4,0,4,100%,4,0,2,4,0,Published Article: Sales Agility Excellence: The Sales Infrastructure You Need to Enable Success,,
+/sales-agility-the-secret-to-successful-small-businesses/,57,4,0,2,75%,2,1,3,2,2,Sales Agility: The Secret to Successful Small Businesses,Unpacking the Sales Agility Assessment,1. Companies aren’t compensating sales reps in a way that drives desired behaviors.
+/talent-acquisition-trends-for-small-to-mid-sized-businesses/,61,4,0,4,50%,2,2,3,4,6.5,Talent Acquisition Trends for Small to Mid-sized Businesses,Remote Hiring and Work,Hiring for Skills
+/the-growth-killing-mistake-overlooking-a-sales-contingency-plan/,65,4,0,4,75%,2,1,4,4,1.25,#N/A,#N/A,#N/A
+/the-people-and-process-mistakes-that-hold-sales-back/,54,4,0,3,50%,0,2,3,3,22.33333333,The People and Process Mistakes That Hold Sales Back,,
+/the-power-of-serving-versus-selling/,37,4,0,4,100%,4,0,4,4,0,The Power of Serving Versus Selling,The Trouble with Selling,The Power of Serving
+/the-surprising-data-behind-sales-team-effectiveness/,53,4,0,4,50%,2,2,4,4,6.25,The Surprising Data Behind Sales Team Effectiveness,The Alarming Stat on Onboarding and Training,Performance Review and Transparency Deficit
+/think-cant-get-away-use-defined-process-keep-sales-action-plan-motion/,71,4,0,4,100%,4,0,4,4,2,#N/A,#N/A,#N/A
+/top-4-disruptors-in-the-future-of-sales-are-you-ready/,55,4,0,4,75%,4,1,4,4,6.75,Top 4 Disruptors in the Future of Sales. Are You Ready?,How did the future of selling event work?,What did the experts find?
+/turn-buyer-insights-into-sales-wins-the-power-of-b2b-analytics/,64,4,0,4,25%,2,3,4,4,14.5,#N/A,#N/A,#N/A
+/turn-turn-turn-making-the-pivot-to-a-new-season-in-your-professional-life/,75,4,0,4,75%,3,1,6,4,5,"Turn, Turn, Turn: Making the Pivot to a New Season in Your Professional Life",Turning Expertise and Experience into Fulfillment,Turning Passion into Purpose
+/what-are-sales-metrics-and-which-ones-are-essential-to-improving-sales-performance/,84,4,0,4,75%,4,1,4,4,0.25,Forbes – What are Sales Metrics and Which Ones are Essential to Improving Sales Performance?,,
+/what-if-you-just-cant-afford-a-sales-superstar/,48,4,0,4,100%,4,0,4,4,0,What if You Just Can’t Afford a Sales Superstar?,,
+/why-and-how-it-pays-to-become-a-certified-sales-leader/,56,4,0,4,50%,2,2,4,4,13,Why (and How) It Pays to Become a Certified Sales Leader,,
+/why-do-businesses-struggle-with-key-performance-indicators/,60,4,0,4,50%,4,2,4,4,42.75,Why do Businesses Struggle with Key Performance Indicators?,KPIs to consider:,
+/why-sales-managers-must-be-coaches-so-salespeople-can-perform-when-it-counts/,78,4,0,3,100%,3,0,4,3,0,Why Sales Managers Must Be Coaches (So Salespeople Can Perform When it Counts),,
+/youve-earned-respect-but-are-you-still-getting-it/,51,4,0,4,75%,3,1,4,4,14.75,You’ve Earned Respect But Are You Still Getting It?,The Impact of Lack of Respect,Reaching the Point of Diminishing Respect
+/10000-hours-is-a-myth/,23,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/3-critical-traits-next-sales-hire-absolutely-must/,51,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/3-sales-strategies-test-month-part-1/,38,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/4-tips-for-succeeding-as-a-new-sales-manager/,46,3,0,3,100%,3,0,3,3,0,SmartBrief – 4 Tips for Succeeding as a New Sales Manager,How to be a good sales manager,
+/5-keys-to-a-successful-sales-compensation-plan/,48,3,0,3,67%,3,1,2,3,9,5 Keys to a Successful Sales Compensation Plan,,
+/5-strategies-for-improving-sales-performance/,46,3,0,3,67%,2,1,2,3,37.66666667,#N/A,#N/A,#N/A
+/Q026yPPQ0,10,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/adjusting-to-the-new-normal/,29,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/are-you-losing-sales-due-to-your-biases-and-too-much-empathy/,62,3,0,3,67%,3,1,2,3,7,#N/A,#N/A,#N/A
+/as-the-days-and-years-wind-down-what-are-you-waiting-for/,58,3,0,3,67%,2,1,3,3,0.6666666667,"As the Days and Years Wind Down, What Are You Waiting For?",The Waiting Game,Making a Rewarding Adjustment
+/build-solid-sales-infrastructure-sales-growth/,47,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/business-growth-during-covid-were-proof-it-can-be-done/,56,3,0,3,67%,2,1,3,3,1,Business Growth During COVID? We’re Proof it Can Be Done!,Recognizing Underlying Problems and Vulnerabilities,Solving Problems and Vulnerabilities and Creating Growth Opportunities
+/can-being-too-resilient-keep-you-from-realizing-opportunity/,61,3,0,3,67%,3,1,3,3,0,Can Being Too Resilient Keep You from Realizing Opportunity?,"Just What IS This Resilience Thing, Anyway?",The Dangers of Being Over-Resilient
+/cant-get-no-sales-satisfaction-sales-lessons-learned-rolling-stones-part-5-8-part-series/,90,3,0,3,67%,3,1,3,3,2.333333333,#N/A,#N/A,#N/A
+/cart/,6,3,0,3,100%,3,0,3,3,0.3333333333,#N/A,#N/A,#N/A
+/case-study/construction-services/,34,3,0,2,33%,0,2,3,2,17,Construction Services: From Sales Uncertainty to Revenue Growth & Increased Team Morale,Client Overview,Executive Summary
+/case-study/construction/,25,3,0,3,33%,2,2,3,3,8.666666667,Construction: Setting Sales Records by Creating a Defined Sales Structure,,
+/case-study/developing-a-go-to-market-strategy-for-unparalleled-success/,72,3,0,3,33%,2,2,3,3,69,Consumer Packaged Goods: Developing a Go-to-Market Strategy for Unparalleled Success,Executive Summary,The Big Win
+/case-study/finance/,20,3,0,3,100%,3,0,3,3,1.666666667,Finance: Creating a Positive Work Environment Through Refined Sales Processes,,
+/case-study/hand-held-test-equipment-manufacturer/,50,3,0,3,67%,2,1,4,3,1.333333333,Equipment Manufacturing: Streamlining Processes to Accomplish Forecast Accuracy,Executive Summary,The Big Win
+/case-study/health-benefits-company/,36,3,0,3,100%,3,0,3,3,0,Healthcare Benefits: Properly Incentivizing to Acquire New Business,,
+/case-study/large-chain-convenience-store-products/,51,3,0,2,33%,1,2,3,2,3,"Large Chain Convenience Store: Utilizing a Fractional Sales Leader to Build Processes, Mentor the Team, and Drive Growth",Executive Summary,The Big Win
+/case-study/manufacturing/,26,3,0,3,67%,3,1,3,3,1.666666667,Manufacturing: Creating the Structure to Boost Revenue & Profit,,
+/case-study/plastic-manufacturing-22-sales-growth-achieved-with-expert-sales-leadership/,88,3,0,3,33%,1,2,4,3,5,Plastic Manufacturing: 22% Sales Growth Achieved with Expert Sales Leadership,Company Profile,Sales Success Snapshot
+/case-study/software-technology-company/,40,3,0,2,33%,1,2,2,2,11.5,Software Technology: Revamping a Sales Structure to Grow Revenue,Executive Summary,The Big Win
+/compensation-plan-errors-to-avoid/,35,3,0,3,33%,1,2,2,3,0,Compensation Plan Errors to Avoid,"Lack of Alignment Between Individual, Team, and Company Goals",Inadequate Balance Between Base and Variable Compensation
+/courting-customers-master-these-5-relationship-stages-to-make-sales-and-win-the-lasting-affection-of-buyers/,109,3,0,3,33%,2,2,3,3,120.3333333,#N/A,#N/A,#N/A
+/customer-care-1-01-and-the-slurpy-method/,42,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/dreading-the-excessive-travel-of-business-as-usual-heres-an-alternative/,73,3,0,3,67%,2,1,3,3,3.333333333,Dreading the Excessive Travel of “Business as Usual?” Here’s an Alternative,The Great Resignation,Home Away from Home?
+/essential-rules-running-functional-family-business/,52,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/event/scmep-lunch-and-learn-building-a-sales-structure-for-superior-results-2/,79,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/feeling-trapped-wisdom-experience-can-set-free,47,3,0,3,100%,3,0,2,3,0,#N/A,#N/A,#N/A
+/five-free-content-marketing-tools/,35,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/five-things-top-sales-leaders-differently/,43,3,0,3,100%,3,0,3,3,0,Five Things Top Sales Leaders Do Differently,,
+/five-ways-social-media-can-elevate-your-sales-efforts/,55,3,0,3,100%,3,0,3,3,0,Forbes – Five Ways Social Media Can Elevate Your Sales Efforts,,
+/focus-on-activity-management-doing-and-measuring-the-right-things-for-sales-success-2/,87,3,0,3,67%,2,1,3,3,8.333333333,Focus on Activity Management: Doing (and Measuring) the Right Things for Sales Success,,
+/for-businesses-in-crisis-fractional-sales-leadership-can-make-a-difference/,76,3,0,3,33%,2,2,3,3,7.666666667,"For Businesses in Crisis, Fractional Sales Leadership Can Make a Difference",What is a Fractional Sales Leadership Consultant?,What Does a Fractional Sales Leadership Consultant Offer?
+/give-yourself-the-gift-of-making-a-difference/,47,3,0,3,67%,2,1,3,3,0.6666666667,Give Yourself the Gift of Making a Difference,Your Gifts Aligning with Their Needs,That Double Blessing in Action
+/hiring-sales-reps-3-tips-for-better-faster-more-profitable-sales-hires/,72,3,0,3,67%,1,1,2,3,12.66666667,"Sales Hacker – Hiring Sales Reps: 3 Tips for Better, Faster & More Profitable Sales Hires",What to Look for When Hiring Salespeople,Best Training for Sales Team Hires
+/hope-realized/,15,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/how-ai-can-act-as-the-perfect-complement-to-sales-teams/,57,3,0,3,100%,3,0,3,3,0,How AI Can Act as the Perfect Complement to Sales Teams,,
+/how-leaders-create-sales-action-plans-to-improve-the-bottom-line/,66,3,0,3,67%,4,1,4,3,0,How Leaders Create Sales Action Plans to Improve the Bottom Line,,
+/how-to-establish-rapport-with-a-prospect-and-create-a-solid-sales-relationship/,80,3,0,3,100%,3,0,3,3,0.3333333333,Forbes – How To Establish Rapport With A Prospect And Create A Solid Sales Relationship,,
+/how-to-leverage-smart-sales-hiring-strategies-in-uncertain-times/,66,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/how-to-make-sales-meetings-more-productive-and-profitable/,59,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/if-6-feet-tall/,16,3,0,3,100%,2,0,2,3,12.33333333,“If I Was 6 Feet Tall”,,
+/introducing-sales-against-the-odds/,36,3,0,3,100%,3,0,3,3,0,Introducing Sales Against The Odds,,
+/leadership-7-ways-better-lead-team/,36,3,0,3,100%,3,0,2,3,0,#N/A,#N/A,#N/A
+/leadership-just-sales-function-imperative-part-1/,50,3,0,3,100%,3,0,2,3,0,#N/A,#N/A,#N/A
+/leadership-just-sales-function-imperative-part-2/,50,3,0,3,100%,3,0,3,3,0.3333333333,#N/A,#N/A,#N/A
+/lemonade-from-lemons-how-to-turn-a-lost-sale-into-a-positive-experience/,73,3,0,3,100%,3,0,3,3,0,Lemonade from Lemons: How to Turn a Lost Sale into a Positive Experience,,
+/life-changes-propel-sales-outsourcing/,39,3,0,3,100%,3,0,3,3,0,Life Changes Can Propel You to Where You Were Meant to Be,,
+/mastering-your-sales-pipeline/,31,3,0,3,100%,3,0,2,3,0,Mastering Your Sales Pipeline,,
+/meet-the-team,14,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/press-release-chief-outsiders-sales-xceleration-announce-interactive-sales-marketing-breakfast-workshop-ceos/,110,3,0,3,100%,3,0,3,3,0,PRESS RELEASE: Chief Outsiders and Sales Xceleration Announce Interactive Sales and Marketing Breakfast Workshop for CEOs,,
+/put-sales-pipeline-first-for-a-better-lead-nurturing-strategy/,63,3,0,3,67%,2,1,3,3,128.6666667,#N/A,#N/A,#N/A
+/reality-check-hiring-a-new-salesperson-is-not-enough-to-fix-your-sales-problem/,80,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/recession-proof-strategies-for-sales-leaders/,46,3,0,3,100%,3,0,2,3,0,Recession-Proof Strategies for Sales Leaders,Get more specific on your Ideal Client Profile (ICP),Add Relevance to your Value Proposition
+/results-thats-all-that-matters-right/,38,3,0,3,100%,3,0,3,3,0,"Results! That’s all that matters, right?",,
+/retired-fired-or-fired-up-the-new-vp-of-sales-opportunity/,59,3,0,3,67%,2,1,3,3,3,"Retired, Fired or FIRED UP? The New VP of Sales Opportunity.",,
+/sales-management-tips-for-forecasting/,39,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/sales-planning-setting-goals-achieve-results/,46,3,0,3,67%,2,1,3,3,2.333333333,Sales Planning: Setting Goals That Achieve Results,,
+/sales-playbook-why-need/,25,3,0,2,67%,0,1,2,1,0,"The Sales Playbook: Why You Need It, and How to Use It to Improve Sales",,
+/sales-team-effectiveness-navigating-pitfalls-for-maximum-impact/,65,3,0,3,100%,3,0,2,3,0.3333333333,#N/A,#N/A,#N/A
+/search/tom+morgan/tel:8448747253,33,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/set-that-sales-appointment-by-overcoming-resistance/,53,3,0,3,100%,3,0,3,3,0.6666666667,#N/A,#N/A,#N/A
+/six-steps-to-execute-your-sales-plan/,38,3,0,3,100%,3,0,3,3,5,#N/A,#N/A,#N/A
+/startup-success-the-importance-of-sales-strategy-and-structure/,64,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/staying-ahead-of-the-fall-how-sales-teams-can-be-proactive-when-the-economy-tightens/,86,3,0,3,67%,2,1,3,3,5.666666667,Staying Ahead of the Fall: How Sales Teams Can Be Proactive When the Economy Tightens,What Happens to Sales Strategies During Recessions?,
+/technology-is-creating-new-ways-to-sell-to-prospects-heres-how/,64,3,0,3,100%,3,0,3,3,0,Technology Is Creating New Ways to Sell to Prospects. Here’s How.,,
+/the-power-of-why-and-your-business/,36,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/the-real-benefits-of-better-sales-compensation-plans/,54,3,0,3,100%,3,0,2,3,0,The Real Benefits of Better Sales Compensation Plans,What Should Sales Compensation Plans Include?,The Risks of a Poor Sales Comp Plan
+/the-success-formula-for-your-next-chapter-as-a-sales-leadership-professional/,78,3,0,3,33%,2,2,3,3,2,The Success Formula for Your Next Chapter as a Sales Leadership Professional,Part One of the Sales Leadership Success Formula: Preparation,Part Two of the Sales Leadership Success Formula: Opportunity
+/three-skills-for-sales-coaching/,33,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/top-4-sales-efficiency-challenges-and-solutions/,49,3,0,3,67%,2,1,1,3,13,#N/A,#N/A,#N/A
+/understanding-your-leadership-voice/,37,3,0,2,100%,2,0,2,2,0,Understanding Your Leadership Voice,,
+/want-to-boost-sales-do-less-selling/,37,3,0,3,67%,3,1,3,3,0.6666666667,Want to Boost Sales? Do Less “Selling”,,
+/want-to-close-more-sales-stop-closing/,39,3,0,3,100%,3,0,3,3,0,Want to Close More Sales? Stop Closing.,,
+/what-makes-a-sales-team-work-teamwork/,39,3,0,3,67%,3,1,2,3,1.333333333,#N/A,#N/A,#N/A
+/what-we-do/genesis-sales-plan/,31,3,0,3,100%,3,0,3,3,0,,,
+/whats-the-gig-idea-what-you-need-to-know-about-the-gig-economy/,64,3,0,3,0%,2,3,4,3,12.66666667,What’s the GIG Idea? What You Need to Know About the Gig Economy,“Gig Economy” Defined,How Big Has the Gig Economy Become?
+/why-bother-using-a-crm/,24,3,0,3,100%,3,0,3,3,0,Why Bother Using a CRM?,,
+/why-customers-dont-return-your-sales-calls/,44,3,0,3,100%,3,0,2,3,0,Why Customers Don’t Return Your Sales Calls,,
+/why-focus-on-sales-if-they-are-already-thriving/,49,3,0,3,67%,2,1,3,3,3.333333333,Why Focus on Sales if They are Already Thriving?,Customer Review,Sales Team
+/why-hiring-a-salesperson-from-inside-your-industry-can-destroy-sales/,70,3,0,3,100%,3,0,3,3,0,#N/A,#N/A,#N/A
+/why-promoting-your-top-sales-performer-to-sales-manager-could-backfire/,72,3,0,3,33%,3,2,3,3,0,Why Promoting Your Top Sales Performer to Sales Manager Could Backfire,,
+/why-winning-negotiations-can-lose-you-revenue/,47,3,0,3,67%,1,1,2,3,11.66666667,#N/A,#N/A,#N/A
+/your-most-valuable-resource-the-right-people-in-the-right-positions/,69,3,0,3,33%,1,2,2,3,1,Your Most Valuable Resource: The Right People in the Right Positions,,
+/14-techniques-for-onboarding-new-remote-employees/,51,2,0,2,100%,2,0,2,2,0,Forbes – 14 Techniques for Onboarding New Remote Employees,,
+/20-20-foresight-how-to-boost-sales-looking-forward,51,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/20860-2/,9,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/4-key-investments-new-business-owners-should-make/,51,2,0,2,100%,2,0,2,2,0,Success – 4 Key Investments New Business Owners Should Make,,
+/4-leadership-lessons-i-learned-from-a-mountain-climbing-crisis/,64,2,0,2,100%,2,0,2,2,0,4 Leadership Lessons I Learned From a Mountain-Climbing Crisis,,
+/4-signs-it-might-be-time-to-outsource-sales-leadership/,56,2,0,2,100%,2,0,2,2,0,SMB CEO – 4 Signs It Might Be Time To Outsource Sales Leadership,Challenges Faced by Small Business Owners,How to Respond to a Crisis in Business
+/4-tips-for-using-a-sales-process-to-improve-your-wins/,55,2,0,2,50%,1,1,2,2,7.5,4 Tips for Using a Sales Process to Improve Your Wins,,
+/5-emerging-sales-strategies-and-how-to-use-them/,49,2,0,2,50%,1,1,2,2,6,Five Emerging Sales Strategies and How to Use Them,Emerging Sales Strategies and How to Use Them to Close the Deal,The Evolution of Sales: What Can We Learn From the ‘2022 State of Sales’ Report?
+/5-step-process-make-important-decisions-sales-leader/,54,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/a-salesperson-is-hardwired-to-do-only-two-things/,50,2,0,2,100%,2,0,1,2,0,#N/A,#N/A,#N/A
+/achieving-sales-excellence-defining-the-target-market-for-b2b-companies-under-100m/,84,2,0,2,100%,2,0,2,2,0,Achieving Sales Excellence: Defining the Target Market for B2B Companies Under $100M,Building on a Firm Foundation,The Importance of Target Market Definition
+/adapting-leadership-styles-to-the-situation-sales-growth-vs-sales-recovery-part-two-sales-recovery/,100,2,0,2,50%,1,1,2,2,3.5,Adapting Leadership Styles to the Situation: Sales Growth vs. Sales Recovery Part Two: Sales Recovery,Recovery Leadership Action Items,
+/add-years-to-your-life-in-sales/,33,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/are-you-leading-or-lagging-in-sales-why-your-metrics-should-berevolutionary/,77,2,0,2,0%,1,2,2,2,22.5,Are You Leading or Lagging in Sales? Why Your Metrics Should Be…Revolutionary,,
+/are-your-profit-margins-missing-the-mark/,42,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/august-its-back-to-school-and-a-b-cs/,38,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/believing-in-the-sales-lifecycle-part-2-the-connection/,56,2,0,2,100%,2,0,2,2,0,"Believing in the Sales Lifecycle, Part 2: The Connection",The Connection,1. Your First-Connect Pitch
+/believing-in-the-sales-lifecycle-part-3-solutioning-overcoming-buying-reticence-and-after-gaining-the-buy/,107,2,0,2,100%,2,0,2,2,0,"Believing in the Sales Lifecycle, Part 3: Solutioning, Overcoming Buying Reticence, and After Gaining the Buy",Solutioning,Buying Reticence
+/best-practices-for-combatting-low-cost-competition/,52,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/business-life-cycle/,21,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/case-study/construction-manufacturing-2/,41,2,0,2,100%,2,0,2,2,0,Construction Manufacturing: Turning Flat/Declining Sales Profitable,Executive Summary,The Big Win
+/case-study/data-and-analytics-maintaining-sales-momentum-amidst-transition/,76,2,0,2,50%,1,1,2,2,39.5,Data and Analytics: Maintaining Sales Momentum Amidst Transition,Executive Summary,The Big Win
+/case-study/driving-sales-efficiency-through-strategic-transformation/,70,2,0,2,50%,1,1,2,2,1,Equipment Manufacturing: Driving Sales Efficiency Through Strategic Transformation,Executive Summary,The Big Win
+/case-study/home-healthcare/,28,2,0,2,100%,2,0,2,2,0,Non-Medical Home Healthcare: Creating Sales Processes to Grow Sales Revenue,,
+/case-study/hvac/,17,2,0,2,50%,2,1,2,2,30,Heating and Cooling: Increased Growth & Reducing the Sales Cycle to Improve Performance,,
+/case-study/intelligence-power-modules/,39,2,0,2,100%,2,0,2,2,0,Intelligence Power Modules: Building Infrastructure to Improve Sales Funnel Conversion,Executive Summary,The Big Win
+/case-study/promotional-products-marketing/,43,2,0,2,100%,2,0,2,2,0,Promotional Product Marketing: Improving Profitability & Forecasted Revenue Accuracy,,
+/case-study/residential-wall-manufacturer/,42,2,0,2,50%,2,1,2,2,16.5,Residential Wall Manufacturer: Identifying Ideal Client Profile Leads to Major Deal,Executive Summary,The Big Win
+/case-study/solving-gaps-in-sales-infrastructure-and-processes/,63,2,0,2,100%,2,0,2,2,0,Technology Grants: Solving Gaps in Sales Infrastructure and Processes,Executive Summary,The Big Win
+/ceos-frustrated-by-poor-sales-results/,39,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/change-culture-sales-revenue-follows/,38,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/csl-class/,11,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/determine-if-your-new-sales-rep-is-going-to-succeedbefore-its-too-late/,72,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/developing-a-sales-culture-to-retain-reps-and-incent-excellence-pt-2/,70,2,0,2,50%,1,1,2,2,39.5,#N/A,#N/A,#N/A
+/discounting-is-bad-for-business/,33,2,0,2,100%,2,0,0,2,0,#N/A,#N/A,#N/A
+/dont-be-surprised-by-success-plan-for-growth-and-manage-it/,60,2,0,2,100%,2,0,2,2,0,Don’t Be Surprised by Success. Plan For Growth. (And Manage It.),,
+/dont-stuck-price/,18,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/e03001d27eb74c6380b28dd5c3fce9308563010792286587791/S-1-8-990886357-2943381009-3591167775-986928363/reachcalendar.ics,118,2,0,2,0%,0,2,2,2,8,#N/A,#N/A,#N/A
+/ecbbfed77ff042b783e03ec7ceeb738f7229039489100702471/S-1-8-2760749417-1207516339-1091752063-143530330/reachcalendar.ics,119,2,0,2,100%,1,0,1,2,0,#N/A,#N/A,#N/A
+/ensuring-confidence-in-your-confidence-part-4-of-a-4-part-series/,66,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/entrepreneurs-should-never-stop-reimagining-the-buyers-journey/,64,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/every-enlightened-journey-and-every-meaningful-climb-begins-with-a-single-step/,80,2,0,2,100%,2,0,1,2,0,Every Enlightened Journey and Every Meaningful Climb Begins with a Single Step,A Single Step,Following a Well-lit Path
+/find-retain-high-performing-salespeople/,41,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/finding-a-sales-star-player-using-ideal-candidate-profiles-to-help-you-build-the-best-team/,92,2,0,2,100%,2,0,2,2,0,Finding a Sales Star Player: Using Ideal Candidate Profiles to Help You Build the Best Team,Determine The Required Skills,What Personal Characteristics Would Make a Cultural Fit
+/finding-your-target-market-and-target-customer/,48,2,0,2,100%,2,0,2,2,0,Finding Your Target Market and Target Customer,Manage Your Time,What Value Do You Provide?
+/franchise-prototype-dont-just-boss-build-legacy/,49,2,0,2,0%,0,2,4,2,39.5,#N/A,#N/A,#N/A
+/fresh-starts-new-beginnings-and-finding-your-professional-purpose/,67,2,0,2,0%,1,2,2,2,111,"Fresh Starts, New Beginnings, and Finding Your Professional Purpose",The Backstory,Everything Changes
+/fueling-sales-by-building-the-best-sales-engine-part-1/,56,2,0,2,100%,2,0,2,2,0,Fueling Sales by Building the Best Sales Engine (Part 1),,
+/fueling-sales-by-building-the-best-sales-engine-part-2/,56,2,0,2,100%,2,0,2,2,0,Fueling Sales by Building the Best Sales Engine (Part 2),,
+/high-level-strategies-for-identifying-and-attracting-top-tier-sales-professionals/,83,2,0,2,100%,1,0,1,2,17.5,High-Level Strategies for Identifying and Attracting Top-Tier Sales Professionals,Start With a Strong Position Description and Ideal Candidate Profile,Incorporate Behavioral Assessments to Identify Top Performers
+/how-bold-moves-quickly-led-to-sales/,37,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/how-fractional-leadership-helps-businesses-pivot-to-a-new-normal/,66,2,0,2,50%,1,1,2,2,4.5,How Fractional Leadership Helps Businesses Pivot to a New Normal,Just What IS Fractional Leadership?,From Fragile to Agile
+/how-interim-executives-can-be-a-surprising-benefit-to-your-company/,68,2,0,2,100%,2,0,2,2,0,Fast Company – How Interim Executives can be a Surprising Benefit to your Company,,
+/how-silence-can-help-you-sell-more/,36,2,0,2,50%,2,1,2,2,152,How Silence Can Help You Sell More,,
+/how-to-build-a-strong-culture-while-managing-a-remote-sales-team/,66,2,0,2,100%,2,0,2,2,0,How to Build a Strong Culture While Managing a Remote Sales Team,,
+/how-to-enhance-sales-using-ai,30,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/how-to-leverage-a-competitor-sales-analysis-to-grow-your-business/,67,2,0,2,100%,2,0,2,2,0,SMB CEO – How to Leverage a Competitor Sales Analysis to Grow Your Business,,
+/how-to-plan-for-a-vendor-change/,33,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/how-to-sell-more-by-selling-less/,34,2,0,2,100%,1,0,1,2,17,How to Sell More by “Selling” Less,Time to Change Your Sales Philosophy,Time to Change Your Sales Approach
+/how-to-start-your-second-half-of-significance-and-fulfilling-your-life-purpose/,80,2,0,2,100%,2,0,2,2,0.5,How to Start Your Second Half of Significance and Fulfilling Your Life Purpose,,
+/how-to-use-onboarding-to-boost-sales-success/,46,2,0,2,50%,2,1,2,2,0.5,How to Use “Onboarding” to Boost Sales Success,,
+/how-well-do-small-to-mid-size-businesses-know-their-customers/,63,2,0,2,100%,2,0,1,2,0,#N/A,#N/A,#N/A
+/importance-sales-team-accountability/,38,2,0,2,100%,2,0,0,2,0,The Importance of Sales Team Accountability,,
+/inbound-vs-outbound-sales-knowing-the-difference-will-greatly-improve-your-success/,84,2,0,2,100%,1,0,2,2,0,Inbound vs. Outbound Sales: Knowing the Difference Will Greatly Improve Your Success!,,
+/internet-mean-dont-need-a-salesperson/,39,2,0,1,100%,1,0,1,1,0,Does the Internet Mean You Don’t Need a Salesperson?,,
+/is-your-sales-team-hitting-their-sales-goals/,46,2,0,2,100%,2,0,2,2,3,#N/A,#N/A,#N/A
+/kiss-ideas-crms-goodbye/,25,2,0,2,100%,2,0,2,2,0,KISS Your Ideas About CRMs Goodbye,,
+/l6f1l1g,8,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/leading-with-heart-sales-marketing-and-servant-leadership/,59,2,0,2,100%,2,0,2,2,0,"Leading with Heart: Sales, Marketing, and Servant Leadership",,
+/leveraging-sales-agility-for-revenue-operations-success/,57,2,0,2,100%,2,0,2,2,0,Leveraging Sales Agility for Revenue Operations Success,B2B buyer preferences and timelines have changed … has your sales approach?,Increased Complexity in B2B Purchasing Decisions
+/linkedin-optimization-tips-dont-let-your-profile-become-stale/,63,2,0,2,50%,2,1,2,2,0,#N/A,#N/A,#N/A
+/making-a-difference-how-sales-xceleration-helps-you-keep-business-owners-from-making-even-more-critical-hiring-mistakes/,121,2,0,2,100%,2,0,2,2,0,Making a Difference: How Sales Xceleration Helps You Keep Business Owners From Making Even More Critical Hiring Mistakes,,
+/maximize-sales-by-aligning-the-b2b-buyer-journey-to-the-sales-process/,71,2,0,2,100%,2,0,2,2,0.5,Maximize Sales by Aligning the B2B Buyer Journey to the Sales Process,B2B Buyer’s Journey Stages,The Importance of a B2B Buyer Journey
+/maximizing-your-linkedin-presence-to-generate-leads/,53,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/no-time-like-the-present-to-give-yourself-the-present-of-time/,63,2,0,2,0%,1,2,2,2,19.5,No Time Like the Present to Give Yourself the Present of Time,Isn’t it Time to Take Control of Your Future?,Isn’t it Time to Focus on Family and Friends?
+/procrastinators-sales-team/,28,2,0,2,50%,2,1,2,2,0.5,#N/A,#N/A,#N/A
+/products-dont-sell-themselves/,31,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/prospecting-keep-simple/,25,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/prospecting-more-than-a-numbers-game/,38,2,0,2,100%,2,0,2,2,0,Prospecting: More Than a Numbers Game,Make the Right Connections,Preparation is Key
+/putting-sales-center-strategy/,31,2,0,2,50%,1,1,1,2,22,Putting Sales at the Center of Strategy,Communicate the Strategy,Continually Improve Sales Productivity
+/questions-ceos-ask-themselves-daily/,37,2,0,2,100%,2,0,2,2,0,Questions CEOs Ask Themselves Daily,,
+/rewind-sales-organization-fast-forward-sales-performance/,58,2,0,2,100%,2,0,2,2,0,Rewind Sales Organization to Fast-Forward Sales Performance,,
+/roadmap-to-sales-success-6-actions-you-must-take-to-improve-your-sales-process/,80,2,0,2,100%,2,0,1,2,0,Roadmap to Sales Success: 6 Actions You Must Take to Improve Your Sales Process,Roadmap to Sales Success: 6 Actions You Must Take to Improve Your Sales Process,Identify Where You Are
+/sales-101-solving-a-problem-vs-making-a-sale/,46,2,0,2,50%,1,1,2,2,0,#N/A,#N/A,#N/A
+/sales-compensation-checklist-3/,32,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/sales-dos-donts-sales-team-successful/,39,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/sales-leadership-assessment/,29,2,0,2,0%,1,2,2,2,9,#N/A,#N/A,#N/A
+/sales-leadership-focus-smartest-person-room-stupid/,52,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/sales-leadership-vs-sales-management/,38,2,0,2,50%,1,1,2,2,3,Sales Leadership vs. Sales Management,,
+/sales-lessons-learned-rolling-stones-part-3/,45,2,0,2,100%,2,0,2,2,2.5,#N/A,#N/A,#N/A
+/sales-organizations-sales-driven/,34,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/sales-performance-improves-adapt-sales-leadership-style/,57,2,0,2,100%,1,0,0,2,18,#N/A,#N/A,#N/A
+/sales-plan-checklist/,22,2,0,2,0%,1,2,2,2,4,Sales Plan Checklist,,
+/sales-process-improvement/,27,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/sales-reps-perform-like-olympic-athletes/,42,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/sales-tools/,13,2,0,2,100%,2,0,2,2,1,,,
+/sales-xceleration-story/,25,2,0,2,50%,2,1,2,2,13.5,#N/A,#N/A,#N/A
+/sales-xceleration-your-partner-for-sales-success/,50,2,0,2,100%,2,0,2,2,0,Sales Xceleration: Your Partner for Sales Success,Listen now:,
+/should-i-fire-my-customer/,27,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/should-your-salesperson-be-in-the-game-on-the-bench-or-off-the-team/,69,2,0,2,100%,2,0,2,2,0,"Should Your Salesperson Be In the Game, On the Bench, or Off the Team?",,
+/simplest-way-get-essential-information-boost-sales/,52,2,0,2,100%,2,0,2,2,0,The Simplest Way to Get Essential Information and Boost Your Sales,,
+/strategy-structure-people/,27,2,0,2,100%,1,0,1,2,17.5,"Try “Strategy, Structure, People” Next Time",A better approach to correcting your sales problem,Are your sales people really to blame?
+/taking-companys-sales-manager-role-cost-plenty/,48,2,0,2,100%,2,0,2,2,1,#N/A,#N/A,#N/A
+/teams-that-exceed-expectations-how-to-build-one/,49,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/the-benefits-of-outsourcing-your-sales-executive-function/,59,2,0,2,50%,1,1,2,2,1,The Benefits of Outsourcing Your Sales Executive Function,,
+/the-customer-is-not-always-right/,34,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/the-fundamentals-of-winning/,29,2,0,2,100%,2,0,2,2,0,The Fundamentals of Winning,,
+/the-high-potential-myth-how-comfort-zones-hinder-hiring-progress/,66,2,0,2,50%,1,1,2,2,2,The High Potential Myth: How Comfort Zones Hinder Hiring Progress,1. Define Your Hiring Goals,2. Develop a Targeted Job Description
+/the-skys-no-limit-if-you-put-your-dreams-in-motion/,52,2,0,2,0%,1,2,3,2,33.5,The Sky’s No Limit if You Put Your Dreams in Motion,Daring to Dream,Failure to Launch
+/the-value-competitive-analysis-can-have-on-driving-sales-growth/,65,2,0,2,100%,2,0,1,2,0,#N/A,#N/A,#N/A
+/three-keys-to-successfully-handling-difficult-conversations-with-employees/,76,2,0,2,100%,2,0,1,2,0,#N/A,#N/A,#N/A
+/three-sales-strategies-to-help-you-weather-an-economic-downtown/,65,2,0,2,100%,2,0,2,2,0,Three Sales Strategies to Help You Weather an Economic Downtown,Understand Your Serviceable Obtainable Market,Identify Your Win Rate
+/top-advantages-and-disadvantages-of-outsourcing-your-sales-function/,69,2,0,2,100%,2,0,2,2,0,Top Advantages (and Disadvantages) of Outsourcing Your Sales Function,Advantages of Outsourcing Your Sales Function,Disadvantages for Outsourcing Your Sales Function
+/true-success-is-yours-for-the-making/,38,2,0,2,50%,1,1,2,2,2.5,True Success is Yours for the Making,The Fallacy of Self-Determination in the Corporate World,The Rewards of Self-Determination Beyond the Corporate World
+/want-better-sales-results-start-with-a-better-sales-plan/,58,2,0,2,100%,2,0,2,2,0,Want Better Sales Results? Start with a Better Sales Plan.,,
+/watching-super-bowl-can-teach-salespeople-sales/,49,2,0,2,100%,2,0,2,2,0,Watching the Super Bowl Can Teach Salespeople About Sales,,
+/webinars,9,2,0,2,0%,2,2,8,2,7,#N/A,#N/A,#N/A
+/what-are-you-passionate-about-and-what-are-you-doing-about-it/,63,2,0,2,100%,2,0,2,2,0,What Are You Passionate About? (And What Are You Doing About It?),Just What is This “Passion Thing” Anyway?,Connecting to Purpose
+/what-is-the-impact-of-covid-19-on-your-sales-process/,54,2,0,2,100%,2,0,2,2,0,What is the Impact of COVID-19 on Your Sales Process?,Impact of COVID-19 on Sales Survey,Challenges of Virtual Selling
+/what-it-takes-to-succeed-in-building-a-sales-organization-2/,61,2,0,2,100%,2,0,2,2,0,#N/A,#N/A,#N/A
+/what-makes-a-great-sales-manager-these-12-skills-are-a-good-start/,67,2,0,2,50%,1,1,1,2,46.5,What Makes a Great Sales Manager? These 12 Skills are a Good Start.,,
+/when-and-why-the-sales-manager-should-simply-be-quiet/,55,2,0,2,50%,1,1,2,2,18.5,When (and Why) the Sales Manager Should Simply Be Quiet,,
+/why-variable-compensation-is-the-key-to-a-successful-sales-team-and-how-to-do-it-right/,88,2,0,2,50%,2,1,1,2,5,Why Variable Compensation is the Key to a Successful Sales Team (and How to Do it Right),Why it Works,How to Do it Right
+/you-can-make-your-professional-dreams-come-true-if-you-have-these-five-fundamentals/,85,2,0,2,100%,2,0,2,2,0,You CAN Make Your Professional Dreams Come True (If You Have These Five Fundamentals),,
+"/,fs=116303519,fso=116303519,da=121579808,mc=10804,sc=6,hc=10798,sp=0,re=0,sd=0,hd=20",85,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/3-sales-strategies-test-month-part-2,37,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/4-easy-but-overlooked-sales-management-tactics-to-boost-salesperson-performance,80,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/4-easy-but-overlooked-sales-management-tactics-to-boost-salesperson-performance/,81,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/4-key-investments-new-business-owners-should-make,50,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/4-simple-ways-to-make-sure-your-emails-get-opened-read-and-acted-on-by-your-sales-prospects/,93,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/4-things-know-start-hiring-sales-team/,39,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/5-best-practices-for-maximizing-your-crm-capabilities/,55,1,0,1,100%,1,0,1,1,1,5 Best Practices for Maximizing Your CRM Capabilities,,
+/5-sales-management-questions/,30,1,0,1,100%,1,0,0,1,0,5 Sales Management Questions,#4. What is my customer type focus?,
+/5-sales-mistakes-costing-your-business-revenue-and-how-to-fix-them/,68,1,0,1,0%,0,1,1,1,0,#N/A,#N/A,#N/A
+/5-tips-to-sales-leaders-to-kickstart-hiring/,45,1,0,1,100%,1,0,1,1,0,5 Tips to Sales Leaders to Kickstart Hiring,1. Define Your Hiring Goals,2. Develop a Targeted Job Description
+/5-ways-to-make-your-sales-infrastructure-more-attractive-to-investors/,71,1,0,1,0%,1,1,2,1,0,Score – 5 Ways to Make Your Sales Infrastructure More Attractive to Investors,Improve Your Sales Infrastructure,
+/7-essential-tips-for-interviewing-top-sales-talent/,52,1,0,1,0%,0,1,1,1,0,7 Essential Tips for Interviewing Top Sales Talent,Focus on these seven items while interviewing top sales talent to improve your hiring:,The Bottom Line
+/90-day-onboarding-checklist/,29,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/=,2,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/a-new-beginning-after-all-these-years/,39,1,0,1,0%,0,1,1,1,5,A New Beginning After All These Years?,Starting Over Doesn’t Mean Starting from Scratch,"Older Dog, Newer Tricks?"
+/about-sales-xceleration,24,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/achieving-sales-excellence-competitive-positioning/,52,1,0,1,100%,1,0,1,1,0,Achieving Sales Excellence: Competitive Positioning,Understanding Competitive Positioning,Crafting a Distinct Market Stance: A Methodical Approach
+/achieving-sales-excellence-developing-a-compelling-value-proposition/,70,1,0,1,100%,1,0,1,1,4,Achieving Sales Excellence: Developing a Compelling Value Proposition,"Why Us, Why Now?",The Essence of a Value Proposition
+/adapting-leadership-styles-to-the-situation-sales-growth-vs-sales-recovery-part-one-sales-growth/,98,1,0,1,100%,1,0,1,1,6,Adapting Leadership Styles to the Situation: Sales Growth vs. Sales Recovery Part One: Sales Growth,Growth-Focused Leadership,Growth-Focused Action Items
+/add-years-to-your-life-in-sales,32,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/addressing-sales-challenges/,29,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/after-the-pandemic-comes-the-new-business-as-usual-model,57,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/appreciating-and-retaining-millennial-employees/,49,1,0,1,100%,1,0,0,1,0,Appreciating and Retaining Millennial Employees,,
+/as-a-sales-strategy-cold-calling-hasnt-worked-in-a-long-time/,62,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/as-the-days-and-years-wind-down-what-are-you-waiting-for,57,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/autopsy-of-lost-sales/,23,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/becoming-senior-entrepreneur-gain/,35,1,0,1,100%,1,0,1,1,0,Becoming a Senior Entrepreneur: What Do You Have to Gain?,,
+/best-practices-to-strengthen-and-maximize-your-referral-network,64,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/best-practices-to-strengthen-and-maximize-your-referral-network/,65,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/business-owners-shouldnt-act-sales-manager/,44,1,0,1,100%,1,0,1,1,0,"Why Most Business Owners Shouldn’t Act As Sales Manager, Too",,
+/cant-get-no-sales-satisfaction-sales-lessons-learned-rolling-stones-part-2/,76,1,0,1,100%,1,0,1,1,0,“Why I Can’t Get No Sales Satisfaction” – Sales Lessons Learned From the Rolling Stones | Part 2 of an 8 Part Series,,
+/cant-get-no-sales-satisfaction-sales-lessons-learned-rolling-stones-part-5-8-part-series,89,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/case-studies,13,1,0,1,100%,0,0,0,1,16,,,
+/case-study/air-gauge-station-manufacturer/,43,1,0,1,0%,0,1,1,1,13,Air Gauge Manufacturing: From Flatlined Sales to High Revenue Growth,,
+/case-study/alarm-and-security/,31,1,0,1,100%,1,0,1,1,0,Alarm and Security: Generating Growth with a Defined Sales Process,Executive Summary,The Big Win
+/case-study/calibration-manufacturing-company/,46,1,0,1,100%,1,0,1,1,0,Calibration Manufacturing: Establishing Sales Processes to Turn a Company Around,Executive Summary,The Big Win
+/case-study/early-education-transforming-sales-success-with-18-year-over-year-revenue-growth/,93,1,0,1,0%,0,1,1,1,10,Early Education: Transforming Sales Success with 18% Year-Over-Year Revenue Growth,Company Profile,Sales Success Snapshot
+/case-study/food-industry,25,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/case-study/hand-crafted-brick-oven-manufacturer,48,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/case-study/honey-and-sweetener-distributor/,44,1,0,1,0%,1,1,1,1,5,Honey and Sweetener Distributor: Reducing and Reorganizing Sales Staff for Significant Cost Reduction,Executive Summary,The Big Win
+/case-study/marketing/,22,1,0,1,100%,1,0,1,1,4,Corporate Promotions Marketing: Generating New Revenue,,
+/case-study/peo-payroll/,24,1,0,1,0%,0,1,1,1,9,PEO/Payroll: Building the Right Sales Team to Drive Results,,
+/case-study/public-relations/,29,1,0,1,100%,1,0,1,1,0,Public Affairs: Building a Pipeline to Drive Growth,,
+/case-study/storage-tank-manufacturer/,38,1,0,1,100%,1,0,1,1,0,Storage Tank Manufacturing: From Declining Growth to 10% Increase in One Year,,
+/cmd_sco,8,1,0,1,0%,0,1,1,1,0,#N/A,#N/A,#N/A
+/comes-networking-jump-right-waters-fine/,41,1,0,1,100%,1,0,1,1,5,When it Comes to Networking – “Jump Right In … The Water’s Fine”,,
+/contact-us-old,15,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/create-sales-plan-sets-sales-pros-success/,43,1,0,1,100%,1,0,1,1,0,Create a Sales Plan that Sets Your Sales Pros Up for Success,,
+/creating-and-maintaining-a-successful-sales-organization/,58,1,0,1,100%,1,0,1,1,0,Creating and Maintaining a Successful Sales Organization,Cornerstone #1: Understanding the Importance of a Sales Department,Cornerstone #2: Establishing the Principles of Your Sales Organization
+/csl-certified-sales-leader/,28,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/customer-care-1-01-and-the-slurpy-method,41,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/demystify-sales-team-black-box,31,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/developing-a-sales-culture-to-retain-reps-and-incent-excellence-pt-1/,70,1,0,1,0%,0,1,1,1,79,#N/A,#N/A,#N/A
+/dhoeft,7,1,0,1,0%,1,1,1,1,6,#N/A,#N/A,#N/A
+/differentiation-using-prospect-perception/,43,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/discover/,10,1,0,1,0%,0,1,1,1,16,#N/A,#N/A,#N/A
+/do-chatbots-increase-sales-what-you-need-to-know-about-using-ai-chatbots-for-sales-success/,92,1,0,1,0%,0,1,1,1,9,Do Chatbots Increase Sales? What you need to know about using AI chatbots for sales success,How businesses are utilizing ChatGPT-style chatbots,Lead qualification
+/dont-let-a-merger-acquisition-derail-sales-results/,52,1,0,1,100%,1,0,1,1,0,Don’t Let a Merger or Acquisition Derail Your Sales Results,,
+/e03001d27eb74c6380b28dd5c3fce9308563010792286587791/S-1-8-990886357-2943381009-3591167775-986928363/cmVhY2hjYW,111,1,0,1,0%,1,1,1,1,15,#N/A,#N/A,#N/A
+/e03001d27eb74c6380b28dd5c3fce9308563010792286587791/S-1-8-990886357-2943381009-3591167775-986928363/reachcalendar.ics&name=Dino+Skerlos,136,1,0,1,0%,1,1,1,1,0,#N/A,#N/A,#N/A
+/ecbbfed77ff042b783e03ec7ceeb738f7229039489100702471/S-1-8-2760749417-1207516339-1091752063-143530330/cmVhY2hjYW,112,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/elevator-pitches-fail-just-like-pick-lines/,44,1,0,1,100%,1,0,1,1,1,Why Elevator Pitches Fail (Just Like Most Pick-up Lines),,
+/epic-fail-6-ways-sales-managers-let-themselves-and-others-down/,64,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/even-more-confessions-of-the-misunderstood-salesperson/,56,1,0,1,100%,1,0,1,1,0,Even More Confessions of the Misunderstood Salesperson,,
+/every-enlightened-journey-and-every-meaningful-climb-begins-with-a-single-step,79,1,0,1,100%,1,0,1,1,2,#N/A,#N/A,#N/A
+/exit-planning-for-modern-leaders-how-to-determine-your-companys-worth/,71,1,0,1,100%,1,0,1,1,0,Exit Planning for Modern Leaders: How to Determine Your Company’s Worth,,
+/feeling-trapped-wisdom-experience-can-set-free/,48,1,0,1,0%,0,1,2,1,11,Feeling Trapped? How Your Wisdom and Experience Can Set You Free,,
+/find-right-lid/,16,1,0,1,100%,1,0,1,1,0,“Find the Right Lid”,,
+/finding-the-right-people-for-your-sales-team/,46,1,0,1,0%,0,1,1,1,86,Finding the Right People for Your Sales Team,,
+/focus-on-sales-growth-the-accountability-factor,48,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/fractional-sales-leadership/,29,1,0,1,0%,0,1,1,1,1,#N/A,#N/A,#N/A
+/from-pipeline-to-bottom-line-how-to-boost-your-sales-team-effectiveness/,73,1,0,1,100%,1,0,0,1,0,From Pipeline to Bottom Line: How to Boost Your Sales Team Effectiveness,The Big Picture First,Sales Forecasting Using Accurate Metrics
+/fueling-sales-by-building-the-best-sales-engine-part-2,55,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/gaining-a-competitive-advantage-in-the-new-b2b-buyer-funnel/,61,1,0,1,100%,0,0,0,1,29,Gaining a Competitive Advantage in the New B2B Buyer Funnel,Stages of the B2B Buyer’s Journey,"So, What’s Changed?"
+/goal-setting-top-last-year-work,32,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/goal-setting-top-last-year-work/,33,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/going-up-why-you-should-ditch-your-traditional-elevator-pitch/,63,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/goodell-no-tb-still-1/,23,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/great-sales-leadership-makes-great-sales-teams,47,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/great-sales-leadership-makes-great-sales-teams-sales-xceleration/,66,1,0,1,100%,0,0,0,1,33,#N/A,#N/A,#N/A
+/great-sales-organizations/,27,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/guide-to-use-fractional-executive,34,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/hire-great-salespeople-retain-them/,36,1,0,1,100%,1,0,1,1,0,Don’t Just Hire Great Salespeople – Keep Them!,,
+/hire-now-why-a-hiring-freeze-is-the-wrong-move/,48,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/hire-outsourced-vp-sales-dan-harper/,37,1,0,1,0%,0,1,1,1,2,#N/A,#N/A,#N/A
+/hire-outsourced-vp-sales-kerry-cunnion/,40,1,0,1,0%,1,1,1,1,20,#N/A,#N/A,#N/A
+/hire-outsourced-vp-sales-scot-andrews/,39,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/hire-outsourced-vp-sales-scott-yelle/,38,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/how-can-leveraging-ai-improve-your-sales-organization/,55,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/how-honesty-can-help-maintain-customer-relationships/,54,1,0,1,100%,1,0,1,1,0,How Honesty Can Help Maintain Customer Relationships,,
+/how-onboarding-can-help-salespeople-get-and-stay-on-track-for-sales-success,76,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/how-strategic-sales-planning-can-keep-your-business-on-track-for-success/,74,1,0,1,100%,1,0,1,1,0,How Strategic Sales Planning Can Keep Your Business on Track for Success,,
+/how-to-achieve-your-business-goals-with-individual-salesperson-goals/,70,1,0,1,100%,1,0,1,1,0,How to Achieve Your Business Goals with Individual Salesperson Goals,No “I” in Team?,Strategies for Achieving Goals: #1 – Make Individual Salesperson Goals Personal
+/how-to-build-strong-business-relationships-a-guide-to-effective-sales/,71,1,0,1,0%,1,1,1,1,489,How to Build Strong Business Relationships: A Guide to Effective Sales,Face-to-Face 1:1 Meetings,Get Personal
+/how-to-enhance-sales-using-ai/,31,1,0,1,0%,0,1,1,1,6,How to Enhance Sales Using AI,What Is AI?,What are Some Benefits of AI for Sales?
+/how-to-find-your-purpose-and-avoid-rocking-chair-regrets-before-its-too-late/,78,1,0,1,100%,0,0,0,1,33,#N/A,#N/A,#N/A
+/how-to-stop-circling-the-top-of-the-sales-funnel-and-make-that-sale/,69,1,0,1,100%,1,0,1,1,0,How to Stop Circling the Top of the Sales Funnel and Make That Sale,,
+/how-to-use-onboarding-to-boost-sales-success,45,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/if-6-feet-tall,15,1,0,1,100%,1,0,1,1,1,#N/A,#N/A,#N/A
+/if-youre-not-looking-at-these-3-things-youre-not-optimizing-sales,66,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/if-youre-not-looking-at-these-3-things-youre-not-optimizing-sales/,67,1,0,1,100%,1,0,1,1,0,Entrepreneur – If You’re Not Looking at These 3 Things You’re Not Optimizing Sales,,
+/in-case-they-ask-and-they-will/,32,1,0,1,100%,1,0,1,1,0,In Case They Ask – And They Will,,
+/inbound-vs-outbound-sales-knowing-the-difference-will-greatly-improve-your-success,83,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/industries/franchises,22,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/inflation-how-to-prepare-and-protect-your-business/,52,1,0,1,0%,0,1,1,1,2,Inflation: How-To Prepare and Protect Your Business,Is Inflation Ever Normal?,How Does Inflation Impact a Business?
+/infographics/80-of-ceos-score-company-poor-at-defining-sales-metrics-57-of-sales-leaders-agree/,96,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/infographics/average-turnover-in-sales-is-34/,46,1,0,1,100%,1,0,1,1,4,#N/A,#N/A,#N/A
+/input-sales-team-pricing/,26,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/is-this-the-year-to-take-the-leap-of-faith/,44,1,0,1,100%,1,0,1,1,0,Is this the Year to Take the Leap of Faith?,,
+/is-your-sales-team-hitting-their-sales-goals,45,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/its-about-profit-not-sales,27,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/its-about-profit-not-sales/,28,1,0,1,0%,0,1,1,1,55,It’s About Profit NOT Sales,,
+/joining-sales-enablement-and-revenue-enablement-for-strategic-growth,69,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/joining-sales-enablement-and-revenue-enablement-for-strategic-growth/,70,1,0,1,100%,1,0,1,1,0,Joining Sales Enablement and Revenue Enablement for Strategic Growth,Sales Enablement is Limited,Revenue Enablement is a Holistic Approach
+/key-leadership-behaviors-improve-sales-force-performance/,58,1,0,1,100%,1,0,1,1,0,Key Leadership Behaviors That Improve Sales Force Performance,,
+/leveraging-sales-agility-for-revenue-operations-success,56,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/looking-for-a-lifeline-maybe-you-are-the-lifeline-for-businesses-in-need/,74,1,0,1,100%,0,0,0,1,35,Looking for a Lifeline? (Maybe YOU Are the Lifeline for Businesses in Need),The Corporate Lifeline,The Lifeline You (and Others) Need is Yourself
+/managing-your-business-the-butler-way/,39,1,0,1,100%,1,0,1,1,0,Managing Your Business . . . “The Butler Way”,,
+/meet-exceed-sales-goals,24,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/meet-exceed-sales-goals/,25,1,0,1,100%,1,0,1,1,0,You Need to Address the 4 Ps to Meet and Exceed Sales Goals,,
+/metrics-accelerate-sales/,26,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/more-about-halftime-finding-your-purpose-as-you-prepare-for-a-second-half-of-significance/,91,1,0,1,0%,1,1,1,1,219,More About Halftime: Finding Your Purpose as You Prepare for a Second Half of Significance,,
+/move-forward-life-must-first-let-go/,37,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/networking-is-worthless-netweaving-is-priceless/,49,1,0,1,100%,1,0,1,1,0,"Networking is Worthless, Netweaving is Priceless",,
+/new-year-compensation-plan-reviews/,36,1,0,1,0%,1,1,1,1,13,Sales Compensation Plan Reviews – It’s Time,,
+/no-access/download-id/36876/,29,1,0,1,100%,1,0,1,1,0,No Access,,
+/no-access/download-id/48716/,29,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/no-matter-the-crisis-success-calls-for-positive-thinking-and-confident-leadership/,83,1,0,1,0%,0,1,1,1,14,"No Matter the Crisis, Success Calls for Positive Thinking and Confident Leadership",Rule #1: Control Only What You Can Control,Rule #2: Let Your Inner Voice Fuel Your Positivity
+/no-time-like-the-present-to-give-yourself-the-present-of-time,62,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/now-sure-fire-way-sell,23,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/now-what-a-story-of-life-beyond-corporate-sales-success/,57,1,0,1,100%,1,0,1,1,0,Now What? A Story of Life Beyond Corporate Sales Success.,,
+/podcasts/&sa=U&ved=2ahUKEwiVxc3Li_eRAxVfJjQIHb8qAQUQFnoECAYQAg&usg=AOvVaw2qiriZ3AlVQHQ_OqD_XgIG,96,1,0,1,100%,1,0,1,1,6,#N/A,#N/A,#N/A
+/prepared-to-lead-your-sales-team-this-year-heres-how-to-make-sure/,67,1,0,1,0%,0,1,1,1,1,#N/A,#N/A,#N/A
+/press-release-inc-magazine-unveils-its-annual-list-of-americas-fastest-growing-private-companies-the-inc-5000/,111,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/product/sales-xceleration-framework/,37,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/remaining-effective-as-a-salesperson-while-working-remotely/,61,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/resource-sitemap/,18,1,0,1,0%,0,1,1,1,6,Resource Sitemap,,
+/resources/,11,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/resources/state-of-sales/,26,1,0,1,100%,1,0,1,1,0,,,
+/retired-fired-or-fired-up-the-new-vp-of-sales-opportunity,58,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/revealed-the-surprising-identity-of-your-fiercest-competitor/,62,1,0,1,100%,1,0,1,1,4,Revealed: The Surprising Identity of Your Fiercest Competitor,,
+/sales%,7,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-101-solving-a-problem-vs-making-a-sale,45,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/sales-agility-assessment-1-0-jdauskurdas,41,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-agility-assessment-1-0-kyenke/,37,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-agility-assessment-1-0-mwills/,37,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-agility-assessment-1-0-rstern,36,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-agility-assessment-1-0-tcarrozza/,40,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-agility-assessment-press-release/,40,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-agility-assessment-sx/,29,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-compensation,19,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/sales-compensation-checklist-3,31,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-compensation-plan-life-support/,38,1,0,1,100%,1,0,1,1,0,Top Signs That Your Sales Compensation Plan is on Life Support,,
+/sales-compensation-plans-part-2-sales-comp-plan-look-like/,59,1,0,1,100%,1,0,1,1,0,Sales Compensation Plans | Part II – What Should A Sales Comp Plan Look Like?,,
+/sales-goal-sabotage-the-5-most-deadly-sales-management-mistakes/,65,1,0,1,0%,1,1,1,1,1,#N/A,#N/A,#N/A
+/sales-growth-bottled-up-how-tech-company-leaders-can-break-free-and-find-renewed-success/,90,1,0,1,100%,1,0,1,1,0,Sales Growth Bottled Up? How Tech Company Leaders Can Break Free and Find Renewed Success,Beyond the Bottle: Common Challenges and How to Fix Them,Sales Methodology
+/sales-growth-hiring-motivation-summertime/,43,1,0,1,100%,1,0,1,1,0,Sales Hiring and Motivation in the Summertime,,
+/sales-leaders-win-starts-team/,31,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-leadership-assessment,28,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-leadership-life-cycle/,29,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-management-coaching/,27,1,0,1,0%,0,1,1,1,9,Your Best Sales Training Tool: Ongoing Sales Management Coaching,,
+/sales-plan-checklist,21,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-reps-perform-like-olympic-athletes,41,1,0,1,100%,1,0,1,1,1,#N/A,#N/A,#N/A
+/sales-strategy-checklist-2/,28,1,0,1,100%,1,0,1,1,0,,,
+/sales-strategy-checklist/,26,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sales-success-every-buyer-really-wants/,40,1,0,1,0%,1,1,1,1,1,Backstory for Sales Success: What Every Buyer Really Wants,,
+/sales-xceleration-expands-to-additional-markets,48,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/sales-xcelerators-peer-group,29,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/selling-in-a-2d-x-2s-world,27,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/selling-in-a-2d-x-2s-world/,28,1,0,1,100%,1,0,0,1,0,Selling in a 2D x 2S World,,
+/selling-learn-shut-listen,26,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/selling-learn-shut-listen/,27,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/services/,10,1,0,1,0%,1,1,1,1,20,#N/A,#N/A,#N/A
+/should-your-salesperson-be-in-the-game-on-the-bench-or-off-the-team,68,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/simplify-sales-leadership/,27,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sink-swim-not-effective-onboarding-plan-new-sales-representatives,66,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/sitemao,8,1,0,1,0%,0,1,1,1,0,#N/A,#N/A,#N/A
+/sitemap,8,1,0,1,0%,0,1,1,1,2,#N/A,#N/A,#N/A
+/sitemap-index.xml,18,1,0,1,0%,0,1,1,1,4,#N/A,#N/A,#N/A
+/sitemap.php,12,1,0,1,0%,0,1,1,1,2,#N/A,#N/A,#N/A
+/sitemap.txt,12,1,0,1,0%,0,1,1,1,3,#N/A,#N/A,#N/A
+/sitemap.xlm,12,1,0,1,0%,0,1,1,1,13,#N/A,#N/A,#N/A
+/sitemap.xml.gz,15,1,0,1,0%,0,1,1,1,3,#N/A,#N/A,#N/A
+/sitemap/,9,1,0,1,0%,0,1,1,1,2,#N/A,#N/A,#N/A
+/sitemap/index.xml,18,1,0,1,0%,0,1,1,1,2,#N/A,#N/A,#N/A
+/sitemap/sitemap.xml,20,1,0,1,0%,0,1,1,1,2,#N/A,#N/A,#N/A
+/sitemap1.xml,13,1,0,1,0%,0,1,1,1,4,#N/A,#N/A,#N/A
+/sitemapindex.xml,17,1,0,1,0%,0,1,1,1,2,#N/A,#N/A,#N/A
+/social-media-plan-checklist,28,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/social-media-roadmap-small-businesses/,39,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/streamlining-sales-processes-with-ai,37,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/streamlining-sales-processes-with-ai/,38,1,0,1,100%,0,0,1,1,0,Streamlining Sales Processes with AI,Common Challenges in Sales Processes,How AI Transforms Sales Processes
+/stupid-questions/,18,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/tactics-to-guarantee-your-team-will-dominate-the-new-year/,59,1,0,1,0%,0,1,1,1,34,Sales and Marketing Management – Tactics to Guarantee Your Team Will Dominate the New Year,Tactics to Guarantee Your Team Will Dominate the New Year,
+/take-sales-agility-assessment/,31,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/talk-sales-competition-sales-win/,34,1,0,1,100%,1,0,1,1,1,#N/A,#N/A,#N/A
+/the-business-process-outsourcing-trend-how-bpo-benefits-businesses-of-all-sizes/,81,1,0,1,100%,1,0,1,1,0,Forbes – The Business Process Outsourcing Trend: How BPO Benefits Businesses of All Sizes,,
+/the-leadership-traits-that-predict-breakout-success,52,1,0,1,100%,1,0,1,1,2,#N/A,#N/A,#N/A
+/the-numbers-dont-lie-but-you-can-change-them/,46,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/the-power-of-data-how-to-drive-sales-growth-with-analytics,59,1,0,1,100%,1,0,1,1,1,#N/A,#N/A,#N/A
+/the-power-of-why-and-your-business,35,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/the-private-equity-power-move-how-fractional-sales-leadership-drives-faster-value-creation,91,1,0,1,100%,1,0,1,1,3,#N/A,#N/A,#N/A
+/the-seldom-used-secret-ingredient-for-sales-success/,53,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/thinking-of-hiring-a-family-member-for-your-sales-team-think-again/,68,1,0,1,100%,1,0,1,1,0,Thinking of Hiring a Family Member for Your Sales Team? Think Again.,,
+/three-key-elements-to-ensure-success-and-growth-for-your-startup/,66,1,0,1,100%,1,0,1,1,0,Three Key Elements to Ensure Success and Growth for Your Startup,#1 PRODUCT-MARKET FIT,#2 IDEAL CUSTOMER PROFILE
+/three-questions-for-hiring-your-next-sales-leader/,51,1,0,1,100%,1,0,1,1,0,Three Questions for Hiring Your Next Sales Leader,,
+/time-to-turn-over-a-new-leaf-here-are-signs-you-should-watch-for,65,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/tired-of-losing-customers-to-your-competition,46,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A
+/too-soon-the-premature-proposal-paradox/,41,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/top-10-action-items-to-help-you-hit-the-ground-running/,56,1,0,1,0%,0,1,1,1,2,Sales Team Planning: Top 10 Action Items to Help You Hit the Ground Running,,
+/transforming-sales-for-growth/,31,1,0,1,100%,1,0,1,1,0,Transforming Sales for Growth,EPISODE 1,EPISODE 2
+/treating-everyone-same-isnt-really-fair-treatment,50,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/tried-true-lessons-selling/,28,1,0,1,100%,1,0,1,1,0,Tried and True Lessons of Selling,,
+/unexpected-rfp-worth-winning-even-responding-2/,48,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/want-better-sales-process-consider-buyers-process-first/,57,1,0,1,100%,1,0,1,1,0,Want a Better Sales Process? Consider the Buyer’s Process First.,,
+/want-sell-increase-face-time/,30,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/what-if-you-knew-exactly-what-your-customers-wanted-next/,58,1,0,1,0%,0,1,1,1,22,What If You Knew Exactly What Your Customers Wanted Next?,Why Predictive Sales Analytics Matters Now,What Is Predictive Sales Analytics (and Why It’s Powerful)?
+/what-is-a-sales-strategy-and-how-can-you-build-an-effective-one/,65,1,0,1,0%,1,1,1,1,164,What is a Sales Strategy (and How Can You Build an Effective One?),Sales Strategy Definition,Key Elements of an Effective Sales Strategy
+/what-is-in-your-sales-backpack/,32,1,0,1,100%,1,0,1,1,0,What is in Your Sales Backpack?,,
+/what-makes-a-top-salesperson/,30,1,0,1,100%,1,0,1,1,0,What Makes a Top Salesperson?,,
+/what-we-do/genesis-plus/,25,1,0,1,100%,1,0,1,1,0,,,
+/what-we-do/investment-sales-analysis/,38,1,0,1,100%,1,0,1,1,0,,,
+/what-we-do/on-site-sales/,26,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/whats-pipeline/,16,1,0,1,0%,1,1,1,1,20,#N/A,#N/A,#N/A
+/when-one-door-closes-another-opens-and-leads-to-opportunity-if-you-let-it,74,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/which-role-is-right-for-your-new-hire-account-manager-or-business-development-representative,93,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/why-a-failure-to-communicate-is-a-first-step-to-going-out-of-business/,71,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/why-crm-systems-fail-how-to-make-sure-they-dont/,49,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/why-great-leaders-nurture-the-idea-seed/,41,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/why-no-sales-satisfaction-sales-lessons-learned-rolling-stones/,64,1,0,1,100%,1,0,1,1,0,“Why I Can’t Get No Sales Satisfaction” – Sales Lessons Learned From the Rolling Stones | Part 1 of an 8 Part Series,,
+/why-sales-infrastructure-place-attracts-serious-buyers-commands-top-dollar,75,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/your-key-performance-indicators-kpis-are-established-now-what,62,1,0,1,100%,1,0,1,1,0,#N/A,#N/A,#N/A
+/youve-earned-respect-but-are-you-still-getting-it,50,1,0,1,100%,1,0,0,1,0,#N/A,#N/A,#N/A

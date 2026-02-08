@@ -1,0 +1,327 @@
+.elementor-kit-7 {
+    --e-global-color-primary: #18509B;
+    --e-global-color-secondary: #EB9B1A;
+    --e-global-color-text: #000000;
+    --e-global-color-accent: #018846;
+    --e-global-color-6f54e2d: #FEF7EF;
+    --e-global-color-366e981: #FAFAFA;
+    --e-global-color-0679e4b: #F8F8F8;
+    --e-global-color-9202f74: #F0F0F0;
+    --e-global-typography-primary-font-family: "Poppins";
+    --e-global-typography-primary-font-weight: bold;
+    --e-global-typography-secondary-font-family: "Roboto";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Poppins";
+    --e-global-typography-accent-font-weight: 500;
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-secondary-font-weight);
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    overflow-x: hidden;
+}
+injected stylesheet
+body {
+    line-height: inherit;
+    margin: 0px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --sa-uid: '0-5faa8091-990c-52de-5d38-7df0695fdc69';
+}
+:root {
+    --wp--preset--aspect-ratio--square: 1;
+    --wp--preset--aspect-ratio--4-3: 4 / 3;
+    --wp--preset--aspect-ratio--3-4: 3 / 4;
+    --wp--preset--aspect-ratio--3-2: 3 / 2;
+    --wp--preset--aspect-ratio--2-3: 2 / 3;
+    --wp--preset--aspect-ratio--16-9: 16 / 9;
+    --wp--preset--aspect-ratio--9-16: 9 / 16;
+    --wp--preset--color--black: #000000;
+    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+    --wp--preset--color--white: #ffffff;
+    --wp--preset--color--pale-pink: #f78da7;
+    --wp--preset--color--vivid-red: #cf2e2e;
+    --wp--preset--color--luminous-vivid-orange: #ff6900;
+    --wp--preset--color--luminous-vivid-amber: #fcb900;
+    --wp--preset--color--light-green-cyan: #7bdcb5;
+    --wp--preset--color--vivid-green-cyan: #00d084;
+    --wp--preset--color--pale-cyan-blue: #8ed1fc;
+    --wp--preset--color--vivid-cyan-blue: #0693e3;
+    --wp--preset--color--vivid-purple: #9b51e0;
+    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgb(6, 147, 227) 0%, rgb(155, 81, 224) 100%);
+    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgb(252, 185, 0) 0%, rgb(255, 105, 0) 100%);
+    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgb(255, 105, 0) 0%, rgb(207, 46, 46) 100%);
+    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+    --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+    --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+    --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+    --wp--preset--font-size--small: 13px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 36px;
+    --wp--preset--font-size--x-large: 42px;
+    --wp--preset--spacing--20: 0.44rem;
+    --wp--preset--spacing--30: 0.67rem;
+    --wp--preset--spacing--40: 1rem;
+    --wp--preset--spacing--50: 1.5rem;
+    --wp--preset--spacing--60: 2.25rem;
+    --wp--preset--spacing--70: 3.38rem;
+    --wp--preset--spacing--80: 5.06rem;
+    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);
+    --wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+:root {
+    --page-title-display: block;
+}
+:root {
+    --e-a-color-white: #fff;
+    --e-a-color-black: #000;
+    --e-a-color-logo: #fff;
+    --e-a-color-primary: #f3bafd;
+    --e-a-color-primary-bold: #d004d4;
+    --e-a-color-secondary: #515962;
+    --e-a-color-success: #0a875a;
+    --e-a-color-danger: #dc2626;
+    --e-a-color-info: #2563eb;
+    --e-a-color-warning: #f59e0b;
+    --e-a-color-accent: #93003f;
+    --e-a-color-global: #1dddbf;
+    --e-a-color-accent-promotion: #93003f;
+    --e-a-bg-default: #fff;
+    --e-a-bg-invert: #0c0d0e;
+    --e-a-bg-hover: #f1f2f3;
+    --e-a-bg-active: #e6e8ea;
+    --e-a-bg-active-bold: #d5d8dc;
+    --e-a-bg-loading: #f9fafa;
+    --e-a-bg-logo: #000;
+    --e-a-bg-primary: #fae8ff;
+    --e-a-bg-secondary: #515962;
+    --e-a-bg-success: #f2fdf5;
+    --e-a-bg-info: #f0f7ff;
+    --e-a-bg-danger: #fef1f4;
+    --e-a-bg-warning: #fffbeb;
+    --e-a-color-txt: #515962;
+    --e-a-color-txt-muted: #818a96;
+    --e-a-color-txt-disabled: #babfc5;
+    --e-a-color-txt-invert: #fff;
+    --e-a-color-txt-accent: #0c0d0e;
+    --e-a-color-txt-hover: #3f444b;
+    --e-a-color-txt-active: #0c0d0e;
+    --e-a-border-color: #e6e8ea;
+    --e-a-border-color-bold: #d5d8dc;
+    --e-a-border-color-focus: #babfc5;
+    --e-a-border-color-accent: #0c0d0e;
+    --e-a-border: 1px solid var(--e-a-border-color);
+    --e-a-border-bold: 1px solid var(--e-a-border-color-bold);
+    --e-a-border-radius: 3px;
+    --e-a-btn-color: #0c0d0e;
+    --e-a-btn-color-invert: var(--e-a-color-txt-invert);
+    --e-a-btn-color-disabled: var(--e-a-color-txt-disabled);
+    --e-a-btn-bg: #515962;
+    --e-a-btn-bg-hover: #3a4046;
+    --e-a-btn-bg-active: #23262a;
+    --e-a-btn-bg-disabled: #d5d8dc;
+    --e-a-btn-bg-primary: #f3bafd;
+    --e-a-btn-bg-primary-hover: #f5d0fe;
+    --e-a-btn-bg-primary-active: #f0abfc;
+Show all properties (22 more)
+}
+<style>
+:root, :host {
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+    --fa-font-light: normal 300 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-thin: normal 100 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-duotone: normal 900 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-light: normal 300 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+    --fa-font-sharp-solid: normal 900 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-regular: normal 400 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-light: normal 300 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-thin: normal 100 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-duotone-solid: normal 900 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-light: normal 300 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Sharp Duotone";
+}
+injected stylesheet
+:root {
+    --ait-border-spacing-x: 0;
+    --ait-border-spacing-y: 0;
+    --ait-translate-x: 0;
+    --ait-translate-y: 0;
+    --ait-rotate: 0;
+    --ait-skew-x: 0;
+    --ait-skew-y: 0;
+    --ait-scale-x: 1;
+    --ait-scale-y: 1;
+    --ait-pan-x: ;
+    --ait-pan-y: ;
+    --ait-pinch-zoom: ;
+    --ait-scroll-snap-strictness: proximity;
+    --ait-gradient-from-position: ;
+    --ait-gradient-via-position: ;
+    --ait-gradient-to-position: ;
+    --ait-ordinal: ;
+    --ait-slashed-zero: ;
+    --ait-numeric-figure: ;
+    --ait-numeric-spacing: ;
+    --ait-numeric-fraction: ;
+    --ait-ring-inset: ;
+    --ait-ring-offset-width: 0px;
+    --ait-ring-offset-color: #fff;
+    --ait-ring-color: rgba(59, 130, 246, .5);
+    --ait-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-ring-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow-colored: 0 0 rgba(0, 0, 0, 0);
+    --ait-blur: ;
+    --ait-brightness: ;
+    --ait-contrast: ;
+    --ait-grayscale: ;
+    --ait-hue-rotate: ;
+    --ait-invert: ;
+    --ait-saturate: ;
+    --ait-sepia: ;
+    --ait-drop-shadow: ;
+    --ait-backdrop-blur: ;
+    --ait-backdrop-brightness: ;
+    --ait-backdrop-contrast: ;
+    --ait-backdrop-grayscale: ;
+    --ait-backdrop-hue-rotate: ;
+    --ait-backdrop-invert: ;
+    --ait-backdrop-opacity: ;
+    --ait-backdrop-saturate: ;
+    --ait-backdrop-sepia: ;
+    --ait-contain-size: ;
+    --ait-contain-layout: ;
+    --ait-contain-paint: ;
+Show all properties (1 more)
+}
+injected stylesheet
+html, :root, .aitopia.light, .aitopia :host([class="light"]) {
+    --ait-main-color: 1, 167, 125;
+    --ait-master-color: 1, 167, 125;
+    --ait-primary-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-text-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-content-text-color: rgba(var(--ait-fg-rgb), .65);
+    --ait-primary-title-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-secondary-text-color: rgba(var(--ait-fg-rgb), .4);
+    --ait-bg-opacity: 1;
+    --ait-html-bg-color: rgb(240, 242, 245);
+    --ait-option-bg-color: #f0f2f5;
+    --ait-option-card-bg-color: white;
+    --ait-option-card-border: 1px solid #f0f0f0;
+    --ait-border-radius-lg: 12px;
+    --ait-border-radius: 8px;
+    --ait-sidebar-bg-color: #fff;
+    --ait-sidebar-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    --ait-sidebar-border-color: #ececec;
+    --ait-sidebar-icon-color: #545758;
+    --ait-sidebar-icon-hover-color: rgba(var(--ait-main-color), .1);
+    --ait-sidebar-icon-border-color: #ececee;
+    --ait-sidebar-scrollbar-color: #e1e1e1;
+    --ait-sidebar-scrollbar-hover-color: #d9d9d9;
+    --ait-fg-rgb: 0, 0, 0;
+    --ait-bg-rgb: 255, 255, 255;
+    --ait-switchbar-bg-color: #f0f1f5;
+    --ait-switchbar-btn-hover-bg-color: #e9e9ef;
+    --ait-switchbar-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .15);
+    --ait-tab-menu-hover-bg-color: rgba(var(--ait-main-color), .1);
+    --ait-tab-menu-hover-text-color: var(--ait-primary-text-color);
+    --ait-tab-menu-active-bg-color: rgba(var(--ait-main-color), .9);
+    --ait-tab-menu-active-orange-bg-color: rgba(224, 124, 13, .9);
+    --ait-tab-menu-disabled-bg-color: rgba(var(--ait-main-color), .2);
+    --ait-tab-menu-active-bg-active-color: rgb(0, 211, 157);
+    --ait-tab-menu-active-text-color: #fff;
+    --ait-loading-color: #fff;
+    --ait-link-color: rgba(var(--ait-main-color), .9);
+    --ait-master-link-color: rgba(var(--ait-master-color), .6);
+    --ait-master-link-hover-color: rgba(var(--ait-master-color), 1);
+    --ait-download-button-bg-color: rgba(255, 255, 255, .5);
+    --ait-loading-bg-color: #f5f5f5;
+    --ait-border-color: rgba(0, 0, 0, .15);
+    --ait-pre-bg: rgba(var(--ait-fg-rgb), .05);
+    --ait-sidebar-bg-color-sub: rgba(245, 245, 245, var(--ait-bg-opacity)) !important;
+}
+injected stylesheet
+:root {
+    --ait-height-vh-100: 100vh;
+    --ait-height-100: 100dvh;
+    --ait-height-vh-95: 95vh;
+    --ait-height-95: 95dvh;
+    --ait-height-vh-90: 90vh;
+    --ait-height-90: 90dvh;
+    --ait-height-vh-75: 75vh;
+    --ait-height-75: 75dvh;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    --wp-admin--admin-bar--height: 32px;
+    scroll-padding-top: var(--wp-admin--admin-bar--height);
+}
+injected stylesheet
+html, .aitopia :host {
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+<style>
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v50/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkC3kaSTbQWt4N.woff2) format('woff2');
+    unicode-range: U +0460 -052F, U +1C80 -1C8A, U +20B4, U +2DE0 -2DFF, U + A640-A69F, U + FE2E-FE2F;
+}
