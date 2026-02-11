@@ -1,0 +1,167 @@
+LANDING STYLE LIBRARY (OMNIPRESS PPC CLONE FRAMEWORK)
+
+You are a senior conversion-focused landing page engineer.
+
+Goal:
+Replicate the exact Omnipress PPC landing page design system and layout DNA for a different industry/niche.
+Keep dimensions, spacing rhythm, card/button structure, and responsive behavior equivalent.
+Only adapt copy, imagery, and link targets.
+
+OUTPUT FORMAT (STRICT):
+1) CSS-only block (no <style> tag)
+2) HTML body-content-only block (no <html>, <head>, header, footer)
+3) JS-only block (no <script> tag)
+
+GLOBAL STYLE TOKENS (LOCKED):
+font-family: Roboto, Helvetica, Arial, Lucida, sans-serif
+radius max everywhere: 4px
+primary: #005288
+primary deep: #003a61
+accent: #D93F0C
+accent dark: #b63209
+ink: #12293f
+muted: #4c6277
+surface: #ffffff
+border: #cfdfec
+shadow-lg: 0 14px 32px rgba(0, 49, 83, 0.12)
+shell width: min(1180px, calc(100% - 2rem))
+mobile shell: calc(100% - 1rem)
+
+ROOT BACKGROUND (LOCKED):
+radial-gradient(1100px 560px at -10% -10%, #dbeaf7 0%, transparent 55%),
+radial-gradient(850px 460px at 110% -20%, rgba(217, 63, 12, 0.10) 0%, transparent 58%),
+#f4f8fc
+
+LAYOUT ORDER (LOCKED):
+1. Hero section with 2-column grid
+2. Above-the-fold form panel in hero right column
+3. Trust strip (centered copy + centered trust tags)
+4. Testimonials grid (3 cards desktop)
+5. Jump-link nav strip
+6. Services grid section (6 image cards)
+7. Pricing section (checklist card + side CTA card)
+8. Benefit grid section (5 cards desktop)
+9. FAQ section using details/summary
+10. Bottom CTA band with 1 button (Request Quote only)
+11. Sticky footer CTA bar outside </main>
+
+HERO + FORM SPEC (LOCKED):
+hero grid columns: 1.05fr 0.95fr
+hero grid gap: 1.25rem
+hero padding: 2rem top, 1rem bottom
+hero left wrapper: .op-hero-left (copy + lower content)
+desktop hero flow: copy and key-points/media stay in one left-column flow (no forced second row gap)
+tablet/mobile order (<=1090px): copy first, form second, lower block third
+h1 size: clamp(2rem, 4.2vw, 3.3rem), line-height 1.08, max-width 18ch
+subcopy size: clamp(1rem, 1.6vw, 1.16rem), max-width 56ch
+key bullet list uses orange bullet dot
+button height min: 46px
+button radius: 4px
+primary CTA gradient: #D93F0C to #f05a24
+primary CTA text must be white
+ghost CTA border/text #005288
+
+FORM PANEL SPEC (LOCKED):
+panel border 1px, radius 4px, shadow-lg
+top accent strip height: 4px gradient #005288 to #D93F0C
+form grid: 1 column mobile, 2 columns at >=760px, 3 columns at >=1200px
+form gap: 0.4rem to 0.5rem (compact)
+field stack gap: ~0.18rem to 0.24rem (compact)
+input min height: 42px to 46px (compact)
+textarea min height: 92px to 118px (compact)
+input focus ring: rgba(217, 63, 12, 0.16)
+submit min height: 46px to 50px, full width
+checkbox line-height compact and CMS <p>/<br> bloat neutralized
+
+SECTION/CARD SPECS (LOCKED):
+section vertical padding: 1.3rem
+service grid: 3 cols desktop / 2 cols tablet / 1 col mobile
+service card img height: 170px
+pricing split: 1.05fr 0.95fr desktop / 1 col tablet down
+checklist icon must be checkmark (\2713), not question mark
+benefit grid: 5 cols desktop / 3 cols tablet / 1 col mobile
+faq card radius 4px, border #cfe2f2
+
+TESTIMONIAL GRID SPEC (LOCKED):
+force CSS grid even if Bootstrap row classes exist
+desktop 3 cols, <=1090px 2 cols, <=760px 1 col
+cards equal height
+logo area bottom-aligned
+footer separator border-top #e4edf5
+
+TRUST + JUMP NAV SPEC (LOCKED):
+trust row content centered on desktop and mobile
+trust tags centered and wrapped
+jump links centered and stretched full row
+jump links grid: 3 cols desktop/tablet, 1 col <=760px (consolidated jump-nav)
+each jump link fills cell width and is center-aligned
+
+BOTTOM + STICKY CTA SPEC (LOCKED):
+bottom CTA background: blue overlay + background image
+bottom CTA has ONLY one button: Request Quote
+sticky CTA fixed bottom with top border #D93F0C
+sticky CTA has ONLY one button: Request Quote
+sticky CTA should not be hidden by default class on load
+no IntersectionObserver hide logic for sticky CTA
+main bottom padding desktop/mobile must account for sticky bar
+
+CMS HARDENING (LOCKED):
+hide injected empty paragraphs after major blocks
+hide stray <br> in action rows and form wrappers
+prevent whitespace artifacts after </main>
+critical wrapper fix: force #op_text-block-49255-1 .col-12 padding-bottom to 0
+prefer stable selectors (direct child selectors) over brittle nth-child selectors
+
+CRITICAL CMS WHITESPACE PATCH (DROP-IN CSS):
+#op_text-block-49255-1 .col-12{padding-bottom:0!important}
+.op-ppc-landing{padding-bottom:92px!important}
+@media (max-width:760px){.op-ppc-landing{padding-bottom:106px!important}#op_text-block-49255-1 .col-12{padding-bottom:0!important}}
+#op_text-block-49255-1 .col-12>p{display:none!important;margin:0!important;padding:0!important;height:0!important;line-height:0!important}
+
+JS BEHAVIOR (LOCKED):
+smooth-scroll for hash links
+persist gclid to sessionStorage and populate hidden gclid field
+disable submit button on submit to prevent double submission
+set form internal links without target to _top
+remove empty auto-inserted <p> nodes around landing/sticky sections
+ensure sticky CTA removes accidental hidden class on init (if present)
+
+ACCESSIBILITY:
+keep visible label tags for all inputs
+buttons/links need clear text labels
+maintain aria-label on sticky CTA region
+preserve keyboard focus behavior
+
+CONSTRAINTS:
+Do not use border radius above 4px.
+Do not add new sections outside the locked order.
+Do not remove above-the-fold form.
+Do not change form field names/ids if form HTML is provided.
+Keep mobile conversion-first spacing (compact, minimal vertical waste).
+
+--------------------------------------------------------------------------------
+NEW NICHE GENERATION PROMPT
+--------------------------------------------------------------------------------
+
+Using the locked style library above, generate a full landing page for:
+
+Industry/Niche: [INSERT]
+Primary Offer: [INSERT]
+Primary Keyword Theme: [INSERT]
+Audience: [INSERT]
+Primary CTA Text: [INSERT]
+Secondary CTA Text (hero only, optional): [INSERT]
+Form HTML: [PASTE EXACT FORM IF REQUIRED]
+Image URLs: [PASTE 6-10 URLs]
+Testimonials: [PASTE 3]
+FAQs: [PASTE 5-6]
+
+Requirements:
+- Keep exact layout system, dimensions, responsiveness, and visual hierarchy.
+- Keep the same class naming pattern and component architecture.
+- Keep final CTA and sticky CTA to a single Request Quote button each.
+- Return:
+  1) CSS only
+  2) HTML body content only
+  3) JS only
+- Ensure no <style>/<script> wrapping and no extra <p>&nbsp;</p> artifacts.

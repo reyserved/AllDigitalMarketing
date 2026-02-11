@@ -1,0 +1,238 @@
+/* Omnipress PPC landing hotfix
+   Target URL: /training-manuals-ppc-copy/
+   Goal: fix above-the-fold hero, compact form spacing, testimonial alignment,
+   bottom CTA alignment, and mobile rendering issues caused by CMS auto-formatting.
+*/
+
+/* 1) ABOVE THE FOLD: neutralize spacer wrappers and empty main injected by CMS */
+#op_text-block-49255-1 > .container.p-5 {
+  padding-top: 0.6rem !important;
+  padding-bottom: 0.35rem !important;
+}
+
+/* Because .op-ppc-landing is not wrapping content on staging, reserve space for fixed CTA */
+#op_text-block-49255-1 .col-12 {
+  padding-bottom: 132px !important;
+}
+
+#op_text-block-49255-1 .col-12 > p:first-of-type {
+  display: none !important;
+}
+
+/* Fallback for browsers/CMS variations: first two top-level injected paragraphs */
+#op_text-block-49255-1 .col-12 > p:nth-of-type(-n + 2) {
+  display: none !important;
+  margin: 0 !important;
+}
+
+#op_text-block-49255-1 .col-12 > p:has(> main#top.op-ppc-landing) {
+  display: none !important;
+  margin: 0 !important;
+}
+
+#op_text-block-49255-1 .col-12 > p > main#top.op-ppc-landing,
+main#top.op-ppc-landing {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+#op_text-block-49255-1 .op-hero {
+  padding-top: 0.2rem !important;
+}
+
+/* 2) FORM COMPACTION: remove injected BR/P wrappers and tighten rhythm */
+.op-form-grid {
+  gap: 0.45rem !important;
+}
+
+.op-pardot-form .form-field {
+  margin: 0 !important;
+  gap: 0.2rem !important;
+}
+
+.op-pardot-form .form-field > br,
+.op-pardot-form .pd-checkbox p br,
+.op-pardot-form .description + br {
+  display: none !important;
+}
+
+.op-pardot-form .pd-checkbox p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.op-pardot-form .pd-checkbox p:first-child,
+.op-pardot-form .pd-checkbox p:last-child {
+  display: none !important;
+}
+
+.op-pardot-form .pd-checkbox p:nth-child(2) {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.5rem !important;
+}
+
+.op-pardot-form .pd-checkbox p:nth-child(2) > input[type="checkbox"] {
+  margin-top: 0.2rem !important;
+  flex: 0 0 auto !important;
+}
+
+.op-pardot-form .submit {
+  margin-top: 0.75rem !important;
+}
+
+/* keep textareas compact but usable */
+.op-pardot-form textarea.standard {
+  min-height: 104px !important;
+}
+
+/* 3) TESTIMONIALS: force true horizontal alignment + equal card behavior */
+.op-testimonials-grid.row {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 0.75rem !important;
+  margin: 0 !important;
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+  align-items: stretch !important;
+}
+
+.op-testimonials-grid > .col {
+  width: auto !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.op-testimonials .card {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.op-testimonials .card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+}
+
+.op-testimonials .card-text {
+  margin-top: auto !important;
+  min-height: 82px !important;
+}
+
+.op-testimonials .card-text img {
+  max-width: 100% !important;
+  width: auto !important;
+  object-fit: contain !important;
+}
+
+/* 4) FINAL CTA: keep desktop horizontal, stack cleanly on mobile */
+.op-bottom-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+}
+
+.op-bottom-actions > br,
+.op-actions > br,
+.op-sticky-actions > br,
+.op-trust-tags > br {
+  display: none !important;
+}
+
+.op-bottom-actions .op-btn {
+  flex: 0 0 auto;
+}
+
+/* 5) GLOBAL CTA TEXT COLOR SAFETY */
+a.op-btn-primary,
+a.op-btn-primary:visited,
+a.op-btn-primary:hover,
+a.op-btn-warm,
+a.op-btn-warm:visited,
+a.op-btn-warm:hover,
+a.op-btn-outline-light,
+a.op-btn-outline-light:visited,
+a.op-btn-outline-light:hover {
+  color: #fff !important;
+}
+
+a.op-btn-ghost,
+a.op-btn-ghost:visited,
+a.op-btn-ghost:hover {
+  color: #005288 !important;
+}
+
+/* readability cleanups for injected manual line-breaks */
+.op-hero-sub br,
+.op-section-intro br {
+  display: none !important;
+}
+
+/* responsive hardening */
+@media (min-width: 761px) {
+  .op-bottom-actions {
+    flex-wrap: nowrap !important;
+  }
+
+  .op-form-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .op-form-grid .message,
+  .op-form-grid .CheckBoxUpdate,
+  .op-form-grid .Consent_to_Processing,
+  .op-form-grid .GCLID {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 1090px) {
+  .op-testimonials-grid.row {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 760px) {
+  #op_text-block-49255-1 > .container.p-5 {
+    padding-top: 0.25rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-bottom: 0.2rem !important;
+  }
+
+  #op_text-block-49255-1 .col-12 {
+    padding-bottom: 148px !important;
+  }
+
+  .op-form-grid {
+    gap: 0.5rem !important;
+  }
+
+  .op-pardot-form input.text {
+    min-height: 44px !important;
+  }
+
+  .op-pardot-form textarea.standard {
+    min-height: 96px !important;
+  }
+
+  .op-testimonials-grid.row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .op-bottom-actions {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 0.45rem !important;
+  }
+
+  .op-bottom-actions .op-btn {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,284 @@
+B59 PPC REPLICATION LAYOUT + INTERACTIVE STYLE LIBRARY (CROSS-INDUSTRY CLONE FRAMEWORK)
+
+Purpose:
+Replicate the exact visual/interaction DNA of the Bank Five Nine construction-loan PPC lander across different industries while swapping only copy, imagery, and compliance text.
+
+Use Cases:
+1) Hand this to GPT to generate a full HTML/CSS/JS mockup.
+2) Hand this to GPT to generate Elementor drag-and-drop implementation steps.
+3) Keep dimensions, spacing rhythm, card design, CTA behavior, and interaction mechanics consistent.
+
+-------------------------------------------------------------------------------
+OUTPUT CONTRACT FOR GPT (STRICT)
+-------------------------------------------------------------------------------
+Return in this order:
+1) Section-by-section layout blueprint table (desktop + mobile)
+2) Elementor widget map (container direction, widths, class names, spacing)
+3) CSS-only block (no <style> tag)
+4) HTML body-only block (no <html>/<head>)
+5) JS-only block (no <script> tag)
+6) QA checklist (desktop/mobile/performance/accessibility/tracking)
+
+Do not change class namespace prefix: b59-ppc-
+
+-------------------------------------------------------------------------------
+LOCKED DESIGN TOKENS (BRAND + THEME)
+-------------------------------------------------------------------------------
+Primary red: #BB2031
+Primary deep red: #9F1B2A
+Hero deep gradient stop: #941627
+Hero card gradient: #A61B2C -> #8F1524
+Secondary light gray: #F4F4F4
+Body text charcoal: #373838
+Neutral border/light bg: #E9E9E9
+Optional cool accent: #83CDD0
+Accent green (icons/checks): #A4C15B
+White: #FFFFFF
+
+Fonts:
+- Heading/UI: Century Gothic, Arial, sans-serif
+- Body: Minion Pro, Georgia, serif
+
+Radii (locked):
+- Containers/cards/grids: 4px max
+- Buttons: 8px
+
+Core shadows:
+- Soft card: 0 10px 26px rgba(17,17,17,0.08)
+- Hero KPI card: 0 14px 28px rgba(61,5,13,0.34)
+- Payment callout: 0 12px 30px rgba(84,15,26,0.12)
+
+-------------------------------------------------------------------------------
+GLOBAL LAYOUT RULES (LOCKED)
+-------------------------------------------------------------------------------
+- Page template: Elementor Canvas
+- Max content width: 1200px
+- Mobile shell: 92vw (or calc(100% - 1rem) for narrow screens)
+- Breakpoints to QA: 1440, 1024, 768, 480, 390
+- Content order:
+  1) Sticky header bar with logo + CTA
+  2) Hero (split)
+  3) Offer snapshot/table/chart
+  4) Qualification bullets + stepper
+  5) Payment explainer + payment snapshot card
+  6) Disclosure (always visible)
+  7) Final CTA strip
+- No autoplay media
+- Keep disclosures visible (no hide/show for paid pages)
+
+-------------------------------------------------------------------------------
+SECTION + CONTAINER SPEC (EXACT)
+-------------------------------------------------------------------------------
+[Header Sticky CTA]
+- Wrapper class: b59-ppc-topbar
+- Position: sticky; top: 0; z-index: 10020
+- Background: #FFFFFF
+- Border bottom: 1px solid rgba(187,32,49,0.12)
+- Shadow: 0 2px 10px rgba(0,0,0,0.08)
+- Inner class: b59-ppc-topbar-inner
+- Inner layout: row, justify-between, align-center, gap 16 (mobile gap 10)
+- Logo image max-height: 52px desktop, 44px mobile
+- Button class: b59-ppc-header-cta
+- Button: min-height 44px, padding 10x18, radius 8, bg #BB2031, text #fff
+- Hover: #9F1B2A / white
+- Mobile button: min-height 38px, padding 8x12, font-size 13px
+
+[Hero Section]
+- Wrapper class: b59-ppc-hero-wrap
+- Padding: 56px top, 40px bottom
+- Overflow: hidden
+- Background (final CSS layer stack):
+  radial-gradient(circle at 84% 18%, rgba(255,255,255,0.14) 0%, rgba(255,255,255,0) 42%),
+  radial-gradient(circle at 10% 88%, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 50%),
+  linear-gradient(160deg, #BB2031 0%, #AC1C2D 58%, #941627 100%)
+- Inner row: 58/42 desktop split, 55/45 at 1024-1439, 1-column <=768
+- Gap: 40px
+- H1: white, line-height 1.1, desktop target 52px, 44px tablet, 34-36px small mobile, 30-32px compact mobile
+- Body: off-white tints (#FFF3F5 / #F9E9EC)
+- Primary hero button: white bg, red text, radius 8, hover #FBF1F2
+
+[Hero Right Interactive Card]
+- Class: b59-ppc-hero-kpi-card
+- Background: linear-gradient(165deg, #A61B2C 0%, #8F1524 100%)
+- Border: 1px solid rgba(255,255,255,0.18)
+- Radius: 4
+- Padding: 22px
+- KPI grid class: b59-ppc-kpi-grid; columns: 2; gap: 10
+- KPI tile class: kpi-item
+- KPI label class: kpi-label (11px, uppercase, light pink)
+- KPI value class: js-b59-ppc-counter (24px desktop / 21px mobile)
+
+[Offer Snapshot Section]
+- Class: b59-ppc-offer-wrap
+- Background: linear-gradient(180deg, #FFF5F7 0%, #F8EDEF 100%)
+- Padding: 36px top, 40px bottom
+- Inner row: 62/38 split (table card / chart card)
+- Card style: #FFFAFB bg, 1px rgba(187,32,49,0.20), radius 4, soft card shadow
+
+[Qualifications Section]
+- Class: b59-ppc-qual-wrap
+- Background: #FFF7F8
+- Padding: 40px vertical
+- Two columns at desktop (50/50), single column on mobile
+- Icon list class: b59-ppc-qual-list
+- Icon color: #A4C15B
+- Item card style: #FFFAFB bg, 1px rgba(187,32,49,0.16), radius 4, padding 12
+
+[Qualification Stepper]
+- Class: b59-ppc-stepper
+- Important update: NO Back/Next/Done nav buttons
+- Desktop interaction: click step tabs
+- Mobile interaction: accordion toggles (one open at a time)
+- Dot progress remains visible
+- CTA only inside final step content
+
+[Payment Explainer]
+- Class: b59-ppc-payment-wrap
+- Background: linear-gradient(180deg, #FFF4F6 0%, #F5E6E9 100%)
+- Padding: 24px vertical
+- Layout: 65/35 split (copy/callout)
+
+[Payment Snapshot Callout]
+- Class: b59-ppc-payment-callout
+- Radius: 4
+- Padding: 20px (16 mobile)
+- Background: linear-gradient(170deg, #FFF7F8 0%, #FBECEF 100%)
+- Border: 1px solid rgba(187,32,49,0.22)
+- Shadow: 0 12px 30px rgba(84,15,26,0.12)
+- Row class: b59-ppc-pay-row (white card, 1px border, radius 4, padding 12x14)
+- Label class: b59-ppc-pay-label (12px uppercase)
+- Value class: b59-ppc-pay-value (34px desktop, 30 mobile)
+- Final row modifier: is-final (subtle gradient, final value 30 desktop / 26 mobile)
+
+[Disclosure]
+- Class: b59-ppc-disclosure-wrap
+- Background: #F0DDE1
+- Border-top: 2px solid rgba(187,32,49,0.2)
+- Padding: 28 top / 32 bottom
+- Divider: 2px #BB2031
+- Text min size: 12 desktop, 11 mobile; line-height 1.4
+- Must remain fully visible
+
+[Final CTA Section]
+- Class: b59-ppc-final-cta-wrap
+- Background: linear-gradient(170deg, #BB2031 0%, #9F1828 100%)
+- Padding: 34px vertical
+- Layout: 70/30 desktop, 1-column mobile
+- Text: white
+- Primary button: white bg, red text, radius 8, hover #FBF1F2
+
+-------------------------------------------------------------------------------
+INTERACTIVE MODULE LIBRARY (LOCKED STACK)
+-------------------------------------------------------------------------------
+Feature 1: Counter + Micro Chart (hero/right card or offer card)
+- Free sources:
+  - CountUp.js: https://inorganik.github.io/countUp.js/
+  - Chart.js: https://www.chartjs.org/
+- Pattern:
+  - animate only RATE and APR counters
+  - place 11-payment chart directly below counters
+  - chart model: 10 equal short bars + 1 final tall bar (visual normalization)
+  - tooltip shows actual amounts
+- Required wrapper classes:
+  - js-b59-ppc-counter-module
+  - b59-ppc-hero-kpi-card
+
+Feature 2: Qualification Stepper (updated)
+- Free source: vanilla JS only
+- Pattern:
+  - desktop: tabbed step content
+  - mobile: accordion step content
+  - no Back/Next/Done button row
+  - final step contains lender CTA
+- Events:
+  - qualification_expand (first interaction)
+  - cta_talk_lender_click with placement=qualification_stepper
+
+Feature 3: Motion Accent Layer
+- Free sources:
+  - LottieFiles free animations: https://lottiefiles.com/free-animation
+  - Haikei SVG generator: https://haikei.app/
+- Rules:
+  - subtle only; do not compete with CTA
+  - decorative layers behind content only
+  - reduced-motion fallback mandatory
+
+-------------------------------------------------------------------------------
+TRACKING + ATTRIBUTION CONTRACT
+-------------------------------------------------------------------------------
+- Preserve UTM params when user clicks any primary CTA
+- Event names:
+  - lp_view
+  - cta_talk_lender_click
+  - qualification_expand
+  - calculator_interaction
+- Sticky header CTA event placement: header_sticky
+- Stepper CTA placement: qualification_stepper
+
+-------------------------------------------------------------------------------
+PERFORMANCE + ACCESSIBILITY CONSTRAINTS
+-------------------------------------------------------------------------------
+- Lighthouse mobile target: >=75
+- No autoplay media
+- Lottie/SVG assets <=300KB each where possible
+- WCAG AA contrast minimum for all CTA and body text
+- Respect prefers-reduced-motion
+- No horizontal overflow at 390px width
+
+-------------------------------------------------------------------------------
+ELEMENTOR BUILD MAPPING (SHORT VERSION)
+-------------------------------------------------------------------------------
+Use this widget sequence per section:
+1) Header: Container(row) -> Image widget + Button widget
+2) Hero: Container(row 58/42) -> Heading/Text/Button/Text + HTML widget (Feature 1)
+3) Offer: Container(column) -> Heading + row(62/38) -> HTML table + HTML chart/counter
+4) Qualifications: Heading + 2 Icon List widgets + HTML widget (Feature 2)
+5) Payment: row(65/35) -> Text column + payment callout HTML/Text
+6) Disclosure: Divider + Text Editor
+7) Final CTA: row(70/30) -> heading/text + button
+
+-------------------------------------------------------------------------------
+COPY-PASTE GPT PROMPT (USE THIS DIRECTLY)
+-------------------------------------------------------------------------------
+You are a senior conversion-focused landing page engineer.
+
+Goal:
+Clone the B59 PPC construction-loan landing-page design system exactly (layout rhythm, dimensions, card/button styling, interaction behavior), but adapt copy/content for a new niche.
+
+Input Variables:
+- Industry/Niche: [INSERT]
+- Primary Offer: [INSERT]
+- Keyword Intent Cluster: [INSERT]
+- Audience: [INSERT]
+- Primary CTA Text: [INSERT]
+- Primary CTA URL: [INSERT]
+- Compliance/Disclosure Text: [INSERT]
+- KPI 1 label/value: [INSERT]
+- KPI 2 label/value: [INSERT]
+- 11-point scenario data (or equivalent): [INSERT]
+- Qualification steps (3): [INSERT]
+
+Non-Negotiable Constraints:
+- Keep class prefix b59-ppc-
+- Keep max radius 4px for containers/cards/grids
+- Keep button radius 8px
+- Keep split layout structure and breakpoints (1440/1024/768/480/390)
+- Keep sticky header CTA pattern (not bottom sticky)
+- Keep qualification stepper WITHOUT back/next/done buttons
+- Keep disclosure visible and readable (no accordion)
+- Keep Feature 1/2/3 interaction architecture (or close equivalent)
+
+Output Format (strict):
+1) Section blueprint table (desktop + mobile)
+2) Elementor drag-and-drop mapping
+3) CSS-only
+4) HTML body-only
+5) JS-only
+6) QA checklist (design, responsiveness, tracking, performance, accessibility)
+
+Quality Bar:
+- Visual parity with B59 PPC DNA
+- Clear readable hierarchy
+- No visual clutter
+- Paid-traffic conversion-first
+- Compliance-safe presentation

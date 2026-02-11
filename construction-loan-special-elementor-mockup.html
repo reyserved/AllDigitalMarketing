@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Construction Loan Special Mockup - Elementor Visual Blueprint</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="./construction-loan-special-elementor-mockup.css">
+  </head>
+  <body>
+    <div class="page-wrap">
+      <main>
+        <section class="section hero-wrap">
+          <div class="container">
+            <span class="widget-hint">Container (Row) + Heading + Text + Button + HTML</span>
+            <div class="hero-grid">
+              <div class="hero-copy">
+                <span class="eyebrow">Paid Search Landing Page Mockup</span>
+                <h1>Construction Loan Special - 11-Month Term with 4.590% Rate and 5.718% APR</h1>
+                <p class="hero-subheadline b59-ppc-hero-subheadline">
+                  Build in Wisconsin with a portfolio construction loan designed for owner-occupied, single-family homes.
+                </p>
+                <p class="hero-body b59-ppc-hero-body">
+                  This mockup shows what your Elementor build should look like on desktop and mobile,
+                  including interactive widgets for offer snapshots, payment scenario engagement, and
+                  qualification path progression.
+                </p>
+                <div class="btn-row">
+                  <a class="btn btn-primary js-talk-lender" href="[LENDER_EMAIL_OR_FORM_URL]">Talk to a Bank Five Nine Lender</a>
+                  <a class="btn btn-secondary js-call-lender" href="tel:[LENDER_PHONE]">Call [LENDER_PHONE]</a>
+                </div>
+                <p class="hero-secondary-link b59-ppc-hero-secondary-link">
+                  Other options are available. Call for more details.
+                </p>
+              </div>
+
+              <aside class="hero-card b59-ppc-hero-kpi-card">
+                <div class="hero-card-head">
+                  <h3>Interactive Offer Snapshot</h3>
+                  <p>Widget: HTML + JS Counter + Chart</p>
+                </div>
+
+                <div class="kpi-grid">
+                  <div class="kpi">
+                    <span class="kpi-label">Rate</span>
+                    <span class="kpi-value js-counter" data-value="4.590" data-format="percent3">0.000%</span>
+                  </div>
+                  <div class="kpi">
+                    <span class="kpi-label">APR</span>
+                    <span class="kpi-value js-counter" data-value="5.718" data-format="percent3">0.000%</span>
+                  </div>
+                </div>
+
+                <div class="payment-chart">
+                  <div class="payment-chart-head">
+                    <strong>11-Payment Scenario</strong>
+                    <span>10 interest-only + 1 final balloon</span>
+                  </div>
+                  <div class="bar-track" aria-label="Payment scenario chart">
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar small" data-amt="$811.40"></div>
+                    <div class="bar balloon" data-amt="$425,811.40"></div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="section offer-wrap">
+          <div class="container">
+            <span class="widget-hint">Container (Row 62/38) + Table HTML + Interactive Draw Slider</span>
+            <h2 class="section-title">Quick Offer Snapshot</h2>
+            <p class="section-subtitle">Use this as your offer chart/table block in Elementor.</p>
+
+            <div class="offer-grid">
+              <article class="card offer-table-card">
+                <table class="offer-table">
+                  <tbody>
+                    <tr>
+                      <th>Term</th>
+                      <td>11-month</td>
+                    </tr>
+                    <tr>
+                      <th>Rate</th>
+                      <td>4.590%</td>
+                    </tr>
+                    <tr>
+                      <th>APR</th>
+                      <td>5.718%</td>
+                    </tr>
+                    <tr>
+                      <th>Price</th>
+                      <td>$500,000</td>
+                    </tr>
+                    <tr>
+                      <th>Down Payment</th>
+                      <td>15%</td>
+                    </tr>
+                    <tr>
+                      <th>Loan Amount</th>
+                      <td>$425,000</td>
+                    </tr>
+                    <tr>
+                      <th>Payment/Month</th>
+                      <td>10 @ $811.40; 1 @ $425,811.40</td>
+                    </tr>
+                    <tr>
+                      <th>Baseline Qualification</th>
+                      <td>Minimum credit score of 700 and 85% LTV</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </article>
+
+              <aside class="card draw-widget">
+                <h3>Interactive Draw Scenario</h3>
+                <p>Use slider input to simulate how interest-only payment estimates scale with draw percentage.</p>
+                <label for="drawPercent" class="sr-only">Draw Percentage</label>
+                <input id="drawPercent" class="draw-slider" type="range" min="10" max="100" step="5" value="50">
+                <div class="draw-output">
+                  <div class="draw-row">
+                    <span>Draw percentage</span>
+                    <strong><span id="drawPctOutput">50</span>%</strong>
+                  </div>
+                  <div class="draw-row">
+                    <span>Estimated interest-only monthly payment</span>
+                    <strong id="drawPaymentOutput">$811.40</strong>
+                  </div>
+                  <div class="draw-row">
+                    <span>Final payment (scenario baseline)</span>
+                    <strong>$425,811.40</strong>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="section qual-wrap">
+          <div class="container">
+            <span class="widget-hint">Container + Heading + Icon List + HTML Stepper Widget</span>
+            <h2 class="section-title">Construction Loan Special Qualifications</h2>
+            <p class="section-subtitle">Two-column icon list on desktop, stacked list on mobile.</p>
+
+            <div class="qual-grid">
+              <div class="qual-item"><i>✓</i><p>700 minimum credit score</p></div>
+              <div class="qual-item"><i>✓</i><p>Maximum 85% loan to value, up to $832,750 loan size</p></div>
+              <div class="qual-item"><i>✓</i><p>Single-family, owner-occupied construction in Wisconsin only</p></div>
+              <div class="qual-item"><i>✓</i><p>Consolidate construction and lot purchase for one set of closing costs and fees</p></div>
+              <div class="qual-item"><i>✓</i><p>If lot is already owned, equity can be used for down payment requirements</p></div>
+              <div class="qual-item"><i>✓</i><p>Simple and flexible draw process with no set schedules</p></div>
+              <div class="qual-item"><i>✓</i><p>Pay just interest-only payments during construction</p></div>
+              <div class="qual-item"><i>✓</i><p>Depository relationship required prior to closing</p></div>
+            </div>
+
+            <article class="card stepper-card">
+              <div class="stepper-head">
+                <h3>Do I Qualify? (Interactive Stepper)</h3>
+                <div class="stepper-progress" aria-hidden="true">
+                  <span class="step-dot active"></span>
+                  <span class="step-dot"></span>
+                  <span class="step-dot"></span>
+                </div>
+              </div>
+              <div class="step-body" id="stepBody"></div>
+              <div class="step-actions">
+                <button class="btn btn-secondary" id="stepPrev" type="button">Back</button>
+                <button class="btn btn-primary" id="stepNext" type="button">Next</button>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section payment-wrap">
+          <div class="container">
+            <span class="widget-hint">Container (Row 65/35) + Text + Red Callout Card</span>
+            <h2 class="section-title">How the Payment Scenario Works</h2>
+            <div class="payment-grid">
+              <article class="card payment-panel">
+                <p>
+                  The payment scenario assumes a half-drawn construction loan with a closing date of 2/1/2026 and
+                  a 1/1/2027 maturity date.
+                </p>
+                <p>
+                  The first 10 payments are interest-only based on the dollar amount drawn at that time.
+                  The final balloon payment equals the principal balance plus interest.
+                </p>
+                <p>
+                  Payment estimates do not include amounts for taxes and hazard insurance.
+                </p>
+              </article>
+              <aside class="callout">
+                <h3>Payment Snapshot</h3>
+                <div class="line"><span>First 10 payments</span><strong>$811.40</strong></div>
+                <div class="line"><span>Final balloon payment</span><strong>$425,811.40</strong></div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="section disclosure-wrap">
+          <div class="container">
+            <span class="widget-hint">Divider + Text Editor (Always Visible)</span>
+            <div class="disclosure-box">
+              <div class="disclosure-divider"></div>
+              <div class="disclosure-text">
+                <p>
+                  Using a $500,000 purchase price and 15% down payment, the $425,000 loan amount at rate of 4.590% would be a monthly payment of
+                  $811.40 for the first 10 payments followed by a final payment of $425,811.40.
+                </p>
+                <p>
+                  Rates are effective for applications dated from 2/4/2026. Interest rates and mortgage products are subject to change and availability.
+                  Examples are based on customers with good credit and a 45 day lock period for application and processing. The actual mortgage product you
+                  qualify for depends on property valuation, credit score, and other underwriting conditions.
+                </p>
+                <p>
+                  Other options are available. Call for more details. Member FDIC. BFN NMLS # 410817.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="final-cta-wrap">
+          <div class="container">
+            <span class="widget-hint">Container (Row 70/30) + Heading + Text + Buttons</span>
+            <div class="final-cta-grid">
+              <div class="final-cta-copy">
+                <h2>Ready to Discuss Your Construction Loan Options?</h2>
+                <p>Talk directly with a Bank Five Nine lender to confirm fit, timeline, and next steps.</p>
+                <p class="footnote">Member FDIC | BFN NMLS # 410817</p>
+              </div>
+              <div class="final-cta-actions">
+                <a class="btn btn-primary js-talk-lender" href="[LENDER_EMAIL_OR_FORM_URL]">Talk to a Lender Today</a>
+                <a class="btn btn-secondary js-call-lender" href="tel:[LENDER_PHONE]">Call [LENDER_PHONE]</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="mobile-sticky-cta">
+        <a class="btn btn-primary js-talk-lender" href="[LENDER_EMAIL_OR_FORM_URL]">Talk to a Lender</a>
+        <a class="btn btn-secondary js-call-lender" href="tel:[LENDER_PHONE]">Call</a>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        window.dataLayer = window.dataLayer || [];
+
+        function formatValue(value, format) {
+          if (format === "percent3") return value.toFixed(3) + "%";
+          if (format === "usd0") return "$" + Math.round(value).toLocaleString("en-US");
+          if (format === "usd2") return "$" + value.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          return String(value);
+        }
+
+        function animateCounter(el) {
+          var target = parseFloat(el.dataset.value || "0");
+          var format = el.dataset.format || "usd0";
+          var duration = 1200;
+          var start = performance.now();
+
+          function frame(now) {
+            var t = Math.min((now - start) / duration, 1);
+            var eased = 1 - Math.pow(1 - t, 3);
+            var current = target * eased;
+            el.textContent = formatValue(current, format);
+            if (t < 1) requestAnimationFrame(frame);
+          }
+          requestAnimationFrame(frame);
+        }
+
+        var counters = document.querySelectorAll(".js-counter");
+        var observer = new IntersectionObserver(
+          function (entries, obs) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                animateCounter(entry.target);
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.35 }
+        );
+
+        counters.forEach(function (counter) {
+          observer.observe(counter);
+        });
+
+        var drawInput = document.getElementById("drawPercent");
+        var drawPctOutput = document.getElementById("drawPctOutput");
+        var drawPaymentOutput = document.getElementById("drawPaymentOutput");
+        var baselinePaymentAt50 = 811.40;
+
+        function updateDraw() {
+          var pct = parseInt(drawInput.value, 10);
+          var est = baselinePaymentAt50 * (pct / 50);
+          drawPctOutput.textContent = String(pct);
+          drawPaymentOutput.textContent = "$" + est.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        drawInput.addEventListener("input", updateDraw);
+        drawInput.addEventListener("change", function () {
+          window.dataLayer.push({ event: "calculator_interaction", control: "draw_percentage", value: drawInput.value });
+        });
+        updateDraw();
+
+        var steps = [
+          {
+            title: "Step 1: Credit and LTV Baseline",
+            body: "<p>Start with baseline eligibility for this offer.</p><ul><li>700 minimum credit score</li><li>Maximum 85% loan to value</li></ul>"
+          },
+          {
+            title: "Step 2: Property and Use Requirements",
+            body: "<p>Confirm property and occupancy fit.</p><ul><li>Single-family, owner-occupied construction in Wisconsin only</li><li>Loan size up to $832,750</li></ul>"
+          },
+          {
+            title: "Step 3: Process and Relationship Requirements",
+            body: "<p>Finalize with draw-process and bank relationship expectations.</p><ul><li>Simple and flexible draw process</li><li>Depository relationship required prior to closing</li></ul><p><a class='btn btn-primary js-talk-lender' href='[LENDER_EMAIL_OR_FORM_URL]'>Talk to a Bank Five Nine Lender</a></p>"
+          }
+        ];
+
+        var stepIndex = 0;
+        var stepBody = document.getElementById("stepBody");
+        var prevBtn = document.getElementById("stepPrev");
+        var nextBtn = document.getElementById("stepNext");
+        var stepDots = document.querySelectorAll(".step-dot");
+
+        function renderStep() {
+          var step = steps[stepIndex];
+          stepBody.innerHTML = "<h4>" + step.title + "</h4>" + step.body;
+          prevBtn.disabled = stepIndex === 0;
+          nextBtn.textContent = stepIndex === steps.length - 1 ? "Done" : "Next";
+          stepDots.forEach(function (dot, idx) {
+            dot.classList.toggle("active", idx <= stepIndex);
+          });
+        }
+
+        prevBtn.addEventListener("click", function () {
+          if (stepIndex > 0) {
+            stepIndex -= 1;
+            renderStep();
+          }
+        });
+
+        nextBtn.addEventListener("click", function () {
+          if (stepIndex < steps.length - 1) {
+            stepIndex += 1;
+            renderStep();
+            window.dataLayer.push({ event: "qualification_expand", step: stepIndex + 1 });
+          } else {
+            window.dataLayer.push({ event: "qualification_expand", action: "complete" });
+          }
+        });
+
+        renderStep();
+
+        function registerCtaEvents(selector, placement) {
+          document.querySelectorAll(selector).forEach(function (el) {
+            el.addEventListener("click", function () {
+              window.dataLayer.push({ event: "cta_talk_lender_click", placement: placement });
+            });
+          });
+        }
+
+        registerCtaEvents(".js-talk-lender", "mockup");
+        registerCtaEvents(".js-call-lender", "mockup_call");
+      })();
+    </script>
+  </body>
+</html>
