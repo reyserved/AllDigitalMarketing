@@ -1,0 +1,33 @@
+Check,Result,Details
+Schema is exact 8-column target order,PASS,Keyword; Search Volume; Search Intent; Topic Cluster; Current URL; Match Type; Suggested Action; Notes
+One row per unique keyword,PASS,rows=312; unique=312
+Current URL is in allowed core scope,PASS,violations=0
+Create New rows have blank URL and Match Type=None,PASS,violations=0
+No blank Search Intent,PASS,blank_intent_rows=0
+No blank Topic Cluster,PASS,blank_cluster_rows=0
+Exact does not pair with Create New,PASS,violations=0
+Zero-volume keywords retained with essential-cluster note,PASS,zero_volume_rows=18; noted=18
+Distribution | Match Type,INFO,"{'Partial': 263, 'Exact': 49}"
+Distribution | Suggested Action,INFO,"{'Optimize': 307, 'None': 5}"
+Distribution | Search Intent,INFO,"{'Commercial': 303, 'Informational': 5, 'Navigational': 4}"
+Top 20 manual review sample,INFO,keyword|sv|cluster|url|score|match|action
+Top20,INFO,"how to bind a book|2900|BLOG-Print, Binding & Production Education|https://omnipress.com/blog/book-binding-101-conference-materials-educational-publications/|0.21|Partial|Optimize"
+Top20,INFO,"what is school and library binding|720|BLOG-Print, Binding & Production Education|https://omnipress.com/blog/book-binding-101-conference-materials-educational-publications/|0.20|Partial|Optimize"
+Top20,INFO,gated content|590|BLOG-SEO & Content Strategy for Associations|https://omnipress.com/blog/gated-vs-ungated-content-finding-the-right-balance-for-associations/|0.47|Exact|None
+Top20,INFO,manual printing|590|Training Solutions|https://omnipress.com/publications/publication-printing/|0.15|Partial|Optimize
+Top20,INFO,mobile app for event|590|Digital Products|https://omnipress.com/blog/selecting-mobile-event-app-conference/|0.42|Partial|Optimize
+Top20,INFO,virtual conference software|590|Digital Products|https://omnipress.com/conferences/virtual-conference-event-platform/|0.36|Partial|Optimize
+Top20,INFO,application management software|480|Resources|https://omnipress.com/abstract-and-application-management/|0.79|Exact|Optimize
+Top20,INFO,"binding 101|480|BLOG-Print, Binding & Production Education|https://omnipress.com/blog/book-binding-101-conference-materials-educational-publications/|0.56|Exact|Optimize"
+Top20,INFO,digital flipbook|480|Digital Products|https://omnipress.com/conferences/digital-conference-flipbook/|0.53|Partial|Optimize
+Top20,INFO,event mobile apps|480|Digital Products|https://omnipress.com/conferences/event-app/request-for-quote/|0.24|Partial|Optimize
+Top20,INFO,abstract management|390|Resources|https://omnipress.com/abstract-and-application-management/|0.50|Partial|Optimize
+Top20,INFO,conference mobile apps|390|Digital Products|https://omnipress.com/conferences/digital-conference-flipbook/|0.23|Partial|Optimize
+Top20,INFO,program printing|390|Conference Solutions|https://omnipress.com/conferences/conference-printing/request-for-quote/|0.45|Exact|Optimize
+Top20,INFO,application management system|320|Resources|https://omnipress.com/abstract-and-application-management/|0.41|Partial|Optimize
+Top20,INFO,binding booklets|320|Print Specs/Bindery|https://omnipress.com/bindings-tabs-finishes/|0.22|Partial|Optimize
+Top20,INFO,conference mobile app|320|Digital Products|https://omnipress.com/blog/selecting-mobile-event-app-conference/|0.35|Partial|Optimize
+Top20,INFO,mobile event apps|320|Digital Products|https://omnipress.com/conferences/event-app/request-for-quote/|0.24|Partial|Optimize
+Top20,INFO,printing programs|320|Conference Solutions|https://omnipress.com/conferences/conference-printing/request-for-quote/|0.21|Partial|Optimize
+Top20,INFO,www.selectaward.com|320|Application Management|https://omnipress.com/application-management/|0.10|Partial|Optimize
+Top20,INFO,abstract management software|260|Resources|https://omnipress.com/abstract-and-application-management/|0.59|Partial|Optimize

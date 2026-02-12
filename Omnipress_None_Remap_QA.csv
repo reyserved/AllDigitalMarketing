@@ -1,0 +1,18 @@
+﻿Check,Result,Details
+Omnipress _ Keyword Research 2.2026 - Page_none.csv schema unchanged,PASS,Keyword; Search Volume; Search Intent; Topic Cluster; Current URL; Meta Title; Meta Description; H1; Match Type; Suggested Action; Notes
+Omnipress _ Keyword Research 2.2026 - Page_none.csv row count preserved,PASS,before=19; after=19
+Omnipress _ Keyword Research 2.2026 - Page_none.csv placeholder keyword removed,PASS,remaining=0
+Omnipress _ Keyword Research 2.2026 - Page_none.csv chosen keywords trace to same URL source rows,PASS,trace_fail=0; traced=14
+Omnipress _ Keyword Research 2.2026 - Page_none.csv exact notes are rationale-only,PASS,violations=0; exact_rows=8
+Omnipress _ Keyword Research 2.2026 - Page_none.csv partial notes are actionable,PASS,violations=0; partial_rows=6
+Omnipress _ Keyword Research 2.2026 - Page_none.csv none rows action consistency,PASS,violations=0; none_rows=5
+Omnipress _ Keyword Research 2.2026 - Page_none.csv summary,INFO,output=/Applications/Antigravity/ROCKET CLICKS/Content Gap & Analysis/Omnipress _ Keyword Research 2.2026 - Page_none_UPDATED.csv | Exact=8 | Partial=6 | None=5 | SEMrush;GSC Query=1 | SEMrush=0 | Expansion=13 | intent_match=13 | intent_mismatch=1 | intent_unknown=0
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv schema unchanged,PASS,Keyword; Search Volume; Search Intent; Topic Cluster; Current URL; Meta Title; Meta Description; H1; Match Type; Suggested Action; Notes
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv row count preserved,PASS,before=22; after=22
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv placeholder keyword removed,PASS,remaining=0
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv chosen keywords trace to same URL source rows,PASS,trace_fail=0; traced=9
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv exact notes are rationale-only,PASS,violations=0; exact_rows=4
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv partial notes are actionable,PASS,violations=0; partial_rows=5
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv none rows action consistency,PASS,violations=0; none_rows=13
+Omnipress _ Keyword Research 2.2026 - blogs_none.csv summary,INFO,output=/Applications/Antigravity/ROCKET CLICKS/Content Gap & Analysis/Omnipress _ Keyword Research 2.2026 - blogs_none_UPDATED.csv | Exact=4 | Partial=5 | None=13 | SEMrush;GSC Query=5 | SEMrush=0 | Expansion=4 | intent_match=9 | intent_mismatch=0 | intent_unknown=0
+Overall summary,INFO,Exact=12 | Partial=11 | None=18 | SEMrush;GSC Query=6 | SEMrush=0 | Expansion=17

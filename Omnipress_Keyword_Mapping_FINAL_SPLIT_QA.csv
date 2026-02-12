@@ -1,0 +1,21 @@
+﻿Check,Result,Details
+Output schema matches expected 11-column order,PASS,Keyword; Search Volume; Search Intent; Topic Cluster; Current URL; Meta Title; Meta Description; H1; Match Type; Suggested Action; Notes
+Pages eligible URL coverage (service/product/conversion),PASS,43/43; missing=-
+Blogs post URL coverage,PASS,54/54; missing=-
+Page cluster label follows top-level slug rule,PASS,violations=0; sample=-
+No utility/brand in page coverage additions,PASS,violations=0; sample=-
+Keyword uniqueness in PAGES (case-insensitive),PASS,duplicates=0; sample=-
+Keyword uniqueness in BLOGS (case-insensitive),PASS,duplicates=0; sample=-
+Added coverage rows count - PAGES,PASS,expected=19; actual=19
+Added coverage rows count - BLOGS,PASS,expected=22; actual=22
+Coverage-row note format compliance,PASS,violations=0; sample=-
+BLOGS URL purity (/blog/ only),PASS,violations=0; sample=-
+PAGES URL purity (no /blog/ URLs),PASS,violations=0; sample=-
+PAGES dominant page-type purity,PASS,violations=0; sample=-
+BLOGS dominant page-type purity,PASS,violations=0; sample=-
+"Sort verification PAGES (cluster asc, volume desc, keyword asc)",PASS,rows=230; failure_row=-
+"Sort verification BLOGS (cluster asc, volume desc, keyword asc)",PASS,rows=123; failure_row=-
+Sample URL cluster check,INFO,url=https://omnipress.com/abstract-and-application-management/; clusters=Abstract & Application Management
+Sample URL cluster check,INFO,url=https://omnipress.com/bindings-tabs-finishes/; clusters=Bindings Tabs Finishes
+Rows before split update,INFO,pages=211; blogs=101
+Rows after split update,INFO,pages=230; blogs=123; total=353

@@ -1,0 +1,7 @@
+Check,Result,Before,After,Violations,Details
+Schema remains 12 columns exact order,PASS,,Keyword; Search Volume; Search Intent; Topic Cluster; Current URL; Meta Title; Meta Description; H1; Match Type; Suggested Action; Page Classification; Notes,0,
+None rows have non-blank Topic Cluster,PASS,,56,0,
+None rows keep blank Current URL,PASS,,56,0,
+None rows classification is non-pillar,PASS,,56,0,
+None rows notes include rationale markers,PASS,,56,0,
+None cluster recategorization summary,PASS,"{'Training Solutions': 19, 'Print Specs/Bindery': 8, 'Unmapped/Noise': 8, 'Resources': 5, 'BLOG-Print, Binding & Production Education': 4, 'Conference Solutions': 4, 'BLOG-Association Learning & Professional Development': 2, 'BLOG-General Blog': 2, 'Application Management': 1, 'BLOG-Abstract Management Education': 1, 'BLOG-Conference/Event Strategy': 1, 'Digital Products': 1}","{'Training Solutions': 19, 'Unmapped/Noise': 15, 'Print Specs/Bindery': 8, 'BLOG-Print, Binding & Production Education': 4, 'Conference Solutions': 4, 'BLOG-General Blog': 2, 'Application Management': 1, 'BLOG-Abstract Management Education': 1, 'BLOG-Conference/Event Strategy': 1, 'Digital Products': 1}",0,rows_changed=73

@@ -1,0 +1,45 @@
+# ----------------------------------------,,,,,,,,
+# Conversions: Event name,,,,,,,,
+# Account: www.servicecu.org,,,,,,,,
+# Property: https://www.servicecu.org - GA4,,,,,,,,
+# ----------------------------------------,,,,,,,,
+#,,,,,,,,
+# All Users,,,,,,,,
+# Start date: 20260101,,,,,,,,
+# End date: 20260131,,,,,,,,
+Manual source / medium,Key events,key event dec 2025,Improvement (raw),% Improvement,Total users,Total revenue,Session key event rate,User key event rate
+(not set),334.833332,96,238.833332,248.78%,240,0,1,1
+google / organic,332.709974,326.670059,6.039915,1.85%,263,0,1,1
+google / search,203.824429,138.20409,65.620339,47.48%,103,0,1,1
+google / cpc,122,235.5,-113.5,-48.20%,59,0,1,1
+bing / organic,27.150565,30,-2.849435,-9.50%,30,0,1,1
+tagassistant.google.com / referral,15.446925,0,15.446925,N/A,3,0,1,1
+search / google,15,110.333334,-95.333334,-86.40%,11,0,1,1
+consumer.optimalblue.com / referral,11.571369,0,11.571369,N/A,24,0,1,1
+email / email,11,102.999989,-91.999989,-89.32%,6,0,1,1
+google / display,7,1,6,600.00%,4,0,1,1
+yahoo / organic,6.999355,9,-2.000645,-22.23%,7,0,1,1
+blue_sage / email,5.567938,0,5.567938,N/A,8,0,1,1
+meta / paidsocial,4,3,1,33.33%,3,0,1,1
+bing / search,3.458497,9,-5.541503,-61.57%,6,0,1,1
+ch.fiservapps.com / referral,2.275803,1.50536,0.770443,51.18%,3,0,1,1
+youtubeshorts / web,2.000418,0,2.000418,N/A,2,0,1,1
+bankrewards.io / 31096,2,1,1,100.00%,2,0,1,1
+facebook / paidsocial,2,3,-1,-33.33%,2,0,1,1
+googleads.g.doubleclick.net / referral,2,,,#N/A,1,0,1,1
+youtube / web,2,0,2,N/A,2,0,1,1
+aol / organic,1,0,1,N/A,1,0,1,1
+app.poshdevelopment.com / referral,1,0,1,N/A,1,0,1,1
+finapp2.schwab.com / referral,1,,,#N/A,1,0,1,1
+gigsmart.com / referral,1,0,1,N/A,1,0,1,1
+google / paidsearch,1,7,-6,-85.71%,1,0,1,1
+mail.yahoo.com / referral,1,0,1,N/A,1,0,1,1
+messages.google.com / referral,1,,,#N/A,1,0,1,1
+ntp.msn.com / referral,1,0,1,N/A,1,0,1,1
+rxp4.checkfreeweb.com / referral,1,0,1,N/A,1,0,1,1
+safe.menlosecurity.com / referral,0.585885,2,-1.414115,-70.71%,1,0,1,1
+accept.authorize.net / referral,0.464453,0,0.464453,N/A,1,0,1,1
+search.google.com / referral,0.110028,,,#N/A,1,0,1,1
+posh / sitesearch,0.001029,0,0.001029,N/A,1,0,1,1
+olbupgrade / banner,0,0,0,0.00%,2,0,1,1
+paidsearch / paidesearch,0,0,0,0.00%,1,0,1,1

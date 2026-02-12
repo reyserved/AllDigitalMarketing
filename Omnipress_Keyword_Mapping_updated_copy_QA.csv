@@ -1,0 +1,10 @@
+Check,Result,Before,After,Violations,Details
+Schema: 12 columns exact order,PASS,,Keyword; Search Volume; Search Intent; Topic Cluster; Current URL; Meta Title; Meta Description; H1; Match Type; Suggested Action; Page Classification; Notes,0,
+Row count unchanged,PASS,,307,0,
+URL uniqueness: each non-blank URL appears once,PASS,,18,0,
+Mapping strictness: mapped rows pass strict slug/H1 gate,PASS,,18,0,
+"Match type cleanup: mapped=Exact, blank URL=None",PASS,,,0,
+Cluster grouping: each Topic Cluster is contiguous block,PASS,,18,0,
+None grouping: None rows are inside their cluster block after mapped rows,PASS,,289,0,
+Missing pillar conversion: structured rows with keyword + suggested slug,PASS,,,0,
+Notes completeness: None rows include required rationale markers,PASS,,289,0,

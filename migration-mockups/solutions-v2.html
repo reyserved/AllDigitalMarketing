@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solutions Mockup v2</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+
+    :root {
+      --sx-primary: #c2002f;
+      --sx-secondary: #000000;
+      --sx-tertiary: #004877;
+      --sx-ink-soft: #1b2229;
+      --sx-ivory: #f5f7fa;
+      --sx-white: #ffffff;
+      --sx-line: #d6dde4;
+      --sx-shadow: 0 18px 38px rgba(0, 0, 0, 0.09);
+      --sx-radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Open Sans", "Arial", sans-serif;
+      color: var(--sx-secondary);
+      background: var(--sx-ivory);
+      line-height: 1.6;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    li,
+    a {
+      font-family: "Open Sans", "Arial", sans-serif;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0 0 16px;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 44px));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 72px 0;
+    }
+
+    .intro {
+      padding: 82px 0 52px;
+      background: radial-gradient(circle at 90% 10%, rgba(0, 72, 119, 0.12), transparent 45%),
+        linear-gradient(130deg, #ffffff 0%, #f2f6f9 100%);
+      border-bottom: 1px solid var(--sx-line);
+    }
+
+    .intro__grid {
+      display: grid;
+      gap: 34px;
+      grid-template-columns: 1.1fr 0.9fr;
+      align-items: center;
+    }
+
+    .intro__headline {
+      border-left: 6px solid var(--sx-primary);
+      padding-left: 20px;
+    }
+
+    .intro h1 {
+      font-size: clamp(2rem, 3.8vw, 2.9rem);
+      color: var(--sx-secondary);
+      max-width: 16ch;
+    }
+
+    .intro p {
+      font-size: 1.06rem;
+      color: var(--sx-ink-soft);
+      max-width: 62ch;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.01em;
+      padding: 11px 26px;
+      transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn--primary {
+      background: var(--sx-primary);
+      color: var(--sx-white);
+      box-shadow: 0 12px 24px rgba(194, 0, 47, 0.28);
+    }
+
+    .btn--tertiary {
+      background: var(--sx-tertiary);
+      color: var(--sx-white);
+      box-shadow: 0 12px 24px rgba(0, 72, 119, 0.28);
+    }
+
+    .intro__image {
+      position: relative;
+      border-radius: var(--sx-radius);
+      overflow: hidden;
+      box-shadow: var(--sx-shadow);
+      border: 1px solid var(--sx-line);
+      min-height: 340px;
+    }
+
+    .intro__image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .intro__image::after {
+      content: "";
+      position: absolute;
+      inset: auto 18px 18px auto;
+      width: 110px;
+      height: 110px;
+      border-radius: 999px;
+      border: 5px solid rgba(255, 255, 255, 0.7);
+      background: rgba(194, 0, 47, 0.66);
+      mix-blend-mode: multiply;
+    }
+
+    .statband {
+      background: #000000;
+      color: #ffffff;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .statband .wrap {
+      padding: 28px 0;
+      display: grid;
+      place-items: center;
+    }
+
+    .statband p {
+      margin: 0;
+      font-weight: 700;
+      font-size: clamp(1.1rem, 2vw, 1.5rem);
+      text-align: center;
+      max-width: 42ch;
+    }
+
+    .sales {
+      background: #ffffff;
+    }
+
+    .sales__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--sx-white);
+      border: 1px solid var(--sx-line);
+      border-radius: var(--sx-radius);
+      box-shadow: var(--sx-shadow);
+      padding: clamp(24px, 3vw, 34px);
+    }
+
+    .card h2 {
+      color: var(--sx-secondary);
+      font-size: clamp(1.65rem, 2.7vw, 2.05rem);
+      margin-bottom: 18px;
+    }
+
+    .card p {
+      color: #1f252b;
+    }
+
+    .roles-list {
+      margin-top: 14px;
+      padding-top: 18px;
+      border-top: 1px solid var(--sx-line);
+      display: grid;
+      gap: 10px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .roles-list li {
+      border-left: 4px solid var(--sx-primary);
+      padding: 7px 0 7px 12px;
+      font-weight: 600;
+    }
+
+    .approach {
+      color: #ffffff;
+      background: linear-gradient(135deg, #000000 0%, #0d2134 90%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .approach p {
+      color: rgba(255, 255, 255, 0.92);
+    }
+
+    .approach::before {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      border-radius: 999px;
+      right: -60px;
+      top: -80px;
+      background: rgba(194, 0, 47, 0.3);
+    }
+
+    .approach .btn {
+      margin-top: 10px;
+    }
+
+    .infra {
+      background: linear-gradient(180deg, #004877 0%, #003a5f 100%);
+    }
+
+    .infra__grid {
+      display: grid;
+      grid-template-columns: 0.96fr 1.04fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .infra__media {
+      border-radius: var(--sx-radius);
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      box-shadow: var(--sx-shadow);
+      min-height: 100%;
+    }
+
+    .infra__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .infra__card {
+      background: #ffffff;
+      border-radius: var(--sx-radius);
+      border: 1px solid #d2dae2;
+      box-shadow: var(--sx-shadow);
+      padding: clamp(24px, 3vw, 34px);
+    }
+
+    .infra__card h2 {
+      color: var(--sx-secondary);
+      font-size: clamp(1.65rem, 2.7vw, 2.05rem);
+    }
+
+    .infra__card p {
+      color: #1e242a;
+    }
+
+    .infra__lists {
+      display: grid;
+      gap: 10px 14px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: 14px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .infra__lists li {
+      background: #f1f5f8;
+      border: 1px solid #d6dee6;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 600;
+      color: #101418;
+    }
+
+    .closing {
+      background: #ffffff;
+      padding: 74px 0 28px;
+      text-align: center;
+    }
+
+    .closing h3 {
+      font-size: clamp(1.55rem, 2.9vw, 2.12rem);
+      max-width: 32ch;
+      margin: 0 auto 24px;
+      color: var(--sx-secondary);
+    }
+
+    .closing .btn {
+      margin-bottom: 28px;
+    }
+
+    .footnotes {
+      max-width: 780px;
+      margin: 0 auto;
+      border-top: 1px solid var(--sx-line);
+      padding-top: 18px;
+      color: #49525b;
+      font-size: 0.9rem;
+    }
+
+    .footnotes p {
+      margin: 0 0 8px;
+    }
+
+    @media (max-width: 768px) {
+      .wrap {
+        width: min(1180px, calc(100% - 28px));
+      }
+
+      .section {
+        padding: 54px 0;
+      }
+
+      .intro {
+        padding: 60px 0 42px;
+      }
+
+      .intro__grid,
+      .sales__grid,
+      .infra__grid,
+      .infra__lists {
+        grid-template-columns: 1fr;
+      }
+
+      .intro__image {
+        min-height: 230px;
+      }
+
+      .statband .wrap {
+        padding: 20px 0;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .intro__grid,
+      .sales__grid,
+      .infra__grid {
+        grid-template-columns: 1fr;
+      }
+
+      .intro__image {
+        min-height: 280px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <div class="wrap intro__grid">
+        <div>
+          <div class="intro__headline">
+            <h1>Amplify Recruiting – your partner for finding sales &amp; sales infrastructure talent</h1>
+          </div>
+          <p>Finding and recruiting top-tier sales talent takes a unique skill set – <strong><em>but it’s our specialty.</em></strong></p>
+          <a class="btn btn--primary" href="https://share.hsforms.com/1TEY_xGFMSJCWsRnYyShuDwdg0yq" target="_blank" rel="noopener">Get Started</a>
+        </div>
+        <figure class="intro__image">
+          <img src="https://www.amplifyrecruiting.com/wp-content/uploads/2024/02/shutterstock_2303744865-1536x1025.jpg" alt="Sales recruitment partnership">
+        </figure>
+      </div>
+    </section>
+
+    <section class="statband">
+      <div class="wrap">
+        <p>74% of hiring managers say they have difficulty filling sales roles.*</p>
+      </div>
+    </section>
+
+    <section class="section sales">
+      <div class="wrap sales__grid">
+        <article class="card">
+          <h2>Sales Roles</h2>
+          <p>At Amplify, we have a deep understanding of the sales industry and a track record of successfully recruiting for sales and sales leadership roles. Our team of certified sales recruiters will assist you in developing your Ideal Candidate Profile so you will be sure to attract the right person for the right sales seat.</p>
+          <p>Whether you’re looking for experienced sales representatives, account managers, or sales executives, we have the industry knowledge to recruit talented individuals ready to make an impact in your sales organization.</p>
+        </article>
+
+        <aside class="card approach">
+          <p>Our proven hiring approach implemented by our expert recruiters ensure only the most qualified candidates are presented to you, saving you valuable time and resources. Don’t settle for hiring average talent simply to fill your open position – <strong><em>let us help.</em></strong></p>
+          <p>While there are hundreds of sales roles we recruit for, below are our most sought-after.</p>
+          <ul class="roles-list">
+            <li>VP Of Sales</li>
+            <li>Business Development Rep/Manager</li>
+            <li>Sales Representative</li>
+            <li>Account Manager/Executive</li>
+            <li>Inside/Outside Sales Representative</li>
+          </ul>
+          <a class="btn btn--tertiary" href="https://share.hsforms.com/1TEY_xGFMSJCWsRnYyShuDwdg0yq" target="_blank" rel="noopener">Fill Your Sales Seat</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section infra">
+      <div class="wrap infra__grid">
+        <figure class="infra__media">
+          <img src="https://www.amplifyrecruiting.com/wp-content/uploads/2023/08/Sales-Team_shutterstock_1099307402-1024x683.jpg" alt="Sales infrastructure team">
+        </figure>
+        <article class="infra__card">
+          <h2>Staff to Build &amp; Support Your Sales Infrastructure</h2>
+          <p>We understand that building a strong sales infrastructure is equally important for your business success, which is why we also specialize in recruiting staff who possess the skills and expertise required to establish and maintain the foundation for your sales operations. From Human Resource Professionals to C-Suite Executives, we know who to recruit to optimize your sales processes and enhance efficiency.</p>
+          <p>Let us do what we do best – so you can focus on achieving your business goals.</p>
+          <p>We specialize in recruiting for various roles to support your organization, including:</p>
+          <ul class="infra__lists">
+            <li>Administrative Assistant</li>
+            <li>Human Resource Professionals</li>
+            <li>Controller</li>
+            <li>Vice President</li>
+            <li>CFO/CRO</li>
+            <li>Director of Operations</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="wrap">
+        <h3>Whether recruiting for a sales position or for staff to build and support the sales infrastructure – <em><strong>we’ve got you covered.</strong></em></h3>
+        <a class="btn btn--primary" href="https://share.hsforms.com/1TEY_xGFMSJCWsRnYyShuDwdg0yq" target="_blank" rel="noopener">Start Your Search</a>
+        <div class="footnotes">
+          <p>* 2021 CNBC Momentive Small Business Q3 Survey &amp; Sales Xceleration LinkedIn Polls</p>
+          <p>** Prices can vary based on role.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
