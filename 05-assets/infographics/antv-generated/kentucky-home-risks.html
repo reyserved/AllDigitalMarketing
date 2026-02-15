@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kentucky Home Risks - Dream Assurance Group</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .wrapper {
+            width: 100%;
+            max-width: 1400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin-bottom: 30px;
+            color: #1D252D;
+            font-size: 28px;
+            font-weight: 900;
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+        #container {
+            width: 100%;
+            height: 85vh;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 25px 80px rgba(29, 37, 45, 0.15), 0 10px 30px rgba(29, 37, 45, 0.1);
+            overflow: hidden;
+        }
+        #export-btn {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            padding: 16px 32px;
+            background: linear-gradient(135deg, #C92A39 0%, #a02030 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 6px 20px rgba(201, 42, 57, 0.4);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            letter-spacing: 0.5px;
+        }
+        #export-btn:hover {
+            background: linear-gradient(135deg, #1D252D 0%, #0d1216 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(201, 42, 57, 0.5);
+        }
+        #export-btn:active {
+            transform: translateY(0);
+        }
+        .instructions {
+            margin-top: 20px;
+            padding: 15px 25px;
+            background: white;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .instructions strong {
+            color: #C92A39;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Kentucky Home Risks</h1>
+        <button id="export-btn">Export SVG</button>
+        <div id="container"></div>
+        <div class="instructions">
+            <strong>Instructions:</strong> Click "Export SVG" to download high-quality vector file • Open in any modern browser • Adjust zoom if needed
+        </div>
+    </div>
+    <script src="https://unpkg.com/@antv/infographic@latest/dist/infographic.min.js"></script>
+    <script>
+        const infographic = new AntVInfographic.Infographic({
+            container: '#container',
+            width: '100%',
+            height: '100%',
+        });
+
+        document.fonts?.ready.then(() => {
+            infographic.render(`infographic list-grid-badge-card
+theme
+  palette
+    - #C92A39
+    - #FF9800
+    - #1D252D
+    - #F8F9FA
+  stylize rough
+data
+  title Kentucky Home Insurance Risks
+  desc Protect your home from weather-related damage
+  lists
+    - label FLOODING
+      desc HIGH RISK - Flash flooding, River flooding, Urban drainage
+      icon water
+      value HIGH
+    - label TORNADOES
+      desc MODERATE RISK - Kentucky is part of 'Hoosier Alley' - active tornado region
+      icon wind
+      value MODERATE
+    - label WINTER STORMS
+      desc MODERATE RISK - Ice storms, Heavy snow, Freezing rain
+      icon snowflake
+      value MODERATE`);
+        }).catch((error) => {
+            console.error('Error waiting for fonts to load:', error);
+            infographic.render(`infographic list-grid-badge-card
+theme
+  palette
+    - #C92A39
+    - #FF9800
+    - #1D252D
+    - #F8F9FA
+  stylize rough
+data
+  title Kentucky Home Insurance Risks
+  desc Protect your home from weather-related damage
+  lists
+    - label FLOODING
+      desc HIGH RISK - Flash flooding, River flooding, Urban drainage
+      icon water
+      value HIGH
+    - label TORNADOES
+      desc MODERATE RISK - Kentucky is part of 'Hoosier Alley' - active tornado region
+      icon wind
+      value MODERATE
+    - label WINTER STORMS
+      desc MODERATE RISK - Ice storms, Heavy snow, Freezing rain
+      icon snowflake
+      value MODERATE`);
+        });
+
+        document.getElementById('export-btn').addEventListener('click', async () => {
+            try {
+                const svgDataUrl = await infographic.toDataURL({ type: 'svg' });
+                const link = document.createElement('a');
+                link.download = 'kentucky-home-risks.svg';
+                link.href = svgDataUrl;
+                link.click();
+                console.log('SVG exported successfully!');
+            } catch (error) {
+                console.error('Error exporting SVG:', error);
+                alert('Failed to export SVG. Please try again.');
+            }
+        });
+    </script>
+</body>
+</html>
