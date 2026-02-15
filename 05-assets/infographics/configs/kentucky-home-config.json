@@ -1,0 +1,44 @@
+{
+  "template": "state_home",
+  "data": {
+    "state": "Kentucky",
+    "source": "National Weather Service (weather.gov) | FEMA (fema.gov)",
+    "sources": [
+      "National Weather Service (weather.gov)",
+      "Federal Emergency Management Agency (fema.gov)",
+      "Kentucky Climate Center"
+    ],
+    "risks": [
+      {
+        "type": "Flooding",
+        "level": "HIGH",
+        "types": ["Flash flooding", "River flooding", "Urban drainage"],
+        "fact": "Eastern Kentucky experienced historic flooding in July 2022 causing $1B+ damage",
+        "protection": ["Separate flood insurance policy", "NFIP coverage", "Sump pump backup"]
+      },
+      {
+        "type": "Tornadoes",
+        "level": "MODERATE",
+        "context": "Kentucky is part of 'Hoosier Alley' - active tornado region",
+        "fact": "Average of 21 tornadoes per year statewide",
+        "protection": ["Wind & hail coverage", "Roof reinforcement", "Safe room/shelter", "Impact-resistant windows"]
+      },
+      {
+        "type": "Winter Storms",
+        "level": "MODERATE",
+        "types": ["Ice storms", "Heavy snow", "Freezing rain"],
+        "fact": "Ice storms cause extended power outages and roof collapse from weight",
+        "protection": ["Generator coverage", "Food spoilage protection", "Alternative heat source coverage"]
+      }
+    ],
+    "action_alert": {
+      "warning": "Standard homeowners policies EXCLUDE flood damage",
+      "statistic": "1 in 4 Kentucky flood claims come from outside mapped high-risk zones",
+      "actions": [
+        "Consider adding a separate flood insurance policy (NFIP)",
+        "Review your wind/hail coverage limits for tornado protection",
+        "Document home contents for faster claims processing"
+      ]
+    }
+  }
+}
