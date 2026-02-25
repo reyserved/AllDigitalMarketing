@@ -1,0 +1,12 @@
+Local QA checks for consolidated schema (syntax + required field presence)
+Note: Google Rich Results eligibility also depends on Google feature support/policy at crawl time.
+
+PASS	https://www.lawlancaster.com/lancaster/divorce/
+PASS	https://www.lawlancaster.com/lancaster/spousal-support/
+PASS	https://www.lawlancaster.com/lancaster/property-division/
+PASS	https://www.lawlancaster.com/lancaster/child-custody/
+PASS	https://lawlancaster.com/child-support/
+PASS	https://lawlancaster.com/areas-of-practice/pfa-matters/
+PASS	https://lawlancaster.com/areas-of-practice/stepparent-adoptions/
+PASS	https://lawlancaster.com/lancaster-pa-childline-appeals/
+PASS	https://lawlancaster.com/prenuptial-agreement-attorneys-in-lancaster-pa/

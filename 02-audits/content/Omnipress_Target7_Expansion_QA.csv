@@ -1,0 +1,21 @@
+﻿URL,Qualifier,Seed Keyword,Keyword,Source Type,Score,Match Type,Suggested Action,Hit Signals,Reason
+https://omnipress.com/training/pricing/,pricing,training product,pricing training product,Inferred,0.7500,Exact,Optimize,,accepted
+https://omnipress.com/training/pricing/,buy,training product pricing,buy training product pricing,Inferred,0.6075,Partial,Optimize,,accepted
+https://omnipress.com/training/training-manual-printing/,best,training manual printing,best training manual printing,Inferred,0.5097,Partial,Optimize,,accepted
+https://omnipress.com/training/training-manual-printing/,custom,training manual printing,custom training manual printing,Inferred,0.5097,Partial,Optimize,,accepted
+https://omnipress.com/support/,official,omnipress madison,omnipress madison,Source,0.5333,Partial,Optimize,,accepted
+https://omnipress.com/support/,support,omnipress support,omnipress support,Inferred,0.7300,Partial,Optimize,H1,accepted
+https://omnipress.com/support/,help,support omnipress help,support omnipress help,Inferred,0.6200,Partial,Optimize,Title,accepted
+https://omnipress.com/support/,contact,omnipress support,contact omnipress support,Inferred,0.5167,Partial,Optimize,,accepted
+https://omnipress.com/printer-quiz/,overview,printer quiz,overview printer quiz,Inferred,0.4500,Partial,Optimize,,fallback_topup
+https://omnipress.com/printer-quiz/,quick,quiz,quick quiz,Inferred,0.3000,Partial,Optimize,,fallback_topup
+https://omnipress.com/printer-quiz/,best practices,printer,best practices printer,Inferred,0.2625,Partial,Optimize,,fallback_topup
+https://omnipress.com/printer-quiz/,how to,i use my training,how to i use my training,Inferred,0.2227,Partial,Optimize,,fallback_topup
+https://omnipress.com/conferences/pricing/,pricing,conference product,pricing conference product,Inferred,0.7500,Exact,Optimize,,accepted
+https://omnipress.com/conferences/pricing/,buy,conference product pricing,buy conference product pricing,Inferred,0.6075,Partial,Optimize,,accepted
+https://omnipress.com/conferences/event-services/,services,event,services event,Inferred,0.6333,Partial,Optimize,URL,accepted
+https://omnipress.com/conferences/event-services/,best,conferences event services,best conferences event services,Inferred,0.5675,Partial,Optimize,,accepted
+https://omnipress.com/conferences/abstract-management/catalyst-quick-tips/,tips,abstract management quick tips,abstract management quick tips,Inferred,0.6267,Partial,Optimize,H1,accepted
+https://omnipress.com/conferences/abstract-management/catalyst-quick-tips/,how to,abstract management quick tips,how to abstract management quick tips,Inferred,0.5767,Partial,Optimize,,accepted
+https://omnipress.com/conferences/abstract-management/catalyst-quick-tips/,quick,abstract management catalyst quick,abstract management catalyst quick,Inferred,0.5167,Partial,Optimize,,accepted
+https://omnipress.com/conferences/abstract-management/catalyst-quick-tips/,checklist,abstract management quick tips,checklist abstract management quick tips,Inferred,0.5071,Partial,Optimize,,accepted

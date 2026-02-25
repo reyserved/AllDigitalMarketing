@@ -1,0 +1,1025 @@
+/*
+Theme Name: Aurit Mediation
+Theme URI: http://www.vividmotion.co
+Author: Aurit Mediation
+Author URI: http://www.vividmotion.co
+Description:  Aurit Mediation
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: Aurit Mediation
+*/
+/*************************************************************
+ Author     : Vivid Motion @ http://vividmotion.co/
+ *************************************************************/
+
+/* New heading-sub class for smaller section titles */
+.heading.heading-sub {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  font-weight: 400;
+  color: inherit;
+}
+
+/* Media queries for responsive sizing */
+@media (min-width: 768px) {
+  .heading.heading-sub {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .heading.heading-sub {
+    font-size: 2rem;
+  }
+}
+
+/* Optional: add some spacing after the heading if needed */
+.shared-heading-center .heading.heading-sub {
+  margin-bottom: 2rem;
+}
+
+.advantages-of-mediation-list-item .text p + p{
+    margin-top: 18px;
+}
+.blog-article-body .content .styled-content>ol{
+    font-size: inherit;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    list-style: num;
+}
+.blog-article-body .content .styled-content>ol>li{
+    line-height: 1.6;
+    /*padding: 0 0 0 1.25em;*/
+    position: relative;
+    list-style-position: inside;
+}
+.blog-article-body .content .styled-content>ol>li::marker {
+    font-weight: bold;
+    color: #192615;
+}
+
+.blog-article-body .content .styled-content .call-to-action-vertical .shared-heading .text .paragraph{margin:auto;}
+.blog-featured-post .content .text .paragraph.trimmed,
+.section-pricing-blog .blog-featured-post .paragraph.trimmed,
+.blog-grid .blog-featured-post .paragraph.trimmed{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.category-children-parents,
+.category-divorce-in-az,
+.category-children{
+    background: #ffe8b2;
+    color: #192615;
+}
+.category-finances-property,
+.category-minnesota,
+.category-parenting-tips,
+.category-communication{
+    background: #c0e7f4;
+    color: #192615;
+}
+.category-spousal-support,
+.category-raising-az-kids-courageous-co-parenting,
+.category-divorce-mediation{
+    background: #c0f4e0;
+    color: #192615;
+}
+.category-tools,
+.category-legal-separation,
+.category-health-wellness{
+    background: #f9d8ea;
+    color: #192615;
+}
+.category-insights,
+.category-holidays,
+.category-raising-az-kids-healthy-love-habits,
+.category-inside-the-mediation-room{
+    background: #ffd8cc;
+    color: #192615;
+}
+.two-columns-view .collapsible-list .collapsible-item .paragraph a,
+.advantages-of-mediation-list-item .text p a{text-decoration: underline;}
+
+.horizontal-scroll-slide:nth-child(7){
+    background: #f9d8ea;
+    color: #192615;
+}
+.styled-content iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.styled-content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.styled-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-content tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-content tr:first-child {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .styled-content table {
+        display: block;
+        overflow-x: auto;
+        /*white-space: nowrap;*/
+    }
+
+    .styled-content tbody {
+        display: block;
+        width: 100%;
+    }
+
+    .styled-content tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background: #fff;
+    }
+
+    .styled-content td {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 10px;
+        border: none;
+    }
+
+    .styled-content td:first-child {
+        font-weight: bold;
+    }
+}
+
+.styled-content ul {
+    font-size: inherit;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.styled-content ul li{
+    line-height: 1.6;
+    padding: 0 0 0 1.25em;
+    position: relative;
+}
+.styled-content ul li:before {
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #192615;
+    content: "";
+    height: .5em;
+    left: 0;
+    position: absolute;
+    top: .75em;
+    translate: 0 -37.5%;
+    width: .5em;
+}
+
+.process .item{
+    opacity: 1 !important;
+}
+.process .item.op-6{
+    opacity: .66 !important;
+}
+.process .item.op-3{
+    opacity: .33 !important;
+}
+
+.about-page .values-view{
+    max-width: 100% !important;
+}
+@media (min-width: 768px) {
+    .about-page .values-view .values-grid {
+        grid-template: auto / repeat(4, minmax(0, 1fr));
+    }
+}
+.how-it-works-view.how-it-works-new .card:before{
+    display: none;
+}
+.how-it-works-view.how-it-works-new .card{
+    gap:20px;
+    display: flex;
+}
+.how-it-works-view.how-it-works-new .card .content{
+    width: fit-content;
+}
+.how-it-works-view.how-it-works-new .card .number{
+    margin-top: -7px;
+    font-size: 60px;
+    min-width: 33px;
+}
+
+.navbar .navbar-brand {
+    height: 16px;
+}
+
+.footer-column .footer-title{
+    max-width: 450px;
+    font-family: Recoleta, sans-serif;
+}
+
+@media screen and (min-width: 1280px) {
+    .blog-post .content .text .title {
+        min-height: 72.8px;
+    }
+}
+
+.section-title{
+    background: linear-gradient(180deg, #f0f8f2 0, transparent);
+}
+.shared-hero-reviews{
+    background: #f0f8f2;
+}
+.shared-hero-reviews .text .heading{
+    max-width: 840px;
+}
+.shared-hero-reviews .text .paragraph{
+    max-width: 620px;
+}
+
+  .section-masonry .grid-masonry {
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        
+        .section-masonry .grid-item {
+            width: 420px;
+            margin-bottom: 40px;
+        }
+        
+        .section-masonry .testimonial-card {
+            padding: 30px;
+        }
+        
+        .section-masonry .testimonial-card.blue {
+            background-color: #c0e7f4;
+        }
+        
+        .section-masonry .testimonial-card.pink {
+            background-color: #f9d8ea;
+        }
+        
+        .section-masonry .testimonial-card.yellow {
+            background-color: #FFE8B2;
+        }
+        
+        .section-masonry .testimonial-card.white {
+            border: 1px solid rgba(25, 38, 21, .2);
+        }
+        
+        @media (max-width: 768px) {
+            .section-masonry .grid-item {
+                width: calc(50% - 20px);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .section-masonry .grid-item {
+                width: 100%;
+            }
+        }
+
+/* Responsive Masonry Grid */
+.section-masonry .grid-masonry {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Make grid items responsive */
+.section-masonry .grid-item {
+    width: 31%;
+    margin-bottom: 40px;
+}
+
+/* Card styling (keep your existing styles) */
+.section-masonry .testimonial-card {
+    padding: 30px;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.section-masonry .testimonial-card.blue {
+    background-color: #c0e7f4;
+}
+
+.section-masonry .testimonial-card.pink {
+    background-color: #f9d8ea;
+}
+
+.section-masonry .testimonial-card.yellow {
+    background-color: #FFE8B2;
+}
+
+.section-masonry .testimonial-card.white {
+    border: 1px solid rgba(25, 38, 21, .2);
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+    .section-masonry .grid-item {
+        width: 47%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-masonry .grid-item {
+        width: 100%; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+.why-mediation .table-layout{
+    border: none !important;
+}
+.why-mediation .table-layout:after{
+    background: none !important;
+}
+.team-modals .team-member .large-quote{
+    background: #fff linear-gradient(180deg,rgba(255,232,178,.7),rgba(255,232,178,.175)) !important;
+}
+
+.peace-of-mind-view {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+}
+.peace-of-mind-view .content {
+    max-width: 100%;
+}
+.peace-of-mind-view .content .text .heading,
+.peace-of-mind-view .content .text .pretitle {
+    margin-bottom: 30px;
+}
+.peace-of-mind-view .content .text .paragraph-lead {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.peace-of-mind-view .content .text .paragraph {
+    margin-top: 20px;
+}
+.peace-of-mind-view .content .buttons {
+    margin-top: 40px;
+}
+
+.content-with-icon-view {
+    display: grid;
+    gap: 40px 60px;
+    grid-template: auto / repeat(1, minmax(0, 1fr));
+}
+
+.content-with-icon-view .blurb {
+    position: relative;
+}
+.content-with-icon-view .blurb .icon {
+    align-items: center;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    margin-bottom: 24px;
+    width: 48px;
+}
+.content-with-icon-view .blurb .heading {
+    font-family: Monument Grotesk, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.content-with-icon-view .blurb .paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.peace-of-mind-view .media {
+    order: -1;
+}
+.peace-of-mind-view .media .image-container {
+    margin: -4% -6%;
+    max-width: 100%;
+    width: 400px;
+}
+
+.peace-of-mind-view .media .image-container img {
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.how-it-works-view {
+    counter-set: card;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+}
+
+.how-it-works-view .card {
+    border-radius: 16px;
+    counter-increment: card;
+    flex: 1;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+}
+.how-it-works-view .card:first-child {
+    background: #ffe8b2;
+}
+
+.how-it-works-view .card:nth-child(2) {
+    background: #f9d8ea;
+}
+.how-it-works-view .card:nth-child(3) {
+    background: #c0e7f4;
+}
+.how-it-works-view .card .heading {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.how-it-works-view .card .paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .peace-of-mind-view .content .text .paragraph-lead {
+        font-size: calc(14px + .78125vw);
+    }
+    .content-with-icon-view {
+        grid-template: auto / repeat(2, minmax(0, 1fr));
+    }
+    .content-with-icon-view .blurb .heading {
+        font-size: calc(15px + .39063vw);
+    }
+    .content-with-icon-view .blurb .paragraph {
+        font-size: 18px;
+    }
+    .how-it-works-view {
+        flex-flow: row nowrap;
+    }
+    .how-it-works-view .card .heading {
+        font-size: calc(12px + 1.5625vw);
+    }
+    .how-it-works-view .card .paragraph {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .peace-of-mind-view {
+        align-items: center;
+        flex-flow: row nowrap;
+    }
+    .peace-of-mind-view .content {
+        width: auto;
+    }
+    .peace-of-mind-view .content .text .paragraph {
+        width: 90%;
+    }
+    .peace-of-mind-view .media {
+        order: 1;
+    }
+    .peace-of-mind-view .media .image-container {
+        max-width: 100%;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .peace-of-mind-view .content .text .paragraph-lead {
+        font-size: 24px;
+    }
+    .content-with-icon-view {
+        grid-template: auto / repeat(4, minmax(0, 1fr));
+    }
+    .content-with-icon-view .blurb .heading {
+        font-size: 20px;
+    }
+    .content-with-icon-view .blurb .paragraph {
+        max-width: 280px;
+    }
+    .how-it-works-view .card .heading {
+        font-size: 32px;
+    }
+}
+
+.shared-hero-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+@media (min-width: 1280px) {
+    .navbar .navbar-menu {
+        margin-left: 64px;
+        flex: 1;
+        order: 0;
+    }
+
+    .navbar .navbar-brand {
+        height: 16px;
+    }
+}
+
+
+/* Referral page start */
+p.paragraph-big{
+    text-align: center;
+    font-family: Monument Grotesk, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.the-truth-view {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+}
+
+/* Large screens media query */
+@media (min-width: 1024px) {
+    .the-truth-view {
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+}
+
+.the-truth-view .decor {
+    position: absolute;
+    inset: 0;
+}
+
+.the-truth-view .decor img {
+    position: absolute;
+}
+
+/* Extra large screens max media query */
+@media (max-width: 1439px) {
+    .the-truth-view .decor img {
+        display: none;
+    }
+}
+
+.the-truth-view .decor img:nth-child(1) {
+    top: 0;
+    left: 0;
+    margin-top: calc(var(--globalGutter) * -1.5);
+    margin-left: calc(var(--globalGutter) * -1.5);
+}
+
+.the-truth-view .decor img:nth-child(2) {
+    bottom: 0;
+    right: 0;
+    margin-bottom: calc(var(--globalGutter) * -1.5);
+    margin-right: calc(var(--globalGutter) * -1.5);
+}
+
+.the-truth-view .content,
+.the-truth-view .media {
+    flex: 1;
+}
+
+.the-truth-view .content {
+    max-width: 100%;
+}
+
+/* Large screens media query */
+@media (min-width: 1024px) {
+    .the-truth-view .content {
+        width: auto;
+    }
+}
+
+.the-truth-view .media {
+    order: -1;
+}
+
+/* Large screens media query */
+@media (min-width: 1024px) {
+    .the-truth-view .media {
+        order: 1;
+    }
+}
+
+.the-truth-view .media .image-container {
+    border-radius: 16px;
+}
+
+.the-truth-view .media .image-container img {
+    max-width: 100%;
+    border-radius: inherit;
+}
+
+.the-truth-view .content .text .paragraph + .paragraph {
+    margin-top: 1em;
+}
+
+.the-truth-view .content .text .author {
+    margin-top: 24px;
+}
+
+.the-truth-view .content .text strong {
+    font-weight: 500;
+}
+
+.the-truth-view .content .buttons {
+    margin-top: 32px;
+}
+.faqs-list .collapsible-item .paragraph a{
+    color: #014921;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.call-to-action-view .shared-heading .text .paragraph{margin-left: auto; margin-right: auto;}
+/* Referral page end */
+
+/* Best Therapists page start */
+.shared-hero-therapists .paragraphs{
+   display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+.shared-hero-therapists .paragraphs .paragraph-col{max-width: 100%;}
+
+.therapists-section{
+    padding-top: 60px;
+}
+.therapists-section .therapists-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.therapists-section .therapists-list .therapist-card{
+    flex-direction: column;
+    background: #F0F8F2;
+    padding: 8px;
+    border-radius: 16px;
+    display: flex;
+    gap: 10px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-asset .therapist-image{
+    width: 100%;
+}
+.therapists-section .therapists-list .therapist-card .therapist-asset .therapist-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-asset{
+    position: relative;
+    max-height: 100%;
+}
+.therapists-section .therapists-list .therapist-card .therapist-asset .buttons{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.therapists-section .therapists-list .therapist-card .therapist-content{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .content-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .content-row .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .content-row .info .institution{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 6px 10px;
+    background: #C0F4E0;
+    border-radius: 64px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .content-row .info .in-person{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border: 1px solid #192615;
+    border-radius: 64px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .content-row .recommended{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 6px 10px;
+    border: 1px solid #192615;
+    border-radius: 64px;
+    text-transform: uppercase;
+}
+
+.therapists-section .therapists-list .therapist-card .therapist-content .collapsible-paragraph .clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .collapsible-paragraph .content p +p{margin-top: 14px;}
+.therapists-section .therapists-list .therapist-card .therapist-content .collapsible-paragraph .buttons .btn-link{
+    --paddingX: 0px;
+    margin-top: 20px;
+    --height: auto;
+    gap: 10px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .collapsible-paragraph.expanded .icon-svg{
+    transform: rotate(180deg);
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .online-services{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 6px 10px;
+    background: white;
+    border-radius: 64px;
+    text-transform: uppercase;
+}
+
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.couples,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.pink{
+    background: #F9D8EA;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.lgbtq,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.addiction,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.child-therapy,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.discernment-counseling,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.blue{
+    background: #C0E7F4;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.anxiety,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.eating-disorders,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.trauma,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.teens,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.green{
+    background: #C0F4E0;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.parenting,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.divorce,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.family-therapy,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.individuals,
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties .specialty.yellow{
+    background: #FFE8B2;
+}
+.therapists-section .therapists-list .therapist-card .therapist-content .specialties p{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.therapists-section .therapists-list .therapist-card .btn-white:hover{
+    background: #192615;
+    border-color: #192615;
+}
+
+.therapist-modals .therapist-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: rgba(25, 38, 21, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    overflow-y: auto;
+    padding: 40px 20px;
+    transition: opacity 0.3s ease;
+}
+
+.therapist-modals .therapist-modal.open {
+    display: block;
+}
+
+.therapist-modals .therapist-modal-container {
+    max-width: 720px;
+    margin: auto;
+    background: #F0F8F2;
+    border-radius: 16px;
+    padding: 48px;
+    position: relative;
+}
+
+.therapist-modals .therapist-modal-close {
+    position: absolute;
+    top: 58px;
+    right: 48px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-image: url('../aurit-mediation/img/icons/close-popup.png'); /* Replace with your icon path */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.therapist-modals .therapist-modal-container .paragraph{
+    max-width: 470px;
+}
+.therapist-modals .therapist-modal-container .paragraph a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.therapist-modals .therapist-modal-container .form-container{
+    margin-top: 40px;
+}
+
+.therapist-filters {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    align-items: flex-end;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    flex: 1;
+}
+
+.filter-group:last-child {
+    min-width: auto;
+    flex: 0 0 auto;
+}
+
+.filter-group label {
+	display: none;
+/*     font-weight: 600;
+    font-size: 14px;
+    color: #495057;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px; */
+}
+
+.filter-group select {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 16px;
+    color: #495057;
+    transition: all 0.3s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 12px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-right: 40px;
+}
+
+.filter-group select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.filter-group select:hover {
+    border-color: #adb5bd;
+}
+
+.clear-filters-btn {
+    padding: 12px 24px;
+    background: #C0F4E0;
+    color: #192615;
+    border: none;
+    border-radius: 64px;
+    font-size: 16px;
+	cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clear-filters-btn:hover {
+    background: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .therapist-filters {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .filter-group {
+        min-width: 100%;
+        flex: none;
+    }
+    
+    .filter-group:last-child {
+        min-width: 100%;
+    }
+    
+    .clear-filters-btn {
+        width: 100%;
+        padding: 14px 24px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .therapist-filters {
+        padding: 12px;
+        gap: 12px;
+    }
+    
+    .filter-group select {
+        padding: 10px 14px;
+        padding-right: 35px;
+        font-size: 14px;
+    }
+    
+    .filter-group label {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    
+    .clear-filters-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .shared-hero-therapists .paragraphs{
+        flex-flow: row;
+        gap: 60px;
+    }
+    .shared-hero-therapists .paragraphs .paragraph-col{max-width: 560px;}
+    .therapists-section .therapists-list .therapist-card{flex-direction: row;}
+    .therapists-section .therapists-list .therapist-card .therapist-asset .therapist-image{
+        width: 400px;
+    }
+    .therapists-section .therapists-list .therapist-card .therapist-asset{max-height: 400px;}
+    .therapists-section .therapists-list .therapist-card .therapist-content{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .therapist-modals .therapist-modal-container{
+        padding: 20px;
+    }
+    .therapist-modals .therapist-modal-close{
+        top: 24px;
+        right: 20px;
+        width: 24px;
+        height: 24px;
+    }
+    .therapist-modals .therapist-modal-container .therapist-profile h3{padding-right: 30px;}
+    .therapist-modals .therapist-modal {
+        padding: 40px 20px 140px;
+    }
+}
+

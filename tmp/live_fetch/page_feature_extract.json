@@ -1,0 +1,5004 @@
+{
+  "affordable": {
+    "file": "tmp/live_fetch/affordable-emediation-live.html",
+    "title": "Divorce Mediation for the Digital Age - eMediation! - Affordable Mediation",
+    "meta_description": "Divorce Mediation for the Digital Age - eMediation! - Divorce Mediation \u2013 so you and your family will be okay",
+    "h1": [
+      "Divorce Mediation for the Digital Age \u2013 eMediation!"
+    ],
+    "h2_count": 6,
+    "h2": [
+      "When can eMediation be helpful for you?",
+      "What\u2019s the difference between eMediation and \u2018regular\u2019 Mediation?",
+      "Why eMediation at Affordable Mediation?",
+      "Pay as You Go | No Deposit or Retainer",
+      "Schedule a Complimentary Consultation",
+      "Submit Your Question"
+    ],
+    "h3_count": 4,
+    "legal_refs_raw": [
+      "Spousal Maintenance"
+    ],
+    "ars_references": [],
+    "schema_types": {
+      "Person": 1,
+      "ImageObject": 3,
+      "Organization": 1,
+      "WebSite": 1,
+      "SearchAction": 1,
+      "PropertyValueSpecification": 1,
+      "EntryPoint": 1,
+      "BreadcrumbList": 1,
+      "ListItem": 2,
+      "WebPage": 1,
+      "ReadAction": 1,
+      "Article": 1,
+      "CommentAction": 1
+    },
+    "has_faq_schema": false,
+    "tables": 0,
+    "images": 6,
+    "videos_or_iframes": 1,
+    "topic_counts": {
+      "divorce mediation": 10,
+      "legal separation": 1,
+      "arizona": 1,
+      "child support": 1,
+      "spousal maintenance": 1,
+      "litigation": 1,
+      "mediator": 2
+    },
+    "trust_signal_patterns_found": [
+      "testimonial",
+      "client",
+      "licensed attorney"
+    ],
+    "testimonial_hints": [
+      "testimonial"
+    ],
+    "faq_question_headings": [
+      "When can eMediation be helpful for you?",
+      "What\u2019s the difference between eMediation and \u2018regular\u2019 Mediation?",
+      "Why eMediation at Affordable Mediation?"
+    ],
+    "top_words": [
+      [
+        "mediation",
+        32
+      ],
+      [
+        "divorce",
+        16
+      ],
+      [
+        "emediation",
+        14
+      ],
+      [
+        "services",
+        8
+      ],
+      [
+        "sessions",
+        7
+      ],
+      [
+        "process",
+        5
+      ],
+      [
+        "contact",
+        5
+      ],
+      [
+        "affordable",
+        4
+      ],
+      [
+        "in-person",
+        4
+      ],
+      [
+        "meet",
+        4
+      ],
+      [
+        "meeting",
+        4
+      ],
+      [
+        "digital",
+        3
+      ],
+      [
+        "age",
+        3
+      ],
+      [
+        "helpful",
+        3
+      ],
+      [
+        "blog",
+        3
+      ],
+      [
+        "years",
+        3
+      ],
+      [
+        "video",
+        3
+      ],
+      [
+        "virtual",
+        3
+      ],
+      [
+        "only",
+        3
+      ],
+      [
+        "offer",
+        3
+      ],
+      [
+        "clients",
+        3
+      ],
+      [
+        "emotions",
+        3
+      ],
+      [
+        "need",
+        3
+      ],
+      [
+        "also",
+        3
+      ],
+      [
+        "first",
+        3
+      ],
+      [
+        "one",
+        3
+      ],
+      [
+        "even",
+        3
+      ],
+      [
+        "people",
+        3
+      ],
+      [
+        "found",
+        3
+      ],
+      [
+        "follow",
+        3
+      ],
+      [
+        "facebook",
+        3
+      ],
+      [
+        "linkedin",
+        3
+      ],
+      [
+        "directions",
+        3
+      ],
+      [
+        "home",
+        2
+      ],
+      [
+        "step",
+        2
+      ],
+      [
+        "linder",
+        2
+      ],
+      [
+        "media",
+        2
+      ],
+      [
+        "testimonials",
+        2
+      ],
+      [
+        "hints",
+        2
+      ],
+      [
+        "attorney",
+        2
+      ],
+      [
+        "chats",
+        2
+      ],
+      [
+        "meetings",
+        2
+      ],
+      [
+        "reality",
+        2
+      ],
+      [
+        "would",
+        2
+      ],
+      [
+        "convenience",
+        2
+      ],
+      [
+        "service",
+        2
+      ],
+      [
+        "alternative",
+        2
+      ],
+      [
+        "those",
+        2
+      ],
+      [
+        "help",
+        2
+      ],
+      [
+        "want",
+        2
+      ],
+      [
+        "compassion",
+        2
+      ],
+      [
+        "helps",
+        2
+      ],
+      [
+        "might",
+        2
+      ],
+      [
+        "find",
+        2
+      ],
+      [
+        "parties",
+        2
+      ],
+      [
+        "out",
+        2
+      ],
+      [
+        "area",
+        2
+      ],
+      [
+        "outside",
+        2
+      ],
+      [
+        "family",
+        2
+      ],
+      [
+        "difference",
+        2
+      ],
+      [
+        "modern",
+        2
+      ],
+      [
+        "cost",
+        2
+      ],
+      [
+        "including",
+        2
+      ],
+      [
+        "day",
+        2
+      ],
+      [
+        "like",
+        2
+      ],
+      [
+        "counseling",
+        2
+      ],
+      [
+        "present",
+        2
+      ],
+      [
+        "way",
+        2
+      ],
+      [
+        "comfortable",
+        2
+      ],
+      [
+        "phone",
+        2
+      ],
+      [
+        "couples",
+        2
+      ],
+      [
+        "session",
+        2
+      ],
+      [
+        "use",
+        2
+      ],
+      [
+        "quick",
+        2
+      ],
+      [
+        "consultation",
+        2
+      ],
+      [
+        "valley",
+        2
+      ],
+      [
+        "legal",
+        2
+      ],
+      [
+        "instagram",
+        2
+      ],
+      [
+        "youtube",
+        2
+      ],
+      [
+        "phoenix",
+        2
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "divorce mediation",
+        10
+      ],
+      [
+        "mediation services",
+        5
+      ],
+      [
+        "affordable mediation",
+        4
+      ],
+      [
+        "mediation sessions",
+        4
+      ],
+      [
+        "digital age",
+        3
+      ],
+      [
+        "mediation digital",
+        2
+      ],
+      [
+        "age emediation",
+        2
+      ],
+      [
+        "emediation affordable",
+        2
+      ],
+      [
+        "home mediation",
+        2
+      ],
+      [
+        "testimonials helpful",
+        2
+      ],
+      [
+        "helpful hints",
+        2
+      ],
+      [
+        "hints blog",
+        2
+      ],
+      [
+        "virtual reality",
+        2
+      ],
+      [
+        "emediation helps",
+        2
+      ],
+      [
+        "out area",
+        2
+      ],
+      [
+        "follow linkedin",
+        2
+      ],
+      [
+        "linkedin facebook",
+        2
+      ],
+      [
+        "facebook instagram",
+        2
+      ],
+      [
+        "instagram youtube",
+        2
+      ],
+      [
+        "error contact",
+        2
+      ],
+      [
+        "contact form",
+        2
+      ],
+      [
+        "form found",
+        2
+      ],
+      [
+        "mediation divorce",
+        1
+      ],
+      [
+        "mediation complex",
+        1
+      ],
+      [
+        "complex assets",
+        1
+      ],
+      [
+        "assets please",
+        1
+      ],
+      [
+        "please visit",
+        1
+      ],
+      [
+        "visit modernmediationaz",
+        1
+      ],
+      [
+        "modernmediationaz com",
+        1
+      ],
+      [
+        "com home",
+        1
+      ],
+      [
+        "services mediation",
+        1
+      ],
+      [
+        "services step",
+        1
+      ],
+      [
+        "step process",
+        1
+      ],
+      [
+        "process affordable",
+        1
+      ],
+      [
+        "mediation mara",
+        1
+      ],
+      [
+        "mara linder",
+        1
+      ],
+      [
+        "linder karen",
+        1
+      ],
+      [
+        "karen dorsey",
+        1
+      ],
+      [
+        "dorsey lorena",
+        1
+      ],
+      [
+        "lorena ben",
+        1
+      ],
+      [
+        "ben tez",
+        1
+      ],
+      [
+        "tez garz",
+        1
+      ],
+      [
+        "garz matthew",
+        1
+      ],
+      [
+        "matthew liszewski",
+        1
+      ],
+      [
+        "liszewski news",
+        1
+      ],
+      [
+        "news media",
+        1
+      ],
+      [
+        "media mediator",
+        1
+      ],
+      [
+        "mediator month",
+        1
+      ],
+      [
+        "month faq",
+        1
+      ],
+      [
+        "faq testimonials",
+        1
+      ],
+      [
+        "blog contact",
+        1
+      ],
+      [
+        "contact years",
+        1
+      ],
+      [
+        "years mediation",
+        1
+      ],
+      [
+        "mediation experience",
+        1
+      ],
+      [
+        "experience years",
+        1
+      ],
+      [
+        "years licensed",
+        1
+      ],
+      [
+        "licensed attorney",
+        1
+      ],
+      [
+        "attorney divorce",
+        1
+      ],
+      [
+        "emediation digital",
+        1
+      ],
+      [
+        "age video",
+        1
+      ],
+      [
+        "video chats",
+        1
+      ],
+      [
+        "chats online",
+        1
+      ],
+      [
+        "online meetings",
+        1
+      ],
+      [
+        "meetings virtual",
+        1
+      ],
+      [
+        "reality only",
+        1
+      ],
+      [
+        "only makes",
+        1
+      ],
+      [
+        "makes sense",
+        1
+      ],
+      [
+        "sense would",
+        1
+      ],
+      [
+        "would offer",
+        1
+      ],
+      [
+        "offer clients",
+        1
+      ],
+      [
+        "clients convenience",
+        1
+      ],
+      [
+        "convenience technologies",
+        1
+      ],
+      [
+        "technologies emediation",
+        1
+      ],
+      [
+        "emediation service",
+        1
+      ],
+      [
+        "service anyone",
+        1
+      ],
+      [
+        "anyone enjoy",
+        1
+      ],
+      [
+        "enjoy worldwide",
+        1
+      ],
+      [
+        "worldwide access",
+        1
+      ],
+      [
+        "access convenience",
+        1
+      ],
+      [
+        "convenience conducting",
+        1
+      ]
+    ]
+  },
+  "outofcourt": {
+    "file": "tmp/live_fetch/outofcourt-virtual-live.html",
+    "title": "Virtual Divorce Mediation and Online Divorce Mediation in Arizona",
+    "meta_description": "We offer 100% Online Divorce and Legal Separation Mediation through Zoom and other video conference platforms.",
+    "h1": [
+      "Virtual Divorce Mediation"
+    ],
+    "h2_count": 5,
+    "h2": [
+      "Virtual Divorce Frequencely Asked Questions",
+      "Clients love to work with us",
+      "Want To Learn More? Contact Us!",
+      "Quick Links",
+      "Other Links"
+    ],
+    "h3_count": 14,
+    "legal_refs_raw": [
+      "spousal maintenance"
+    ],
+    "ars_references": [],
+    "schema_types": {
+      "WebSite": 1,
+      "WebPage": 1,
+      "ImageObject": 1,
+      "Organization": 1,
+      "BreadcrumbList": 1,
+      "ListItem": 4,
+      "FAQPage": 1,
+      "Question": 28,
+      "Answer": 28
+    },
+    "has_faq_schema": true,
+    "tables": 1,
+    "images": 11,
+    "videos_or_iframes": 1,
+    "topic_counts": {
+      "online mediation": 2,
+      "virtual mediation": 1,
+      "divorce mediation": 26,
+      "legal separation": 7,
+      "zoom": 1,
+      "video conference": 1,
+      "arizona": 6,
+      "child support": 2,
+      "spousal maintenance": 3,
+      "alimony": 3,
+      "property division": 2,
+      "court": 45,
+      "litigation": 2,
+      "free consultation": 8,
+      "mediator": 29
+    },
+    "trust_signal_patterns_found": [
+      "testimonial",
+      "client"
+    ],
+    "testimonial_hints": [
+      "testimonial"
+    ],
+    "faq_question_headings": [
+      "Want To Learn More? Contact Us!"
+    ],
+    "top_words": [
+      [
+        "divorce",
+        62
+      ],
+      [
+        "mediation",
+        54
+      ],
+      [
+        "court",
+        26
+      ],
+      [
+        "mediator",
+        22
+      ],
+      [
+        "solutions",
+        22
+      ],
+      [
+        "all",
+        18
+      ],
+      [
+        "out-of-court",
+        15
+      ],
+      [
+        "cost",
+        13
+      ],
+      [
+        "legal",
+        13
+      ],
+      [
+        "yes",
+        13
+      ],
+      [
+        "information",
+        12
+      ],
+      [
+        "free",
+        10
+      ],
+      [
+        "consultation",
+        10
+      ],
+      [
+        "time",
+        10
+      ],
+      [
+        "documents",
+        10
+      ],
+      [
+        "former",
+        10
+      ],
+      [
+        "client",
+        10
+      ],
+      [
+        "decisions",
+        9
+      ],
+      [
+        "process",
+        9
+      ],
+      [
+        "both",
+        9
+      ],
+      [
+        "separation",
+        8
+      ],
+      [
+        "other",
+        8
+      ],
+      [
+        "parties",
+        8
+      ],
+      [
+        "after",
+        8
+      ],
+      [
+        "settlement",
+        8
+      ],
+      [
+        "suite",
+        8
+      ],
+      [
+        "online",
+        7
+      ],
+      [
+        "does",
+        7
+      ],
+      [
+        "contact",
+        7
+      ],
+      [
+        "benefits",
+        7
+      ],
+      [
+        "any",
+        7
+      ],
+      [
+        "one",
+        7
+      ],
+      [
+        "agreement",
+        7
+      ],
+      [
+        "couple",
+        7
+      ],
+      [
+        "mediators",
+        7
+      ],
+      [
+        "prepare",
+        7
+      ],
+      [
+        "out",
+        7
+      ],
+      [
+        "arizona",
+        6
+      ],
+      [
+        "schedule",
+        6
+      ],
+      [
+        "situation",
+        6
+      ],
+      [
+        "issues",
+        6
+      ],
+      [
+        "necessary",
+        6
+      ],
+      [
+        "couples",
+        6
+      ],
+      [
+        "legally",
+        6
+      ],
+      [
+        "binding",
+        6
+      ],
+      [
+        "such",
+        6
+      ],
+      [
+        "virtual",
+        5
+      ],
+      [
+        "oliver",
+        5
+      ],
+      [
+        "much",
+        5
+      ],
+      [
+        "lawyers",
+        5
+      ],
+      [
+        "questions",
+        5
+      ],
+      [
+        "support",
+        5
+      ],
+      [
+        "money",
+        5
+      ],
+      [
+        "stress",
+        5
+      ],
+      [
+        "options",
+        5
+      ],
+      [
+        "make",
+        5
+      ],
+      [
+        "help",
+        5
+      ],
+      [
+        "email",
+        5
+      ],
+      [
+        "adversarial",
+        5
+      ],
+      [
+        "work",
+        5
+      ],
+      [
+        "party",
+        5
+      ],
+      [
+        "also",
+        5
+      ],
+      [
+        "difficult",
+        5
+      ],
+      [
+        "team",
+        4
+      ],
+      [
+        "collaborative",
+        4
+      ],
+      [
+        "emotions",
+        4
+      ],
+      [
+        "agreements",
+        4
+      ],
+      [
+        "matters",
+        4
+      ],
+      [
+        "provides",
+        4
+      ],
+      [
+        "clients",
+        4
+      ],
+      [
+        "attorney",
+        4
+      ],
+      [
+        "hostility",
+        4
+      ],
+      [
+        "helps",
+        4
+      ],
+      [
+        "emotional",
+        4
+      ],
+      [
+        "but",
+        4
+      ],
+      [
+        "never",
+        4
+      ],
+      [
+        "services",
+        4
+      ],
+      [
+        "which",
+        4
+      ],
+      [
+        "property",
+        4
+      ],
+      [
+        "division",
+        4
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "divorce mediation",
+        27
+      ],
+      [
+        "out court",
+        21
+      ],
+      [
+        "court solutions",
+        20
+      ],
+      [
+        "former client",
+        10
+      ],
+      [
+        "free consultation",
+        8
+      ],
+      [
+        "legal separation",
+        7
+      ],
+      [
+        "divorce legal",
+        6
+      ],
+      [
+        "binding settlement",
+        6
+      ],
+      [
+        "court documents",
+        6
+      ],
+      [
+        "does divorce",
+        5
+      ],
+      [
+        "legally binding",
+        5
+      ],
+      [
+        "settlement agreement",
+        5
+      ],
+      [
+        "mediators out",
+        5
+      ],
+      [
+        "virtual divorce",
+        4
+      ],
+      [
+        "both parties",
+        4
+      ],
+      [
+        "adversarial lawyers",
+        4
+      ],
+      [
+        "mediation court",
+        4
+      ],
+      [
+        "all necessary",
+        4
+      ],
+      [
+        "initial free",
+        4
+      ],
+      [
+        "necessary court",
+        4
+      ],
+      [
+        "also prepare",
+        4
+      ],
+      [
+        "mediation divorce",
+        4
+      ],
+      [
+        "solutions also",
+        4
+      ],
+      [
+        "client out",
+        4
+      ],
+      [
+        "schedule free",
+        3
+      ],
+      [
+        "child support",
+        3
+      ],
+      [
+        "court based",
+        3
+      ],
+      [
+        "time money",
+        3
+      ],
+      [
+        "consultation mediator",
+        3
+      ],
+      [
+        "cost estimate",
+        3
+      ],
+      [
+        "divorce mediator",
+        3
+      ],
+      [
+        "after mediation",
+        3
+      ],
+      [
+        "spousal maintenance",
+        3
+      ],
+      [
+        "maintenance alimony",
+        3
+      ],
+      [
+        "never court",
+        3
+      ],
+      [
+        "shea blvd",
+        3
+      ],
+      [
+        "blvd suite",
+        3
+      ],
+      [
+        "suite scottsdale",
+        3
+      ],
+      [
+        "mediation online",
+        2
+      ],
+      [
+        "online divorce",
+        2
+      ],
+      [
+        "schedule now",
+        2
+      ],
+      [
+        "oliver ross",
+        2
+      ],
+      [
+        "much does",
+        2
+      ],
+      [
+        "mediation cost",
+        2
+      ],
+      [
+        "court filing",
+        2
+      ],
+      [
+        "filing fees",
+        2
+      ],
+      [
+        "same sex",
+        2
+      ],
+      [
+        "sex divorce",
+        2
+      ],
+      [
+        "collaborative divorce",
+        2
+      ],
+      [
+        "asked questions",
+        2
+      ],
+      [
+        "online virtual",
+        2
+      ],
+      [
+        "separation mediation",
+        2
+      ],
+      [
+        "online mediation",
+        2
+      ],
+      [
+        "mediation session",
+        2
+      ],
+      [
+        "benefits divorce",
+        2
+      ],
+      [
+        "final decisions",
+        2
+      ],
+      [
+        "decisions yes",
+        2
+      ],
+      [
+        "yes sometimes",
+        2
+      ],
+      [
+        "one both",
+        2
+      ],
+      [
+        "independent attorney",
+        2
+      ],
+      [
+        "substantial cost",
+        2
+      ],
+      [
+        "mediator answer",
+        2
+      ],
+      [
+        "answer questions",
+        2
+      ],
+      [
+        "give written",
+        2
+      ],
+      [
+        "written time",
+        2
+      ],
+      [
+        "time cost",
+        2
+      ],
+      [
+        "party petitioner",
+        2
+      ],
+      [
+        "property division",
+        2
+      ],
+      [
+        "child related",
+        2
+      ],
+      [
+        "related matters",
+        2
+      ],
+      [
+        "mediation after",
+        2
+      ],
+      [
+        "mediation mediator",
+        2
+      ],
+      [
+        "aspects divorce",
+        2
+      ],
+      [
+        "including division",
+        2
+      ],
+      [
+        "division property",
+        2
+      ],
+      [
+        "support spousal",
+        2
+      ],
+      [
+        "couple never",
+        2
+      ],
+      [
+        "help couples",
+        2
+      ],
+      [
+        "legal financial",
+        2
+      ],
+      [
+        "financial tax",
+        2
+      ]
+    ]
+  },
+  "aurit_online": {
+    "file": "tmp/live_fetch/aurit-online-az-live.html",
+    "title": "Online Divorce Mediation in Arizona: How Our Technology Meets You Where You Are | The Aurit Center for Divorce Mediation",
+    "meta_description": "",
+    "h1": [
+      "Online Divorce Mediation in Arizona: How Our Technology Meets You Where You Are"
+    ],
+    "h2_count": 6,
+    "h2": [
+      "What is Online Divorce Mediation?",
+      "The Benefits of Choosing Online Mediation in Arizona",
+      "Aurit Mediation\u2019s Approach: People, Process, and Technology",
+      "Is Online Mediation Right for Your Arizona Divorce?",
+      "Your Path to Online Divorce Mediation with Aurit",
+      "Experience the Future of Dispute Resolution"
+    ],
+    "h3_count": 13,
+    "legal_refs_raw": [],
+    "ars_references": [],
+    "schema_types": {
+      "BlogPosting": 1,
+      "Person": 1,
+      "ImageObject": 3,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Organization": 1
+    },
+    "has_faq_schema": false,
+    "tables": 0,
+    "images": 19,
+    "videos_or_iframes": 3,
+    "topic_counts": {
+      "online mediation": 12,
+      "divorce mediation": 12,
+      "legal separation": 1,
+      "zoom": 2,
+      "arizona": 18,
+      "child custody": 1,
+      "parenting plan": 1,
+      "child support": 1,
+      "property division": 2,
+      "court": 1,
+      "litigation": 1,
+      "free consultation": 3,
+      "mediator": 7
+    },
+    "trust_signal_patterns_found": [
+      "client",
+      "featured"
+    ],
+    "testimonial_hints": [
+      "reviews"
+    ],
+    "faq_question_headings": [
+      "What is Online Divorce Mediation?",
+      "Is Online Mediation Right for Your Arizona Divorce?",
+      "Does It Matter Who Files First for Divorce in Arizona?"
+    ],
+    "top_words": [
+      [
+        "mediation",
+        44
+      ],
+      [
+        "divorce",
+        32
+      ],
+      [
+        "online",
+        30
+      ],
+      [
+        "arizona",
+        17
+      ],
+      [
+        "process",
+        17
+      ],
+      [
+        "aurit",
+        10
+      ],
+      [
+        "all",
+        9
+      ],
+      [
+        "meetings",
+        8
+      ],
+      [
+        "meeting",
+        8
+      ],
+      [
+        "virtual",
+        8
+      ],
+      [
+        "secure",
+        8
+      ],
+      [
+        "technology",
+        7
+      ],
+      [
+        "free",
+        7
+      ],
+      [
+        "consultation",
+        7
+      ],
+      [
+        "spouse",
+        7
+      ],
+      [
+        "read",
+        6
+      ],
+      [
+        "schedule",
+        6
+      ],
+      [
+        "experience",
+        6
+      ],
+      [
+        "issues",
+        6
+      ],
+      [
+        "office",
+        6
+      ],
+      [
+        "private",
+        6
+      ],
+      [
+        "discussions",
+        6
+      ],
+      [
+        "resources",
+        5
+      ],
+      [
+        "fit",
+        5
+      ],
+      [
+        "make",
+        5
+      ],
+      [
+        "effective",
+        5
+      ],
+      [
+        "platforms",
+        5
+      ],
+      [
+        "same",
+        5
+      ],
+      [
+        "mediator",
+        5
+      ],
+      [
+        "video",
+        5
+      ],
+      [
+        "like",
+        5
+      ],
+      [
+        "call",
+        5
+      ],
+      [
+        "without",
+        5
+      ],
+      [
+        "travel",
+        5
+      ],
+      [
+        "other",
+        5
+      ],
+      [
+        "time",
+        5
+      ],
+      [
+        "work",
+        5
+      ],
+      [
+        "approach",
+        5
+      ],
+      [
+        "works",
+        4
+      ],
+      [
+        "locations",
+        4
+      ],
+      [
+        "jovana",
+        4
+      ],
+      [
+        "guide",
+        4
+      ],
+      [
+        "min",
+        4
+      ],
+      [
+        "many",
+        4
+      ],
+      [
+        "in-person",
+        4
+      ],
+      [
+        "scheduling",
+        4
+      ],
+      [
+        "way",
+        4
+      ],
+      [
+        "just",
+        4
+      ],
+      [
+        "needs",
+        4
+      ],
+      [
+        "different",
+        4
+      ],
+      [
+        "even",
+        4
+      ],
+      [
+        "support",
+        4
+      ],
+      [
+        "flexibility",
+        4
+      ],
+      [
+        "schedules",
+        4
+      ],
+      [
+        "out",
+        4
+      ],
+      [
+        "remote",
+        4
+      ],
+      [
+        "resolution",
+        4
+      ],
+      [
+        "ensure",
+        4
+      ],
+      [
+        "utilize",
+        4
+      ],
+      [
+        "right",
+        4
+      ],
+      [
+        "pricing",
+        3
+      ],
+      [
+        "reviews",
+        3
+      ],
+      [
+        "cost",
+        3
+      ],
+      [
+        "kuvac",
+        3
+      ],
+      [
+        "comprehensive",
+        3
+      ],
+      [
+        "but",
+        3
+      ],
+      [
+        "matters",
+        3
+      ],
+      [
+        "comfort",
+        3
+      ],
+      [
+        "home",
+        3
+      ],
+      [
+        "solutions",
+        3
+      ],
+      [
+        "convenient",
+        3
+      ],
+      [
+        "resolving",
+        3
+      ],
+      [
+        "confidential",
+        3
+      ],
+      [
+        "phone",
+        3
+      ],
+      [
+        "remains",
+        3
+      ],
+      [
+        "help",
+        3
+      ],
+      [
+        "space",
+        3
+      ],
+      [
+        "choosing",
+        3
+      ],
+      [
+        "offers",
+        3
+      ],
+      [
+        "convenience",
+        3
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "divorce mediation",
+        13
+      ],
+      [
+        "online mediation",
+        12
+      ],
+      [
+        "mediation arizona",
+        8
+      ],
+      [
+        "aurit mediation",
+        7
+      ],
+      [
+        "online divorce",
+        6
+      ],
+      [
+        "min read",
+        4
+      ],
+      [
+        "mediation process",
+        4
+      ],
+      [
+        "locations resources",
+        3
+      ],
+      [
+        "divorce arizona",
+        3
+      ],
+      [
+        "free consultation",
+        3
+      ],
+      [
+        "jovana kuvac",
+        3
+      ],
+      [
+        "arizona divorce",
+        3
+      ],
+      [
+        "person meetings",
+        3
+      ],
+      [
+        "divorce process",
+        3
+      ],
+      [
+        "discussions private",
+        3
+      ],
+      [
+        "dispute resolution",
+        3
+      ],
+      [
+        "mediation right",
+        3
+      ],
+      [
+        "schedule free",
+        3
+      ],
+      [
+        "arizona technology",
+        2
+      ],
+      [
+        "technology meets",
+        2
+      ],
+      [
+        "aurit center",
+        2
+      ],
+      [
+        "mediation aurit",
+        2
+      ],
+      [
+        "mediation works",
+        2
+      ],
+      [
+        "works pricing",
+        2
+      ],
+      [
+        "pricing reviews",
+        2
+      ],
+      [
+        "reviews locations",
+        2
+      ],
+      [
+        "contact free",
+        2
+      ],
+      [
+        "stress free",
+        2
+      ],
+      [
+        "many thought",
+        2
+      ],
+      [
+        "divorce matters",
+        2
+      ],
+      [
+        "process accessible",
+        2
+      ],
+      [
+        "spouse mediator",
+        2
+      ],
+      [
+        "video conferencing",
+        2
+      ],
+      [
+        "platforms like",
+        2
+      ],
+      [
+        "like zoom",
+        2
+      ],
+      [
+        "phone call",
+        2
+      ],
+      [
+        "property division",
+        2
+      ],
+      [
+        "needing travel",
+        2
+      ],
+      [
+        "virtual divorce",
+        2
+      ],
+      [
+        "arizona offers",
+        2
+      ],
+      [
+        "one spouse",
+        2
+      ],
+      [
+        "time off",
+        2
+      ],
+      [
+        "off work",
+        2
+      ],
+      [
+        "document sharing",
+        2
+      ],
+      [
+        "mediation approach",
+        2
+      ],
+      [
+        "virtual meetings",
+        2
+      ],
+      [
+        "every step",
+        2
+      ],
+      [
+        "step way",
+        2
+      ],
+      [
+        "all agreements",
+        2
+      ],
+      [
+        "remote video",
+        2
+      ],
+      [
+        "video platforms",
+        2
+      ],
+      [
+        "electronic signatures",
+        2
+      ],
+      [
+        "online scheduling",
+        2
+      ],
+      [
+        "mediation meetings",
+        2
+      ],
+      [
+        "conflict level",
+        2
+      ],
+      [
+        "right fit",
+        2
+      ],
+      [
+        "free online",
+        2
+      ],
+      [
+        "online consultation",
+        2
+      ],
+      [
+        "consent decree",
+        2
+      ],
+      [
+        "future dispute",
+        2
+      ],
+      [
+        "form below",
+        2
+      ],
+      [
+        "meets aurit",
+        1
+      ],
+      [
+        "center divorce",
+        1
+      ],
+      [
+        "resources featured",
+        1
+      ],
+      [
+        "featured article",
+        1
+      ],
+      [
+        "article average",
+        1
+      ],
+      [
+        "average cost",
+        1
+      ],
+      [
+        "cost divorce",
+        1
+      ],
+      [
+        "arizona read",
+        1
+      ],
+      [
+        "read article",
+        1
+      ],
+      [
+        "article explore",
+        1
+      ],
+      [
+        "explore resources",
+        1
+      ],
+      [
+        "resources articles",
+        1
+      ],
+      [
+        "articles expert",
+        1
+      ],
+      [
+        "expert insights",
+        1
+      ],
+      [
+        "insights mediation",
+        1
+      ],
+      [
+        "mediation guides",
+        1
+      ],
+      [
+        "guides step",
+        1
+      ],
+      [
+        "step step",
+        1
+      ],
+      [
+        "step resources",
+        1
+      ]
+    ]
+  },
+  "aurit_property": {
+    "file": "tmp/live_fetch/aurit-property-division-live.html",
+    "title": "Spousal Support (Alimony) Mediation in Arizona | Aurit Mediation",
+    "meta_description": "Aurit Mediation helps Arizona parents set or modify child support using guidelines and the calculator. Get a clear worksheet. Start with a free consultation.",
+    "h1": [
+      "Arizona Property Division Mediation"
+    ],
+    "h2_count": 11,
+    "h2": [
+      "Why Choose Property Division Mediation?",
+      "Key Benefits of Mediation",
+      "What Our Property Division Mediation Services Cover",
+      "The Property Division in Divorce Mediation Process",
+      "Is Property Division Mediation Right for You?",
+      "Frequently Asked Questions",
+      "How We Support Unique Cases",
+      "Meet Our Founders and Mediators",
+      "Hear what others have to say",
+      "Serving Clients Across Arizona",
+      "Start Your Property Division Mediation Journey in Arizona"
+    ],
+    "h3_count": 21,
+    "legal_refs_raw": [
+      "ARS \u00a7 25-211",
+      "ARS \u00a7 25-319",
+      "ARS \u00a7 25-403",
+      "spousal maintenance"
+    ],
+    "ars_references": [
+      "ARS \u00a7 25-211",
+      "ARS \u00a7 25-319",
+      "ARS \u00a7 25-403"
+    ],
+    "schema_types": {
+      "Article": 1,
+      "Person": 1,
+      "ImageObject": 3,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Organization": 1
+    },
+    "has_faq_schema": false,
+    "tables": 0,
+    "images": 21,
+    "videos_or_iframes": 2,
+    "topic_counts": {
+      "divorce mediation": 5,
+      "arizona": 11,
+      "child custody": 2,
+      "parenting plan": 2,
+      "spousal maintenance": 1,
+      "alimony": 2,
+      "property division": 20,
+      "court": 10,
+      "litigation": 3,
+      "free consultation": 6,
+      "mediator": 9
+    },
+    "trust_signal_patterns_found": [
+      "\\b\\d{1,3}\\+\\s*(families|cases|years|reviews|rating)\\b",
+      "5\\.0",
+      "client",
+      "licensed attorney",
+      "featured"
+    ],
+    "testimonial_hints": [
+      "reviews",
+      "hear what others have to say"
+    ],
+    "faq_question_headings": [
+      "Why Choose Property Division Mediation?",
+      "Is Property Division Mediation Right for You?"
+    ],
+    "top_words": [
+      [
+        "mediation",
+        41
+      ],
+      [
+        "property",
+        25
+      ],
+      [
+        "division",
+        24
+      ],
+      [
+        "divorce",
+        14
+      ],
+      [
+        "financial",
+        11
+      ],
+      [
+        "arizona",
+        10
+      ],
+      [
+        "aurit",
+        10
+      ],
+      [
+        "process",
+        10
+      ],
+      [
+        "court",
+        8
+      ],
+      [
+        "made",
+        8
+      ],
+      [
+        "consultation",
+        7
+      ],
+      [
+        "assets",
+        7
+      ],
+      [
+        "services",
+        7
+      ],
+      [
+        "free",
+        6
+      ],
+      [
+        "all",
+        6
+      ],
+      [
+        "truly",
+        6
+      ],
+      [
+        "support",
+        5
+      ],
+      [
+        "resources",
+        5
+      ],
+      [
+        "couples",
+        5
+      ],
+      [
+        "agreements",
+        5
+      ],
+      [
+        "schedule",
+        5
+      ],
+      [
+        "fair",
+        5
+      ],
+      [
+        "while",
+        5
+      ],
+      [
+        "professional",
+        5
+      ],
+      [
+        "michael",
+        5
+      ],
+      [
+        "family",
+        5
+      ],
+      [
+        "asset",
+        4
+      ],
+      [
+        "mediators",
+        4
+      ],
+      [
+        "guide",
+        4
+      ],
+      [
+        "both",
+        4
+      ],
+      [
+        "parties",
+        4
+      ],
+      [
+        "outcomes",
+        4
+      ],
+      [
+        "but",
+        4
+      ],
+      [
+        "sessions",
+        4
+      ],
+      [
+        "ensuring",
+        4
+      ],
+      [
+        "way",
+        4
+      ],
+      [
+        "feel",
+        4
+      ],
+      [
+        "highly",
+        4
+      ],
+      [
+        "recommend",
+        4
+      ],
+      [
+        "center",
+        4
+      ],
+      [
+        "spousal",
+        3
+      ],
+      [
+        "works",
+        3
+      ],
+      [
+        "pricing",
+        3
+      ],
+      [
+        "reviews",
+        3
+      ],
+      [
+        "locations",
+        3
+      ],
+      [
+        "expert",
+        3
+      ],
+      [
+        "contact",
+        3
+      ],
+      [
+        "peaceful",
+        3
+      ],
+      [
+        "resolution",
+        3
+      ],
+      [
+        "helps",
+        3
+      ],
+      [
+        "resolve",
+        3
+      ],
+      [
+        "disputes",
+        3
+      ],
+      [
+        "dividing",
+        3
+      ],
+      [
+        "families",
+        3
+      ],
+      [
+        "mediator",
+        3
+      ],
+      [
+        "help",
+        3
+      ],
+      [
+        "rather",
+        3
+      ],
+      [
+        "consult",
+        3
+      ],
+      [
+        "lawyer",
+        3
+      ],
+      [
+        "legal",
+        3
+      ],
+      [
+        "litigation",
+        3
+      ],
+      [
+        "privacy",
+        3
+      ],
+      [
+        "terms",
+        3
+      ],
+      [
+        "debts",
+        3
+      ],
+      [
+        "business",
+        3
+      ],
+      [
+        "interests",
+        3
+      ],
+      [
+        "equitable",
+        3
+      ],
+      [
+        "unique",
+        3
+      ],
+      [
+        "meet",
+        3
+      ],
+      [
+        "need",
+        3
+      ],
+      [
+        "ars",
+        3
+      ],
+      [
+        "compassion",
+        3
+      ],
+      [
+        "service",
+        3
+      ],
+      [
+        "alimony",
+        2
+      ],
+      [
+        "article",
+        2
+      ],
+      [
+        "read",
+        2
+      ],
+      [
+        "questions",
+        2
+      ],
+      [
+        "trusted",
+        2
+      ],
+      [
+        "battles",
+        2
+      ],
+      [
+        "reach",
+        2
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "property division",
+        20
+      ],
+      [
+        "division mediation",
+        14
+      ],
+      [
+        "free consultation",
+        6
+      ],
+      [
+        "divorce mediation",
+        6
+      ],
+      [
+        "schedule free",
+        4
+      ],
+      [
+        "mediation services",
+        4
+      ],
+      [
+        "made feel",
+        4
+      ],
+      [
+        "highly recommend",
+        4
+      ],
+      [
+        "aurit center",
+        4
+      ],
+      [
+        "aurit mediation",
+        3
+      ],
+      [
+        "locations resources",
+        3
+      ],
+      [
+        "mediators guide",
+        3
+      ],
+      [
+        "both parties",
+        3
+      ],
+      [
+        "mediation process",
+        3
+      ],
+      [
+        "spousal support",
+        2
+      ],
+      [
+        "arizona aurit",
+        2
+      ],
+      [
+        "mediation works",
+        2
+      ],
+      [
+        "works pricing",
+        2
+      ],
+      [
+        "pricing reviews",
+        2
+      ],
+      [
+        "reviews locations",
+        2
+      ],
+      [
+        "divorce arizona",
+        2
+      ],
+      [
+        "contact free",
+        2
+      ],
+      [
+        "mediation helps",
+        2
+      ],
+      [
+        "resolve financial",
+        2
+      ],
+      [
+        "financial asset",
+        2
+      ],
+      [
+        "dividing property",
+        2
+      ],
+      [
+        "court battles",
+        2
+      ],
+      [
+        "complex financial",
+        2
+      ],
+      [
+        "division mediator",
+        2
+      ],
+      [
+        "consult property",
+        2
+      ],
+      [
+        "mediation lawyer",
+        2
+      ],
+      [
+        "but mediation",
+        2
+      ],
+      [
+        "financial future",
+        2
+      ],
+      [
+        "few sessions",
+        2
+      ],
+      [
+        "privacy confidentiality",
+        2
+      ],
+      [
+        "mediation sessions",
+        2
+      ],
+      [
+        "services cover",
+        2
+      ],
+      [
+        "real estate",
+        2
+      ],
+      [
+        "ensuring equitable",
+        2
+      ],
+      [
+        "assets debts",
+        2
+      ],
+      [
+        "mediation right",
+        2
+      ],
+      [
+        "attorney mediators",
+        2
+      ],
+      [
+        "child custody",
+        2
+      ],
+      [
+        "parenting plans",
+        2
+      ],
+      [
+        "asset division",
+        2
+      ],
+      [
+        "same sex",
+        2
+      ],
+      [
+        "others say",
+        2
+      ],
+      [
+        "made easy",
+        2
+      ],
+      [
+        "easy process",
+        2
+      ],
+      [
+        "process seem",
+        2
+      ],
+      [
+        "seem almost",
+        2
+      ],
+      [
+        "almost effortless",
+        2
+      ],
+      [
+        "effortless only",
+        2
+      ],
+      [
+        "only knowledge",
+        2
+      ],
+      [
+        "knowledge process",
+        2
+      ],
+      [
+        "process but",
+        2
+      ],
+      [
+        "but way",
+        2
+      ],
+      [
+        "way made",
+        2
+      ],
+      [
+        "feel whole",
+        2
+      ],
+      [
+        "whole thing",
+        2
+      ],
+      [
+        "thing brittany",
+        2
+      ],
+      [
+        "brittany highly",
+        2
+      ],
+      [
+        "recommend would",
+        2
+      ],
+      [
+        "would highly",
+        2
+      ],
+      [
+        "recommend aurit",
+        2
+      ],
+      [
+        "center family",
+        2
+      ],
+      [
+        "family friends",
+        2
+      ],
+      [
+        "friends need",
+        2
+      ],
+      [
+        "need services",
+        2
+      ],
+      [
+        "services michael",
+        2
+      ],
+      [
+        "michael truly",
+        2
+      ],
+      [
+        "truly professional",
+        2
+      ],
+      [
+        "professional handled",
+        2
+      ],
+      [
+        "handled case",
+        2
+      ],
+      [
+        "case compassion",
+        2
+      ],
+      [
+        "compassion understanding",
+        2
+      ],
+      [
+        "understanding such",
+        2
+      ],
+      [
+        "such difficult",
+        2
+      ],
+      [
+        "difficult life",
+        2
+      ],
+      [
+        "life event",
+        2
+      ]
+    ]
+  },
+  "aurit_custody": {
+    "file": "tmp/live_fetch/aurit-child-custody-live.html",
+    "title": "Child Custody Mediation Services in Arizona | The Aurit Center for Divorce Medication",
+    "meta_description": "Looking for child custody mediation in Arizona? Aurit Mediation helps parents reach child-focused agreements without going to court.",
+    "h1": [
+      "Child Custody Mediation"
+    ],
+    "h2_count": 11,
+    "h2": [
+      "Compassionate Mediation for Child Custody Matters",
+      "Why Choose Mediation for Custody?",
+      "What Our Child Custody Mediation Services Cover",
+      "Our Mediation Process",
+      "How to Prepare for Child Custody Mediation",
+      "Is Child Custody Mediation Right for You?",
+      "How We Support Unique Cases",
+      "Meet Our Founders and Mediators",
+      "Hear what others have to say",
+      "Serving Clients Across Arizona",
+      "Start Your Child Custody Mediation Journey"
+    ],
+    "h3_count": 20,
+    "legal_refs_raw": [
+      "ARS \u00a7 25-211",
+      "ARS \u00a7 25-319",
+      "Legal decision-making",
+      "Parenting time",
+      "best interests of the child",
+      "parenting time",
+      "spousal maintenance"
+    ],
+    "ars_references": [
+      "ARS \u00a7 25-211",
+      "ARS \u00a7 25-319"
+    ],
+    "schema_types": {
+      "Article": 1,
+      "Person": 1,
+      "ImageObject": 3,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Organization": 1
+    },
+    "has_faq_schema": false,
+    "tables": 0,
+    "images": 21,
+    "videos_or_iframes": 2,
+    "topic_counts": {
+      "online mediation": 1,
+      "virtual mediation": 1,
+      "divorce mediation": 5,
+      "arizona": 10,
+      "child custody": 17,
+      "parenting plan": 3,
+      "spousal maintenance": 1,
+      "alimony": 1,
+      "property division": 1,
+      "court": 8,
+      "litigation": 3,
+      "free consultation": 6,
+      "mediator": 7
+    },
+    "trust_signal_patterns_found": [
+      "\\b\\d{1,3}\\+\\s*(families|cases|years|reviews|rating)\\b",
+      "5\\.0",
+      "client",
+      "licensed attorney",
+      "featured"
+    ],
+    "testimonial_hints": [
+      "reviews",
+      "hear what others have to say"
+    ],
+    "faq_question_headings": [
+      "Why Choose Mediation for Custody?",
+      "Is Child Custody Mediation Right for You?"
+    ],
+    "top_words": [
+      [
+        "mediation",
+        38
+      ],
+      [
+        "custody",
+        22
+      ],
+      [
+        "child",
+        20
+      ],
+      [
+        "divorce",
+        15
+      ],
+      [
+        "process",
+        13
+      ],
+      [
+        "aurit",
+        10
+      ],
+      [
+        "arizona",
+        9
+      ],
+      [
+        "services",
+        8
+      ],
+      [
+        "made",
+        8
+      ],
+      [
+        "consultation",
+        7
+      ],
+      [
+        "parenting",
+        7
+      ],
+      [
+        "family",
+        7
+      ],
+      [
+        "free",
+        6
+      ],
+      [
+        "families",
+        6
+      ],
+      [
+        "children",
+        6
+      ],
+      [
+        "agreements",
+        6
+      ],
+      [
+        "truly",
+        6
+      ],
+      [
+        "resources",
+        5
+      ],
+      [
+        "parents",
+        5
+      ],
+      [
+        "court",
+        5
+      ],
+      [
+        "support",
+        5
+      ],
+      [
+        "schedule",
+        5
+      ],
+      [
+        "michael",
+        5
+      ],
+      [
+        "way",
+        5
+      ],
+      [
+        "all",
+        5
+      ],
+      [
+        "center",
+        4
+      ],
+      [
+        "works",
+        4
+      ],
+      [
+        "issues",
+        4
+      ],
+      [
+        "focused",
+        4
+      ],
+      [
+        "conflict",
+        4
+      ],
+      [
+        "help",
+        4
+      ],
+      [
+        "need",
+        4
+      ],
+      [
+        "sessions",
+        4
+      ],
+      [
+        "work",
+        4
+      ],
+      [
+        "feel",
+        4
+      ],
+      [
+        "highly",
+        4
+      ],
+      [
+        "recommend",
+        4
+      ],
+      [
+        "pricing",
+        3
+      ],
+      [
+        "reviews",
+        3
+      ],
+      [
+        "locations",
+        3
+      ],
+      [
+        "contact",
+        3
+      ],
+      [
+        "peaceful",
+        3
+      ],
+      [
+        "helps",
+        3
+      ],
+      [
+        "across",
+        3
+      ],
+      [
+        "time",
+        3
+      ],
+      [
+        "experienced",
+        3
+      ],
+      [
+        "mediator",
+        3
+      ],
+      [
+        "every",
+        3
+      ],
+      [
+        "litigation",
+        3
+      ],
+      [
+        "needs",
+        3
+      ],
+      [
+        "same-sex",
+        3
+      ],
+      [
+        "understanding",
+        3
+      ],
+      [
+        "such",
+        3
+      ],
+      [
+        "compassion",
+        3
+      ],
+      [
+        "service",
+        3
+      ],
+      [
+        "throughout",
+        3
+      ],
+      [
+        "article",
+        2
+      ],
+      [
+        "read",
+        2
+      ],
+      [
+        "expert",
+        2
+      ],
+      [
+        "common",
+        2
+      ],
+      [
+        "trusted",
+        2
+      ],
+      [
+        "resolve",
+        2
+      ],
+      [
+        "respectful",
+        2
+      ],
+      [
+        "online",
+        2
+      ],
+      [
+        "reduce",
+        2
+      ],
+      [
+        "create",
+        2
+      ],
+      [
+        "practical",
+        2
+      ],
+      [
+        "stability",
+        2
+      ],
+      [
+        "virtual",
+        2
+      ],
+      [
+        "productive",
+        2
+      ],
+      [
+        "interests",
+        2
+      ],
+      [
+        "allows",
+        2
+      ],
+      [
+        "rather",
+        2
+      ],
+      [
+        "resolving",
+        2
+      ],
+      [
+        "specific",
+        2
+      ],
+      [
+        "disputes",
+        2
+      ],
+      [
+        "offers",
+        2
+      ],
+      [
+        "congestion",
+        2
+      ],
+      [
+        "cases",
+        2
+      ],
+      [
+        "out",
+        2
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "child custody",
+        17
+      ],
+      [
+        "custody mediation",
+        11
+      ],
+      [
+        "free consultation",
+        6
+      ],
+      [
+        "divorce mediation",
+        6
+      ],
+      [
+        "mediation services",
+        5
+      ],
+      [
+        "mediation child",
+        5
+      ],
+      [
+        "aurit center",
+        4
+      ],
+      [
+        "aurit mediation",
+        4
+      ],
+      [
+        "mediation process",
+        4
+      ],
+      [
+        "schedule free",
+        4
+      ],
+      [
+        "made feel",
+        4
+      ],
+      [
+        "highly recommend",
+        4
+      ],
+      [
+        "locations resources",
+        3
+      ],
+      [
+        "same sex",
+        3
+      ],
+      [
+        "arizona aurit",
+        2
+      ],
+      [
+        "mediation works",
+        2
+      ],
+      [
+        "works pricing",
+        2
+      ],
+      [
+        "pricing reviews",
+        2
+      ],
+      [
+        "reviews locations",
+        2
+      ],
+      [
+        "contact free",
+        2
+      ],
+      [
+        "across arizona",
+        2
+      ],
+      [
+        "parenting time",
+        2
+      ],
+      [
+        "decision making",
+        2
+      ],
+      [
+        "child focused",
+        2
+      ],
+      [
+        "long term",
+        2
+      ],
+      [
+        "custody mediator",
+        2
+      ],
+      [
+        "mediation custody",
+        2
+      ],
+      [
+        "between parents",
+        2
+      ],
+      [
+        "well being",
+        2
+      ],
+      [
+        "sex divorce",
+        2
+      ],
+      [
+        "legally compliant",
+        2
+      ],
+      [
+        "mediation sessions",
+        2
+      ],
+      [
+        "parenting plan",
+        2
+      ],
+      [
+        "mediation right",
+        2
+      ],
+      [
+        "attorney mediators",
+        2
+      ],
+      [
+        "others say",
+        2
+      ],
+      [
+        "made easy",
+        2
+      ],
+      [
+        "easy process",
+        2
+      ],
+      [
+        "process seem",
+        2
+      ],
+      [
+        "seem almost",
+        2
+      ],
+      [
+        "almost effortless",
+        2
+      ],
+      [
+        "effortless only",
+        2
+      ],
+      [
+        "only knowledge",
+        2
+      ],
+      [
+        "knowledge process",
+        2
+      ],
+      [
+        "process but",
+        2
+      ],
+      [
+        "but way",
+        2
+      ],
+      [
+        "way made",
+        2
+      ],
+      [
+        "feel whole",
+        2
+      ],
+      [
+        "whole thing",
+        2
+      ],
+      [
+        "thing brittany",
+        2
+      ],
+      [
+        "brittany highly",
+        2
+      ],
+      [
+        "recommend would",
+        2
+      ],
+      [
+        "would highly",
+        2
+      ],
+      [
+        "recommend aurit",
+        2
+      ],
+      [
+        "center family",
+        2
+      ],
+      [
+        "family friends",
+        2
+      ],
+      [
+        "friends need",
+        2
+      ],
+      [
+        "need services",
+        2
+      ],
+      [
+        "services michael",
+        2
+      ],
+      [
+        "michael truly",
+        2
+      ],
+      [
+        "truly professional",
+        2
+      ],
+      [
+        "professional handled",
+        2
+      ],
+      [
+        "handled case",
+        2
+      ],
+      [
+        "case compassion",
+        2
+      ],
+      [
+        "compassion understanding",
+        2
+      ],
+      [
+        "understanding such",
+        2
+      ],
+      [
+        "such difficult",
+        2
+      ],
+      [
+        "difficult life",
+        2
+      ],
+      [
+        "life event",
+        2
+      ],
+      [
+        "event michael",
+        2
+      ],
+      [
+        "michael his",
+        2
+      ],
+      [
+        "his staff",
+        2
+      ],
+      [
+        "staff truly",
+        2
+      ],
+      [
+        "truly made",
+        2
+      ],
+      [
+        "made experience",
+        2
+      ],
+      [
+        "experience bearable",
+        2
+      ],
+      [
+        "bearable easy",
+        2
+      ],
+      [
+        "easy work",
+        2
+      ],
+      [
+        "work always",
+        2
+      ],
+      [
+        "always demonstrate",
+        2
+      ]
+    ]
+  },
+  "aurit_support": {
+    "file": "tmp/live_fetch/aurit-child-support-live.html",
+    "title": "Child Support Mediation in Arizona | Aurit Mediation",
+    "meta_description": "Aurit Mediation helps Arizona parents set or modify child support using guidelines and the calculator. Get a clear worksheet. Start with a free consultation.",
+    "h1": [
+      "Child Support Mediation in Arizona"
+    ],
+    "h2_count": 10,
+    "h2": [
+      "Experienced Child Support Mediators",
+      "What Is Child Support Mediation",
+      "Advantages of Child Support Mediation",
+      "Why Do You Need Child Support Mediation?",
+      "Frequently Asked Questions",
+      "How We Support Unique Cases",
+      "Meet Our Founders and Mediators",
+      "Hear what others have to say",
+      "Serving Clients Across Arizona",
+      "Start Your Child Support Mediation in Arizona"
+    ],
+    "h3_count": 23,
+    "legal_refs_raw": [
+      "ARS \u00a7 25-211",
+      "ARS \u00a7 25-319",
+      "ARS \u00a7 25-403",
+      "parenting time",
+      "spousal maintenance"
+    ],
+    "ars_references": [
+      "ARS \u00a7 25-211",
+      "ARS \u00a7 25-319",
+      "ARS \u00a7 25-403"
+    ],
+    "schema_types": {
+      "Article": 1,
+      "Person": 1,
+      "ImageObject": 3,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Organization": 1
+    },
+    "has_faq_schema": false,
+    "tables": 0,
+    "images": 21,
+    "videos_or_iframes": 2,
+    "topic_counts": {
+      "divorce mediation": 5,
+      "arizona": 20,
+      "child custody": 2,
+      "parenting plan": 2,
+      "child support": 19,
+      "spousal maintenance": 1,
+      "alimony": 1,
+      "property division": 1,
+      "court": 11,
+      "litigation": 2,
+      "flat fee": 1,
+      "free consultation": 7,
+      "mediator": 8
+    },
+    "trust_signal_patterns_found": [
+      "\\b\\d{1,3}\\+\\s*(families|cases|years|reviews|rating)\\b",
+      "5\\.0",
+      "client",
+      "licensed attorney",
+      "featured",
+      "flat fee"
+    ],
+    "testimonial_hints": [
+      "reviews",
+      "hear what others have to say"
+    ],
+    "faq_question_headings": [
+      "Why Do You Need Child Support Mediation?"
+    ],
+    "top_words": [
+      [
+        "mediation",
+        26
+      ],
+      [
+        "child",
+        25
+      ],
+      [
+        "support",
+        24
+      ],
+      [
+        "arizona",
+        19
+      ],
+      [
+        "divorce",
+        13
+      ],
+      [
+        "process",
+        13
+      ],
+      [
+        "aurit",
+        11
+      ],
+      [
+        "made",
+        10
+      ],
+      [
+        "consultation",
+        8
+      ],
+      [
+        "pricing",
+        7
+      ],
+      [
+        "free",
+        7
+      ],
+      [
+        "parenting",
+        7
+      ],
+      [
+        "both",
+        6
+      ],
+      [
+        "court",
+        6
+      ],
+      [
+        "clear",
+        6
+      ],
+      [
+        "calculator",
+        6
+      ],
+      [
+        "truly",
+        6
+      ],
+      [
+        "works",
+        5
+      ],
+      [
+        "resources",
+        5
+      ],
+      [
+        "financial",
+        5
+      ],
+      [
+        "parents",
+        5
+      ],
+      [
+        "without",
+        5
+      ],
+      [
+        "schedule",
+        5
+      ],
+      [
+        "michael",
+        5
+      ],
+      [
+        "family",
+        5
+      ],
+      [
+        "all",
+        5
+      ],
+      [
+        "children",
+        4
+      ],
+      [
+        "work",
+        4
+      ],
+      [
+        "fair",
+        4
+      ],
+      [
+        "amount",
+        4
+      ],
+      [
+        "families",
+        4
+      ],
+      [
+        "mediators",
+        4
+      ],
+      [
+        "incomes",
+        4
+      ],
+      [
+        "time",
+        4
+      ],
+      [
+        "review",
+        4
+      ],
+      [
+        "agreement",
+        4
+      ],
+      [
+        "way",
+        4
+      ],
+      [
+        "feel",
+        4
+      ],
+      [
+        "highly",
+        4
+      ],
+      [
+        "recommend",
+        4
+      ],
+      [
+        "reviews",
+        3
+      ],
+      [
+        "locations",
+        3
+      ],
+      [
+        "questions",
+        3
+      ],
+      [
+        "health",
+        3
+      ],
+      [
+        "peaceful",
+        3
+      ],
+      [
+        "resolution",
+        3
+      ],
+      [
+        "professional",
+        3
+      ],
+      [
+        "set",
+        3
+      ],
+      [
+        "plan",
+        3
+      ],
+      [
+        "life",
+        3
+      ],
+      [
+        "experienced",
+        3
+      ],
+      [
+        "prepare",
+        3
+      ],
+      [
+        "case",
+        3
+      ],
+      [
+        "handled",
+        3
+      ],
+      [
+        "flat-fee",
+        3
+      ],
+      [
+        "income",
+        3
+      ],
+      [
+        "costs",
+        3
+      ],
+      [
+        "official",
+        3
+      ],
+      [
+        "worksheet",
+        3
+      ],
+      [
+        "circumstances",
+        3
+      ],
+      [
+        "need",
+        3
+      ],
+      [
+        "meet",
+        3
+      ],
+      [
+        "such",
+        3
+      ],
+      [
+        "always",
+        3
+      ],
+      [
+        "would",
+        3
+      ],
+      [
+        "interests",
+        3
+      ],
+      [
+        "ars",
+        3
+      ],
+      [
+        "compassion",
+        3
+      ],
+      [
+        "center",
+        3
+      ],
+      [
+        "services",
+        3
+      ],
+      [
+        "service",
+        3
+      ],
+      [
+        "article",
+        2
+      ],
+      [
+        "cost",
+        2
+      ],
+      [
+        "read",
+        2
+      ],
+      [
+        "explore",
+        2
+      ],
+      [
+        "expert",
+        2
+      ],
+      [
+        "trusted",
+        2
+      ],
+      [
+        "contact",
+        2
+      ],
+      [
+        "consistent",
+        2
+      ],
+      [
+        "after",
+        2
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "child support",
+        19
+      ],
+      [
+        "support mediation",
+        7
+      ],
+      [
+        "free consultation",
+        7
+      ],
+      [
+        "divorce mediation",
+        6
+      ],
+      [
+        "aurit mediation",
+        5
+      ],
+      [
+        "mediation arizona",
+        4
+      ],
+      [
+        "both parents",
+        4
+      ],
+      [
+        "schedule free",
+        4
+      ],
+      [
+        "flat fee",
+        4
+      ],
+      [
+        "incomes parenting",
+        4
+      ],
+      [
+        "parenting time",
+        4
+      ],
+      [
+        "made feel",
+        4
+      ],
+      [
+        "highly recommend",
+        4
+      ],
+      [
+        "mediation works",
+        3
+      ],
+      [
+        "locations resources",
+        3
+      ],
+      [
+        "mediation child",
+        3
+      ],
+      [
+        "fee pricing",
+        3
+      ],
+      [
+        "aurit center",
+        3
+      ],
+      [
+        "works pricing",
+        2
+      ],
+      [
+        "pricing reviews",
+        2
+      ],
+      [
+        "reviews locations",
+        2
+      ],
+      [
+        "contact free",
+        2
+      ],
+      [
+        "arizona child",
+        2
+      ],
+      [
+        "payments made",
+        2
+      ],
+      [
+        "experienced arizona",
+        2
+      ],
+      [
+        "child focused",
+        2
+      ],
+      [
+        "prepare clear",
+        2
+      ],
+      [
+        "court ready",
+        2
+      ],
+      [
+        "child custody",
+        2
+      ],
+      [
+        "income shares",
+        2
+      ],
+      [
+        "shares model",
+        2
+      ],
+      [
+        "parents incomes",
+        2
+      ],
+      [
+        "child related",
+        2
+      ],
+      [
+        "different amount",
+        2
+      ],
+      [
+        "court approve",
+        2
+      ],
+      [
+        "change circumstances",
+        2
+      ],
+      [
+        "consultation meet",
+        2
+      ],
+      [
+        "health insurance",
+        2
+      ],
+      [
+        "review incomes",
+        2
+      ],
+      [
+        "run official",
+        2
+      ],
+      [
+        "official calculator",
+        2
+      ],
+      [
+        "both households",
+        2
+      ],
+      [
+        "without court",
+        2
+      ],
+      [
+        "best interests",
+        2
+      ],
+      [
+        "attorney mediators",
+        2
+      ],
+      [
+        "financial stability",
+        2
+      ],
+      [
+        "same sex",
+        2
+      ],
+      [
+        "others say",
+        2
+      ],
+      [
+        "made easy",
+        2
+      ],
+      [
+        "easy process",
+        2
+      ],
+      [
+        "process seem",
+        2
+      ],
+      [
+        "seem almost",
+        2
+      ],
+      [
+        "almost effortless",
+        2
+      ],
+      [
+        "effortless only",
+        2
+      ],
+      [
+        "only knowledge",
+        2
+      ],
+      [
+        "knowledge process",
+        2
+      ],
+      [
+        "process but",
+        2
+      ],
+      [
+        "but way",
+        2
+      ],
+      [
+        "way made",
+        2
+      ],
+      [
+        "feel whole",
+        2
+      ],
+      [
+        "whole thing",
+        2
+      ],
+      [
+        "thing brittany",
+        2
+      ],
+      [
+        "brittany highly",
+        2
+      ],
+      [
+        "recommend would",
+        2
+      ],
+      [
+        "would highly",
+        2
+      ],
+      [
+        "recommend aurit",
+        2
+      ],
+      [
+        "center family",
+        2
+      ],
+      [
+        "family friends",
+        2
+      ],
+      [
+        "friends need",
+        2
+      ],
+      [
+        "need services",
+        2
+      ],
+      [
+        "services michael",
+        2
+      ],
+      [
+        "michael truly",
+        2
+      ],
+      [
+        "truly professional",
+        2
+      ],
+      [
+        "professional handled",
+        2
+      ],
+      [
+        "handled case",
+        2
+      ],
+      [
+        "case compassion",
+        2
+      ],
+      [
+        "compassion understanding",
+        2
+      ],
+      [
+        "understanding such",
+        2
+      ],
+      [
+        "such difficult",
+        2
+      ],
+      [
+        "difficult life",
+        2
+      ]
+    ]
+  },
+  "aurit_divorce": {
+    "file": "tmp/live_fetch/aurit-divorce-mediation-live.html",
+    "title": "Arizona Divorce Mediation | The Aurit Center for Divorce Medication",
+    "meta_description": "",
+    "h1": [
+      "Arizona Divorce Mediation"
+    ],
+    "h2_count": 12,
+    "h2": [
+      "How Arizona Law Supports Divorce Mediation",
+      "Why Arizona Courts Encourage Mediation",
+      "Our Same-Sex Divorce Mediation Process",
+      "Legal Benefits of Mediation vs. Litigation",
+      "Is Mediation Right For You?",
+      "Mediation Costs",
+      "How Aurit Supports Your Divorce",
+      "Unique Divorce Situations We Handle",
+      "Meet Our Founders and Mediators",
+      "Hear what others have to say",
+      "Serving Clients Across Arizona",
+      "Ready to Begin Your Next Chapter?"
+    ],
+    "h3_count": 32,
+    "legal_refs_raw": [
+      "ARS \u00a7 25-319",
+      "Arizona Revised Statutes",
+      "Rule 67",
+      "Rule 68",
+      "Spousal Maintenance",
+      "community property",
+      "family court",
+      "parenting time",
+      "spousal maintenance"
+    ],
+    "ars_references": [
+      "ARS \u00a7 25-319"
+    ],
+    "schema_types": {
+      "Article": 1,
+      "Person": 1,
+      "ImageObject": 3,
+      "WebPage": 1,
+      "WebSite": 1,
+      "Organization": 1
+    },
+    "has_faq_schema": false,
+    "tables": 1,
+    "images": 26,
+    "videos_or_iframes": 2,
+    "topic_counts": {
+      "virtual mediation": 1,
+      "divorce mediation": 12,
+      "arizona": 29,
+      "child custody": 1,
+      "parenting plan": 3,
+      "child support": 2,
+      "spousal maintenance": 2,
+      "alimony": 1,
+      "property division": 2,
+      "community property": 1,
+      "court": 20,
+      "litigation": 5,
+      "free consultation": 7,
+      "mediator": 11
+    },
+    "trust_signal_patterns_found": [
+      "\\b\\d{1,3}\\+\\s*(families|cases|years|reviews|rating)\\b",
+      "5\\.0",
+      "client",
+      "licensed attorney",
+      "featured"
+    ],
+    "testimonial_hints": [
+      "reviews",
+      "hear what others have to say"
+    ],
+    "faq_question_headings": [
+      "Is Mediation Right For You?",
+      "Ready to Begin Your Next Chapter?"
+    ],
+    "top_words": [
+      [
+        "mediation",
+        46
+      ],
+      [
+        "divorce",
+        29
+      ],
+      [
+        "arizona",
+        28
+      ],
+      [
+        "aurit",
+        14
+      ],
+      [
+        "process",
+        13
+      ],
+      [
+        "court",
+        12
+      ],
+      [
+        "family",
+        10
+      ],
+      [
+        "consultation",
+        8
+      ],
+      [
+        "law",
+        8
+      ],
+      [
+        "support",
+        8
+      ],
+      [
+        "made",
+        8
+      ],
+      [
+        "center",
+        7
+      ],
+      [
+        "free",
+        7
+      ],
+      [
+        "parenting",
+        7
+      ],
+      [
+        "resources",
+        6
+      ],
+      [
+        "way",
+        6
+      ],
+      [
+        "spouses",
+        6
+      ],
+      [
+        "all",
+        6
+      ],
+      [
+        "mediator",
+        6
+      ],
+      [
+        "truly",
+        6
+      ],
+      [
+        "pricing",
+        5
+      ],
+      [
+        "cost",
+        5
+      ],
+      [
+        "schedule",
+        5
+      ],
+      [
+        "families",
+        5
+      ],
+      [
+        "resolve",
+        5
+      ],
+      [
+        "agreements",
+        5
+      ],
+      [
+        "recommend",
+        5
+      ],
+      [
+        "financial",
+        5
+      ],
+      [
+        "litigation",
+        5
+      ],
+      [
+        "services",
+        5
+      ],
+      [
+        "michael",
+        5
+      ],
+      [
+        "works",
+        4
+      ],
+      [
+        "state",
+        4
+      ],
+      [
+        "without",
+        4
+      ],
+      [
+        "virtual",
+        4
+      ],
+      [
+        "confidential",
+        4
+      ],
+      [
+        "legally",
+        4
+      ],
+      [
+        "need",
+        4
+      ],
+      [
+        "same-sex",
+        4
+      ],
+      [
+        "filing",
+        4
+      ],
+      [
+        "work",
+        4
+      ],
+      [
+        "agreement",
+        4
+      ],
+      [
+        "terms",
+        4
+      ],
+      [
+        "property",
+        4
+      ],
+      [
+        "legal",
+        4
+      ],
+      [
+        "privacy",
+        4
+      ],
+      [
+        "fees",
+        4
+      ],
+      [
+        "mediators",
+        4
+      ],
+      [
+        "service",
+        4
+      ],
+      [
+        "feel",
+        4
+      ],
+      [
+        "highly",
+        4
+      ],
+      [
+        "reviews",
+        3
+      ],
+      [
+        "locations",
+        3
+      ],
+      [
+        "peaceful",
+        3
+      ],
+      [
+        "understanding",
+        3
+      ],
+      [
+        "laws",
+        3
+      ],
+      [
+        "fair",
+        3
+      ],
+      [
+        "supports",
+        3
+      ],
+      [
+        "matters",
+        3
+      ],
+      [
+        "meet",
+        3
+      ],
+      [
+        "time",
+        3
+      ],
+      [
+        "while",
+        3
+      ],
+      [
+        "courts",
+        3
+      ],
+      [
+        "custody",
+        3
+      ],
+      [
+        "costs",
+        3
+      ],
+      [
+        "likely",
+        3
+      ],
+      [
+        "conflict",
+        3
+      ],
+      [
+        "compliant",
+        3
+      ],
+      [
+        "experienced",
+        3
+      ],
+      [
+        "attorney",
+        3
+      ],
+      [
+        "spouse",
+        3
+      ],
+      [
+        "discuss",
+        3
+      ],
+      [
+        "negotiate",
+        3
+      ],
+      [
+        "issues",
+        3
+      ],
+      [
+        "life",
+        3
+      ],
+      [
+        "help",
+        3
+      ],
+      [
+        "child",
+        3
+      ],
+      [
+        "unique",
+        3
+      ],
+      [
+        "experience",
+        3
+      ],
+      [
+        "ensuring",
+        3
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "divorce mediation",
+        14
+      ],
+      [
+        "aurit center",
+        7
+      ],
+      [
+        "free consultation",
+        7
+      ],
+      [
+        "aurit mediation",
+        4
+      ],
+      [
+        "schedule free",
+        4
+      ],
+      [
+        "same sex",
+        4
+      ],
+      [
+        "made feel",
+        4
+      ],
+      [
+        "highly recommend",
+        4
+      ],
+      [
+        "arizona divorce",
+        3
+      ],
+      [
+        "locations resources",
+        3
+      ],
+      [
+        "arizona law",
+        3
+      ],
+      [
+        "family law",
+        3
+      ],
+      [
+        "sex divorce",
+        3
+      ],
+      [
+        "mediation process",
+        3
+      ],
+      [
+        "legally compliant",
+        3
+      ],
+      [
+        "mediation litigation",
+        3
+      ],
+      [
+        "mediation works",
+        2
+      ],
+      [
+        "works pricing",
+        2
+      ],
+      [
+        "pricing reviews",
+        2
+      ],
+      [
+        "reviews locations",
+        2
+      ],
+      [
+        "contact free",
+        2
+      ],
+      [
+        "move forward",
+        2
+      ],
+      [
+        "without court",
+        2
+      ],
+      [
+        "supports divorce",
+        2
+      ],
+      [
+        "mediation arizona",
+        2
+      ],
+      [
+        "rule arizona",
+        2
+      ],
+      [
+        "arizona rules",
+        2
+      ],
+      [
+        "rules family",
+        2
+      ],
+      [
+        "law procedure",
+        2
+      ],
+      [
+        "arizona courts",
+        2
+      ],
+      [
+        "property division",
+        2
+      ],
+      [
+        "parenting plans",
+        2
+      ],
+      [
+        "arizona family",
+        2
+      ],
+      [
+        "flat fee",
+        2
+      ],
+      [
+        "fee pricing",
+        2
+      ],
+      [
+        "mediation right",
+        2
+      ],
+      [
+        "traditional divorce",
+        2
+      ],
+      [
+        "per person",
+        2
+      ],
+      [
+        "person total",
+        2
+      ],
+      [
+        "total cost",
+        2
+      ],
+      [
+        "court filing",
+        2
+      ],
+      [
+        "filing fees",
+        2
+      ],
+      [
+        "email phone",
+        2
+      ],
+      [
+        "phone support",
+        2
+      ],
+      [
+        "mediation services",
+        2
+      ],
+      [
+        "mediators help",
+        2
+      ],
+      [
+        "child support",
+        2
+      ],
+      [
+        "spousal maintenance",
+        2
+      ],
+      [
+        "parenting time",
+        2
+      ],
+      [
+        "long term",
+        2
+      ],
+      [
+        "others say",
+        2
+      ],
+      [
+        "made easy",
+        2
+      ],
+      [
+        "easy process",
+        2
+      ],
+      [
+        "process seem",
+        2
+      ],
+      [
+        "seem almost",
+        2
+      ],
+      [
+        "almost effortless",
+        2
+      ],
+      [
+        "effortless only",
+        2
+      ],
+      [
+        "only knowledge",
+        2
+      ],
+      [
+        "knowledge process",
+        2
+      ],
+      [
+        "process but",
+        2
+      ],
+      [
+        "but way",
+        2
+      ],
+      [
+        "way made",
+        2
+      ],
+      [
+        "feel whole",
+        2
+      ],
+      [
+        "whole thing",
+        2
+      ],
+      [
+        "thing brittany",
+        2
+      ],
+      [
+        "brittany highly",
+        2
+      ],
+      [
+        "recommend would",
+        2
+      ],
+      [
+        "would highly",
+        2
+      ],
+      [
+        "recommend aurit",
+        2
+      ],
+      [
+        "center family",
+        2
+      ],
+      [
+        "family friends",
+        2
+      ],
+      [
+        "friends need",
+        2
+      ],
+      [
+        "need services",
+        2
+      ],
+      [
+        "services michael",
+        2
+      ],
+      [
+        "michael truly",
+        2
+      ],
+      [
+        "truly professional",
+        2
+      ],
+      [
+        "professional handled",
+        2
+      ],
+      [
+        "handled case",
+        2
+      ],
+      [
+        "case compassion",
+        2
+      ],
+      [
+        "compassion understanding",
+        2
+      ]
+    ]
+  }
+}

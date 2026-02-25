@@ -1,0 +1,1144 @@
+<!doctype html>
+<html lang="en">
+<style>:root {
+  --aurit-brand: #014921;
+  --aurit-ink: #192615;
+  --aurit-white: #ffffff;
+  --aurit-black: #000000;
+  --aurit-gray: #abb8c3;
+  --aurit-sky: #8ed1fc;
+  --aurit-amber: #fcb900;
+
+  --container: 1200px;
+  --section-pad-y: 68px;
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Monument Grotesk, sans-serif;
+  color: var(--aurit-ink);
+  background: var(--aurit-white);
+  line-height: 1.62;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+p,
+li,
+td,
+th,
+label,
+span,
+small,
+figcaption {
+  font-family: Monument Grotesk, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.eyebrow,
+.small-title,
+.quick-nav-strip a {
+  font-family: Recoleta, sans-serif;
+}
+
+.page-shell {
+  width: 100%;
+  overflow-x: clip;
+}
+
+.container {
+  width: min(var(--container), calc(100% - 44px));
+  margin-inline: auto;
+}
+
+.band-light {
+  background: var(--aurit-white);
+}
+
+.band-neutral {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 185, 0, 0.12) 0%,
+    rgba(255, 255, 255, 0.96) 16%,
+    rgba(255, 255, 255, 1) 84%,
+    rgba(142, 209, 252, 0.1) 100%
+  );
+}
+
+.hero-shell {
+  position: relative;
+  padding: 44px 0 28px;
+  border-bottom: 1px solid rgba(25, 38, 21, 0.16);
+}
+
+.hero-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 13% 18%, rgba(142, 209, 252, 0.36), transparent 38%),
+    radial-gradient(circle at 90% 6%, rgba(252, 185, 0, 0.24), transparent 36%);
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 16px;
+  color: rgba(1, 73, 33, 0.78);
+  font-size: 0.86rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-inner h1 {
+  margin: 0;
+  color: var(--aurit-brand);
+  font-size: clamp(2.05rem, 4.4vw, 3.45rem);
+  line-height: 1.06;
+  letter-spacing: -0.018em;
+}
+
+.tone-line {
+  margin: 14px auto 0;
+  width: min(830px, 100%);
+  font-size: 1.03rem;
+}
+
+.hero-actions {
+  margin-top: 22px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.hero-btn {
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 0.94rem;
+  font-weight: 700;
+  border: 1px solid var(--aurit-brand);
+}
+
+.hero-btn.primary {
+  background: var(--aurit-brand);
+  color: var(--aurit-white);
+}
+
+.hero-btn.secondary {
+  background: var(--aurit-white);
+  color: var(--aurit-brand);
+}
+
+.metadata-shell {
+  padding: 28px 0;
+}
+
+.metadata-panel {
+  border: 1px solid rgba(25, 38, 21, 0.16);
+  border-radius: var(--radius-lg);
+  padding: 20px 20px;
+  background: var(--aurit-white);
+}
+
+.metadata-panel h2 {
+  margin: 0 0 10px;
+  color: var(--aurit-brand);
+  font-size: clamp(1.35rem, 2.2vw, 1.82rem);
+  line-height: 1.14;
+}
+
+.metadata-panel p {
+  margin: 8px 0;
+}
+
+.quick-nav-strip {
+  background: var(--aurit-brand);
+  border-top: 1px solid rgba(255, 255, 255, 0.28);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.quick-nav-inner {
+  width: min(var(--container), calc(100% - 32px));
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 10px 0;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.quick-nav-inner a {
+  color: var(--aurit-white);
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copy-start-shell {
+  padding: 36px 0 14px;
+}
+
+.copy-start-shell h2 {
+  margin: 0;
+  color: var(--aurit-brand);
+  font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+  letter-spacing: -0.015em;
+}
+
+.section-shell {
+  padding: var(--section-pad-y) 0;
+}
+
+.content-panel {
+  border: 1px solid rgba(25, 38, 21, 0.13);
+  border-radius: var(--radius-lg);
+  background: var(--aurit-white);
+  padding: clamp(18px, 2.5vw, 28px);
+}
+
+.content-panel h2 {
+  margin: 0 0 13px;
+  color: var(--aurit-brand);
+  font-size: clamp(1.45rem, 2.5vw, 2.06rem);
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+}
+
+.content-panel h3 {
+  margin: 0 0 8px;
+  color: var(--aurit-ink);
+  font-size: clamp(1.1rem, 1.8vw, 1.38rem);
+  line-height: 1.2;
+}
+
+.content-panel p {
+  margin: 0 0 12px;
+  font-size: 1.01rem;
+}
+
+.copy-lead {
+  font-size: 1.03rem;
+}
+
+.bullet-list,
+.url-list,
+.ordered-list {
+  margin: 0;
+  padding-left: 23px;
+}
+
+.bullet-list li,
+.url-list li,
+.ordered-list li {
+  margin: 8px 0;
+}
+
+.issues-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.issue-card {
+  border: 1px solid rgba(1, 73, 33, 0.2);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(142, 209, 252, 0.08) 100%);
+  padding: 16px;
+}
+
+.issue-icon {
+  width: 54px;
+  height: 22px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.issue-icon::before,
+.issue-icon::after {
+  content: '';
+  position: absolute;
+  border-radius: 999px;
+}
+
+.issue-icon::before {
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 1px;
+  background: rgba(1, 73, 33, 0.13);
+  border: 1px solid rgba(1, 73, 33, 0.28);
+}
+
+.issue-icon::after {
+  width: 30px;
+  height: 3px;
+  left: 24px;
+  top: 9px;
+  background: rgba(252, 185, 0, 0.75);
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.benefit {
+  border: 1px solid rgba(1, 73, 33, 0.2);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(252, 185, 0, 0.12) 130%);
+  font-size: 0.95rem;
+}
+
+.law-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.law-card {
+  border-left: 4px solid var(--aurit-brand);
+  border-radius: var(--radius-sm);
+  border-top: 1px solid rgba(25, 38, 21, 0.14);
+  border-right: 1px solid rgba(25, 38, 21, 0.14);
+  border-bottom: 1px solid rgba(25, 38, 21, 0.14);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(171, 184, 195, 0.08) 100%);
+  padding: 11px 12px;
+}
+
+.timeline-shell .content-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.timeline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.timeline-list::before {
+  content: '';
+  position: absolute;
+  left: 18px;
+  top: 8px;
+  bottom: 10px;
+  width: 2px;
+  background: rgba(1, 73, 33, 0.35);
+}
+
+.timeline-item {
+  position: relative;
+  margin: 0 0 12px;
+  padding: 0 0 0 48px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--aurit-white);
+  border: 3px solid var(--aurit-brand);
+}
+
+.timeline-item > div {
+  border: 1px solid rgba(1, 73, 33, 0.2);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(142, 209, 252, 0.1) 120%);
+}
+
+.comparison-shell .content-panel {
+  padding-bottom: 20px;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(1, 73, 33, 0.24);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.comparison-table th,
+.comparison-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 11px 12px;
+  border-bottom: 1px solid rgba(1, 73, 33, 0.16);
+  font-size: 0.95rem;
+}
+
+.comparison-table th {
+  color: var(--aurit-white);
+  background: var(--aurit-brand);
+  font-weight: 700;
+}
+
+.comparison-table tr:nth-child(even) td {
+  background: rgba(171, 184, 195, 0.16);
+}
+
+.mediation-fit-shell .fit-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 12px;
+}
+
+.fit-path,
+.fit-caution {
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(1, 73, 33, 0.2);
+  padding: 13px;
+}
+
+.fit-path {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(142, 209, 252, 0.1) 140%);
+}
+
+.fit-caution {
+  background: linear-gradient(180deg, rgba(252, 185, 0, 0.2) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.faq-item {
+  border: 1px solid rgba(1, 73, 33, 0.18);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  background: var(--aurit-white);
+}
+
+.faq-item h3 {
+  margin-bottom: 6px;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.unique-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.unique-chip {
+  border: 1px solid rgba(1, 73, 33, 0.2);
+  border-radius: 999px;
+  padding: 10px 13px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(171, 184, 195, 0.14) 100%);
+  font-size: 0.93rem;
+}
+
+.founders-shell .spotlight {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.spotlight-media {
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(1, 73, 33, 0.2);
+  background:
+    radial-gradient(circle at 20% 22%, rgba(142, 209, 252, 0.32), transparent 45%),
+    radial-gradient(circle at 86% 84%, rgba(252, 185, 0, 0.26), transparent 42%),
+    rgba(1, 73, 33, 0.08);
+  min-height: 220px;
+  position: relative;
+}
+
+.spotlight-media::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 112px;
+  height: 112px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  border: 2px solid rgba(1, 73, 33, 0.4);
+}
+
+.spotlight-copy {
+  border: 1px solid rgba(1, 73, 33, 0.18);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  background: var(--aurit-white);
+}
+
+.testimonials-shell .content-panel {
+  text-align: center;
+}
+
+.testimonial-cards {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.testimonial-card {
+  border: 1px solid rgba(1, 73, 33, 0.18);
+  border-radius: var(--radius-sm);
+  min-height: 128px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(171, 184, 195, 0.12) 100%);
+  position: relative;
+}
+
+.testimonial-card::before {
+  content: '';
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: rgba(1, 73, 33, 0.16);
+}
+
+.testimonial-card::after {
+  content: '';
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 20px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(1, 73, 33, 0.16);
+}
+
+.service-area-shell .service-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 14px;
+}
+
+.service-copy,
+.map-panel {
+  border: 1px solid rgba(1, 73, 33, 0.19);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  background: var(--aurit-white);
+}
+
+.map-panel {
+  min-height: 210px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(171, 184, 195, 0.16) 100%),
+    repeating-linear-gradient(90deg, rgba(1, 73, 33, 0.08) 0px, rgba(1, 73, 33, 0.08) 1px, transparent 1px, transparent 26px),
+    repeating-linear-gradient(0deg, rgba(1, 73, 33, 0.08) 0px, rgba(1, 73, 33, 0.08) 1px, transparent 1px, transparent 26px);
+}
+
+.final-cta-shell {
+  background: var(--aurit-brand);
+  padding: 74px 0;
+}
+
+.final-cta-shell .content-panel {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.final-cta-shell h2,
+.final-cta-shell p,
+.final-cta-shell li,
+.final-cta-shell .small-title {
+  color: var(--aurit-white);
+}
+
+.cta-notes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.cta-note {
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  font-weight: 700;
+}
+
+.tone-refs-shell {
+  padding: 46px 0 62px;
+}
+
+.small-title {
+  margin: 0 0 8px;
+  color: rgba(1, 73, 33, 0.76);
+  font-size: 0.9rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1100px) {
+  .issues-grid,
+  .benefits-grid,
+  .law-cards,
+  .faq-grid,
+  .unique-grid,
+  .testimonial-cards,
+  .service-area-shell .service-grid,
+  .mediation-fit-shell .fit-grid,
+  .founders-shell .spotlight,
+  .cta-notes {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .founders-shell .spotlight {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-nav-inner {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-pad-y: 42px;
+  }
+
+  .container {
+    width: min(var(--container), calc(100% - 24px));
+  }
+
+  .hero-shell {
+    padding: 34px 0 20px;
+  }
+
+  .hero-actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-btn {
+    text-align: center;
+  }
+
+  .issues-grid,
+  .benefits-grid,
+  .law-cards,
+  .faq-grid,
+  .unique-grid,
+  .testimonial-cards,
+  .service-area-shell .service-grid,
+  .mediation-fit-shell .fit-grid,
+  .cta-notes {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-list::before {
+    left: 12px;
+  }
+
+  .timeline-item {
+    padding-left: 38px;
+  }
+
+  .timeline-item::before {
+    left: 4px;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+</style>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Online Divorce Mediation in Arizona (Brand-Aligned Version) - Visual Mockup</title>
+    <link rel="stylesheet" href="aurit-online-divorce-mediation-visual-mockup.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero-shell band-light" id="top">
+        <div class="container hero-inner">
+          <h1>Online Divorce Mediation in Arizona (Brand-Aligned Version)</h1>
+          <p class="tone-line">Tone aligned to Aurit service pages: Child Custody, Child Support, and Divorce Mediation</p>
+          <div class="hero-actions">
+            <a class="hero-btn primary" href="#final-cta">Schedule Your Free One-Hour Consultation</a>
+            <a class="hero-btn secondary" href="#final-cta">Call for Immediate Assistance</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="metadata-shell band-neutral">
+        <div class="container">
+          <article class="metadata-panel">
+            <h2>Recommended SEO Metadata</h2>
+            <p>Title Tag: Online Divorce Mediation in Arizona | Virtual Divorce Mediation | Aurit Mediation</p>
+            <p>
+              Meta Description: Work with experienced Arizona attorney-mediators to resolve divorce online through a structured, confidential,
+              and peaceful process focused on fair outcomes.
+            </p>
+            <p>H1: Online Divorce Mediation in Arizona</p>
+          </article>
+        </div>
+      </section>
+
+      <nav class="quick-nav-strip" aria-label="Page section navigation">
+        <div class="quick-nav-inner">
+          <a href="#arizona-law-support">Arizona Law Support</a>
+          <a href="#online-process">Online Process</a>
+          <a href="#comparison">Comparison</a>
+          <a href="#faq">FAQ</a>
+          <a href="#final-cta">Final CTA</a>
+        </div>
+      </nav>
+
+      <section class="copy-start-shell band-light">
+        <div class="container">
+          <h2>Page Copy (Publish-Ready)</h2>
+        </div>
+      </section>
+
+      <section class="section-shell band-light" id="online-mediation-overview">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Online Divorce Mediation in Arizona</h2>
+            <p class="copy-lead">
+              At Aurit Mediation, we help Arizona spouses resolve divorce and legal separation matters through a proven, peaceful online
+              process. Our experienced attorney-mediators guide you through each step with compassion, structure, and legal clarity so you can
+              move forward with dignity.
+            </p>
+            <p>
+              Virtual mediation gives you the same high-quality support as in-person sessions, with added flexibility for work schedules,
+              parenting responsibilities, and distance between spouses.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-neutral" id="compassionate-online-mediation">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Compassionate Online Mediation for Arizona Families</h2>
+            <p>
+              Online divorce mediation is a structured, voluntary process where both spouses meet with a neutral mediator to resolve divorce
+              issues outside of court whenever possible. Sessions are private, guided, and designed to reduce conflict while still addressing
+              the legal and financial realities of your case.
+            </p>
+            <p>We support agreements on:</p>
+            <ul class="bullet-list">
+              <li>Parenting plans, legal decision-making, and parenting time</li>
+              <li>Child support and spousal maintenance</li>
+              <li>Community property and debt division</li>
+              <li>Legal separation terms</li>
+              <li>Court-ready settlement documentation</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-light" id="family-law-issues">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Family Law Issues Resolved Through Divorce Mediation</h2>
+            <p>
+              Divorce mediation helps spouses resolve core family law issues in a structured, confidential setting without unnecessary court
+              escalation. At Aurit Mediation, our attorney-mediators guide practical conversations that balance legal requirements with
+              real-life needs. The goal is clear, fair agreements that can move your case forward with less conflict.
+            </p>
+
+            <div class="issues-grid">
+              <article class="issue-card">
+                <div class="issue-icon" aria-hidden="true"></div>
+                <h3>Property and Debt Division</h3>
+                <p>
+                  Mediation gives both spouses a clear process to identify community assets, separate property, and shared debts. We help you
+                  evaluate homes, retirement accounts, business interests, and liabilities so negotiations stay grounded in complete financial
+                  information. Our mediators facilitate fair allocation discussions based on Arizona standards and your family's priorities.
+                  When terms are finalized, we organize the language into clear settlement provisions ready for review and filing.
+                </p>
+              </article>
+              <article class="issue-card">
+                <div class="issue-icon" aria-hidden="true"></div>
+                <h3>Child Support</h3>
+                <p>
+                  Child support mediation focuses on creating child-centered terms that follow Arizona guideline frameworks. We review income,
+                  parenting-time schedules, healthcare, childcare, and other relevant expenses to build accurate calculations. If parents need
+                  customized solutions for unique circumstances, we guide respectful negotiation while keeping the child's best interests at
+                  the center. The result is a practical support plan designed for compliance and long-term co-parenting stability.
+                </p>
+              </article>
+              <article class="issue-card">
+                <div class="issue-icon" aria-hidden="true"></div>
+                <h3>Spousal Maintenance</h3>
+                <p>
+                  Spousal maintenance mediation helps spouses address support eligibility, amount, and duration with clarity and less conflict.
+                  Our attorney-mediators walk both parties through the factors courts consider, including financial resources, earning
+                  capacity, and the transition to post-divorce independence. We support realistic conversations that protect fairness for both
+                  sides while reducing adversarial posturing. Final terms are documented in clear language so they can be incorporated into a
+                  broader settlement agreement.
+                </p>
+              </article>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-neutral" id="why-choose-virtual">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Why Choose Virtual Divorce Mediation in Arizona?</h2>
+            <div class="benefits-grid">
+              <div class="benefit">Lower conflict: Sessions are designed to keep communication productive and respectful.</div>
+              <div class="benefit">
+                Better control: You and your spouse shape outcomes, rather than leaving key decisions entirely to a judge.
+              </div>
+              <div class="benefit">Greater efficiency: Most families resolve issues faster than through contested litigation.</div>
+              <div class="benefit">Cost-conscious path: Mediation is often significantly more affordable than prolonged court battles.</div>
+              <div class="benefit">Private process: Mediation communications are generally confidential under Arizona family law rules.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-light" id="arizona-law-support">
+        <div class="container">
+          <article class="content-panel">
+            <h2>How Arizona Law Supports Online Divorce Mediation</h2>
+            <p>
+              Arizona law strongly supports amicable, settlement-focused resolution in divorce and legal separation matters. Key authorities
+              include:
+            </p>
+
+            <div class="law-cards">
+              <div class="law-card">A.R.S. 25-312 (filing and jurisdiction requirements for dissolution).</div>
+              <div class="law-card">A.R.S. 25-317 (separation agreements and court effect).</div>
+              <div class="law-card">A.R.S. 25-318 (equitable division of community property and debts).</div>
+              <div class="law-card">A.R.S. 25-319 (spousal maintenance framework).</div>
+              <div class="law-card">A.R.S. 25-320 (child support guidelines).</div>
+              <div class="law-card">A.R.S. 25-403 and 25-403.02 (best interests standard and parenting plans).</div>
+              <div class="law-card">A.R.S. 25-381.09 (conciliation services and amicable settlement pathway).</div>
+              <div class="law-card">Arizona Rules of Family Law Procedure 67.3 and 68 (private mediation and conciliation frameworks).</div>
+            </div>
+
+            <p>Legal note: This page is for general education and is not legal advice.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-neutral timeline-shell" id="online-process">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Our Online Divorce Mediation Process</h2>
+            <p>Our process is structured to be efficient, respectful, and legally compliant:</p>
+            <ol class="timeline-list">
+              <li class="timeline-item"><div>1. Free Consultation: We learn your goals and explain your best next steps.</div></li>
+              <li class="timeline-item">
+                <div>2. Preparation: We organize financial, parenting, and case information to keep sessions productive.</div>
+              </li>
+              <li class="timeline-item">
+                <div>3. Mediation Sessions: You work through agreements with attorney-mediator guidance in private virtual meetings.</div>
+              </li>
+              <li class="timeline-item"><div>4. Agreement Drafting: Terms are documented clearly and reviewed by both parties.</div></li>
+              <li class="timeline-item"><div>5. Finalization Support: You receive clear direction for filing and completion.</div></li>
+            </ol>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-light comparison-shell" id="comparison">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Virtual Mediation vs Litigation</h2>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>Factor</th>
+                  <th>Online Divorce Mediation</th>
+                  <th>Traditional Litigation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Decision-making</td>
+                  <td>Spouses create solutions together with mediator guidance.</td>
+                  <td>Judge decides unresolved disputes after contested proceedings.</td>
+                </tr>
+                <tr>
+                  <td>Timeline</td>
+                  <td>Often resolved in a series of focused sessions.</td>
+                  <td>Often extended by hearings, motions, and crowded court calendars.</td>
+                </tr>
+                <tr>
+                  <td>Cost</td>
+                  <td>Typically more predictable and lower overall cost.</td>
+                  <td>Typically higher and less predictable over time.</td>
+                </tr>
+                <tr>
+                  <td>Emotional impact</td>
+                  <td>Designed to reduce escalation and support respectful communication.</td>
+                  <td>Adversarial by structure, which can increase conflict and stress.</td>
+                </tr>
+                <tr>
+                  <td>Privacy</td>
+                  <td>Mediation discussions are generally confidential.</td>
+                  <td>Court process is more public and formal.</td>
+                </tr>
+                <tr>
+                  <td>Long-term co-parenting</td>
+                  <td>Supports practical, durable co-parenting agreements.</td>
+                  <td>Conflict can make future co-parenting more difficult.</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-neutral mediation-fit-shell" id="fit-check">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Is Online Mediation Right for You?</h2>
+            <div class="fit-grid">
+              <div class="fit-path">
+                <p>Online mediation may be a strong fit if you want to:</p>
+                <ul class="bullet-list">
+                  <li>Resolve divorce terms in a peaceful, private setting</li>
+                  <li>Avoid unnecessary litigation where possible</li>
+                  <li>Protect time, finances, and emotional energy</li>
+                  <li>Create fair agreements tailored to your family</li>
+                  <li>Work with experienced attorney-mediators who keep the process grounded and practical</li>
+                </ul>
+              </div>
+              <div class="fit-caution">
+                <p>
+                  If there are serious safety concerns, coercive control, or refusal to provide required financial information, additional
+                  safeguards may be required and mediation may not be appropriate until those issues are addressed.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-light" id="faq">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+              <article class="faq-item">
+                <h3>Q: Is online divorce mediation legally binding in Arizona?</h3>
+                <p>
+                  A: Agreements reached in mediation can become legally enforceable once they are properly documented and approved by the court
+                  where required.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Q: Can we mediate if one spouse lives outside Arizona?</h3>
+                <p>
+                  A: In many situations, yes. Virtual sessions are designed for spouses in different locations. Filing jurisdiction still
+                  depends on Arizona statutory requirements.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Q: Can mediation include child custody and parenting plans?</h3>
+                <p>
+                  A: Yes. Parenting issues, legal decision-making, and parenting time can all be addressed in mediation under Arizona
+                  standards.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Q: Can child support and spousal maintenance be resolved online?</h3>
+                <p>
+                  A: Yes. These issues are commonly addressed in virtual mediation with guidance grounded in Arizona rules and statutory
+                  frameworks.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Q: How long does online divorce mediation take?</h3>
+                <p>
+                  A: Many couples resolve most issues in a few sessions, but timing depends on complexity and each party’s readiness to
+                  negotiate in good faith.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Q: Do we each need our own attorney during mediation?</h3>
+                <p>
+                  A: Independent legal advice is always an option. Mediation itself is led by a neutral mediator who does not act as litigation
+                  counsel for either spouse.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Q: Is online mediation confidential?</h3>
+                <p>
+                  A: Yes. Mediation communications are generally confidential, which helps spouses discuss options openly and constructively.
+                </p>
+              </article>
+              <article class="faq-item">
+                <h3>Q: What technology do we need?</h3>
+                <p>
+                  A: A reliable internet connection, camera-enabled device, and private setting are usually enough for effective online
+                  mediation sessions.
+                </p>
+              </article>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-neutral" id="unique-cases">
+        <div class="container">
+          <article class="content-panel">
+            <h2>How We Support Unique Cases</h2>
+            <p>
+              Our expert attorney-mediators guide families to fair, confidential agreements without court battles whenever possible. We
+              regularly support:
+            </p>
+            <div class="unique-grid">
+              <div class="unique-chip">High-conflict communication dynamics</div>
+              <div class="unique-chip">Long-distance and out-of-state spouse participation</div>
+              <div class="unique-chip">Complex property and debt allocation</div>
+              <div class="unique-chip">Parenting plan restructuring and post-decree updates</div>
+              <div class="unique-chip">Same-sex divorce and legal separation mediation</div>
+              <div class="unique-chip">Cases needing additional structure, pacing, or shuttle-style sessions</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-light founders-shell" id="founders">
+        <div class="container">
+          <article class="content-panel">
+            <div class="spotlight">
+              <div class="spotlight-media" aria-hidden="true"></div>
+              <div class="spotlight-copy">
+                <h2>Meet Our Founders and Mediators</h2>
+                <p>
+                  Aurit Mediation is led by Michael Aurit, JD, MDR, and Karen Aurit, MA, with a team committed to transforming divorce
+                  through compassion. Our licensed attorney-mediators combine legal fluency with conflict-resolution skill to help families
+                  reach clear, fair outcomes through a respectful process.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-neutral testimonials-shell" id="testimonials">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Hear what others have to say</h2>
+            <p>
+              See why over 10,000 Arizona families have trusted our proven, peaceful process to navigate divorce with dignity. This section
+              should display live review content for strong trust alignment with other Aurit service pages.
+            </p>
+            <div class="testimonial-cards" aria-hidden="true">
+              <div class="testimonial-card"></div>
+              <div class="testimonial-card"></div>
+              <div class="testimonial-card"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell band-light service-area-shell" id="service-area">
+        <div class="container">
+          <article class="content-panel">
+            <div class="service-grid">
+              <div class="service-copy">
+                <h2>Serving Clients Across Arizona</h2>
+                <p>
+                  We serve families statewide through virtual mediation, including Phoenix, Scottsdale, Glendale, Mesa, Chandler, Tempe,
+                  Gilbert, Peoria, Surprise, Tucson, Flagstaff, Prescott, and nearby Arizona communities.
+                </p>
+              </div>
+              <div class="map-panel" aria-hidden="true"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-cta-shell" id="final-cta">
+        <div class="container">
+          <article class="content-panel">
+            <h2>Start Your Online Divorce Mediation Journey in Arizona</h2>
+            <p>
+              If you are ready for a lower-conflict path forward, schedule your free one-hour consultation with Aurit Mediation. We will
+              explain your options, answer your questions, and help you begin a structured process built for fair outcomes and long-term
+              stability.
+            </p>
+            <div class="cta-notes">
+              <div class="cta-note">Primary CTA: Schedule Your Free One-Hour Consultation</div>
+              <div class="cta-note">Secondary CTA: Call for Immediate Assistance</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="tone-refs-shell band-light" id="tone-references">
+        <div class="container">
+          <p class="small-title">Tone Alignment Reference Pages</p>
+          <ul class="url-list">
+            <li>https://auritmediation.com/child-custody-mediation/</li>
+            <li>https://auritmediation.com/child-support-mediation/</li>
+            <li>https://auritmediation.com/divorce-mediation/</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

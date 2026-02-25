@@ -1,0 +1,1297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trademark Services for Nonprofits in [state] | Visual Mockup</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap");
+
+    :root {
+      --navy: #122944;
+      --navy-deep: #122944;
+      --gold: #f6c747;
+      --gold-strong: #e7af07;
+      --accent: #2b7bb9;
+      --bg: #f2f2f2;
+      --text: #333333;
+      --muted: #757575;
+      --card: #ffffff;
+      --ink-on-dark: #f4f8fb;
+      --beige: #f3efdd;
+      --shadow: 0 14px 34px rgba(18, 41, 68, 0.14);
+      --radius-lg: 16px;
+      --radius-md: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Source Sans 3", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(1200px 600px at 8% -20%, rgba(43, 123, 185, 0.16), transparent 60%),
+        radial-gradient(1000px 550px at 92% -10%, rgba(246, 199, 71, 0.22), transparent 62%),
+        var(--bg);
+      line-height: 1.5;
+    }
+
+    .container {
+      width: min(1200px, 92vw);
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 72px 0;
+    }
+
+    .section-title {
+      font-family: "Libre Baskerville", serif;
+      font-size: clamp(30px, 4vw, 42px);
+      line-height: 1.16;
+      color: var(--navy);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .dark-section {
+      background-color: var(--navy);
+      background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.035));
+      color: var(--ink-on-dark);
+    }
+
+    .dark-section .section-title,
+    .dark-section .h2 {
+      color: #ffffff;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 6px;
+      transition: transform 180ms ease, box-shadow 180ms ease;
+      cursor: pointer;
+      border: 0;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px rgba(18, 41, 68, 0.18);
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--navy);
+      padding: 12px 18px;
+    }
+
+    .btn-secondary {
+      background: #ffffff;
+      color: var(--navy);
+      padding: 12px 18px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: #ffffff;
+      font-size: 14px;
+    }
+
+    .chip::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 0 4px rgba(246, 199, 71, 0.2);
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: #ffffff;
+      font-size: 12px;
+      text-align: right;
+      padding: 8px 24px;
+      font-weight: 600;
+    }
+
+    .hero {
+      position: relative;
+      overflow: clip;
+      padding-top: 62px;
+      padding-bottom: 62px;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(102deg, rgba(18, 41, 68, 0.93) 0%, rgba(18, 41, 68, 0.82) 45%, rgba(18, 41, 68, 0.63) 100%),
+        linear-gradient(0deg, rgba(43, 123, 185, 0.18), rgba(43, 123, 185, 0.18)),
+        url("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=2000&q=80") center/cover no-repeat;
+      z-index: -2;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 440px;
+      height: 440px;
+      border-radius: 50%;
+      right: -140px;
+      top: -120px;
+      background: radial-gradient(circle, rgba(246, 199, 71, 0.28) 0%, rgba(246, 199, 71, 0) 68%);
+      z-index: -1;
+    }
+
+    .hero-watermark {
+      position: absolute;
+      right: min(4vw, 42px);
+      top: 20px;
+      font-family: "Libre Baskerville", serif;
+      font-size: clamp(72px, 11vw, 128px);
+      line-height: 0.9;
+      color: rgba(246, 199, 71, 0.14);
+      letter-spacing: 0.06em;
+      font-weight: 700;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.82fr;
+      gap: 34px;
+      align-items: start;
+    }
+
+    .hero-copy h1 {
+      font-family: "Libre Baskerville", serif;
+      color: #ffffff;
+      font-size: clamp(34px, 4vw, 54px);
+      line-height: 1.08;
+      margin-bottom: 14px;
+    }
+
+    .hero-copy h1 span {
+      color: var(--gold);
+    }
+
+    .hero-copy p {
+      color: rgba(255, 255, 255, 0.92);
+      max-width: 680px;
+      margin-bottom: 18px;
+      font-size: 17px;
+    }
+
+    .hero-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .trust-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .trust-card {
+      background: rgba(255, 255, 255, 0.95);
+      color: var(--navy);
+      border-radius: 8px;
+      padding: 10px 12px;
+      min-width: 118px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .consult-card {
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      border-top: 4px solid var(--gold);
+    }
+
+    .consult-card h3 {
+      color: var(--navy);
+      font-size: 28px;
+      line-height: 1.15;
+      margin-bottom: 6px;
+      font-family: "Libre Baskerville", serif;
+    }
+
+    .consult-card p {
+      color: var(--muted);
+      margin-bottom: 14px;
+      font-size: 14px;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 10px;
+    }
+
+    .input,
+    .select {
+      width: 100%;
+      border: 1px solid #d8dfe8;
+      border-radius: 6px;
+      padding: 11px 12px;
+      font: inherit;
+      font-size: 14px;
+      color: #2b3542;
+      background: #ffffff;
+    }
+
+    .consent {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      color: #5f6b7a;
+      font-size: 12px;
+      margin-top: 2px;
+      margin-bottom: 4px;
+    }
+
+    .context {
+      background: #ffffff;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1.18fr 0.82fr;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .bullet-list {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .bullet-list li {
+      display: flex;
+      gap: 10px;
+      color: var(--muted);
+    }
+
+    .bullet-list li::before {
+      content: "✓";
+      color: var(--gold-strong);
+      font-weight: 700;
+    }
+
+    .context-card {
+      background: var(--beige);
+      border-left: 4px solid var(--gold);
+      border-radius: 10px;
+      padding: 18px;
+    }
+
+    .context-card h3 {
+      color: var(--navy);
+      margin-bottom: 8px;
+      font-size: 21px;
+    }
+
+    .services-grid {
+      margin-top: 22px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .service-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 10px;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: 120px auto;
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .service-card .body {
+      padding: 14px 14px 16px;
+    }
+
+    .service-card h3 {
+      color: var(--gold);
+      margin-bottom: 6px;
+      font-size: 20px;
+    }
+
+    .service-card p {
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 14px;
+    }
+
+    .issues {
+      background: #f5f6f8;
+    }
+
+    .issues-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .compliance-banner {
+      background: #f3efdd;
+      border-left: 5px solid var(--gold);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 18px;
+    }
+
+    .compliance-banner h3 {
+      color: var(--navy);
+      font-size: 23px;
+      margin-bottom: 8px;
+    }
+
+    .risk-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .risk-card {
+      background: #ffffff;
+      border: 1px solid rgba(18, 41, 68, 0.1);
+      border-radius: 12px;
+      padding: 15px 15px 14px;
+      box-shadow: 0 10px 20px rgba(18, 41, 68, 0.08);
+      border-top: 4px solid var(--gold);
+      position: relative;
+      min-height: 170px;
+    }
+
+    .risk-card::after {
+      content: attr(data-step);
+      position: absolute;
+      right: 10px;
+      top: 6px;
+      font-size: 36px;
+      line-height: 1;
+      color: rgba(18, 41, 68, 0.09);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .risk-kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #6a7b90;
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .risk-card h4 {
+      color: var(--navy);
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .risk-card p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* Timeline layout inspired by the live Florida process section */
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: 0.86fr 1.14fr;
+      gap: 26px;
+      align-items: start;
+    }
+
+    .timeline-intro p {
+      color: rgba(255, 255, 255, 0.88);
+      margin-top: 10px;
+      max-width: 500px;
+      font-size: 16px;
+    }
+
+    .timeline {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 10px 0 6px;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 22px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: var(--gold);
+    }
+
+    .timeline-step {
+      margin-bottom: 24px;
+      position: relative;
+    }
+
+    .timeline-step::before {
+      content: "";
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #ffffff;
+      z-index: 2;
+      box-shadow: 0 0 0 3px rgba(246, 199, 71, 0.25);
+    }
+
+    .timeline-content {
+      padding-left: 52px;
+      width: 100%;
+    }
+
+    .step-label {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+
+    .timeline-title {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .timeline-divider {
+      height: 2px;
+      width: 100%;
+      background: var(--gold);
+      margin-bottom: 8px;
+      opacity: 0.85;
+    }
+
+    .timeline-text {
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 15px;
+      line-height: 1.52;
+    }
+
+    .support-grid {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .support-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 10px;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: 112px auto;
+    }
+
+    .support-card img {
+      width: 100%;
+      height: 112px;
+      object-fit: cover;
+      filter: saturate(0.95) contrast(1.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .support-body {
+      padding: 12px;
+    }
+
+    .support-tag {
+      display: inline-block;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 6px;
+    }
+
+    .support-card p {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    .areas-grid {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .area-card {
+      background: #ffffff;
+      border-radius: 10px;
+      border: 1px solid rgba(18, 41, 68, 0.08);
+      overflow: hidden;
+    }
+
+    .area-head {
+      background: var(--navy);
+      color: #ffffff;
+      padding: 10px 12px;
+      font-weight: 700;
+    }
+
+    .area-body {
+      padding: 14px 14px 8px;
+    }
+
+    .area-item {
+      margin-bottom: 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .area-item strong {
+      color: var(--text);
+      display: block;
+      margin-bottom: 2px;
+      font-size: 15px;
+    }
+
+    .why-grid {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .why-card {
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+      min-height: 252px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .why-card.a {
+      background: #ece8d8;
+    }
+
+    .why-card.b {
+      background: var(--gold);
+    }
+
+    .why-card h3 {
+      color: var(--navy);
+      font-size: 23px;
+      margin-bottom: 8px;
+      font-family: "Libre Baskerville", serif;
+    }
+
+    .stories-grid {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .story-card {
+      background: #ffffff;
+      border-radius: 10px;
+      border: 1px solid rgba(18, 41, 68, 0.08);
+      padding: 16px;
+    }
+
+    .story-card .stars {
+      color: var(--gold-strong);
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    .story-card p {
+      color: var(--muted);
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .story-card strong {
+      color: var(--navy);
+      font-size: 14px;
+    }
+
+    .faq-list {
+      margin-top: 18px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(18, 41, 68, 0.1);
+    }
+
+    .faq-item {
+      background: #ffffff;
+      border-bottom: 1px solid rgba(18, 41, 68, 0.08);
+      padding: 15px 16px;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-item h3 {
+      color: var(--navy);
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .faq-item p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .final-cta p {
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 920px;
+      margin-top: 10px;
+      margin-bottom: 16px;
+    }
+
+    .legal {
+      background: var(--navy);
+      color: rgba(255, 255, 255, 0.68);
+      font-size: 12px;
+      padding: 14px 0;
+      text-align: center;
+    }
+
+    .book-band {
+      margin-top: 18px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 290px 1fr;
+      min-height: 240px;
+      background: linear-gradient(90deg, var(--gold) 0 34%, transparent 34%), linear-gradient(135deg, var(--navy) 0%, var(--navy) 100%);
+    }
+
+    .book-left {
+      display: grid;
+      place-items: center;
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      padding: 18px;
+    }
+
+    .book-right {
+      color: #ffffff;
+      padding: 30px 32px;
+      display: grid;
+      align-content: center;
+      gap: 8px;
+    }
+
+    .book-right h3 {
+      font-size: 34px;
+      line-height: 1.08;
+      font-family: "Libre Baskerville", serif;
+    }
+
+    .book-right p {
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 720px;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: fadeUp 660ms ease forwards;
+    }
+
+    .delay-1 { animation-delay: 60ms; }
+    .delay-2 { animation-delay: 120ms; }
+    .delay-3 { animation-delay: 180ms; }
+    .delay-4 { animation-delay: 240ms; }
+    .delay-5 { animation-delay: 300ms; }
+    .delay-6 { animation-delay: 360ms; }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .risk-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .support-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .book-band {
+        grid-template-columns: 250px 1fr;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .section {
+        padding: 58px 0;
+      }
+
+      .hero-grid,
+      .intro-grid,
+      .timeline-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .risk-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .support-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .stories-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .book-band {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+
+      .book-left {
+        min-height: 160px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: clamp(28px, 7vw, 36px);
+      }
+
+      .hero-copy h1 {
+        font-size: clamp(30px, 9vw, 44px);
+      }
+
+      .services-grid,
+      .stories-grid,
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .areas-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .support-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .timeline::before {
+        left: 14px;
+      }
+
+      .timeline-step::before {
+        left: 7px;
+      }
+
+      .timeline-content {
+        padding-left: 38px;
+      }
+
+      .timeline-title {
+        font-size: 22px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .topbar {
+        text-align: center;
+        font-size: 11px;
+      }
+
+      .section {
+        padding: 46px 0;
+      }
+
+      .hero {
+        padding-top: 44px;
+        padding-bottom: 46px;
+      }
+
+      .consult-card {
+        padding: 18px;
+      }
+
+      .consult-card h3 {
+        font-size: 24px;
+      }
+
+      .risk-grid,
+      .support-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .book-right {
+        padding: 22px 20px;
+      }
+
+      .book-right h3 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Call us today! 1-844-904-3521</div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-watermark" aria-hidden="true">TM</div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal delay-1">
+          <span class="eyebrow">Trademark Counsel For Nonprofits</span>
+          <h1>Trademark Services for Nonprofits in <span>[state]</span></h1>
+          <p>
+            Protect the names and program identities your organization has built in public trust.
+            This page is designed for nonprofit boards, executive directors, and founders planning for continuity.
+          </p>
+          <div class="hero-chips">
+            <div class="chip">Program names outlive leadership</div>
+            <div class="chip">Chapter and affiliate ownership clarity</div>
+            <div class="chip">Cross-state visibility risk planning</div>
+          </div>
+          <p class="muted" style="color: rgba(255, 255, 255, 0.82); max-width: 650px;">
+            Trademark planning for nonprofits is not commercial positioning. It is governance support for name control,
+            use rights, and public recognition over time.
+          </p>
+          <div class="trust-row">
+            <div class="trust-card">10,000+<br>Clients Served</div>
+            <div class="trust-card">501(c)(3)<br>Operational Context</div>
+            <div class="trust-card">Nationwide<br>Practice Support</div>
+          </div>
+        </div>
+
+        <aside class="consult-card reveal delay-2" aria-label="Consultation form mockup">
+          <h3>Plan Your Trademark Structure</h3>
+          <p>Review nonprofit trademark options, assignment priorities, and transition risks.</p>
+          <form class="form-grid">
+            <input class="input" type="text" placeholder="Full Name*">
+            <input class="input" type="email" placeholder="Email*">
+            <input class="input" type="tel" placeholder="Phone*">
+            <select class="select" aria-label="Select service">
+              <option selected>Select Service</option>
+              <option>Trademark Registration</option>
+              <option>Trademark Assignment</option>
+              <option>Trademark Renewal</option>
+              <option>Office Action Response</option>
+            </select>
+            <label class="consent">
+              <input type="checkbox" aria-label="SMS consent">
+              <span>I consent to receive SMS notifications and service updates from Chisholm Law Firm.</span>
+            </label>
+            <button class="btn btn-primary" type="button">Get Free Consultation</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section context">
+      <div class="container intro-grid">
+        <div class="reveal delay-1">
+          <h2 class="section-title">Trademark Considerations for Nonprofits Operating in [state]</h2>
+          <p class="muted" style="margin-top: 10px;">
+            Nonprofit trademark strategy often extends beyond an organization name. In many cases, program titles,
+            recurring campaigns, outreach initiatives, and donor-facing events are the assets the public actually remembers.
+          </p>
+          <ul class="bullet-list">
+            <li>Faith-based ministries and church-affiliated outreach brands</li>
+            <li>Multi-county service models operating under shared program names</li>
+            <li>Recurring fundraising event identities with long-term public recognition</li>
+            <li>Scholarship and youth initiatives promoted under standalone names</li>
+            <li>Affiliate and chapter models where naming ownership must stay clear</li>
+          </ul>
+        </div>
+        <aside class="context-card reveal delay-2">
+          <h3>Filing Context</h3>
+          <p class="muted">
+            Charitable registration and trademark protection are distinct. One addresses fundraising oversight;
+            the other addresses legal control over public-facing brand identity.
+          </p>
+          <ul class="bullet-list" style="margin-top: 10px;">
+            <li>USPTO: federal trademark registration and enforcement</li>
+            <li>State authorities: entity and charitable filing oversight</li>
+            <li>Online campaigns can trigger interstate visibility concerns</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section dark-section">
+      <div class="container">
+        <span class="eyebrow">Strategic Trademark Services</span>
+        <h2 class="section-title reveal delay-1">Our Trademark Services in [state]</h2>
+        <p class="reveal delay-2" style="max-width: 860px; color: rgba(255, 255, 255, 0.86); margin-top: 10px;">
+          Practical support for registration, renewal, assignment, and transition planning tied to nonprofit governance.
+        </p>
+        <div class="services-grid">
+          <article class="service-card reveal delay-2">
+            <img alt="Trademark registration" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80">
+            <div class="body">
+              <h3>Federal Trademark Registration</h3>
+              <p>Assess mark strength, filing basis, class strategy, and ownership structure before submission.</p>
+            </div>
+          </article>
+          <article class="service-card reveal delay-3">
+            <img alt="Trademark assignment and transitions" src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80">
+            <div class="body">
+              <h3>Assignment and Transition Planning</h3>
+              <p>Keep trademark rights aligned when organizations merge, spin out programs, or shift sponsor structures.</p>
+            </div>
+          </article>
+          <article class="service-card reveal delay-4">
+            <img alt="Trademark maintenance and renewal" src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80">
+            <div class="body">
+              <h3>Renewal and Ongoing Protection</h3>
+              <p>Track statutory deadlines, use evidence, and continuity controls through leadership transitions.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section issues">
+      <div class="container">
+        <div class="issues-header reveal delay-1">
+          <h2 class="section-title">Common Trademark Risk Areas for [state] Nonprofits</h2>
+          <p class="muted" style="margin-top: 8px;">Higher-visibility programs create governance pressure when ownership and use terms are not clearly documented.</p>
+        </div>
+
+        <div class="compliance-banner reveal delay-2">
+          <h3>Trademark Governance Checklist</h3>
+          <ul class="bullet-list">
+            <li>Confirm legal owner entity for each core mark and program mark</li>
+            <li>Document chapter and affiliate use rights in writing</li>
+            <li>Update assignment records during mergers and sponsorship transitions</li>
+            <li>Monitor interstate and online use for name-conflict risk</li>
+          </ul>
+        </div>
+
+        <div class="risk-grid">
+          <article class="risk-card reveal delay-2" data-step="01">
+            <p class="risk-kicker">Governance Risk</p>
+            <h4>Leadership Turnover</h4>
+            <p>Program brands continue operating while ownership records remain tied to former leadership decisions.</p>
+          </article>
+          <article class="risk-card reveal delay-3" data-step="02">
+            <p class="risk-kicker">Governance Risk</p>
+            <h4>Affiliate Variance</h4>
+            <p>Chapters use names inconsistently, creating public confusion and compliance drift.</p>
+          </article>
+          <article class="risk-card reveal delay-4" data-step="03">
+            <p class="risk-kicker">Governance Risk</p>
+            <h4>Merger Asset Gaps</h4>
+            <p>Legacy marks stay in circulation without a complete assignment trail to the surviving entity.</p>
+          </article>
+          <article class="risk-card reveal delay-5" data-step="04">
+            <p class="risk-kicker">Governance Risk</p>
+            <h4>Cross-State Exposure</h4>
+            <p>Digital campaigns place local nonprofit names into regions where similar marks already exist.</p>
+          </article>
+          <article class="risk-card reveal delay-6" data-step="05">
+            <p class="risk-kicker">Governance Risk</p>
+            <h4>Renewal Lapses</h4>
+            <p>Renewal deadlines are missed during transitions, increasing refiling cost and loss-of-rights risk.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section">
+      <div class="container timeline-grid">
+        <div class="timeline-intro reveal delay-1">
+          <h2 class="section-title">A 5-Step Trademark Continuity Timeline for [state] Nonprofits</h2>
+          <p>
+            This process model is used when nonprofit leadership wants a practical sequence, not fragmented filing actions.
+            It is especially helpful where programs, chapters, and public fundraising brands are evolving at the same time.
+          </p>
+        </div>
+
+        <div class="timeline reveal delay-2" aria-label="Trademark continuity timeline">
+          <div class="timeline-step">
+            <div class="timeline-content">
+              <div class="step-label">Step 1</div>
+              <div class="timeline-title">Asset Mapping</div>
+              <div class="timeline-divider"></div>
+              <div class="timeline-text">Inventory organization, program, and campaign marks used in donor-facing channels.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-content">
+              <div class="step-label">Step 2</div>
+              <div class="timeline-title">Ownership Verification</div>
+              <div class="timeline-divider"></div>
+              <div class="timeline-text">Confirm legal owner entity and identify gaps caused by chapter, sponsor, or leadership changes.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-content">
+              <div class="step-label">Step 3</div>
+              <div class="timeline-title">Filing and Assignment Action</div>
+              <div class="timeline-divider"></div>
+              <div class="timeline-text">Prepare registration and transfer documents aligned with current governance structure.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-content">
+              <div class="step-label">Step 4</div>
+              <div class="timeline-title">Use-Control Implementation</div>
+              <div class="timeline-divider"></div>
+              <div class="timeline-text">Define affiliate and partner use rules, quality controls, and transition-facing naming policies.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-content">
+              <div class="step-label">Step 5</div>
+              <div class="timeline-title">Renewal and Monitoring</div>
+              <div class="timeline-divider"></div>
+              <div class="timeline-text">Track deadlines, maintain use evidence, and monitor high-visibility naming conflicts across channels.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" style="padding-top: 0;">
+      <div class="container">
+        <span class="eyebrow">Who We Support</span>
+        <h2 class="section-title">Nonprofits We Commonly Support in [state]</h2>
+        <div class="support-grid">
+          <article class="support-card reveal delay-1">
+            <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=900&q=80" alt="Faith-based and ministry organizations">
+            <div class="support-body"><span class="support-tag">Focus Area 01</span><p>Faith-based and ministry organizations</p></div>
+          </article>
+          <article class="support-card reveal delay-2">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Education and scholarship programs">
+            <div class="support-body"><span class="support-tag">Focus Area 02</span><p>Education and scholarship programs</p></div>
+          </article>
+          <article class="support-card reveal delay-3">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" alt="Health and family support providers">
+            <div class="support-body"><span class="support-tag">Focus Area 03</span><p>Health and family support providers</p></div>
+          </article>
+          <article class="support-card reveal delay-4">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80" alt="Community development nonprofits">
+            <div class="support-body"><span class="support-tag">Focus Area 04</span><p>Community development nonprofits</p></div>
+          </article>
+          <article class="support-card reveal delay-5">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Multi-chapter and affiliate networks">
+            <div class="support-body"><span class="support-tag">Focus Area 05</span><p>Multi-chapter and affiliate networks</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Areas We Serve Across [state]</h2>
+        <p class="muted" style="margin-top: 8px;">Support for nonprofits operating in major metros and distributed regional service models.</p>
+        <div class="areas-grid">
+          <article class="area-card reveal delay-1">
+            <div class="area-head">Metro Region A</div>
+            <div class="area-body">
+              <div class="area-item"><strong>City One (County)</strong>High-visibility fundraising environment with strong donor overlap.</div>
+              <div class="area-item"><strong>City Two (County)</strong>Growing service footprint with chapter and partner coordination needs.</div>
+            </div>
+          </article>
+          <article class="area-card reveal delay-2">
+            <div class="area-head">Metro Region B</div>
+            <div class="area-body">
+              <div class="area-item"><strong>City Three (County)</strong>Program naming consistency is essential across public campaigns.</div>
+              <div class="area-item"><strong>City Four (County)</strong>Mixed online/offline donor engagement with interstate visibility risk.</div>
+            </div>
+          </article>
+          <article class="area-card reveal delay-3">
+            <div class="area-head">Regional Network Zone</div>
+            <div class="area-body">
+              <div class="area-item"><strong>City Five (County)</strong>Longstanding program brands that often outlast leadership transitions.</div>
+              <div class="area-item"><strong>City Six (County)</strong>Shared service models where mark ownership must remain centralized.</div>
+            </div>
+          </article>
+          <article class="area-card reveal delay-4">
+            <div class="area-head">Rural and Multi-County Coverage</div>
+            <div class="area-body">
+              <div class="area-item"><strong>Distributed Counties</strong>Chapter and affiliate naming controls are often the highest priority.</div>
+              <div class="area-item"><strong>Statewide Outreach</strong>Digital campaigns can create confusion with similarly named out-of-state organizations.</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Why Nonprofits in [state] Work With Chisholm Law Firm</h2>
+        <p class="muted" style="margin-top: 10px; max-width: 980px;">
+          Trademark support for nonprofits requires legal strategy that tracks board governance, program continuity,
+          and leadership transition realities. The objective is durable identity control, not one-time filing activity.
+        </p>
+        <div class="why-grid">
+          <article class="why-card a reveal delay-1">
+            <div>
+              <h3>Governance-Aligned Planning</h3>
+              <p class="muted">Trademark decisions are structured around board oversight, continuity policies, and organizational ownership controls.</p>
+            </div>
+            <a class="btn btn-primary" href="#">Explore Registration Strategy</a>
+          </article>
+          <article class="why-card b reveal delay-2">
+            <div>
+              <h3>Operationally Realistic Execution</h3>
+              <p style="color: #1f2f44;">Transition and assignment workflows are mapped to real nonprofit staffing and communication constraints.</p>
+            </div>
+            <a class="btn btn-secondary" href="#">Review Transition Planning</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Read Our Success Stories</h2>
+        <div class="stories-grid">
+          <article class="story-card reveal delay-1">
+            <div class="stars">★★★★★</div>
+            <p>"Trademark ownership was clarified before our chapter expansion, which reduced rollout friction."</p>
+            <strong>Program Director, Regional Education Nonprofit</strong>
+          </article>
+          <article class="story-card reveal delay-2">
+            <div class="stars">★★★★★</div>
+            <p>"Our merger transition included complete assignment planning and consistent donor-facing naming updates."</p>
+            <strong>Executive Director, Community Services Organization</strong>
+          </article>
+          <article class="story-card reveal delay-3">
+            <div class="stars">★★★★★</div>
+            <p>"Renewal tracking and use documentation gave our board confidence during leadership handoff."</p>
+            <strong>Board Chair, Statewide Youth Initiative</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="book-band reveal delay-1">
+          <div class="book-left">501(c)(3)<br>Playbook</div>
+          <div class="book-right">
+            <span class="eyebrow">Featured Resource</span>
+            <h3>Build Better Nonprofit Legal Foundations</h3>
+            <p>Get a practical resource focused on legal structure, governance controls, and risk planning for mission-driven organizations.</p>
+            <div>
+              <a class="btn btn-primary" href="#">Get the Book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">FAQs by [state] Nonprofits</h2>
+        <div class="faq-list">
+          <article class="faq-item">
+            <h3>Does forming a nonprofit entity automatically protect our name?</h3>
+            <p>No. Entity registration and trademark protection are separate legal functions.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Should chapter programs use separate marks?</h3>
+            <p>It depends on governance structure, ownership controls, and how the chapter model is administered.</p>
+          </article>
+          <article class="faq-item">
+            <h3>What should we document during a merger?</h3>
+            <p>Trademark inventories, assignment instruments, approved uses, and donor-facing naming transitions.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Why does interstate visibility matter for a state-focused nonprofit?</h3>
+            <p>Online fundraising and communications can create conflict risk outside your home state footprint.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section final-cta">
+      <div class="container">
+        <h2 class="section-title">Explore Trademark Support Options</h2>
+        <p>
+          If your nonprofit is planning registration, transition, assignment, or renewal work, schedule a conversation to review legal pathways and governance-aligned next steps.
+        </p>
+        <a class="btn btn-primary" href="#">Get Free Consultation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="legal">
+    The information on this mockup is for visual planning and not legal advice. Contacting us does not create an attorney-client relationship.
+  </footer>
+</body>
+</html>

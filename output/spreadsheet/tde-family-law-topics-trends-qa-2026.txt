@@ -1,0 +1,21 @@
+TDE Family Law GBP Pack QA
+Generated at: 2026-02-20T05:11:26.896653Z
+
+Google Trends Access Probes:
+- trends_home: status=None exit_code=6 file=/Applications/Antigravity/ROCKET CLICKS/ALL DIGITAL MARKETING/output/spreadsheet/tde-family-law-trends-evidence-2026/trends_home.raw
+- trends_explore_probe: status=None exit_code=6 file=/Applications/Antigravity/ROCKET CLICKS/ALL DIGITAL MARKETING/output/spreadsheet/tde-family-law-trends-evidence-2026/trends_explore_probe.raw
+- trending_rss_ga: status=None exit_code=6 file=/Applications/Antigravity/ROCKET CLICKS/ALL DIGITAL MARKETING/output/spreadsheet/tde-family-law-trends-evidence-2026/trending_rss_ga.raw
+
+Conclusion: Reliable Google Trends API/endpoint pulls were not available in this runtime. Applied AZ-style fallback workflow for TDE.
+
+Counts:
+- Input mapped rows: 19
+- Subtask2 rows: 44
+- Subtask3 rows: 44
+
+Topic Reuse Distribution:
+- min reuse: 2
+- max reuse: 3
+
+Validation:
+- PASS (all checks)

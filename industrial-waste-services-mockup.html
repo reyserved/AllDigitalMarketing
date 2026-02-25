@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LJP Industrial Waste Management Services — Visual Mockup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <style>
+        /* ============================================================
+           LJP BRAND TOKENS (STRICT)
+           ============================================================ */
+        :root {
+            --ljp-primary: #18509B;
+            /* Blue */
+            --ljp-secondary: #EB9B1A;
+            /* Orange */
+            --ljp-accent: #018846;
+            /* Green */
+            --ljp-text: #000000;
+            --ljp-warm-cream: #FEF7EF;
+            --ljp-light-gray: #FAFAFA;
+            --ljp-off-white: #F8F8F8;
+            --ljp-border-gray: #EAEAEA;
+
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Roboto', sans-serif;
+        }
+
+        /* ============================================================
+           RESET & BASE
+           ============================================================ */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-weight: 400;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        /* ============================================================
+           MOCKUP CONTEXT BANNER
+           ============================================================ */
+        .mockup-notice {
+            background: var(--ljp-primary);
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            padding: 12px 20px;
+            font-family: var(--font-body);
+            font-size: 0.8rem;
+            letter-spacing: 0.03em;
+        }
+
+        .mockup-notice strong {
+            color: var(--ljp-secondary);
+        }
+
+        /* ============================================================
+           SECTION STYLES
+           ============================================================ */
+        .services-section {
+            padding: 90px 0 110px;
+            background: var(--ljp-light-gray);
+            position: relative;
+        }
+
+        .services-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 140px;
+            height: 5px;
+            background: linear-gradient(90deg, var(--ljp-primary), var(--ljp-secondary), var(--ljp-accent));
+            border-radius: 2.5px;
+        }
+
+        .container {
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ---- Header Area ---- */
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+            max-width: 860px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section-header__title {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: clamp(2rem, 3.5vw, 2.75rem);
+            color: var(--ljp-primary);
+            margin-bottom: 16px;
+            line-height: 1.25;
+        }
+
+        .section-header__subtext {
+            font-size: 1.15rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* ---- Services Grid ---- */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            /* To center the bottom row items if they wrap, we can use flexbox on the container or just let grid handle it. 
+               For exact 3-top, 2-bottom centering, a flex layout with wrapping is cleaner. */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* ---- Service Card ---- */
+        .srv-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: calc(33.333% - 22px);
+            min-width: 320px;
+            position: relative;
+        }
+
+        @media (max-width: 1024px) {
+            .srv-card {
+                width: calc(50% - 16px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .srv-card {
+                width: 100%;
+            }
+        }
+
+        .srv-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Top Accent Border */
+        .srv-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+        }
+
+        .srv-card--blue::before {
+            background: var(--ljp-primary);
+        }
+
+        .srv-card--orange::before {
+            background: var(--ljp-secondary);
+        }
+
+        .srv-card--green::before {
+            background: var(--ljp-accent);
+        }
+
+        .srv-card__inner {
+            padding: 36px 32px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Card Header */
+        .srv-card__header {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .srv-card__icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .srv-card--blue .srv-card__icon {
+            background: rgba(24, 80, 155, 0.08);
+            color: var(--ljp-primary);
+        }
+
+        .srv-card--orange .srv-card__icon {
+            background: rgba(235, 155, 26, 0.1);
+            color: var(--ljp-secondary);
+        }
+
+        .srv-card--green .srv-card__icon {
+            background: rgba(1, 136, 70, 0.08);
+            color: var(--ljp-accent);
+        }
+
+        .srv-card__icon .material-symbols-outlined {
+            font-size: 28px;
+            font-variation-settings: 'FILL' 0, 'wght' 500;
+        }
+
+        .srv-card__title {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--ljp-text);
+            line-height: 1.3;
+            margin-top: 2px;
+        }
+
+        .srv-card__subtext {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        /* Card List */
+        .srv-card__list {
+            list-style: none;
+            margin-bottom: 24px;
+            flex: 1;
+            /* Pushes bottom highlight down */
+        }
+
+        .srv-card__list-item {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        .srv-card__list-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .srv-card__list-item::before {
+            content: '\e5ca';
+            /* Material Symbol 'check' */
+            font-family: 'Material Symbols Outlined';
+            position: absolute;
+            left: 0;
+            top: 1px;
+            font-size: 18px;
+            font-variation-settings: 'FILL' 1, 'wght' 600;
+        }
+
+        .srv-card--blue .srv-card__list-item::before {
+            color: var(--ljp-primary);
+        }
+
+        .srv-card--orange .srv-card__list-item::before {
+            color: var(--ljp-secondary);
+        }
+
+        .srv-card--green .srv-card__list-item::before {
+            color: var(--ljp-accent);
+        }
+
+        /* Card Highlight Bottom Box */
+        .srv-card__highlight {
+            padding: 18px 24px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-top: auto;
+        }
+
+        .srv-card--blue .srv-card__highlight {
+            background: rgba(24, 80, 155, 0.05);
+            color: var(--ljp-primary);
+            border: 1px solid rgba(24, 80, 155, 0.15);
+        }
+
+        .srv-card--orange .srv-card__highlight {
+            background: rgba(235, 155, 26, 0.06);
+            color: #B5740F;
+            /* Darker orange for readability */
+            border: 1px solid rgba(235, 155, 26, 0.2);
+        }
+
+        /* Specific adjustments for legibility based on brand colors */
+        .color-dark-orange {
+            color: #AD700C;
+            font-weight: 600;
+        }
+
+        .color-dark-green {
+            color: #01723A;
+            font-weight: 600;
+        }
+
+        .color-primary {
+            color: var(--ljp-primary);
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Mockup Context Notice -->
+    <div class="mockup-notice">
+        <strong>VISUAL MOCKUP</strong> — LJP Industrial Waste Management Services Section
+    </div>
+
+    <section class="services-section">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-header__title">Our Industrial Waste Management Services</h2>
+                <p class="section-header__subtext">
+                    We provide integrated recycling &amp; waste solutions designed around your specific operations, not
+                    standardized industry methods
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <!-- Card 1 -->
+                <div class="srv-card srv-card--blue">
+                    <div class="srv-card__inner">
+                        <div class="srv-card__header">
+                            <div class="srv-card__icon"><span class="material-symbols-outlined">analytics</span></div>
+                            <h3 class="srv-card__title">1) Material Assessment &amp; Custom Solutions</h3>
+                        </div>
+                        <p class="srv-card__subtext">Before implementing any sustainable waste program, we analyze:</p>
+                        <ul class="srv-card__list">
+                            <li class="srv-card__list-item">Material composition and volume analysis</li>
+                            <li class="srv-card__list-item">Current disposal cost evaluation</li>
+                            <li class="srv-card__list-item">All-in-One Solution™ feasibility assessment</li>
+                            <li class="srv-card__list-item">Revenue generation opportunities</li>
+                            <li class="srv-card__list-item">Custom program design &amp; implementation planning</li>
+                        </ul>
+                        <div class="srv-card__highlight">
+                            <span class="color-primary">Deliverable:</span> Custom recycling program with projected
+                            revenue and environmental benefits.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="srv-card srv-card--orange">
+                    <div class="srv-card__inner">
+                        <div class="srv-card__header">
+                            <div class="srv-card__icon"><span class="material-symbols-outlined">package_2</span></div>
+                            <h3 class="srv-card__title">2) All-in-One Solution™ Recycling</h3>
+                        </div>
+                        <p class="srv-card__subtext">Our innovative All-in-One Solution™ maximizes convenience and
+                            revenue:</p>
+                        <ul class="srv-card__list">
+                            <li class="srv-card__list-item">Single trailer for all non-hazardous recyclables</li>
+                            <li class="srv-card__list-item">Cardboard, plastic, shrink wrap, and office paper
+                                consolidation</li>
+                            <li class="srv-card__list-item">Specialized domestic processing partnerships</li>
+                            <li class="srv-card__list-item">Brand protection through domestic-only handling</li>
+                            <li class="srv-card__list-item">Flexible pickup scheduling</li>
+                            <li class="srv-card__list-item">Revenue maximization and detailed reporting</li>
+                        </ul>
+                        <div class="srv-card__highlight"
+                            style="background: rgba(235,155,26,0.06); border: 1px solid rgba(235,155,26,0.2); color: #9A6209;">
+                            Our All-in-One Solution™ allows consolidation of non-hazardous recyclables onto one trailer
+                            — reducing operational complexity while maximizing recovery value.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="srv-card srv-card--green">
+                    <div class="srv-card__inner">
+                        <div class="srv-card__header">
+                            <div class="srv-card__icon"><span
+                                    class="material-symbols-outlined">energy_savings_leaf</span></div>
+                            <h3 class="srv-card__title">3) Zero Landfill Solutions with Energy Recovery</h3>
+                        </div>
+                        <p class="srv-card__subtext">Many organizations now require formal landfill diversion
+                            strategies. Achieve ambitious zero landfill goals with LJP's comprehensive approach:</p>
+                        <ul class="srv-card__list">
+                            <li class="srv-card__list-item">Baseline diversion benchmarking</li>
+                            <li class="srv-card__list-item">Ongoing optimization and contamination reduction</li>
+                            <li class="srv-card__list-item">Alternative fuel integration for non-recyclable streams</li>
+                            <li class="srv-card__list-item">Secure destruction coordination</li>
+                            <li class="srv-card__list-item">Reporting documentation for ESG teams</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="srv-card srv-card--blue">
+                    <div class="srv-card__inner">
+                        <div class="srv-card__header">
+                            <div class="srv-card__icon"><span class="material-symbols-outlined">security</span></div>
+                            <h3 class="srv-card__title">4) Secure Product Destruction</h3>
+                        </div>
+                        <p class="srv-card__subtext">For manufacturers, disposal is often about brand protection. We
+                            provide compliant, domestic-only product destruction for:</p>
+                        <ul class="srv-card__list">
+                            <li class="srv-card__list-item">Defective inventory</li>
+                            <li class="srv-card__list-item">Expired goods</li>
+                            <li class="srv-card__list-item">Recalls</li>
+                            <li class="srv-card__list-item">IP-sensitive materials</li>
+                        </ul>
+                        <div class="srv-card__highlight">
+                            Each program integrates with your broader waste strategy to avoid landfill whenever
+                            possible.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="srv-card srv-card--orange">
+                    <div class="srv-card__inner">
+                        <div class="srv-card__header">
+                            <div class="srv-card__icon"><span
+                                    class="material-symbols-outlined">local_fire_department</span></div>
+                            <h3 class="srv-card__title">5) LJP RDF™ and LJP ReFuel™ Energy Recovery</h3>
+                        </div>
+                        <p class="srv-card__subtext">Not all materials can be recycled. When recycling isn't viable, our
+                            proprietary engineered fuels create value from challenging waste streams:</p>
+                        <ul class="srv-card__list">
+                            <li class="srv-card__list-item">LJP RDF™ - Solid, waste-based energy source for power plants
+                            </li>
+                            <li class="srv-card__list-item">LJP ReFuel™ - Biogenic carbon-rich fuel for industrial
+                                boilers and cement kilns</li>
+                            <li class="srv-card__list-item">Domestic processing maintains brand protection</li>
+                            <li class="srv-card__list-item">Final non-landfill alternative for complex materials</li>
+                            <li class="srv-card__list-item">Supports ambitious ESG and zero landfill goals</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div> <!-- /.services-grid -->
+        </div>
+    </section>
+
+</body>
+
+</html>

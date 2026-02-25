@@ -39,6 +39,76 @@ Working hub for SEO content gap audits, landing page copy, client content delive
 - `find_missing.py` and `add_missing_urls.py` identify and fix URL gaps.
 - `md_to_docx.py` converts markdown drafts into Word documents.
 
+## Organized Project Structure (New)
+
+```
+├── 01-clients/                 # Client-specific work
+│   ├── bank-five-nine/        # Bank Five Nine project files
+│   ├── l3m/                   # L3M project files
+│   ├── law-lancaster/         # Law Lancaster project files
+│   ├── tde-law/               # TDE Law project files
+│   ├── moran-wealth-management/ # Moran Wealth Management project files
+│   ├── yoy/                   # Year Over Year project files
+│   ├── mom/                   # Mom project files
+│   └── other/                 # Other client work
+│
+├── 02-audits/                  # SEO audit reports
+│   ├── schema/                # Schema markup audits
+│   ├── technical/             # Technical SEO audits
+│   └── content/               # Content gap audits
+│
+├── 03-research/                # Research materials
+│   ├── keywords/              # Keyword research data
+│   ├── competitors/           # Competitor analysis
+│   └── serp/                  # SERP analysis
+│
+├── 04-deliverables/            # Client deliverables
+│   ├── landing-pages/         # Landing page HTML/CSS
+│   ├── content-strategies/    # Content strategy documents
+│   └── internal-linking/      # Internal linking recommendations
+│
+├── 05-assets/                  # Reusable assets
+│   ├── css/                   # CSS files
+│   ├── images/                # Images and graphics
+│   └── templates/             # HTML templates
+│
+└── 06-archives/                # Archived/completed work
+
+```
+
+### File Organization Guidelines
+
+#### Client Files
+- Place all client-specific files in appropriate `01-clients/` subfolder
+- Include: audits, deliverables, research, communications
+
+#### Audit Files
+- Schema audits → `02-audits/schema/`
+- Technical audits → `02-audits/technical/`
+- Content audits → `02-audits/content/`
+
+#### Deliverables
+- Landing pages → `04-deliverables/landing-pages/`
+- Content strategies → `04-deliverables/content-strategies/`
+- Internal linking → `04-deliverables/internal-linking/`
+
+### Naming Conventions
+- Files: Use kebab-case `client-name-document-type-date.ext`
+- Folders: Use kebab-case, keep names descriptive
+
+### Git Guidelines
+**Commit:** ✅ HTML deliverables, ✅ Markdown docs, ✅ CSV analysis, ✅ CSS files
+**Don't Commit:** ❌ PDFs, ❌ Client sensitive data, ❌ Personal notes, ❌ Temporary files
+
+See `.gitignore` for complete exclusion list.
+
 ## Notes
 - `BEST_PRACTICES.json` is the workspace memory file referenced by `SEO_CORE_BRAIN.md`.
 - Use `Family_Law_Paid_Lander_Checklist.md` as a reusable QA gate for paid landing pages.
+- Always maintain client confidentiality
+- Use descriptive commit messages
+- Keep working files separate from deliverables
+
+---
+
+*Last Updated: 2026-02-15*

@@ -1,0 +1,329 @@
+body.elementor-page-1340:not(.elementor-motion-effects-element-type-background), body.elementor-page-1340 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, var(--e-global-color-primary) 0%, var(--e-global-color-9283d7f) 100%);
+}
+.elementor-kit-9 {
+    --e-global-color-primary: #0D2D51;
+    --e-global-color-secondary: #7A99AC;
+    --e-global-color-text: #707372;
+    --e-global-color-accent: #5D8195;
+    --e-global-color-ba729e3: #FFFFFF;
+    --e-global-color-783d4b6: #00000000;
+    --e-global-color-9283d7f: #4E748B;
+    --e-global-color-f891fad: #25282A;
+    --e-global-color-20701f6: #B7B8B8;
+    --e-global-color-4c9c592: #FFFFFF24;
+    --e-global-typography-primary-font-family: "Tellumo";
+    --e-global-typography-primary-font-size: 3.815rem;
+    --e-global-typography-primary-font-weight: 300;
+    --e-global-typography-primary-line-height: 1.15em;
+    --e-global-typography-secondary-font-family: "Tellumo";
+    --e-global-typography-secondary-font-size: 3.052rem;
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-secondary-line-height: 1.15em;
+    --e-global-typography-text-font-family: "Tellumo";
+    --e-global-typography-text-font-size: 1.25rem;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-line-height: 1.6em;
+    --e-global-typography-accent-font-family: "Tellumo";
+    --e-global-typography-accent-font-size: 1.25rem;
+    --e-global-typography-accent-font-weight: 400;
+    --e-global-typography-accent-line-height: 1em;
+    --e-global-typography-4c2f7e7-font-family: "Tellumo";
+    --e-global-typography-4c2f7e7-font-size: 2.441rem;
+    --e-global-typography-4c2f7e7-font-weight: 400;
+    --e-global-typography-4c2f7e7-line-height: 1.15em;
+    --e-global-typography-36e8e21-font-family: "Tellumo";
+    --e-global-typography-36e8e21-font-size: 1.953em;
+    --e-global-typography-36e8e21-font-weight: 400;
+    --e-global-typography-36e8e21-line-height: 1.15em;
+    --e-global-typography-49566a9-font-family: "Tellumo";
+    --e-global-typography-49566a9-font-size: 1.563rem;
+    --e-global-typography-49566a9-font-weight: 400;
+    --e-global-typography-49566a9-line-height: 1.15em;
+    --e-global-typography-ed7bd41-font-weight: 400;
+    --e-global-typography-ed7bd41-line-height: 1.15em;
+    --e-global-typography-9306a47-font-family: "Tellumo";
+    --e-global-typography-9306a47-font-size: 0.8rem;
+    --e-global-typography-9306a47-font-weight: 400;
+    --e-global-typography-9306a47-line-height: 1.15rem;
+    --e-global-typography-6a341a6-font-family: "Tellumo";
+    --e-global-typography-6a341a6-font-size: 1rem;
+    --e-global-typography-6a341a6-font-weight: 400;
+    --e-global-typography-6a341a6-line-height: 1em;
+    --e-global-typography-539fcfa-font-family: "Tellumo";
+    --e-global-typography-539fcfa-font-size: 8rem;
+Show all properties (10 more)
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+injected stylesheet
+body {
+    line-height: inherit;
+    margin: 0px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+:where(body) {
+    margin: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --sa-uid: '0-5faa8091-990c-52de-5d38-7df0695fdc69';
+}
+:root {
+    --page-title-display: none;
+}
+:root {
+    --uael-as-primary-color: #007cba;
+    --uael-as-primary-hover: #005a87;
+    --uael-as-secondary-color: #5124B3;
+    --uael-as-border-color: #ddd;
+    --uael-as-border-color-focus: #D1D5DB;
+    --uael-as-text-color: #333;
+    --uael-as-text-light: #666;
+    --uael-as-text-lighter: #999;
+    --uael-as-text-dark: #000;
+    --uael-as-bg-white: #fff;
+    --uael-as-bg-light: #f9f9f9;
+    --uael-as-bg-lighter: #f0f0f0;
+    --uael-as-font-size-base: 14px;
+    --uael-as-font-size-small: 12px;
+    --uael-as-font-size-xsmall: 11px;
+    --uael-as-font-size-medium: 16px;
+    --uael-as-border-radius: 4px;
+    --uael-as-transition: all 0.3s ease;
+}
+:root {
+    --page-title-display: block;
+}
+:root {
+    --direction-multiplier: 1;
+}
+:root {
+    --wp--style--block-gap: 24px;
+}
+:root {
+    --wp--style--global--content-size: 800px;
+    --wp--style--global--wide-size: 1200px;
+}
+:root {
+    --wp--preset--aspect-ratio--square: 1;
+    --wp--preset--aspect-ratio--4-3: 4 / 3;
+    --wp--preset--aspect-ratio--3-4: 3 / 4;
+    --wp--preset--aspect-ratio--3-2: 3 / 2;
+    --wp--preset--aspect-ratio--2-3: 2 / 3;
+    --wp--preset--aspect-ratio--16-9: 16 / 9;
+    --wp--preset--aspect-ratio--9-16: 9 / 16;
+    --wp--preset--color--black: #000000;
+    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+    --wp--preset--color--white: #ffffff;
+    --wp--preset--color--pale-pink: #f78da7;
+    --wp--preset--color--vivid-red: #cf2e2e;
+    --wp--preset--color--luminous-vivid-orange: #ff6900;
+    --wp--preset--color--luminous-vivid-amber: #fcb900;
+    --wp--preset--color--light-green-cyan: #7bdcb5;
+    --wp--preset--color--vivid-green-cyan: #00d084;
+    --wp--preset--color--pale-cyan-blue: #8ed1fc;
+    --wp--preset--color--vivid-cyan-blue: #0693e3;
+    --wp--preset--color--vivid-purple: #9b51e0;
+    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgb(6, 147, 227) 0%, rgb(155, 81, 224) 100%);
+    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgb(252, 185, 0) 0%, rgb(255, 105, 0) 100%);
+    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgb(255, 105, 0) 0%, rgb(207, 46, 46) 100%);
+    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+    --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+    --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+    --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+    --wp--preset--font-size--small: 13px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 36px;
+    --wp--preset--font-size--x-large: 42px;
+    --wp--preset--spacing--20: 0.44rem;
+    --wp--preset--spacing--30: 0.67rem;
+    --wp--preset--spacing--40: 1rem;
+    --wp--preset--spacing--50: 1.5rem;
+    --wp--preset--spacing--60: 2.25rem;
+    --wp--preset--spacing--70: 3.38rem;
+    --wp--preset--spacing--80: 5.06rem;
+    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);
+    --wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);
+}
+<style>
+:root, :host {
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+    --fa-font-light: normal 300 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-thin: normal 100 1em / 1 "Font Awesome 6 Pro";
+    --fa-font-duotone: normal 900 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-light: normal 300 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Duotone";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+    --fa-font-sharp-solid: normal 900 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-regular: normal 400 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-light: normal 300 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-thin: normal 100 1em / 1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-duotone-solid: normal 900 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-regular: normal 400 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-light: normal 300 1em / 1 "Font Awesome 6 Sharp Duotone";
+    --fa-font-sharp-duotone-thin: normal 100 1em / 1 "Font Awesome 6 Sharp Duotone";
+}
+injected stylesheet
+:root {
+    --ait-border-spacing-x: 0;
+    --ait-border-spacing-y: 0;
+    --ait-translate-x: 0;
+    --ait-translate-y: 0;
+    --ait-rotate: 0;
+    --ait-skew-x: 0;
+    --ait-skew-y: 0;
+    --ait-scale-x: 1;
+    --ait-scale-y: 1;
+    --ait-pan-x: ;
+    --ait-pan-y: ;
+    --ait-pinch-zoom: ;
+    --ait-scroll-snap-strictness: proximity;
+    --ait-gradient-from-position: ;
+    --ait-gradient-via-position: ;
+    --ait-gradient-to-position: ;
+    --ait-ordinal: ;
+    --ait-slashed-zero: ;
+    --ait-numeric-figure: ;
+    --ait-numeric-spacing: ;
+    --ait-numeric-fraction: ;
+    --ait-ring-inset: ;
+    --ait-ring-offset-width: 0px;
+    --ait-ring-offset-color: #fff;
+    --ait-ring-color: rgba(59, 130, 246, .5);
+    --ait-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-ring-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow: 0 0 rgba(0, 0, 0, 0);
+    --ait-shadow-colored: 0 0 rgba(0, 0, 0, 0);
+    --ait-blur: ;
+    --ait-brightness: ;
+    --ait-contrast: ;
+    --ait-grayscale: ;
+    --ait-hue-rotate: ;
+    --ait-invert: ;
+    --ait-saturate: ;
+    --ait-sepia: ;
+    --ait-drop-shadow: ;
+    --ait-backdrop-blur: ;
+    --ait-backdrop-brightness: ;
+    --ait-backdrop-contrast: ;
+    --ait-backdrop-grayscale: ;
+    --ait-backdrop-hue-rotate: ;
+    --ait-backdrop-invert: ;
+    --ait-backdrop-opacity: ;
+    --ait-backdrop-saturate: ;
+    --ait-backdrop-sepia: ;
+    --ait-contain-size: ;
+    --ait-contain-layout: ;
+    --ait-contain-paint: ;
+Show all properties (1 more)
+}
+injected stylesheet
+html, :root, .aitopia.light, .aitopia :host([class="light"]) {
+    --ait-main-color: 1, 167, 125;
+    --ait-master-color: 1, 167, 125;
+    --ait-primary-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-text-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-primary-content-text-color: rgba(var(--ait-fg-rgb), .65);
+    --ait-primary-title-color: rgba(var(--ait-fg-rgb), .8);
+    --ait-secondary-text-color: rgba(var(--ait-fg-rgb), .4);
+    --ait-bg-opacity: 1;
+    --ait-html-bg-color: rgb(240, 242, 245);
+    --ait-option-bg-color: #f0f2f5;
+    --ait-option-card-bg-color: white;
+    --ait-option-card-border: 1px solid #f0f0f0;
+    --ait-border-radius-lg: 12px;
+    --ait-border-radius: 8px;
+    --ait-sidebar-bg-color: #fff;
+    --ait-sidebar-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    --ait-sidebar-border-color: #ececec;
+    --ait-sidebar-icon-color: #545758;
+    --ait-sidebar-icon-hover-color: rgba(var(--ait-main-color), .1);
+    --ait-sidebar-icon-border-color: #ececee;
+    --ait-sidebar-scrollbar-color: #e1e1e1;
+    --ait-sidebar-scrollbar-hover-color: #d9d9d9;
+    --ait-fg-rgb: 0, 0, 0;
+    --ait-bg-rgb: 255, 255, 255;
+    --ait-switchbar-bg-color: #f0f1f5;
+    --ait-switchbar-btn-hover-bg-color: #e9e9ef;
+    --ait-switchbar-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .15);
+    --ait-tab-menu-hover-bg-color: rgba(var(--ait-main-color), .1);
+    --ait-tab-menu-hover-text-color: var(--ait-primary-text-color);
+    --ait-tab-menu-active-bg-color: rgba(var(--ait-main-color), .9);
+    --ait-tab-menu-active-orange-bg-color: rgba(224, 124, 13, .9);
+    --ait-tab-menu-disabled-bg-color: rgba(var(--ait-main-color), .2);
+    --ait-tab-menu-active-bg-active-color: rgb(0, 211, 157);
+    --ait-tab-menu-active-text-color: #fff;
+    --ait-loading-color: #fff;
+    --ait-link-color: rgba(var(--ait-main-color), .9);
+    --ait-master-link-color: rgba(var(--ait-master-color), .6);
+    --ait-master-link-hover-color: rgba(var(--ait-master-color), 1);
+    --ait-download-button-bg-color: rgba(255, 255, 255, .5);
+    --ait-loading-bg-color: #f5f5f5;
+    --ait-border-color: rgba(0, 0, 0, .15);
+    --ait-pre-bg: rgba(var(--ait-fg-rgb), .05);
+    --ait-sidebar-bg-color-sub: rgba(245, 245, 245, var(--ait-bg-opacity)) !important;
+}
+injected stylesheet
+:root {
+    --ait-height-vh-100: 100vh;
+    --ait-height-100: 100dvh;
+    --ait-height-vh-95: 95vh;
+    --ait-height-95: 95dvh;
+    --ait-height-vh-90: 90vh;
+    --ait-height-90: 90dvh;
+    --ait-height-vh-75: 75vh;
+    --ait-height-75: 75dvh;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+injected stylesheet
+html, .aitopia :host {
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}

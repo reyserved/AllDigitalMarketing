@@ -1,0 +1,23 @@
+[
+  {
+    "probe": "trends_home",
+    "url": "https://trends.google.com/trends/",
+    "status": null,
+    "exit_code": 6,
+    "file": "/Applications/Antigravity/ROCKET CLICKS/ALL DIGITAL MARKETING/output/spreadsheet/tde-family-law-trends-evidence-2026/trends_home.raw"
+  },
+  {
+    "probe": "trends_explore_probe",
+    "url": "https://trends.google.com/trends/api/explore?hl=en-US&tz=360&req=%7B%22comparisonItem%22:%5B%7B%22keyword%22:%22divorce%20in%20georgia%22,%22geo%22:%22US-GA%22,%22time%22:%222023-01-01%202026-02-20%22%7D%5D,%22category%22:0,%22property%22:%22%22%7D",
+    "status": null,
+    "exit_code": 6,
+    "file": "/Applications/Antigravity/ROCKET CLICKS/ALL DIGITAL MARKETING/output/spreadsheet/tde-family-law-trends-evidence-2026/trends_explore_probe.raw"
+  },
+  {
+    "probe": "trending_rss_ga",
+    "url": "https://trends.google.com/trending/rss?geo=US-GA",
+    "status": null,
+    "exit_code": 6,
+    "file": "/Applications/Antigravity/ROCKET CLICKS/ALL DIGITAL MARKETING/output/spreadsheet/tde-family-law-trends-evidence-2026/trending_rss_ga.raw"
+  }
+]

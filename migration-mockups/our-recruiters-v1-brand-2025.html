@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Recruiters Mockup v1</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&display=swap");
+
+    :root {
+      --sx-brick: #971A1D;
+      --sx-primary: #D52027;
+      --sx-secondary: #000000;
+      --sx-tertiary: #507687;
+      --sx-light: #2BA6DE;
+      --sx-bg: #F8F0E5;
+      --sx-surface: #FFFFFF;
+      --sx-line: #BCBEC0;
+      --sx-muted: rgba(0, 0, 0, 0.82);
+      --sx-radius: 4px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Helvetica", "Arial", sans-serif;
+      color: var(--sx-secondary);
+      background: var(--sx-bg);
+      line-height: 1.6;
+    }
+
+    h1,
+    h2,
+    h3,
+    a,
+    .process-step,
+    .process-copy {
+      font-family: "Figtree", "Helvetica", "Arial", sans-serif;
+    }
+
+    p,
+    li,
+    span,
+    label,
+    input {
+      font-family: "Helvetica", "Arial", sans-serif;
+    }
+
+    .container {
+      width: min(1320px, calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      width: 100%;
+      min-height: 430px;
+      display: grid;
+      align-items: center;
+      background: url("https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(98deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0.78) 56%, rgba(0, 0, 0, 0.44) 100%),
+        linear-gradient(130deg, rgba(151, 26, 29, 0.44) 0%, rgba(213, 32, 39, 0.2) 52%, rgba(0, 0, 0, 0) 92%);
+      z-index: 1;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, transparent 0%, rgba(213, 32, 39, 0.16) 60%, transparent 100%),
+        repeating-linear-gradient(90deg, transparent 0 112px, rgba(255, 255, 255, 0.035) 112px 114px);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .hero__ribbon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 4;
+      min-height: 88px;
+      width: min(680px, 74vw);
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 18px 26px 18px 24px;
+      color: #FFFFFF;
+      background: linear-gradient(132deg, #971A1D 0%, #D52027 100%);
+      clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+      border-right: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+    }
+
+    .hero__logo {
+      width: 170px;
+      max-width: 42%;
+      height: auto;
+      flex: 0 0 auto;
+    }
+
+    .hero__ribbon span {
+      color: #FFFFFF;
+      font-size: clamp(1rem, 1.8vw, 1.34rem);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      line-height: 1.1;
+    }
+
+    .hero__angle {
+      position: absolute;
+      pointer-events: none;
+      z-index: 3;
+    }
+
+    .hero__angle--blue {
+      right: 0;
+      top: 0;
+      width: min(188px, 20vw);
+      height: min(180px, 40%);
+      background: rgba(43, 166, 222, 0.92);
+      clip-path: polygon(34% 0, 100% 0, 100% 100%);
+    }
+
+    .hero__grid {
+      position: relative;
+      z-index: 5;
+      display: grid;
+      grid-template-columns: 1.35fr 0.8fr;
+      gap: 28px;
+      align-items: center;
+      min-height: 430px;
+      padding: 92px 0 54px;
+    }
+
+    .hero h1 {
+      margin: 0 0 14px;
+      color: #ffffff;
+      font-size: clamp(2.2rem, 4.6vw, 3.4rem);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      text-shadow: 0 3px 18px rgba(0, 0, 0, 0.45);
+    }
+
+    .hero__lead {
+      margin: 0;
+      color: #F8F0E5;
+      font-size: 1.08rem;
+      max-width: 780px;
+    }
+
+    .hero__panel {
+      border: 1px solid rgba(255, 255, 255, 0.34);
+      border-radius: 4px;
+      padding: 20px 20px;
+      background: rgba(0, 0, 0, 0.3);
+      color: #ffffff;
+    }
+
+    .hero__panel p {
+      margin: 0;
+      font-size: 1.08rem;
+      line-height: 1.4;
+      font-weight: 700;
+    }
+
+    .hero__panel .meta {
+      margin-top: 10px;
+      color: #BCBEC0;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .intro {
+      padding: 36px 0;
+      background: var(--sx-surface);
+      border-bottom: 1px solid var(--sx-line);
+    }
+
+    .intro-card {
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      background: #FFFFFF;
+      padding: 24px;
+    }
+
+    .intro-card p {
+      margin: 0;
+      color: #000000;
+      font-size: 1.02rem;
+      line-height: 1.75;
+    }
+
+    .section {
+      padding: 34px 0 54px;
+    }
+
+    .section h2 {
+      margin: 0 0 18px;
+      font-size: clamp(1.45rem, 2.2vw, 2rem);
+      line-height: 1.15;
+      color: var(--sx-secondary);
+    }
+
+    .focus-grid {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .focus-grid li {
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      background: #FFFFFF;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: 132px auto;
+      font-size: 1.06rem;
+      font-weight: 700;
+      color: var(--sx-secondary);
+    }
+
+    .focus-media {
+      width: 100%;
+      height: 132px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid var(--sx-line);
+    }
+
+    .focus-label {
+      display: block;
+      padding: 14px 16px;
+      line-height: 1.35;
+    }
+
+    .process-grid {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .process-grid li {
+      border: 1px solid #000000;
+      border-radius: 4px;
+      background: #507687;
+      color: #ffffff;
+      padding: 18px 14px;
+      min-height: 132px;
+      display: grid;
+      align-content: start;
+      gap: 10px;
+    }
+
+    .process-step {
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .process-copy {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.35;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .cta {
+      padding: 0 0 74px;
+    }
+
+    .cta-panel {
+      border: 1px solid #000000;
+      border-radius: 4px;
+      background: linear-gradient(98deg, #000000 0%, #000000 58%, #D52027 100%);
+      color: #ffffff;
+      padding: 28px 22px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .cta-panel p {
+      margin: 0;
+      font-size: clamp(1.1rem, 2vw, 1.5rem);
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .cta-panel a {
+      display: inline-block;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      background: #D52027;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      padding: 10px 16px;
+      transition: background-color 0.2s ease;
+    }
+
+    .cta-panel a:hover {
+      background: #971A1D;
+    }
+
+    @media (max-width: 1024px) {
+      .hero__grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero__ribbon {
+        width: min(620px, 88vw);
+      }
+
+      .focus-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: min(1320px, calc(100% - 28px));
+      }
+
+      .hero {
+        min-height: 350px;
+      }
+
+      .hero__ribbon {
+        width: calc(100% - 24px);
+        min-height: 72px;
+        padding: 12px 18px 12px 14px;
+        gap: 12px;
+      }
+
+      .hero__logo {
+        width: 142px;
+      }
+
+      .hero__ribbon span {
+        font-size: 0.94rem;
+      }
+
+      .hero__angle--blue {
+        width: 120px;
+        height: 106px;
+      }
+
+      .intro {
+        padding: 26px 0;
+      }
+
+      .section {
+        padding: 26px 0 42px;
+      }
+
+      .focus-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-panel a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="hero__ribbon">
+        <img class="hero__logo" src="https://salesxceleration.com/wp-content/uploads/2021/06/logo-sales-xceleration-300x68.png.webp" alt="Sales Xceleration">
+        <span>Sales Xceleration Recruiting</span>
+      </div>
+      <span class="hero__angle hero__angle--blue" aria-hidden="true"></span>
+      <div class="container hero__grid">
+        <div>
+          <h1>Meet Our Recruiters</h1>
+          <p class="hero__lead">Great sales hires change growth trajectories. The wrong hires create expensive delays.</p>
+        </div>
+        <aside class="hero__panel" aria-label="Guarantee and focus">
+          <p>Backed by a 6-month guarantee.</p>
+          <p class="meta">Small and mid-sized businesses. Practical results. Lower hiring risk.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <article class="intro-card">
+          <p>Great sales hires change growth trajectories. The wrong hires create expensive delays. Sales Xceleration’s recruiting team helps small and mid-sized businesses build sales teams with confidence by combining sales leadership expertise with a disciplined, repeatable hiring process. We start by clarifying role outcomes and defining an ideal candidate profile, then run a targeted search and structured evaluation to identify talent that can perform, fit your culture, and ramp quickly. Whether you are hiring sales leaders, account executives, or specialized roles, our recruiters focus on practical results and lower hiring risk, backed by a 6-month guarantee.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Roles Our Recruiters Support</h2>
+        <ul class="focus-grid">
+          <li>
+            <img class="focus-media" src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80" alt="Sales leaders in a strategic meeting" loading="lazy">
+            <span class="focus-label">Sales leaders</span>
+          </li>
+          <li>
+            <img class="focus-media" src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80" alt="Account executives collaborating around a table" loading="lazy">
+            <span class="focus-label">Account executives</span>
+          </li>
+          <li>
+            <img class="focus-media" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Team discussing specialized business roles" loading="lazy">
+            <span class="focus-label">Specialized roles</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <h2>Disciplined, Repeatable Hiring Process</h2>
+        <ol class="process-grid">
+          <li>
+            <span class="process-step">Step 01</span>
+            <p class="process-copy">Clarifying role outcomes</p>
+          </li>
+          <li>
+            <span class="process-step">Step 02</span>
+            <p class="process-copy">Defining an ideal candidate profile</p>
+          </li>
+          <li>
+            <span class="process-step">Step 03</span>
+            <p class="process-copy">Targeted search</p>
+          </li>
+          <li>
+            <span class="process-step">Step 04</span>
+            <p class="process-copy">Structured evaluation</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta-panel">
+          <p>Build sales teams with confidence through practical results and lower hiring risk.</p>
+          <a href="#">Start Your Search</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

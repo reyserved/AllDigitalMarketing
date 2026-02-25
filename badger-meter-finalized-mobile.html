@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>:root {
+  --ait-main-color: 0, 114, 206;
+  /* Primary Blue from badger-meter-css.txt overrides */
+  --ait-primary: rgb(var(--ait-main-color));
+  --ait-secondary: #0072ce;
+  --ait-tertiary: #1b232a;
+  /* Dark text/background */
+  --ait-quaternary: #f1f2f2;
+  /* Light grey background */
+  --ait-quinary: #e6e7e8;
+  /* Slightly darker grey */
+  --ait-success: #1a7a1a;
+  --ait-error: #c8102e;
+
+  --max-radius: 4px;
+  --font-main: "Roboto", arial, sans-serif;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.12);
+  --gradient-overlay: linear-gradient(180deg, rgba(27, 35, 42, 0) 0%, rgba(27, 35, 42, 0.85) 100%);
+  --gradient-blue: linear-gradient(135deg, #0072ce 0%, #005096 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--ait-tertiary);
+  background-color: #f8f9fa;
+  /* Very light background for contrast */
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: var(--ait-tertiary);
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+/* Layout Utilities */
+.container {
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.section-bg-light {
+  background-color: #ffffff;
+}
+
+.section-bg-grey {
+  background-color: var(--ait-quaternary);
+}
+
+.section-bg-dark {
+  background-color: var(--ait-tertiary);
+  color: #ffffff;
+}
+
+.section-bg-dark p {
+  color: #cbd5e0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: var(--max-radius);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.btn-primary {
+  background: var(--gradient-blue);
+  color: white;
+  box-shadow: 0 4px 14px rgba(0, 114, 206, 0.4);
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0, 114, 206, 0.3);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--ait-primary);
+  box-shadow: inset 0 0 0 2px var(--ait-primary);
+}
+
+.btn-outline-white {
+  background: transparent;
+  color: white;
+  box-shadow: inset 0 0 0 2px white;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  border-radius: var(--max-radius);
+  padding: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-top: 3px solid var(--ait-primary);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card:active {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 114, 206, 0.12);
+}
+
+.card img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+  color: var(--ait-primary);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grid layout for features/products */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* 2x2 Jump Links Grid */
+.jump-links-nav {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ait-quinary);
+}
+
+.jump-links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.btn-jump {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  background: white;
+  color: var(--ait-primary);
+  font-weight: 700;
+  font-size: 0.875rem;
+  border: 1px solid #cbd5e0;
+  border-radius: var(--max-radius);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+
+.btn-jump:active {
+  background: var(--ait-quaternary);
+  transform: scale(0.98);
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  padding: 64px 0 48px;
+  background-color: var(--ait-tertiary);
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero h1 {
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.8);
+  font-size: 2rem;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  color: #f1f2f2;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(27, 35, 42, 0.5) 0%, rgba(27, 35, 42, 0.85) 100%), url('https://badgermeter.widen.net/content/qztwvbcvv8/jpeg/Website%20Image_Wastewater%20Treatment%20WQ%20Testing_shutterstock_1574540872%20%28low-res%29.jpeg?w=1440&keep=c&crop=yes&color=ffffffff&quality=80&u=iszoby');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Sticky CTA Bottom Bar */
+.sticky-cta-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 12px 16px;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.sticky-cta-text {
+  flex: 1;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sticky-cta-btn {
+  flex: 0 0 auto;
+  padding: 12px 20px;
+  width: auto;
+}
+
+/* Padding to avoid overlap with sticky CTA */
+body {
+  padding-bottom: 80px;
+}
+
+/* Product Cards */
+.product-card {
+  background: white;
+  border-radius: var(--max-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 114, 206, 0.1);
+  overflow: hidden;
+  transition: all 0.2s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+
+.product-card>img {
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.product-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gradient-blue);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.product-card:active::before {
+  opacity: 1;
+}
+
+/* Specific Section Adjustments */
+.section-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.actionable-insights-banner {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.actionable-insights-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(135deg, rgba(0, 114, 206, 0.5) 0%, rgba(27, 35, 42, 0.8) 100%), url('https://badgermeter.widen.net/content/ovtdaogjs7/jpeg/metrinet%20data_limestone.jpeg?w=600&h=400&keep=c&crop=yes&color=ffffffff&quality=80&u=39eotr');
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.actionable-insights-content {
+  position: relative;
+  z-index: 1;
+}
+
+.actionable-insights-content h2,
+.actionable-insights-content p {
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Accordion for mobile content condensation */
+.accordion-item {
+  background: white;
+  border-radius: var(--max-radius);
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid var(--ait-primary);
+  overflow: hidden;
+}
+
+.accordion-header {
+  padding: 18px 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ffffff 0%, #f8f9fa 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 1.05rem;
+}
+
+.accordion-content {
+  padding: 0 16px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+  padding: 16px;
+  max-height: 500px;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-item.active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+/* Horizontal Scroll Container (Alternative to Accordion) */
+.h-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding-bottom: 16px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.h-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.h-scroll::-webkit-scrollbar-track {
+  background: var(--ait-quaternary);
+  border-radius: var(--max-radius);
+}
+
+.h-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: var(--max-radius);
+}
+
+.h-scroll .card {
+  flex: 0 0 85%;
+  scroll-snap-align: center;
+  margin-bottom: 0;
+}
+
+/* =========================================
+   FORM STYLES 
+   ========================================= */
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: var(--max-radius);
+  box-shadow: var(--shadow-lg);
+  padding: 32px 24px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.form-header h2 {
+  color: var(--ait-tertiary);
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.form-header p {
+  color: #4a5568;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Floating labels for a premium feel */
+.form-group {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 16px 14px 8px 14px;
+  font-family: var(--font-main);
+  font-size: 1rem;
+  color: var(--ait-tertiary);
+  background-color: #f8f9fa;
+  border: 1px solid #cbd5e0;
+  border-radius: var(--max-radius);
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+  outline: none;
+}
+
+.form-control:focus {
+  border-color: var(--ait-primary);
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.15);
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 100px;
+  padding-top: 24px;
+}
+
+.form-label {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  color: #718096;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  background: transparent;
+}
+
+/* Floating label mechanics */
+.form-control:focus~.form-label,
+.form-control:not(:placeholder-shown)~.form-label {
+  top: -10px;
+  left: 10px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--ait-primary);
+  background: linear-gradient(180deg, #ffffff 50%, #f8f9fa 50%);
+  padding: 0 4px;
+}
+
+.form-control:focus~.form-label {
+  background: #ffffff;
+}
+
+/* Select specific styles */
+select.form-control {
+  appearance: none;
+  padding-top: 16px;
+  cursor: pointer;
+}
+
+.select-chevron {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #718096;
+  width: 20px;
+  height: 20px;
+}
+
+/* Checkboxes */
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-custom {
+  position: relative;
+  flex: 0 0 auto;
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border: 2px solid #cbd5e0;
+  border-radius: var(--max-radius);
+  margin-right: 12px;
+  margin-top: 2px;
+  transition: all 0.2s ease;
+}
+
+.checkbox-input:checked~.checkbox-custom {
+  background-color: var(--ait-primary);
+  border-color: var(--ait-primary);
+}
+
+.checkbox-custom:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 2px;
+  width: 4px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-input:checked~.checkbox-custom:after {
+  display: block;
+}
+
+.checkbox-label {
+  font-size: 0.825rem;
+  color: #4a5568;
+  line-height: 1.4;
+}
+
+.privacy-statement {
+  font-size: 0.75rem;
+  color: #718096;
+  text-align: center;
+  margin-top: 16px;
+  line-height: 1.4;
+}
+
+.privacy-statement a {
+  color: var(--ait-primary);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+@media (min-width: 400px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .form-row .form-group {
+    margin-bottom: 24px;
+  }
+}</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Water Quality Monitoring | Badger Meter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile-mockup.css">
+    <!-- CSS imported securely above -->
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <img src="https://badgermeter.widen.net/content/x6qceeshux/original/Badger-Meter-Logo-Horizontal_White_310x100.svg?u=rf1shk"
+                alt="Badger Meter Logo" style="height: 48px; margin: 0 auto 24px auto; object-fit: contain;">
+            <h1>Precision Water Quality Monitoring for Optimized System Performance</h1>
+            <p>Our industry-leading water quality monitoring solutions deliver continuous, accurate and reliable data to
+                support proactive management strategies and help meet evolving regulatory compliance requirements.</p>
+            <a href="#form" class="btn btn-primary" style="margin-top: 16px;">Request a quote</a>
+        </div>
+    </header>
+
+    <!-- Jump Links (Grid layout for full mobile visibility) -->
+    <nav class="section-bg-grey jump-links-nav">
+        <div class="container">
+            <div class="jump-links-grid">
+                <a href="#features" class="btn-jump">Features</a>
+                <a href="#technologies" class="btn-jump">Technologies</a>
+                <a href="#parameters" class="btn-jump">Parameters</a>
+                <a href="#products" class="btn-jump">Products</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Key Features Section -->
+    <section id="features" class="section section-bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Features</h2>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/mk3msunruk/png/Website%20Image_Process%20Optimization%20%26%20Control%20%28low-res%29.png?w=100&h=100&keep=c&crop=yes&color=ffffff00&quality=80&u=iszoby"
+                        alt="Smart Sensor Technology" style="width: 48px; height: 48px; margin-bottom: 16px;">
+                    <h3>Smart Sensor Technology</h3>
+                    <p>Receive consistently accurate and reliable water quality sensor data for continuous water system
+                        monitoring.</p>
+                </div>
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/n4wel5mxc5/jpeg/Ops-Blue-Icon-%28low-res%29-100x100.jpeg?w=100&h=100&keep=c&crop=yes&color=ffffff00&quality=80&u=iszoby"
+                        alt="Multiparameter Measurement" style="width: 48px; height: 48px; margin-bottom: 16px;">
+                    <h3>Multiparameter Measurement</h3>
+                    <p>Tailor your water quality monitoring: Our modular instruments easily measure 1 to 20+ water
+                        quality parameters for your needs.</p>
+                </div>
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/fnhqlnpklw/png/Website%20Image_Regulatory%20Compliance%20Blue%20Icon%20%28low-res%29.png?w=100&h=100&keep=c&crop=yes&color=ffffff00&quality=80&u=iszoby"
+                        alt="Sustainable Solutions" style="width: 48px; height: 48px; margin-bottom: 16px;">
+                    <h3>Sustainable Solutions</h3>
+                    <p>Robust, continuous monitoring anywhere. Our compact, low-power, reagent-free stations are ideal
+                        for remote installations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section (Using Horizontal Scroll to save vertical space) -->
+    <section id="technologies" class="section section-bg-grey">
+        <div class="container">
+            <div class="section-header">
+                <h2>Water Quality Monitoring Technologies</h2>
+                <p>Learn how our cutting-edge technologies deliver actionable data, enabling proactive management and
+                    enhanced operational control for your water systems.</p>
+            </div>
+
+            <div class="h-scroll">
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/zi77mtq4np/jpeg/Water%20Quality%20Monitoring%20Terminal%20Installation%20%28low-res%29%201200x800.jpeg?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                        alt="Water Quality Monitoring Stations"
+                        style="width: calc(100% + 48px); max-width: none; margin: -24px -24px 16px -24px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                    <h3>Water Quality Monitoring Stations</h3>
+                    <p>Fully integrated stations for continuous, real-time water quality data. Highly customizable for
+                        any location and precise needs.</p>
+                </div>
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/fou3iwvira/jpeg/PQ-Monitor-App-Image-%281200x800%29-low-res.jpeg?w=600&h=400&keep=c&crop=yes&color=ffffffff&quality=80&u=39eotr"
+                        alt="Water Quality Portable Analyzers"
+                        style="width: calc(100% + 48px); max-width: none; margin: -24px -24px 16px -24px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                    <h3>Water Quality Portable Analyzers</h3>
+                    <p>Accurate, on-the-spot water quality analysis. Portable devices for immediate field data and
+                        rapid, informed decision-making.</p>
+                </div>
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/45gn3ynidj/jpeg/UK-RiverMonitoring-at-UK-HQ-%28low-res%29-1200x800.jpeg?w=600&h=400&keep=c&crop=yes&color=ffffffff&quality=80&u=39eotr"
+                        alt="Water Quality Physical Sensors"
+                        style="width: calc(100% + 48px); max-width: none; margin: -24px -24px 16px -24px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                    <h3>Water Quality Physical Sensors</h3>
+                    <p>Robust sensors for precise, continuous data on key physical and chemical water quality
+                        parameters. Foundation for reliable monitoring.</p>
+                </div>
+                <!-- Note: Injecting the rest of the requested parameter images here to match requirements. -->
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/glu1gyvk0a/jpeg/BOD-copy_20230906_152212775-%28low-res%29-1200x800.jpeg?w=600&h=400&position=c&color=ffffff00&quality=80&u=aroa0q"
+                        alt="Water Quality Spectrometer Probes"
+                        style="width: calc(100% + 48px); max-width: none; margin: -24px -24px 16px -24px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                    <h3>Water Quality Spectrometer Probes</h3>
+                    <p>Advanced optical measurement without reagents. Instant, multi-parameter detection for demanding
+                        environments.</p>
+                </div>
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/rmfkvsccqa/jpeg/Terminals%20and%20Monitors%20concube%20V3%20station%20%28low-res%29%201200x800.jpeg?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                        alt="Water Quality Terminals, Monitors & Controllers"
+                        style="width: calc(100% + 48px); max-width: none; margin: -24px -24px 16px -24px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                    <h3>Water Quality Terminals, Monitors & Controllers</h3>
+                    <p>Centralized data management nodes that offer total system visibility and intelligent process
+                        automation.</p>
+                </div>
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/ofqtzzj9x9/jpeg/ati_uu-framework_2560x867px.jpeg?w=600&h=400&keep=c&crop=yes&color=ffffffff&quality=80&u=39eotr"
+                        alt="Water Quality Wet Chemistry"
+                        style="width: calc(100% + 48px); max-width: none; margin: -24px -24px 16px -24px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                    <h3>Water Quality Wet Chemistry</h3>
+                    <p>High-precision automated chemical analysis designed for specific trace contaminant detection.</p>
+                </div>
+                <div class="card">
+                    <img src="https://badgermeter.widen.net/content/sp8t4qisey/jpeg/ati_sitebox2_768x585px.jpeg?w=600&h=400&keep=c&crop=yes&color=ffffffff&quality=80&u=39eotr"
+                        alt="Water Quality Accessories"
+                        style="width: calc(100% + 48px); max-width: none; margin: -24px -24px 16px -24px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                    <h3>Water Quality Accessories</h3>
+                    <p>Everything you need to complete your installation, from rugged mounting gear to calibration
+                        standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actionable Insights Banner -->
+    <section class="section section-bg-dark actionable-insights-banner">
+        <div class="actionable-insights-bg"></div>
+        <div class="container actionable-insights-content">
+            <h2>Turn Water Data Into Actionable Insights</h2>
+            <p>Our experts do more than supply monitoring equipment — we help you understand your water quality
+                parameters, optimize treatment processes and build a proactive water quality management strategy that
+                drives measurable results.</p>
+            <a href="#form" class="btn btn-primary" style="margin-top: 16px;">Talk to an Expert</a>
+        </div>
+    </section>
+
+    <!-- Specific Products Injection -->
+    <section id="products" class="section section-bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Analytical Systems</h2>
+            </div>
+            <div class="grid">
+                <div class="product-card">
+                    <img src="https://badgermeter.widen.net/content/9c6d4xdadp/png/pipescan-%28low-res%29.png?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                        alt="pipe::scan">
+                    <h3>pipe::scan</h3>
+                </div>
+                <div class="product-card">
+                    <img src="https://badgermeter.widen.net/content/g3zspomfmq/png/metrinet_600x400.png?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                        alt="MetriNet">
+                    <h3>MetriNet</h3>
+                </div>
+                <div class="product-card">
+                    <img src="https://badgermeter.widen.net/content/n6tf22bdkf/png/spectrolyser%2035mm.png?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                        alt="spectro::lyser V3">
+                    <h3>spectro::lyser V3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="section section-bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real-World Impact: Success Stories in Water Management</h2>
+                <p>Discover how leading organizations benefit from our suite of scalable solutions for continuous,
+                    intelligent water management.</p>
+            </div>
+
+            <!-- Accordion approach for case studies to reduce text bloat -->
+            <div class="accordion">
+                <div class="accordion-item active" onclick="this.classList.toggle('active')">
+                    <div class="accordion-header">
+                        Union Water Supply System Enhances Drinking Water Quality
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <img src="https://badgermeter.widen.net/content/fezlgsdzut/jpeg/Union%20Water%20Office%20Case%20Study%20Image%20%281200x800%29.jpeg?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                            alt="Union Water Supply System"
+                            style="width: calc(100% + 32px); max-width: none; margin: -16px -16px 12px -16px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                        <p style="margin-top: 12px;">UWSS upgraded its monitoring with pipe::scan, reducing calibration
+                            frequency, cutting maintenance costs and time, eliminating wastewater and saving over
+                            300,000 gallons of water annually while improving overall water quality oversight.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item active" onclick="this.classList.toggle('active')">
+                    <div class="accordion-header">
+                        Belgian Utility Monitors Drinking Water Quality In-Network
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <img src="https://badgermeter.widen.net/content/ksdubdu8lr/jpeg/Farys%20Case%20Study%20Shutterstock_2465248881%20%28low%20res%29%201200x800.jpeg?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                            alt="Belgian Utility Monitors Drinking Water"
+                            style="width: calc(100% + 32px); max-width: none; margin: -16px -16px 12px -16px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                        <p style="margin-top: 12px;">Farys, a leading Belgian utility, deployed advanced monitoring
+                            technologies to optimize chlorine dosing, reduce disinfection byproducts, and improve
+                            drinking water quality. The system enhanced visibility across the network and supported
+                            regulatory compliance.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item active" onclick="this.classList.toggle('active')">
+                    <div class="accordion-header">
+                        Brewery Achieves Regulatory Compliance
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <img src="https://badgermeter.widen.net/content/jxphaoeros/jpeg/Website%20Image_Alicante%20City_shutterstock_2302848875%20%28low-res%29%201200x800.jpeg?w=600&h=400&position=c&color=ffffff00&quality=80&u=iszoby"
+                            alt="Brewery Achieves Regulatory Compliance"
+                            style="width: calc(100% + 32px); max-width: none; margin: -16px -16px 12px -16px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                        <p style="margin-top: 12px;">Ensuring precise monitoring for compliance in industrial settings.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item active" onclick="this.classList.toggle('active')">
+                    <div class="accordion-header">
+                        Curing a Hydrocarbon Crisis in Canada
+                        <span class="accordion-icon">▼</span>
+                    </div>
+                    <div class="accordion-content">
+                        <img src="https://badgermeter.widen.net/content/7k2x4n95dp/png/Case-Study_scan_Iqualit-%28low-res%291200x800.png?w=600&h=400&position=c&color=ffffff00&quality=80&u=aroa0q"
+                            alt="Curing a Hydrocarbon Contamination Crisis"
+                            style="width: calc(100% + 32px); max-width: none; margin: -16px -16px 12px -16px; border-radius: var(--max-radius) var(--max-radius) 0 0; display: block; aspect-ratio: 3/2; object-fit: cover;">
+                        <p style="margin-top: 12px;">Rapid response and continuous water analysis during critical
+                            chemical events.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Video Section -->
+    <section class="section section-bg-grey" style="padding-bottom: 0;">
+        <div class="container" style="text-align: center;">
+            <div style="margin-bottom: 32px;">
+                <h2>Ready for Smarter Water Quality Management?</h2>
+                <p>Gain the clarity and control you need over your water quality with advanced monitoring solutions from
+                    Badger Meter.</p>
+                <a href="#form" class="btn btn-primary">Talk to an Expert</a>
+            </div>
+            <img src="https://badgermeter.widen.net/content/we7612ohsz/jpeg/BlueEdge_Video_Thumbnail.jpeg?w=1200&h=800&keep=c&crop=yes&color=ffffffff&quality=80&u=39eotr"
+                alt="Badger Meter BlueEdge Video Thumbnail"
+                style="width: 100%; border-radius: var(--max-radius); box-shadow: var(--shadow-md); margin-bottom: -16px; position: relative; z-index: 10;">
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form" class="section section-bg-grey">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2>Need a quote? We're here to help!</h2>
+                    <p>Please answer the following questions and a product expert in your area will be in touch with
+                        your custom quote.</p>
+                </div>
+
+                <form action="#" method="POST" id="quote-form">
+
+                    <div class="form-group">
+                        <textarea id="products" class="form-control" placeholder=" " required></textarea>
+                        <label for="products" class="form-label">What products, technologies and/or solutions would you
+                            like a quote for? *</label>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="source" class="form-control" required>
+                            <option value="" disabled selected hidden></option>
+                            <option value="search">Search Engine</option>
+                            <option value="social">Social Media</option>
+                            <option value="event">Trade Show / Event</option>
+                            <option value="referral">Referral</option>
+                        </select>
+                        <label for="source" class="form-label"
+                            style="top: -10px; left: 10px; font-size: 0.75rem; font-weight: 500; color: var(--ait-primary); background: #ffffff; padding: 0 4px;">Where
+                            did you hear about the products... *</label>
+                        <svg class="select-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="firstName" class="form-control" placeholder=" " required>
+                            <label for="firstName" class="form-label">First Name *</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="lastName" class="form-control" placeholder=" " required>
+                            <label for="lastName" class="form-label">Last Name *</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="company" class="form-control" placeholder=" " required>
+                        <label for="company" class="form-label">Company *</label>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="market" class="form-control" required>
+                            <option value="" disabled selected hidden></option>
+                            <option value="water">Water Utility</option>
+                            <option value="industrial">Industrial</option>
+                            <option value="commercial">Commercial</option>
+                        </select>
+                        <label for="market" class="form-label"
+                            style="top: -10px; left: 10px; font-size: 0.75rem; font-weight: 500; color: var(--ait-primary); background: #ffffff; padding: 0 4px;">Market
+                            *</label>
+                        <svg class="select-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="address" class="form-control" placeholder=" " required>
+                        <label for="address" class="form-label">Address *</label>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="city" class="form-control" placeholder=" " required>
+                            <label for="city" class="form-label">City *</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="postalCode" class="form-control" placeholder=" " required>
+                            <label for="postalCode" class="form-label">Postal Code *</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="country" class="form-control" required>
+                            <option value="" disabled selected hidden></option>
+                            <option value="US">United States</option>
+                            <option value="CA">Canada</option>
+                            <option value="UK">United Kingdom</option>
+                        </select>
+                        <label for="country" class="form-label"
+                            style="top: -10px; left: 10px; font-size: 0.75rem; font-weight: 500; color: var(--ait-primary); background: #ffffff; padding: 0 4px;">Country
+                            *</label>
+                        <svg class="select-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" placeholder=" " required>
+                        <label for="email" class="form-label">Email *</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" id="phone" class="form-control" placeholder=" " required>
+                        <label for="phone" class="form-label">Phone *</label>
+                    </div>
+
+                    <label class="checkbox-group">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">I would like to receive email notifications on Badger Meter news
+                            and events. Please white list our domain: @badgermeter.com to help ensure proper
+                            delivery.</span>
+                    </label>
+
+                    <label class="checkbox-group">
+                        <input type="checkbox" class="checkbox-input" required>
+                        <span class="checkbox-custom"></span>
+                        <span class="checkbox-label">I consent to Badger Meter collecting the information I provided in
+                            this website form. *</span>
+                    </label>
+
+                    <button type="submit" class="btn btn-primary" style="margin-top: 16px;">Submit</button>
+
+                    <div class="privacy-statement">
+                        For more information about how we use this information, please see our <a href="#">Notice at
+                            Collection</a>.
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky CTA Bottom Bar -->
+    <div class="sticky-cta-bar">
+        <div class="sticky-cta-text">
+            Ready for Smarter Water Quality Management?
+        </div>
+        <a href="#form" class="btn btn-primary sticky-cta-btn">Talk to an Expert</a>
+    </div>
+
+</body>
+
+</html>

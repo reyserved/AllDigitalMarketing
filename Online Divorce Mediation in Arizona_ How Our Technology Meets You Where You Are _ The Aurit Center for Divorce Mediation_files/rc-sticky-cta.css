@@ -1,0 +1,314 @@
+/* ===== Base / shared ===== */
+.rc-sticky-cta{ box-sizing:border-box; width:100%; }
+
+/* Book now button */
+.rc-sticky-cta__button{
+  display:inline-flex !important; align-items:center; justify-content:center; gap:.5rem;
+  height:60px; padding:0 20px; border:0; border-radius:5px;
+ background:var(--rc-sticky-cta-bg,#0d6efd)!important;
+	color: var(--rc-sticky-cta-fg, #ffffff)!important;
+ font-weight:500; font-size:20px; letter-spacing:.05em;
+  line-height:1.7em; cursor:pointer; transition:all .2s ease;
+  position:relative;
+  text-decoration:none;
+  border:none!important;
+}
+
+button.rc-sticky-cta__button:hover{
+	color: var(--rc-sticky-cta-fg, #ffffff) !important;
+	 background:var(--rc-sticky-cta-bg,#0d6efd)!important;
+}
+.rc-sticky-cta__button:focus{ outline:2px solid #fff; outline-offset:2px; }
+
+.rc-sticky-cta__icon{ margin-right:8px; margin-top:-2px; display:inline-flex; align-items:center; }
+.rc-sticky-cta__icon svg{
+	fill: var(--rc-sticky-cta-fg, #ffffff) !important;
+}
+.rc-sticky-cta__icon img, .rc-sticky-cta__icon svg{
+  height:1.25em; width:auto; display:inline-block; vertical-align:middle;
+}
+
+/* Inline “profile” image variant (used elsewhere) */
+.rc-sticky-cta__btnimg img{
+  height:1.75em; width:1.75em; border-radius:50%; object-fit:cover; display:inline-block;
+}
+
+/* ===== Modal ===== */
+.rc-sticky-cta-modal{ position:fixed; inset:0; z-index:9999999999999; display:none; }
+.rc-sticky-cta-modal.is-open{ display:block; }
+.rc-sticky-cta-modal__overlay{ position:absolute; inset:0; background-color:rgba(0,0,0,.45); backdrop-filter:blur(3px); }
+.rc-sticky-cta-modal__dialog{
+  position: relative;
+  max-width: 640px;
+  margin: 5vh auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.2);
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 10vh); /* 5vh top + 5vh bottom margins */
+}
+.rc-sticky-cta-modal__close{ border:none!important;position:absolute; top:8px; right:10px; font-size:24px; background:transparent!important; border:0; cursor:pointer;color: black!important; }
+.rc-sticky-cta-modal__title{ text-align:center; margin:8px 0 4px; line-height:24px; }
+.rc-sticky-cta-modal__phone{ text-align:center; margin:0; color:var(--rc-sticky-cta-bg,#0d6efd)!important; }
+
+.rc-sticky-cta-modal__phone:hover{  color:var(--rc-sticky-cta-bg,#0d6efd)!important; }
+.rc-sticky-cta-modal__phone-link{ font-size:24px; font-weight:700; text-decoration:none; color:var(--rc-sticky-cta-bg,black)}
+.rc-sticky-cta-modal__subtitle{ text-align:center; color:#555; margin-top:0; margin-bottom:16px; }
+.rc-sticky-cta-modal__form{ margin-top:8px; }
+.rc-sticky-cta-modal__form form button{ background:var(--rc-sticky-cta-bg,#0d6efd)!important; color:#fff!important; width:100%!important; }
+
+.rc-sticky-cta-modal__content{
+  min-height: 0;                  /* important for flex overflow */
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;   /* prevent rubber banding pulling page */
+}
+
+
+
+/* ===== Mobile (<=768px) ===== */
+@media (max-width: 768px){
+	
+	
+
+/* Top bar when we manage the sticky ourselves */
+.rc-sticky-cta--top.is-fixed-top{
+
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 9999;
+  background: #fff;
+  box-shadow: 0 6px 15px rgba(0,0,0,.08);
+}
+
+/* When appended inside a fixed/sticky header */
+.rc-sticky-cta--top.in-header{
+  position: static; /* header controls the stickiness */
+  background: transparent!important;
+  box-shadow: none;
+}
+
+/* Prevent content from hiding under our fixed top bar */
+body.has-rc-fixed-top{ padding-top: 60px; }
+
+  /* Hide both bars unless mobile is enabled on the wrapper */
+  .rc-sticky-cta{ display:none; }
+  .rc-sticky-cta[data-show-mobile="1"]{ display:block; }
+
+  /* TOP (Book now): appended into header by JS; if no fixed header, JS adds .is-fixed-top */
+  .rc-sticky-cta--top{
+    display:flex; justify-content:center; padding:0px;
+    position:static; /* when inside header */
+    background:transparent; box-shadow:none; z-index:9999;
+	        text-align: center;
+		 background:var(--rc-sticky-cta-bg,#0d6efd)!important;
+  }
+    .rc-sticky-cta--top button{
+		width:100%;
+		border-radius:0px;
+		
+	}
+  .rc-sticky-cta--top.is-fixed-top{
+    position:fixed; top:0; left:0; right:0;
+    background:#fff; box-shadow:0 6px 15px rgba(0,0,0,.08);
+  }
+
+  /* BOTTOM (Call now): fixed bottom, image left of the button */
+  .rc-sticky-cta--bottom{
+    position:fixed; bottom:0; left:0; right:0; z-index:9999;
+    display:flex!important; align-items:center; gap:.75rem;
+    padding:20px 20px; background: #ffffffb8;
+    box-shadow:0 -6px 20px rgba(0,0,0,.15);
+	justify-content:center;
+	text-align:centerl
+  }
+  .rc-sticky-cta__media-left{
+    display:inline-flex; align-items:center; justify-content:center; flex:0 0 auto;
+		margin-top:-80px; 
+	width:100px;
+  }
+  .rc-sticky-cta__media-left img{
+    width:100px; height:100px;width:100px;border-radius:50%; object-fit:cover; display:block;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, .75);
+  }
+  .rc-sticky-cta__call-btn{
+	  
+       border-radius: 3em;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, .75);
+   color: var(--rc-sticky-cta-fg, #ffffff) !important;
+    font-weight: 700;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration:none; background:var(--rc-sticky-cta-bg,#0d6efd)!important; color:#fff;
+    font-weight:700; font-size:20px; letter-spacing:.02em;
+	padding: 20px 20%  20px 20%;
+	  gap: .5rem;
+	width:70%;
+	margin-top:-60px;
+  }
+  
+  button.rc-sticky-cta__call-btn:hover{
+	  background:var(--rc-sticky-cta-bg,#0d6efd)!important;
+  }
+
+  .rc-sticky-cta__call-btn svg path, .rc-sticky-cta__icon svg path{
+	  fill: var(--rc-sticky-cta-fg, #ffffff) !important;  
+  } 
+.rc-icon--phone svg{
+	margin-top:-5px;
+  width: 1.7em;
+  height: 1.7em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+  /* Avoid cover when bars are fixed */
+  body.has-rc-fixed-top{ padding-top:60px; }
+  body.has-rc-fixed-bottom{ padding-bottom:68px; }
+}
+
+/* ===== Desktop (>=769px) ===== */
+/* Show ONLY “Book now” and pin it to the BOTTOM. Hide the “Call now” bar. */
+@media (min-width: 769px){
+  /* Use the top bar container as the desktop sticky at the bottom */
+  .rc-sticky-cta--top{
+        display: flex;
+        justify-content: center;
+        padding: 15px 16px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+		min-height:100px;
+		        gap: 5px;
+        right: 0;
+        z-index: 9999;
+        background: #fff;
+        box-shadow: -2px 0 20px -4px rgb(0 0 0 / 50%);
+        align-items: center;
+  }
+  /* When JS appends into a fixed header and you STILL want it at bottom on desktop,
+     keep it fixed bottom (ignore .in-header on desktop). If you ever need to follow
+     the header on desktop, uncomment the next block:
+
+  .rc-sticky-cta--top.in-header{
+    position:static; background:transparent; box-shadow:none; padding:.5rem 0;
+  } */
+
+  /* Hide the call-now bar on desktop */
+  .rc-sticky-cta--bottom{ display:none !important; }
+  
+
+}
+
+@media (max-width: 768px){
+	  
+
+.rc-sticky-cta--top .rc-sticky-cta__button{
+	width:100%!important;
+	border-radius:0px!important;
+	
+}
+.rc-sticky-cta__reviews {
+	
+	display:none!important;
+}
+}
+
+@media (max-width: 450px){
+ .rc-sticky-cta__call-btn{
+        padding: 10px 5% 10px 5%!important;
+ }
+}
+
+
+.rc-sticky-cta__reviews {
+  font-size: 16px;
+  color:#1d1d1f;
+  margin:0px!important;
+  padding:20px;
+  font-weight:500;
+}
+.rc-sticky-cta__reviews .star {
+  color: #f7b500;
+  font-size: 18px;
+  display: inline-block;
+}
+.rc-sticky-cta__reviews .star.empty {
+  color: #ccc;
+}
+.rc-sticky-cta__reviews .star.half {
+  position: relative;
+}
+.rc-sticky-cta__reviews .star.half::after {
+  content: "★";
+  color: #ccc;
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  width: 50%;
+}
+
+.rc-sticky-cta__reviews {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+	
+
+	
+}
+
+.rc-sticky-cta__reviews  .review-link{
+	height: 60px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .05em;
+    cursor: pointer;
+    line-height: 1.7em;
+    transition: all .2s;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+		    background-color: none;
+    border: 2px solid var(--rc-sticky-cta-bg,#0d6efd)!important;
+    color: var(--rc-sticky-cta-bg,#0d6efd)!important;
+	padding:20px;
+	text-decoration:none!important;
+	
+	
+}
+
+
+/*No scroll on form pop-up, update for client form*/
+.rc-sticky-cta-modal__form div#gform_wrapper_1 {
+    width: 99%;
+}
+/*For gravity forms if space betwene form fields default to 40px */
+.gform-theme--foundation .gform_fields {
+    row-gap:20px;
+}
+
+@media (min-width: 769px) {
+    .rc-sticky-cta--top {
+        padding: 0px !important;
+        min-height:80px;
+    }
+    .rc-sticky-cta__reviews {
+        padding: 15px 20px !important;
+        line-height: 1.4em;}
+        
+    .rc-sticky-cta__reviews .review-link, .rc-sticky-cta__button {
+        height: 50px !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .rc-sticky-cta--bottom {
+        padding: 0px 20px;
+    }
+}

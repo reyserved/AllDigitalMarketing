@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Careers Mockup v2</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&display=swap");
+
+    :root {
+      --sx-brick: #971A1D;
+      --sx-primary: #D52027;
+      --sx-secondary: #000000;
+      --sx-tertiary: #507687;
+      --sx-light: #2BA6DE;
+      --sx-bg: #F8F0E5;
+      --sx-surface: #FFFFFF;
+      --sx-line: #BCBEC0;
+      --sx-muted: rgba(0, 0, 0, 0.82);
+      --sx-radius: 4px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Helvetica", "Arial", sans-serif;
+      color: var(--sx-secondary);
+      background: var(--sx-bg);
+      line-height: 1.5;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    a,
+    button,
+    .btn-details,
+    .btn-search {
+      font-family: "Figtree", "Helvetica", "Arial", sans-serif;
+    }
+
+    p,
+    label,
+    li,
+    span,
+    input {
+      font-family: "Helvetica", "Arial", sans-serif;
+    }
+
+    .container {
+      width: min(1320px, calc(100% - 48px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      width: 100%;
+      min-height: 430px;
+      display: grid;
+      align-items: center;
+      background: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1900&q=80") center/cover no-repeat;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(104deg, rgba(0, 0, 0, 0.92) 0%, rgba(0, 0, 0, 0.8) 48%, rgba(0, 0, 0, 0.48) 100%),
+        linear-gradient(132deg, rgba(151, 26, 29, 0.42) 0%, rgba(213, 32, 39, 0.22) 50%, rgba(0, 0, 0, 0) 92%);
+      z-index: 1;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, transparent 0%, rgba(213, 32, 39, 0.14) 58%, transparent 100%),
+        repeating-linear-gradient(90deg, transparent 0 118px, rgba(255, 255, 255, 0.03) 118px 120px);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .hero__angle {
+      position: absolute;
+      pointer-events: none;
+      z-index: 3;
+    }
+
+    .hero__angle--red {
+      left: 0;
+      bottom: 0;
+      width: min(440px, 50vw);
+      height: 100%;
+      background: linear-gradient(158deg, rgba(151, 26, 29, 0.92) 0%, rgba(213, 32, 39, 0.9) 100%);
+      clip-path: polygon(0 40%, 0 100%, 74% 100%);
+    }
+
+    .hero__angle--blue {
+      right: 0;
+      top: 0;
+      width: min(182px, 18vw);
+      height: min(176px, 40%);
+      background: rgba(43, 166, 222, 0.9);
+      clip-path: polygon(34% 0, 100% 0, 100% 100%);
+    }
+
+    .hero__inner {
+      position: relative;
+      z-index: 4;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+      align-items: center;
+      min-height: 430px;
+      padding: 52px 0 40px;
+    }
+
+    .hero__logo {
+      width: 220px;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 18px;
+      display: block;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      color: #ffffff;
+      font-size: clamp(2rem, 4.1vw, 3.1rem);
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+      text-shadow: 0 3px 18px rgba(0, 0, 0, 0.46);
+    }
+
+    .hero p {
+      margin: 0;
+      color: #F8F0E5;
+      font-size: 1.03rem;
+      max-width: 680px;
+    }
+
+    .hero-panel {
+      border: 1px solid rgba(255, 255, 255, 0.34);
+      border-radius: 4px;
+      background: rgba(0, 0, 0, 0.34);
+      color: #ffffff;
+      padding: 18px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .hero-panel h2 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: #ffffff;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .hero-panel ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 7px;
+    }
+
+    .hero-panel li {
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: #F8F0E5;
+    }
+
+    .careers {
+      padding: 28px 0 72px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .results {
+      display: grid;
+      gap: 12px;
+    }
+
+    .job-card {
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      background: #ffffff;
+      padding: 14px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .job-meta {
+      margin: 0 0 5px;
+      color: #000000;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.01em;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .job-title {
+      margin: 0 0 5px;
+      color: #000000;
+      font-size: 1.12rem;
+      line-height: 1.2;
+      font-weight: 800;
+    }
+
+    .job-desc {
+      margin: 0;
+      color: #000000;
+      font-size: 0.92rem;
+      line-height: 1.42;
+    }
+
+    .btn-details {
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      background: #507687;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      padding: 8px 14px;
+      white-space: nowrap;
+    }
+
+    .btn-details:hover {
+      background: rgba(80, 118, 135, 0.88);
+    }
+
+    .filters {
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      background: #ffffff;
+      padding: 14px;
+      position: sticky;
+      top: 20px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .filters h2 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.2;
+      color: #000000;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .filter-group {
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      padding: 10px;
+    }
+
+    .filter-group h3 {
+      margin: 0 0 8px;
+      font-size: 0.91rem;
+      line-height: 1.2;
+      color: #000000;
+      font-weight: 800;
+    }
+
+    .options {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 7px;
+    }
+
+    .options label {
+      display: grid;
+      grid-template-columns: 14px 1fr;
+      gap: 8px;
+      align-items: center;
+      font-size: 0.89rem;
+      color: #000000;
+    }
+
+    .options input[type="checkbox"] {
+      margin: 0;
+      accent-color: var(--sx-primary);
+      width: 14px;
+      height: 14px;
+    }
+
+    .filters input[type="text"] {
+      width: 100%;
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      padding: 8px 10px;
+      font-size: 0.9rem;
+      color: #000000;
+      background: #ffffff;
+    }
+
+    .btn-search {
+      border: 1px solid var(--sx-line);
+      border-radius: 4px;
+      background: #D52027;
+      color: #ffffff;
+      font-size: 0.92rem;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+      padding: 10px 12px;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .btn-search:hover {
+      background: #971A1D;
+    }
+
+    @media (max-width: 1024px) {
+      .hero__inner {
+        grid-template-columns: 1fr;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .filters {
+        position: static;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: min(1320px, calc(100% - 28px));
+      }
+
+      .hero {
+        min-height: 320px;
+      }
+
+      .hero__logo {
+        width: 176px;
+      }
+
+      .hero__angle--blue {
+        width: 120px;
+        height: 104px;
+      }
+
+      .careers {
+        padding: 22px 0 56px;
+      }
+
+      .job-card {
+        grid-template-columns: 1fr;
+      }
+
+      .btn-details {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <span class="hero__angle hero__angle--red" aria-hidden="true"></span>
+      <span class="hero__angle hero__angle--blue" aria-hidden="true"></span>
+      <div class="container hero__inner">
+        <div>
+          <img class="hero__logo" src="https://salesxceleration.com/wp-content/uploads/2021/06/logo-sales-xceleration-300x68.png.webp" alt="Sales Xceleration">
+          <h1>Careers</h1>
+          <p>Join teams that are scaling revenue with strong sales leadership, clear expectations, and practical execution.</p>
+        </div>
+        <aside class="hero-panel" aria-label="Career highlights">
+          <h2>Current Hiring Focus</h2>
+          <ul>
+            <li>Sales leadership and account roles</li>
+            <li>Remote, hybrid, and on-site options</li>
+            <li>Seven current openings</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="careers">
+      <div class="container layout">
+        <section class="results" aria-label="Career results">
+          <article class="job-card">
+            <div>
+              <p class="job-meta"><span>02/12/2026</span><span>26-00025</span><span>Cheshire, CT</span></p>
+              <h3 class="job-title">Private Sector Account Executive - REMOTE</h3>
+              <p class="job-desc">The Account Executive (AE) leads and administers the selling of services and capabilities....</p>
+            </div>
+            <a class="btn-details" href="#">Details</a>
+          </article>
+
+          <article class="job-card">
+            <div>
+              <p class="job-meta"><span>02/12/2026</span><span>26-00014</span><span>WA</span></p>
+              <h3 class="job-title">New Business Executive (Hunter)</h3>
+              <p class="job-desc">Strategic Account Executive (MSP &amp; IT Services) Company Overview: Our client is a dyna...</p>
+            </div>
+            <a class="btn-details" href="#">Details</a>
+          </article>
+
+          <article class="job-card">
+            <div>
+              <p class="job-meta"><span>02/03/2026</span><span>25-00086</span><span>Brighton, MA</span></p>
+              <h3 class="job-title">Sales - Commercial HVAC</h3>
+              <p class="job-desc">Sales Engineer Reporting to the VP of Sales, this individual will engage with potential clien...</p>
+            </div>
+            <a class="btn-details" href="#">Details</a>
+          </article>
+
+          <article class="job-card">
+            <div>
+              <p class="job-meta"><span>01/29/2026</span><span>25-00026</span><span>Houston, TX</span></p>
+              <h3 class="job-title">Director Of Sales Operations</h3>
+              <p class="job-desc">About Us: We are an innovative technology company that designs, manufactures, and sells...</p>
+            </div>
+            <a class="btn-details" href="#">Details</a>
+          </article>
+
+          <article class="job-card">
+            <div>
+              <p class="job-meta"><span>01/23/2026</span><span>26-00013</span><span>Carol Stream, IL</span></p>
+              <h3 class="job-title">Strategic Account Manager</h3>
+              <p class="job-desc">About the Company A leading manufacturer of precision-engineered industrial components ...</p>
+            </div>
+            <a class="btn-details" href="#">Details</a>
+          </article>
+
+          <article class="job-card">
+            <div>
+              <p class="job-meta"><span>01/22/2026</span><span>26-00011</span><span>Portland, OR</span></p>
+              <h3 class="job-title">Sales Development Representative (SDR)</h3>
+              <p class="job-desc">Sales Development Representative (SDR) Our client is seeking a proactive and results-ori...</p>
+            </div>
+            <a class="btn-details" href="#">Details</a>
+          </article>
+
+          <article class="job-card">
+            <div>
+              <p class="job-meta"><span>01/22/2026</span><span>26-00010</span><span>New Braunfels, TX</span></p>
+              <h3 class="job-title">Sales Executive</h3>
+              <p class="job-desc">Company Description We are a pioneering company in the intralogistics space, building a ...</p>
+            </div>
+            <a class="btn-details" href="#">Details</a>
+          </article>
+        </section>
+
+        <aside class="filters" aria-label="Job filters">
+          <h2>Filter Jobs</h2>
+
+          <div class="filter-group">
+            <h3>Location</h3>
+            <ul class="options">
+              <li><label><input type="checkbox">American Samoa</label></li>
+              <li><label><input type="checkbox">Alabama</label></li>
+              <li><label><input type="checkbox">Arkansas</label></li>
+              <li><label><input type="checkbox">California</label></li>
+              <li><label><input type="checkbox">Colorado</label></li>
+            </ul>
+          </div>
+
+          <div class="filter-group">
+            <h3>City</h3>
+            <input type="text" placeholder="City">
+          </div>
+
+          <div class="filter-group">
+            <h3>Zip Code</h3>
+            <input type="text" placeholder="#####">
+          </div>
+
+          <div class="filter-group">
+            <h3>On-site Flexibility</h3>
+            <ul class="options">
+              <li><label><input type="checkbox">All On-Site</label></li>
+              <li><label><input type="checkbox">Partially Remote</label></li>
+              <li><label><input type="checkbox">Fully Remote</label></li>
+            </ul>
+          </div>
+
+          <button class="btn-search" type="button">Search Jobs</button>
+        </aside>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

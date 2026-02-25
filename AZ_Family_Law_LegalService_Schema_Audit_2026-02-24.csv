@@ -1,0 +1,791 @@
+"Practice Area","Ideal Page URL","GTM Trigger Path","Page URL","Page Intent","Existing Schema","LegalService Schema (JSON-LD)","Passed schema.org  markup validator","PROOF","GTM Custom HTML Block","Used plugin","Rich Results Test Passed","PROOF"
+"Divorce","https://www.azfamilylawattorneys.com/divorce/","/divorce/","https://www.azfamilylawattorneys.com/divorce/","Divorce Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/divorce/#service"",""name"":""Arizona Family Law Attorneys - Divorce Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Navigating divorce in Arizona? Our experienced divorce lawyers protect your assets and rights. Compassionate, aggressive representation. Call us today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/divorce/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Divorce Legal Services"",""description"":""Navigating divorce in Arizona? Our experienced divorce lawyers protect your assets and rights. Compassionate, aggressive representation. Call us today."",""url"":""https://www.azfamilylawattorneys.com/divorce/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Divorce"",""sameAs"":""https://en.wikipedia.org/wiki/Divorce""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/divorce/"",""url"":""https://www.azfamilylawattorneys.com/divorce/"",""name"":""Divorce Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2020-10-19T04:59:03+00:00"",""dateModified"":""2025-12-10T18:17:13+00:00"",""description"":""Navigating divorce in Arizona? Our experienced divorce lawyers protect your assets and rights. Compassionate, aggressive representation. Call us today."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/divorce/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/divorce/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/divorce/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Divorce""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/divorce/#service"",""name"":""Arizona Family Law Attorneys - Divorce Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Navigating divorce in Arizona? Our experienced divorce lawyers protect your assets and rights. Compassionate, aggressive representation. Call us today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/divorce/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Divorce Legal Services"",""description"":""Navigating divorce in Arizona? Our experienced divorce lawyers protect your assets and rights. Compassionate, aggressive representation. Call us today."",""url"":""https://www.azfamilylawattorneys.com/divorce/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Divorce"",""sameAs"":""https://en.wikipedia.org/wiki/Divorce""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Child Custody","https://www.azfamilylawattorneys.com/child-custody/","/child-custody/","https://www.azfamilylawattorneys.com/child-custody/","Child Custody Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/child-custody/#service"",""name"":""Arizona Family Law Attorneys - Child Custody Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Fighting for your children? Our Arizona child custody lawyers protect your parental rights. Trusted legal support for custody disputes. Call us today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/child-custody/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Child Custody Legal Services"",""description"":""Fighting for your children? Our Arizona child custody lawyers protect your parental rights. Trusted legal support for custody disputes. Call us today."",""url"":""https://www.azfamilylawattorneys.com/child-custody/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Child custody"",""sameAs"":""https://en.wikipedia.org/wiki/Child_custody""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/child-custody/"",""url"":""https://www.azfamilylawattorneys.com/child-custody/"",""name"":""Custody Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2020-10-19T04:54:40+00:00"",""dateModified"":""2025-12-10T18:16:12+00:00"",""description"":""Fighting for your children? Our Arizona child custody lawyers protect your parental rights. Trusted legal support for custody disputes. Call us today."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/child-custody/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/child-custody/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/child-custody/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Child Custody""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/child-custody/#service"",""name"":""Arizona Family Law Attorneys - Child Custody Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Fighting for your children? Our Arizona child custody lawyers protect your parental rights. Trusted legal support for custody disputes. Call us today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/child-custody/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Child Custody Legal Services"",""description"":""Fighting for your children? Our Arizona child custody lawyers protect your parental rights. Trusted legal support for custody disputes. Call us today."",""url"":""https://www.azfamilylawattorneys.com/child-custody/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Child custody"",""sameAs"":""https://en.wikipedia.org/wiki/Child_custody""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Child Support","https://www.azfamilylawattorneys.com/child-support/","/child-support/","https://www.azfamilylawattorneys.com/child-support/","Child Support Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/child-support/#service"",""name"":""Arizona Family Law Attorneys - Child Support Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Need help with child support in Arizona? Our attorneys ensure fair calculations and enforcement. Protect your financial future. Schedule a consultation now."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/child-support/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Child Support Legal Services"",""description"":""Need help with child support in Arizona? Our attorneys ensure fair calculations and enforcement. Protect your financial future. Schedule a consultation now."",""url"":""https://www.azfamilylawattorneys.com/child-support/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Child support"",""sameAs"":""https://en.wikipedia.org/wiki/Child_support""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/child-support/"",""url"":""https://www.azfamilylawattorneys.com/child-support/"",""name"":""Child Support Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2020-10-19T05:04:04+00:00"",""dateModified"":""2025-12-10T18:16:40+00:00"",""description"":""Need help with child support in Arizona? Our attorneys ensure fair calculations and enforcement. Protect your financial future. Schedule a consultation now."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/child-support/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/child-support/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/child-support/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Child Support""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/child-support/#service"",""name"":""Arizona Family Law Attorneys - Child Support Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Need help with child support in Arizona? Our attorneys ensure fair calculations and enforcement. Protect your financial future. Schedule a consultation now."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/child-support/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Child Support Legal Services"",""description"":""Need help with child support in Arizona? Our attorneys ensure fair calculations and enforcement. Protect your financial future. Schedule a consultation now."",""url"":""https://www.azfamilylawattorneys.com/child-support/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Child support"",""sameAs"":""https://en.wikipedia.org/wiki/Child_support""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Spousal Support","https://www.azfamilylawattorneys.com/spousal-support/","/spousal-support/","https://www.azfamilylawattorneys.com/spousal-support/","Spousal Maintenance Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/spousal-support/#service"",""name"":""Arizona Family Law Attorneys - Spousal Maintenance Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Facing spousal maintenance issues? Our Arizona alimony lawyers advocate for fair support outcomes. Don't face it alone. Schedule a consultation today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/spousal-support/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Spousal Maintenance Legal Services"",""description"":""Facing spousal maintenance issues? Our Arizona alimony lawyers advocate for fair support outcomes. Don't face it alone. Schedule a consultation today."",""url"":""https://www.azfamilylawattorneys.com/spousal-support/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Alimony"",""sameAs"":""https://en.wikipedia.org/wiki/Alimony""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/spousal-support/"",""url"":""https://www.azfamilylawattorneys.com/spousal-support/"",""name"":""Spousal Maintenance Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2024-05-28T05:49:12+00:00"",""dateModified"":""2025-12-10T18:19:32+00:00"",""description"":""Facing spousal maintenance issues? Our Arizona alimony lawyers advocate for fair support outcomes. Don't face it alone. Schedule a consultation today."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/spousal-support/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/spousal-support/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/spousal-support/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Spousal Support Attorneys in Phoenix""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/spousal-support/#service"",""name"":""Arizona Family Law Attorneys - Spousal Maintenance Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Facing spousal maintenance issues? Our Arizona alimony lawyers advocate for fair support outcomes. Don't face it alone. Schedule a consultation today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/spousal-support/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Spousal Maintenance Legal Services"",""description"":""Facing spousal maintenance issues? Our Arizona alimony lawyers advocate for fair support outcomes. Don't face it alone. Schedule a consultation today."",""url"":""https://www.azfamilylawattorneys.com/spousal-support/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Alimony"",""sameAs"":""https://en.wikipedia.org/wiki/Alimony""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Paternity","https://www.azfamilylawattorneys.com/paternity/","/paternity/","https://www.azfamilylawattorneys.com/paternity/","Paternity Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/paternity/#service"",""name"":""Arizona Family Law Attorneys - Paternity Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Establishing paternity in Arizona? Unmarried fathers need legal protection to secure rights. Our attorneys can help. Call today for a consultation."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/paternity/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Paternity Legal Services"",""description"":""Establishing paternity in Arizona? Unmarried fathers need legal protection to secure rights. Our attorneys can help. Call today for a consultation."",""url"":""https://www.azfamilylawattorneys.com/paternity/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Paternity"",""sameAs"":""https://en.wikipedia.org/wiki/Paternity""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/paternity/"",""url"":""https://www.azfamilylawattorneys.com/paternity/"",""name"":""Paternity Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2024-05-02T06:38:00+00:00"",""dateModified"":""2025-12-10T18:19:06+00:00"",""description"":""Establishing paternity in Arizona? Unmarried fathers need legal protection to secure rights. Our attorneys can help. Call today for a consultation."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/paternity/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/paternity/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/paternity/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Arizona Paternity Attorneys""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/paternity/#service"",""name"":""Arizona Family Law Attorneys - Paternity Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Establishing paternity in Arizona? Unmarried fathers need legal protection to secure rights. Our attorneys can help. Call today for a consultation."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/paternity/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Paternity Legal Services"",""description"":""Establishing paternity in Arizona? Unmarried fathers need legal protection to secure rights. Our attorneys can help. Call today for a consultation."",""url"":""https://www.azfamilylawattorneys.com/paternity/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Paternity"",""sameAs"":""https://en.wikipedia.org/wiki/Paternity""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Guardianship","https://www.azfamilylawattorneys.com/guardianship/","/guardianship/","https://www.azfamilylawattorneys.com/guardianship/","Guardianship Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/guardianship/#service"",""name"":""Arizona Family Law Attorneys - Guardianship Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Seeking legal guardianship in Arizona? Our attorneys guide you through the complex process to protect loved ones. Contact us for a consultation today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/guardianship/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Guardianship Legal Services"",""description"":""Seeking legal guardianship in Arizona? Our attorneys guide you through the complex process to protect loved ones. Contact us for a consultation today."",""url"":""https://www.azfamilylawattorneys.com/guardianship/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Guardianship"",""sameAs"":""https://en.wikipedia.org/wiki/Guardianship""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/guardianship/"",""url"":""https://www.azfamilylawattorneys.com/guardianship/"",""name"":""Guardianship Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2024-05-02T06:21:28+00:00"",""dateModified"":""2025-12-10T18:18:07+00:00"",""description"":""Seeking legal guardianship in Arizona? Our attorneys guide you through the complex process to protect loved ones. Contact us for a consultation today."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/guardianship/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/guardianship/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/guardianship/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Phoenix Guardianship Attorneys""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/guardianship/#service"",""name"":""Arizona Family Law Attorneys - Guardianship Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Seeking legal guardianship in Arizona? Our attorneys guide you through the complex process to protect loved ones. Contact us for a consultation today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/guardianship/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Guardianship Legal Services"",""description"":""Seeking legal guardianship in Arizona? Our attorneys guide you through the complex process to protect loved ones. Contact us for a consultation today."",""url"":""https://www.azfamilylawattorneys.com/guardianship/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Guardianship"",""sameAs"":""https://en.wikipedia.org/wiki/Guardianship""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Divorce Mediation","https://www.azfamilylawattorneys.com/divorce-mediation/","/divorce-mediation/","https://www.azfamilylawattorneys.com/divorce-mediation/","Divorce Mediation Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/divorce-mediation/#service"",""name"":""Arizona Family Law Attorneys - Divorce Mediation Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Looking for divorce mediation in Arizona? Resolve disputes amicably with our skilled mediators. Save time and stress. Call now to schedule a session."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/divorce-mediation/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Divorce Mediation Legal Services"",""description"":""Looking for divorce mediation in Arizona? Resolve disputes amicably with our skilled mediators. Save time and stress. Call now to schedule a session."",""url"":""https://www.azfamilylawattorneys.com/divorce-mediation/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Mediation"",""sameAs"":""https://en.wikipedia.org/wiki/Mediation""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/divorce-mediation/"",""url"":""https://www.azfamilylawattorneys.com/divorce-mediation/"",""name"":""Divorce Mediation Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2024-05-02T06:43:00+00:00"",""dateModified"":""2025-12-10T18:18:38+00:00"",""description"":""Looking for divorce mediation in Arizona? Resolve disputes amicably with our skilled mediators. Save time and stress. Call now to schedule a session."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/divorce-mediation/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/divorce-mediation/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/divorce-mediation/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Divorce Mediation Attorneys in Phoenix""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/divorce-mediation/#service"",""name"":""Arizona Family Law Attorneys - Divorce Mediation Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Looking for divorce mediation in Arizona? Resolve disputes amicably with our skilled mediators. Save time and stress. Call now to schedule a session."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/divorce-mediation/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Divorce Mediation Legal Services"",""description"":""Looking for divorce mediation in Arizona? Resolve disputes amicably with our skilled mediators. Save time and stress. Call now to schedule a session."",""url"":""https://www.azfamilylawattorneys.com/divorce-mediation/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Mediation"",""sameAs"":""https://en.wikipedia.org/wiki/Mediation""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Adoption","https://www.azfamilylawattorneys.com/adoption/","/adoption/","https://www.azfamilylawattorneys.com/adoption/","Adoption Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/adoption/#service"",""name"":""Arizona Family Law Attorneys - Adoption Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Growing your family? Our Arizona adoption lawyers make the process smoother. Compassionate legal guidance for all adoption types. Call for a consultation."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/adoption/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Adoption Legal Services"",""description"":""Growing your family? Our Arizona adoption lawyers make the process smoother. Compassionate legal guidance for all adoption types. Call for a consultation."",""url"":""https://www.azfamilylawattorneys.com/adoption/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Adoption"",""sameAs"":""https://en.wikipedia.org/wiki/Adoption""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/adoption/"",""url"":""https://www.azfamilylawattorneys.com/adoption/"",""name"":""Adoption Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2020-10-19T04:51:50+00:00"",""dateModified"":""2025-12-10T18:15:46+00:00"",""description"":""Growing your family? Our Arizona adoption lawyers make the process smoother. Compassionate legal guidance for all adoption types. Call for a consultation."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/adoption/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/adoption/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/adoption/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Adoption""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/adoption/#service"",""name"":""Arizona Family Law Attorneys - Adoption Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Growing your family? Our Arizona adoption lawyers make the process smoother. Compassionate legal guidance for all adoption types. Call for a consultation."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/adoption/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Adoption Legal Services"",""description"":""Growing your family? Our Arizona adoption lawyers make the process smoother. Compassionate legal guidance for all adoption types. Call for a consultation."",""url"":""https://www.azfamilylawattorneys.com/adoption/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Adoption"",""sameAs"":""https://en.wikipedia.org/wiki/Adoption""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Fathers' Rights","https://www.azfamilylawattorneys.com/fathers-rights/","/fathers-rights/","https://www.azfamilylawattorneys.com/fathers-rights/","Fathers’ Rights Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/fathers-rights/#service"",""name"":""Arizona Family Law Attorneys - Fathers’ Rights Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Are you a father facing a difficult family law matter? You don't need to go into family courts alone. Schedule a case evaluation with our firm for help."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/fathers-rights/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Fathers' Rights Legal Services"",""description"":""Are you a father facing a difficult family law matter? You don't need to go into family courts alone. Schedule a case evaluation with our firm for help."",""url"":""https://www.azfamilylawattorneys.com/fathers-rights/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Fathers' rights movement"",""sameAs"":""https://en.wikipedia.org/wiki/Fathers%27_rights_movement""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/fathers-rights/"",""url"":""https://www.azfamilylawattorneys.com/fathers-rights/"",""name"":""Father's RIghts Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2024-05-02T06:31:57+00:00"",""dateModified"":""2025-12-10T18:17:41+00:00"",""description"":""Are you a father facing a difficult family law matter? You don't need to go into family courts alone. Schedule a case evaluation with our firm for help."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/fathers-rights/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/fathers-rights/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/fathers-rights/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Fathers&#8217; Rights Attorneys in Phoenix""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/fathers-rights/#service"",""name"":""Arizona Family Law Attorneys - Fathers’ Rights Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Are you a father facing a difficult family law matter? You don't need to go into family courts alone. Schedule a case evaluation with our firm for help."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/fathers-rights/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Fathers' Rights Legal Services"",""description"":""Are you a father facing a difficult family law matter? You don't need to go into family courts alone. Schedule a case evaluation with our firm for help."",""url"":""https://www.azfamilylawattorneys.com/fathers-rights/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Fathers' rights movement"",""sameAs"":""https://en.wikipedia.org/wiki/Fathers%27_rights_movement""},{""@type"":""Thing"",""name"":""Family law"",""sameAs"":""https://en.wikipedia.org/wiki/Family_law""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"
+"Military Divorce","https://www.azfamilylawattorneys.com/divorce/military-divorce/","/divorce/military-divorce/","https://www.azfamilylawattorneys.com/divorce/military-divorce/","Military Divorce Attorneys in Arizona","BreadcrumbList; ContactPoint; EntryPoint; GeoCircle; GeoCoordinates; ImageObject; LegalService; ListItem; Organization; PostalAddress; PropertyValueSpecification; ReadAction; SearchAction; WebPage; WebSite","{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/#service"",""name"":""Arizona Family Law Attorneys - Military Divorce Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Military divorce involves unique challenges. Our Arizona attorneys understand military benefits and family law. Protect your service record. Call us today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Military Divorce Legal Services"",""description"":""Military divorce involves unique challenges. Our Arizona attorneys understand military benefits and family law. Protect your service record. Call us today."",""url"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Divorce"",""sameAs"":""https://en.wikipedia.org/wiki/Divorce""},{""@type"":""Thing"",""name"":""United States Armed Forces"",""sameAs"":""https://en.wikipedia.org/wiki/United_States_Armed_Forces""}]}","manual","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@graph"":[{""@type"":""WebPage"",""@id"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/"",""url"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/"",""name"":""Military Divorce Attorney Lawyers | Arizona Family Law Attorneys"",""isPartOf"":{""@id"":""https://www.azfamilylawattorneys.com/#website""},""datePublished"":""2024-09-12T15:13:19+00:00"",""dateModified"":""2025-12-10T18:20:00+00:00"",""description"":""Military divorce involves unique challenges. Our Arizona attorneys understand military benefits and family law. Protect your service record. Call us today."",""breadcrumb"":{""@id"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/#breadcrumb""},""inLanguage"":""en-US"",""potentialAction"":[{""@type"":""ReadAction"",""target"":[""https://www.azfamilylawattorneys.com/divorce/military-divorce/""]}]},{""@type"":""BreadcrumbList"",""@id"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/#breadcrumb"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""Home"",""item"":""https://www.azfamilylawattorneys.com/""},{""@type"":""ListItem"",""position"":2,""name"":""Divorce"",""item"":""https://www.azfamilylawattorneys.com/divorce/""},{""@type"":""ListItem"",""position"":3,""name"":""Phoenix Military Divorce Lawyers""}]},{""@type"":""WebSite"",""@id"":""https://www.azfamilylawattorneys.com/#website"",""url"":""https://www.azfamilylawattorneys.com/"",""name"":""Arizona Family Law Attorneys"",""description"":"""",""publisher"":{""@id"":""https://www.azfamilylawattorneys.com/#organization""},""potentialAction"":[{""@type"":""SearchAction"",""target"":{""@type"":""EntryPoint"",""urlTemplate"":""https://www.azfamilylawattorneys.com/?s={search_term_string}""},""query-input"":{""@type"":""PropertyValueSpecification"",""valueRequired"":true,""valueName"":""search_term_string""}}],""inLanguage"":""en-US""},{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/"",""logo"":{""@type"":""ImageObject"",""inLanguage"":""en-US"",""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/"",""url"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""contentUrl"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/11/attorney11.png"",""width"":600,""height"":542,""caption"":""Arizona Family Law Attorneys""},""image"":{""@id"":""https://www.azfamilylawattorneys.com/#/schema/logo/image/""},""sameAs"":[""https://www.facebook.com/azfamilylawattorneys/"",""https://x.com/azfamattorneys""]}]}</script>
+<script type=""application/ld+json"">{
+""@context"": ""http://schema.org"",
+""@type"": ""LegalService"",
+""name"": ""Arizona Family Law Attorneys"",
+""openingHours"": ""Mo 0900-0500 Tu 0900-0500 We 0900-0500 Th 0900-0500 Fr 0900-0500 Sa Closed Su Closed"",
+""additionalProperty"": """",
+""additionalType"": """",
+""areaServed"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our office location can be found in Phoenix, Arizona"",
+""name"": ""Arizona Family Law Attorneys""
+},
+""description"": ""Our Phoenix office on 3rd Street is less than 1 mile from Monterey Park. We are easily accessible from all surrounding areas and not even 10 miles from Phoenix Sky Harbor International Airport (PHX). Our firm is about 7 minutes from the Japanese Friendship Garden of Phoenix.""
+},
+""email"": ""office@azlawyers.org"",
+""address"": {
+""@type"": ""PostalAddress"",
+""postalCode"": ""85004"",
+""addressRegion"": ""Arizona"",
+""addressCountry"": ""United States"",
+""streetAddress"": ""2727 N 3rd St #302"",
+""addressLocality"": ""Phoenix""
+},
+""paymentAccepted"": ""Cash, Credit Card"",
+""telephone"": ""4802689393"",
+""image"": {
+""@type"": ""ImageObject"",
+""name"": ""Arizona Family Law Attorneys image"",
+""url"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/image123.png""
+},
+""ContactPoint"": {
+""@type"": ""ContactPoint"",
+""name"": ""Arizona Family Law Attorneys"",
+""availableLanguage"": ""https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language"",
+""telephone"": ""+4802689393"",
+""contactType"": ""customer support"",
+""@id"": ""https://www.azfamilylawattorneys.com/contact/""
+},
+""geo"": {
+""@type"": ""GeoCoordinates"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""We devote our practice exclusively to family law. Our firm was founded on the belief that family should always come first."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""We bring peace to Phoenix, Arizona families. With over 15 years of experience, Arizona Family Law Attorneys have the legal knowledge and compassion to defend your family, no matter the circumstances."",
+""priceRange"": """",
+""url"": ""https://www.azfamilylawattorneys.com/"",
+""currenciesAccepted"": """",
+""hasMap"": ""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",
+""logo"": ""https://www.azfamilylawattorneys.com/wp-content/uploads/2020/10/logo.png"",
+""serviceArea"": {
+""@type"": ""GeoCircle"",
+""name"": ""Arizona Family Law Attorneys area"",
+""geoMidpoint"": {
+""@type"": ""GeoCoordinates"",
+""postalCode"": ""85004"",
+""latitude"": ""33.4788512"",
+""longitude"": ""-112.0692509"",
+""description"": ""Our team of lawyers concentrates only on family law matters so that we can provide the highest standard of legal guidance as a result of our streamlined focus."",
+""name"": ""Arizona Family Law Attorneys geo location""
+},
+""description"": ""Our legal experience and professionalism are what earn us strong outcomes for our clients.""
+},
+""sameAs"": [
+""https://www.facebook.com/azfamilylawattorneys/"",
+""https://twitter.com/azfamattorneys"",
+""https://www.linkedin.com/in/shawnnariggers"",
+""https://www.youtube.com/channel/UCfu9OzaRWfjBM1_7maDFvhg""
+],
+""@id"": ""https://www.azfamilylawattorneys.com/""
+}</script>","<script type=""application/ld+json"">{""@context"":""https://schema.org"",""@type"":""LegalService"",""@id"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/#service"",""name"":""Arizona Family Law Attorneys - Military Divorce Attorneys in Arizona"",""legalName"":""Arizona Family Law Attorneys"",""description"":""Military divorce involves unique challenges. Our Arizona attorneys understand military benefits and family law. Protect your service record. Call us today."",""parentOrganization"":{""@type"":""Organization"",""@id"":""https://www.azfamilylawattorneys.com/#organization"",""name"":""Arizona Family Law Attorneys"",""url"":""https://www.azfamilylawattorneys.com/""},""url"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/"",""logo"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2024/05/new_logo-arizona_hero.webp"",""image"":""https://www.azfamilylawattorneys.com/wp-content/uploads/2025/06/Shawnna-Riggers.png"",""priceRange"":""Call for consultation"",""telephone"":""+1-480-478-9293"",""geo"":{""@type"":""GeoCoordinates"",""latitude"":33.4788512,""longitude"":-112.0692509},""hasMap"":""https://www.google.com/maps/place/Arizona+Family+Law+Attorneys/@33.4788512,-112.0692509,15z/data=!4m5!3m4!1s0x0:0xa6d1bb55fa20ce29!8m2!3d33.4788512!4d-112.0692509"",""openingHoursSpecification"":[{""@type"":""OpeningHoursSpecification"",""dayOfWeek"":[""Monday"",""Tuesday"",""Wednesday"",""Thursday"",""Friday""],""opens"":""09:00"",""closes"":""16:00""}],""areaServed"":[{""@type"":""AdministrativeArea"",""name"":""Arizona""},{""@type"":""Place"",""name"":""Phoenix, AZ""},{""@type"":""Place"",""name"":""Scottsdale, AZ""},{""@type"":""Place"",""name"":""Paradise Valley, AZ""},{""@type"":""Place"",""name"":""Glendale, AZ""},{""@type"":""Place"",""name"":""Tempe, AZ""},{""@type"":""Place"",""name"":""85253""},{""@type"":""Place"",""name"":""85018""},{""@type"":""Place"",""name"":""85016""},{""@type"":""Place"",""name"":""85012""},{""@type"":""Place"",""name"":""85251""},{""@type"":""Place"",""name"":""85028""},{""@type"":""Place"",""name"":""85004""},{""@type"":""Place"",""name"":""85020""},{""@type"":""Place"",""name"":""85014""},{""@type"":""Place"",""name"":""85013""},{""@type"":""Place"",""name"":""85042""},{""@type"":""Place"",""name"":""85250""},{""@type"":""Place"",""name"":""85003""},{""@type"":""Place"",""name"":""85301""},{""@type"":""Place"",""name"":""85007""}],""additionalProperty"":[{""@type"":""PropertyValue"",""name"":""Saturday Hours"",""value"":""Closed""},{""@type"":""PropertyValue"",""name"":""Sunday Hours"",""value"":""Closed""}],""aggregateRating"":{""@type"":""AggregateRating"",""ratingValue"":""4.8"",""reviewCount"":""542"",""bestRating"":""5"",""worstRating"":""1""},""review"":{""@type"":""Review"",""name"":""Google Business Profile Review Summary"",""author"":{""@type"":""Organization"",""name"":""Google users""},""publisher"":{""@type"":""Organization"",""name"":""Google""},""reviewBody"":""Arizona Family Law Attorneys has a 4.8-star rating based on 542 Google reviews."",""reviewRating"":{""@type"":""Rating"",""ratingValue"":""4.8"",""bestRating"":""5"",""worstRating"":""1""}},""makesOffer"":[{""@type"":""Offer"",""itemOffered"":{""@type"":""Service"",""name"":""Military Divorce Legal Services"",""description"":""Military divorce involves unique challenges. Our Arizona attorneys understand military benefits and family law. Protect your service record. Call us today."",""url"":""https://www.azfamilylawattorneys.com/divorce/military-divorce/""}}],""knowsAbout"":[{""@type"":""Thing"",""name"":""Divorce"",""sameAs"":""https://en.wikipedia.org/wiki/Divorce""},{""@type"":""Thing"",""name"":""United States Armed Forces"",""sameAs"":""https://en.wikipedia.org/wiki/United_States_Armed_Forces""}]}</script>","Yoast SEO v26.9 (schema graph) + existing LegalService JSON-LD block","manual","manual"

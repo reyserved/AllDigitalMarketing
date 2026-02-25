@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramage Attorney Hub Mockup</title>
+  <meta name="description" content="High-end static attorney hub mockup for The Ramage Law Group. Main-content only: intro, attorney cards, trust block, and how-we-help icons.">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+
+    :root {
+      --color-navy: #032436;
+      --color-gold: #e2c383;
+      --color-ink: #0f1419;
+      --color-muted: #5a6a77;
+      --color-bg: #f9f6f3;
+      --color-panel: #ffffff;
+      --color-border: rgba(3, 36, 54, 0.16);
+      --color-line: rgba(3, 36, 54, 0.22);
+
+      --shadow-card: 0 12px 30px rgba(3, 36, 54, 0.08);
+      --shadow-card-hover: 0 24px 54px rgba(3, 36, 54, 0.16);
+      --shadow-trust: 0 20px 44px rgba(1, 18, 28, 0.25);
+
+      --radius-card: 4px;
+      --radius-pill: 999px;
+
+      --space-2xs: 0.5rem;
+      --space-xs: 0.75rem;
+      --space-sm: 1rem;
+      --space-md: 1.5rem;
+      --space-lg: 2rem;
+      --space-xl: 3rem;
+      --space-2xl: 4.5rem;
+      --space-3xl: 6rem;
+
+      --container-width: min(1240px, calc(100% - 4rem));
+
+      --font-display: "Playfair Display", "Times New Roman", Georgia, serif;
+      --font-body: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-body);
+      color: var(--color-ink);
+      background:
+        radial-gradient(1200px 380px at 50% -160px, rgba(226, 195, 131, 0.26), transparent 70%),
+        linear-gradient(to bottom, #ffffff 0%, var(--color-bg) 100%);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .attorney-hub {
+      width: 100%;
+      overflow: clip;
+    }
+
+    .section-shell {
+      width: var(--container-width);
+      margin: 0 auto;
+    }
+
+    .attorney-intro {
+      padding: var(--space-3xl) 0 var(--space-2xl);
+      text-align: center;
+      position: relative;
+    }
+
+    .attorney-intro::after {
+      content: "";
+      display: block;
+      width: 96px;
+      height: 2px;
+      background: var(--color-gold);
+      margin: var(--space-lg) auto 0;
+    }
+
+    .kicker {
+      margin: 0 0 var(--space-sm);
+      font-size: 0.82rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--color-navy);
+    }
+
+    .attorney-intro h1 {
+      font-family: var(--font-display);
+      margin: 0 auto var(--space-md);
+      font-size: clamp(2rem, 1.6rem + 1.8vw, 3.25rem);
+      line-height: 1.15;
+      max-width: 18ch;
+      color: var(--color-navy);
+      letter-spacing: 0.01em;
+    }
+
+    .attorney-intro p {
+      max-width: 74ch;
+      margin: 0 auto;
+      color: var(--color-muted);
+      font-size: 1.1rem;
+    }
+
+    .attorney-grid {
+      width: var(--container-width);
+      margin: 0 auto var(--space-3xl);
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 2.1rem;
+    }
+
+    .attorney-card {
+      background: var(--color-panel);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-card);
+      overflow: clip;
+      box-shadow: var(--shadow-card);
+      transition: transform 260ms ease, box-shadow 260ms ease, border-color 260ms ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      will-change: transform;
+    }
+
+    .attorney-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-card-hover);
+      border-color: rgba(226, 195, 131, 0.55);
+    }
+
+    .attorney-photo {
+      position: relative;
+      display: block;
+      aspect-ratio: 4 / 5;
+      background: linear-gradient(145deg, #e7ebef, #f5f7fa);
+      overflow: hidden;
+    }
+
+    .attorney-photo::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 56%;
+      background: linear-gradient(to top, rgba(3, 36, 54, 0.2), transparent);
+      opacity: 0.45;
+      pointer-events: none;
+    }
+
+    .attorney-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform 600ms ease;
+      display: block;
+    }
+
+    .attorney-card:hover .attorney-photo img {
+      transform: scale(1.04);
+    }
+
+    .attorney-meta {
+      padding: 1.45rem 1.35rem 1.3rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 0.8rem;
+    }
+
+    .attorney-meta h3 {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: clamp(1.35rem, 1.22rem + 0.42vw, 1.65rem);
+      line-height: 1.18;
+      color: var(--color-navy);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    .attorney-title {
+      margin: 0;
+      font-size: 0.79rem;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      font-weight: 700;
+    }
+
+    .attorney-rating {
+      margin: 0;
+      color: #b88f34;
+      font-size: 0.95rem;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2xs);
+      align-items: center;
+    }
+
+    .attorney-rating span {
+      color: #70808d;
+      letter-spacing: normal;
+      font-weight: 500;
+      font-size: 0.84rem;
+    }
+
+    .attorney-summary {
+      margin: 0;
+      color: var(--color-muted);
+      font-size: 0.98rem;
+      min-height: 5.3em;
+    }
+
+    .attorney-actions {
+      margin-top: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.68rem;
+      padding-top: 0.55rem;
+    }
+
+    .attorney-actions a {
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      border-radius: var(--radius-pill);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      font-size: 0.92rem;
+      transition: all 220ms ease;
+      border: 1px solid transparent;
+    }
+
+    .btn-call {
+      background: var(--color-gold);
+      border-color: var(--color-gold);
+      color: #14293a;
+      box-shadow: 0 6px 16px rgba(226, 195, 131, 0.38);
+    }
+
+    .btn-call:hover {
+      transform: translateY(-1px);
+      background: #ebd1a0;
+      border-color: #ebd1a0;
+      box-shadow: 0 10px 22px rgba(226, 195, 131, 0.42);
+    }
+
+    .btn-bio {
+      background: transparent;
+      border-color: var(--color-navy);
+      color: var(--color-navy);
+    }
+
+    .btn-bio:hover {
+      background: var(--color-navy);
+      color: #ffffff;
+    }
+
+    .trust-block {
+      width: var(--container-width);
+      margin: 0 auto var(--space-3xl);
+      background:
+        linear-gradient(170deg, rgba(255, 255, 255, 0.08), transparent 36%),
+        linear-gradient(145deg, #032436 0%, #0c354d 100%);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      color: #e8eff5;
+      border-radius: 4px;
+      box-shadow: var(--shadow-trust);
+      padding: clamp(1.6rem, 1.2rem + 1.4vw, 2.8rem);
+    }
+
+    .trust-block h2 {
+      margin: 0 0 1.5rem;
+      font-family: var(--font-display);
+      font-size: clamp(1.65rem, 1.4rem + 1.1vw, 2.4rem);
+      line-height: 1.2;
+      color: #ffffff;
+      letter-spacing: 0.01em;
+    }
+
+    .trust-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.1rem 1.5rem;
+    }
+
+    .trust-list li {
+      border-left: 2px solid var(--color-gold);
+      padding: 0.15rem 0 0.15rem 0.85rem;
+    }
+
+    .trust-list strong {
+      display: block;
+      color: #f4e2bc;
+      margin-bottom: 0.22rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    .how-help {
+      width: var(--container-width);
+      margin: 0 auto;
+      padding-bottom: var(--space-3xl);
+    }
+
+    .how-help h2 {
+      margin: 0 0 var(--space-lg);
+      text-align: center;
+      color: var(--color-navy);
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 1.3rem + 1.2vw, 2.25rem);
+      line-height: 1.2;
+    }
+
+    .help-icons-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.2rem;
+    }
+
+    .help-item {
+      text-decoration: none;
+      border: 1px solid var(--color-border);
+      border-radius: 4px;
+      padding: 1.2rem 1.1rem 1.35rem;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: border-color 220ms ease, transform 220ms ease, box-shadow 220ms ease;
+      min-height: 232px;
+    }
+
+    .help-item:hover {
+      border-color: rgba(226, 195, 131, 0.74);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 30px rgba(3, 36, 54, 0.1);
+    }
+
+    .help-item img {
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+      display: block;
+      margin-bottom: 0.9rem;
+      filter: saturate(0.95);
+    }
+
+    .help-item h3 {
+      margin: 0 0 0.35rem;
+      color: var(--color-navy);
+      font-size: 1.12rem;
+      line-height: 1.3;
+      font-family: var(--font-display);
+      font-weight: 600;
+    }
+
+    .help-item p {
+      margin: 0;
+      color: var(--color-muted);
+      font-size: 0.95rem;
+    }
+
+    .attorney-actions a:focus-visible,
+    .help-item:focus-visible,
+    .attorney-photo:focus-visible {
+      outline: 2px solid var(--color-gold);
+      outline-offset: 2px;
+    }
+
+    @media (max-width: 1080px) {
+      .attorney-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.55rem;
+      }
+
+      .help-icons-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 760px) {
+      :root {
+        --container-width: min(1240px, calc(100% - 2rem));
+      }
+
+      .attorney-intro {
+        padding: 4.2rem 0 2.2rem;
+      }
+
+      .attorney-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-list {
+        grid-template-columns: 1fr;
+      }
+
+      .help-icons-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 470px) {
+      .attorney-actions {
+        grid-template-columns: 1fr;
+      }
+
+      .attorney-summary {
+        min-height: 0;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="attorney-hub">
+    <section class="attorney-intro section-shell" aria-labelledby="attorney-hub-title">
+      <p class="kicker">The Ramage Law Group</p>
+      <h1 id="attorney-hub-title">Meet the McKinney &amp; Frisco Area Family Law Attorneys</h1>
+      <p>At The Ramage Law Group, we pair high-level strategy with boutique-level client care. This team is built to guide North Texas families through complex transitions with clarity, compassion, and courtroom-ready advocacy.</p>
+    </section>
+
+    <section class="attorney-grid" aria-label="Attorney team cards">
+      <article class="attorney-card">
+        <a class="attorney-photo" href="https://www.ramagefamilylawfirm.com/attorney/ramage-sharon" aria-label="Read Sharon Ramage bio">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2025/09/Sharon-150x150.jpg" alt="Portrait of Sharon Ramage">
+        </a>
+        <div class="attorney-meta">
+          <h3>Sharon Ramage</h3>
+          <p class="attorney-title">Founder &amp; CEO</p>
+          <p class="attorney-rating">★★★★★ <span>Based on Client Reviews</span></p>
+          <p class="attorney-summary">Leads high-conflict family law matters with strategic planning shaped by over three decades of legal and advocacy experience.</p>
+          <div class="attorney-actions">
+            <a class="btn-call" href="tel:9725769565">Call Now</a>
+            <a class="btn-bio" href="https://www.ramagefamilylawfirm.com/attorney/ramage-sharon">Read Bio</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="attorney-card">
+        <a class="attorney-photo" href="https://www.ramagefamilylawfirm.com/attorney/marissa-balius" aria-label="Read Marissa Balius bio">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2025/09/Marissa-150x150.jpg" alt="Portrait of Marissa Balius">
+        </a>
+        <div class="attorney-meta">
+          <h3>Marissa Balius</h3>
+          <p class="attorney-title">Managing Attorney</p>
+          <p class="attorney-rating">★★★★★ <span>Based on Client Reviews</span></p>
+          <p class="attorney-summary">Provides disciplined case leadership and practical legal guidance for families navigating custody, property, and post-judgment concerns.</p>
+          <div class="attorney-actions">
+            <a class="btn-call" href="tel:9725769565">Call Now</a>
+            <a class="btn-bio" href="https://www.ramagefamilylawfirm.com/attorney/marissa-balius">Read Bio</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="attorney-card">
+        <a class="attorney-photo" href="https://www.ramagefamilylawfirm.com/attorney/lisa-zahn" aria-label="Read Lisa Zahn bio">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2025/11/Lisa-150x150.jpg" alt="Portrait of Lisa Zahn">
+        </a>
+        <div class="attorney-meta">
+          <h3>Lisa Zahn</h3>
+          <p class="attorney-title">Senior Attorney</p>
+          <p class="attorney-rating">★★★★★ <span>Based on Client Reviews</span></p>
+          <p class="attorney-summary">Handles sophisticated family law disputes with a steady, detail-focused approach designed to protect both immediate and long-term interests.</p>
+          <div class="attorney-actions">
+            <a class="btn-call" href="tel:9725769565">Call Now</a>
+            <a class="btn-bio" href="https://www.ramagefamilylawfirm.com/attorney/lisa-zahn">Read Bio</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="attorney-card">
+        <a class="attorney-photo" href="https://www.ramagefamilylawfirm.com/attorney/kaitlyn-thomas" aria-label="Read Kaitlyn Thomas bio">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2025/09/Kaitlyn-150x150.jpg" alt="Portrait of Kaitlyn Thomas">
+        </a>
+        <div class="attorney-meta">
+          <h3>Kaitlyn Thomas</h3>
+          <p class="attorney-title">Attorney</p>
+          <p class="attorney-rating">★★★★★ <span>Based on Client Reviews</span></p>
+          <p class="attorney-summary">Builds clear legal roadmaps for clients who need decisive support through divorce, parenting arrangements, and evolving family obligations.</p>
+          <div class="attorney-actions">
+            <a class="btn-call" href="tel:9725769565">Call Now</a>
+            <a class="btn-bio" href="https://www.ramagefamilylawfirm.com/attorney/kaitlyn-thomas">Read Bio</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="attorney-card">
+        <a class="attorney-photo" href="https://www.ramagefamilylawfirm.com/attorney/kira-white" aria-label="Read Kira White bio">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2025/09/Kira-150x150.jpg" alt="Portrait of Kira White">
+        </a>
+        <div class="attorney-meta">
+          <h3>Kira White</h3>
+          <p class="attorney-title">Attorney</p>
+          <p class="attorney-rating">★★★★★ <span>Based on Client Reviews</span></p>
+          <p class="attorney-summary">Advocates for durable outcomes in custody, support, and contested family matters while keeping strategy grounded in client priorities.</p>
+          <div class="attorney-actions">
+            <a class="btn-call" href="tel:9725769565">Call Now</a>
+            <a class="btn-bio" href="https://www.ramagefamilylawfirm.com/attorney/kira-white">Read Bio</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="attorney-card">
+        <a class="attorney-photo" href="https://www.ramagefamilylawfirm.com/attorney/christina-suh" aria-label="Read Christina Suh bio">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2025/09/Christina-150x150.jpg" alt="Portrait of Christina Suh">
+        </a>
+        <div class="attorney-meta">
+          <h3>Christina Suh</h3>
+          <p class="attorney-title">Attorney</p>
+          <p class="attorney-rating">★★★★★ <span>Based on Client Reviews</span></p>
+          <p class="attorney-summary">Guides clients through emotionally demanding disputes with clear counsel, measured advocacy, and strong preparation at every phase.</p>
+          <div class="attorney-actions">
+            <a class="btn-call" href="tel:9725769565">Call Now</a>
+            <a class="btn-bio" href="https://www.ramagefamilylawfirm.com/attorney/christina-suh">Read Bio</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="attorney-card">
+        <a class="attorney-photo" href="https://www.ramagefamilylawfirm.com/attorney/kathryn-hogan" aria-label="Read Kathryn Hogan bio">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2026/01/kathryn-150x150.jpg" alt="Portrait of Kathryn Hogan">
+        </a>
+        <div class="attorney-meta">
+          <h3>Kathryn Hogan</h3>
+          <p class="attorney-title">Attorney</p>
+          <p class="attorney-rating">★★★★★ <span>Based on Client Reviews</span></p>
+          <p class="attorney-summary">Supports families with responsive legal representation focused on practical settlements and strong courtroom positioning when needed.</p>
+          <div class="attorney-actions">
+            <a class="btn-call" href="tel:9725769565">Call Now</a>
+            <a class="btn-bio" href="https://www.ramagefamilylawfirm.com/attorney/kathryn-hogan">Read Bio</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="trust-block" aria-labelledby="why-work-heading">
+      <h2 id="why-work-heading">Why Work With The Ramage Law Group?</h2>
+      <ul class="trust-list">
+        <li><strong>Decades of Experience</strong>Led by Sharon Ramage, a former social worker and prosecutor with over 30 years of legal expertise.</li>
+        <li><strong>Specialized Advocacy</strong>Focused support for children with disabilities and families facing layered legal and educational transitions.</li>
+        <li><strong>Strategic Results</strong>Purpose-built strategy for complex and high-conflict family law matters where long-term outcomes matter most.</li>
+        <li><strong>Local Court Insight</strong>Deep familiarity with Collin, Denton, and Tarrant County court systems and procedural expectations.</li>
+      </ul>
+    </section>
+
+    <section class="how-help" aria-labelledby="how-help-heading">
+      <h2 id="how-help-heading">How We Help Clients</h2>
+      <div class="help-icons-grid">
+        <a class="help-item" href="https://www.ramagefamilylawfirm.com/family-law/divorce">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2026/02/file-divorce-150x150.png" alt="Divorce icon">
+          <h3>Divorce</h3>
+          <p>File for Divorce</p>
+        </a>
+        <a class="help-item" href="https://www.ramagefamilylawfirm.com/family-law/child-custody">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2026/02/protect-your-child-custody-150x150.png" alt="Child custody icon">
+          <h3>Child Custody</h3>
+          <p>Secure Custody &amp; Placement</p>
+        </a>
+        <a class="help-item" href="https://www.ramagefamilylawfirm.com/family-law/property-division">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2026/02/marital-property-division-150x150.png" alt="Property division icon">
+          <h3>Property Division</h3>
+          <p>Protect Marital Assets</p>
+        </a>
+        <a class="help-item" href="https://www.ramagefamilylawfirm.com/family-law/child-support">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2026/02/family-spousal-child-support-150x150.png" alt="Child support icon">
+          <h3>Child Support</h3>
+          <p>Ensure Fair Child Support</p>
+        </a>
+        <a class="help-item" href="https://www.ramagefamilylawfirm.com/family-law/divorce/spousal-support-alimony">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2026/02/fair-alimony-spousal-support-150x150.png" alt="Alimony icon">
+          <h3>Alimony</h3>
+          <p>Ensure Fair Spousal Support</p>
+        </a>
+        <a class="help-item" href="https://www.ramagefamilylawfirm.com/contact">
+          <img src="https://www.ramagefamilylawfirm.com/wp-content/uploads/2026/02/how-guardianship-works-150x150.png" alt="Guardianship icon">
+          <h3>Guardianship</h3>
+          <p>Secure Guardianship of a Child</p>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

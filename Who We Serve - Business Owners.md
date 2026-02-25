@@ -139,3 +139,20 @@ Yes. We support business owners in growth mode by aligning compensation, cash fl
 
 ## Schedule a Complimentary Consultation
 Discover how a business owner-focused wealth strategy can help you protect what you have built and prepare for what is next. Contact Moran Wealth Management to schedule your complimentary consultation.
+
+## Disclosures
+Moran Wealth Management, LLC (“MWM”) is an SEC-registered investment adviser located in Naples, Florida. Registration as an investment adviser does not imply a certain level of skill or training. The publication of MWM’s website on the Internet should not be construed by any consumer or prospective client as MWM’s solicitation or attempt to effect transactions in securities, or the rendering of personalized investment advice over the Internet.
+
+A copy of MWM’s current written disclosure statement, as set forth on Form ADV and discussing MWM’s business operations, services, and fees, is available from MWM upon written request or by visiting https://adviserinfo.sec.gov/. MWM does not make any representations as to the accuracy, timeliness, suitability, or completeness of any information prepared by any unaffiliated third party, whether linked to or incorporated herein. All such information is provided solely for convenience purposes and users should be guided accordingly.
+
+Tax laws are complex and subject to change; outcomes depend on your income, entity structure, tax brackets, IRMAA, and estate goals. We do not provide legal or tax advice; please consult your CPA or attorney.
+
+We are neither your attorneys nor your accountants, and no portion of this material should be interpreted as legal, accounting, or tax advice. We recommend that you seek the advice of a qualified attorney and accountant.
+
+Moran Wealth Management, LLC is a separate entity and not affiliated with any other entity or practice that uses the same name.
+
+Information collected through this website and other digital communications is governed by our Website & Digital Privacy Policy, which describes how we collect, use, and share information in connection with online activities, including marketing, analytics, and service provider processing. Personal financial information provided in connection with advisory relationships is governed separately by our Privacy Policy Notice, issued pursuant to applicable federal financial privacy laws.
+
+Access to this website is provided for informational purposes only and without any warranties, expressed or implied, regarding the accuracy, completeness, timeliness, or results obtained from any information posted on this website or any third-party website linked to this website
+
+$5+ Billion in AUM data as of 01/01/2026.

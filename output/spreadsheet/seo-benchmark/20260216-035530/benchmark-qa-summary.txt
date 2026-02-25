@@ -1,0 +1,8 @@
+SEO Benchmark QA Summary
+Output directory: /Applications/Antigravity/ROCKET CLICKS/ALL DIGITAL MARKETING/output/spreadsheet/seo-benchmark/20260216-035530
+Validation blocked metrics: no
+Total QA issues: 31
+Errors: 0
+Warnings: 31
+Issue type counts:
+- type_conflict: 31

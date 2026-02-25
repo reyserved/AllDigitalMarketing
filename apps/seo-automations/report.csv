@@ -1,0 +1,5 @@
+file,line,url,error
+test_mockup.md,7,https://thisisaverylongandfakeurlthatdoesnotexist123.com,Error: ConnectionError
+test_mockup.md,8,doesnotexist.md,Local file not found
+test_mockup.md,10,https://httpstat.us/404,Error: ConnectionError
+test_mockup.md,11,https://httpstat.us/500,Error: ConnectionError

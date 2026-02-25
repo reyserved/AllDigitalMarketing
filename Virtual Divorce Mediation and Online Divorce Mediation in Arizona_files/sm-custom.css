@@ -1,0 +1,379 @@
+.sm-custom a .sub-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: auto;
+    right: 4px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: none;
+    background: #EA4C89;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.sm-custom>li {
+    border-bottom: 1px solid #4b4650;
+}
+
+.sm-custom a {
+    padding: 10px 20px;
+}
+
+.sm-custom a .sub-arrow::before {
+    content: '+';
+}
+
+.sm-custom a.highlighted .sub-arrow::before {
+    content: '-';
+}
+
+.sm-custom>li:last-child>a.highlighted,
+.sm-custom>li:last-child>*:not(ul) a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>*:not(ul) a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>ul>li:last-child>a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>ul>li:last-child>*:not(ul) a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>ul>li:last-child>ul>li:last-child>a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>ul>li:last-child>ul>li:last-child>*:not(ul) a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>ul>li:last-child>ul>li:last-child>ul>li:last-child>a.highlighted,
+.sm-custom>li:last-child>ul>li:last-child>ul>li:last-child>ul>li:last-child>ul>li:last-child>*:not(ul) a.highlighted {
+    border-radius: 0;
+}
+
+.sm-custom ul {
+    background: #fff;
+}
+
+.sm-custom ul ul {
+    background: rgba(102, 102, 102, 0.1);
+}
+
+.sm-custom ul a {
+    background: transparent;
+    color: #484848;
+    text-shadow: none;
+    text-transform: none;
+    /*border-left: 8px solid transparent;*/
+}
+
+.sm-custom ul a:hover,
+.sm-custom ul a:focus,
+.sm-custom ul a:active {
+    background: #ededed;
+    color: #2d2969;
+}
+
+.sm-custom ul a.current {
+    background: #006892;
+    color: #fff;
+}
+
+.sm-custom ul a.disabled {
+    color: #b3b3b3;
+}
+
+
+/*.sm-custom ul ul a,
+.sm-custom ul ul a:hover,
+.sm-custom ul ul a:focus,
+.sm-custom ul ul a:active {
+  border-left: 16px solid transparent;
+}*/
+
+.sm-custom ul ul ul a,
+.sm-custom ul ul ul a:hover,
+.sm-custom ul ul ul a:focus,
+.sm-custom ul ul ul a:active {
+    border-left: 24px solid transparent;
+}
+
+.sm-custom ul ul ul ul a,
+.sm-custom ul ul ul ul a:hover,
+.sm-custom ul ul ul ul a:focus,
+.sm-custom ul ul ul ul a:active {
+    border-left: 32px solid transparent;
+}
+
+.sm-custom ul ul ul ul ul a,
+.sm-custom ul ul ul ul ul a:hover,
+.sm-custom ul ul ul ul ul a:focus,
+.sm-custom ul ul ul ul ul a:active {
+    border-left: 40px solid transparent;
+}
+
+.sm-custom ul li {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.sm-custom ul li:first-child {
+    border-top: 0;
+}
+
+.sm-custom li.mega-menu {
+    position: static;
+}
+
+@media (min-width: 768px) {
+    /* Switch to desktop layout
+  -----------------------------------------------
+     These transform the menu tree from
+     collapsible to desktop (navbar + dropdowns)
+  -----------------------------------------------*/
+    /* start... (it's not recommended editing these rules) */
+    .sm-custom a {
+        padding: 30px 0;
+    }
+    .sm-custom ul {
+        position: absolute;
+        width: 12em;
+    }
+    .sm-custom li {
+        float: left;
+        text-align: left;
+    }
+    .sm-custom>li {
+        float: none;
+        border-bottom: none;
+        margin: 0 0.5rem;
+        position: relative;
+    }
+    .sm-custom.sm-rtl li {
+        float: right;
+    }
+    .sm-custom ul li,
+    .sm-custom.sm-rtl ul li,
+    .sm-custom.sm-vertical li {
+        float: none;
+    }
+    .sm-custom a {
+        white-space: nowrap;
+    }
+    .sm-custom>li>a {
+        position: relative;
+    }
+    .sm-custom ul a,
+    .sm-custom.sm-vertical a {
+        white-space: normal;
+    }
+    .sm-custom .sm-nowrap>li>a,
+    .sm-custom .sm-nowrap>li> :not(ul) a {
+        white-space: nowrap;
+    }
+    /* ...end */
+    .sm-custom>li>a {
+        position: relative;
+    }
+    .sm-custom>li>a:hover {
+        color: #ea4c89;
+        -webkit-transition: color .25s ease;
+        -moz-transition: color .25s ease;
+        -ms-transition: color .25s ease;
+        -o-transition: color .25s ease;
+        transition: color .25s ease;
+    }
+    /*.sm-custom > li > a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 22px;
+    height: 2px;
+  }
+  .sm-custom > li > a:hover::after,
+  .sm-custom > li.current-menu-item > a::after {
+    background-color: #1a70a3;
+  }*/
+    .sm-custom a.current {
+        color: #8eb35a;
+    }
+    .sm-custom a.disabled {
+        background: #3092c0;
+        color: #a1d1e8;
+    }
+    .sm-custom a .sub-arrow {
+        top: auto;
+        margin-top: 0;
+        bottom: 2px;
+        left: 50%;
+        margin-left: -5px;
+        right: auto;
+        width: 0;
+        height: 0;
+        border-width: 5px;
+        border-style: solid dashed dashed dashed;
+        border-color: #C41230 transparent transparent transparent;
+        background: transparent;
+        border-radius: 0;
+    }
+    .sm-custom>li>a .sub-arrow {
+        display: none;
+    }
+    .sm-custom ul {
+        padding: 0;
+        background: #C41230;
+        border-radius: 0 !important;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    }
+    .sm-custom ul ul {
+        border-radius: 0 !important;
+        background: #C41230;
+    }
+    .sm-custom ul a {
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+        padding: 10px 20px;
+        background: #363b5c;
+        color: #FFF;
+    }
+    .sm-custom ul a:hover,
+    .sm-custom ul a:focus,
+    .sm-custom ul a:active,
+    .sm-custom ul a.highlighted {
+        background: #EA4C89;
+        color: #FFFFFF;
+    }
+    .sm-custom ul a.current {
+        background: #EA4C89;
+        color: #FFFFFF;
+    }
+    .sm-custom ul a.disabled {
+        background: #fff;
+        color: #b3b3b3;
+    }
+    .sm-custom ul a .sub-arrow {
+        top: 50%;
+        margin-top: -5px;
+        bottom: auto;
+        left: auto;
+        margin-left: 0;
+        right: 10px;
+        border-style: dashed dashed dashed solid;
+        border-color: transparent transparent transparent #FFF;
+    }
+    .sm-custom ul li:hover .sub-arrow {
+        border-color: transparent transparent transparent #FFFFFF;
+    }
+    .sm-custom ul li {
+        border: 0;
+    }
+    .sm-custom .scroll-up,
+    .sm-custom .scroll-down {
+        position: absolute;
+        display: none;
+        visibility: hidden;
+        overflow: hidden;
+        background: #fff;
+        height: 20px;
+    }
+    .sm-custom .scroll-up-arrow,
+    .sm-custom .scroll-down-arrow {
+        position: absolute;
+        top: -2px;
+        left: 50%;
+        margin-left: -8px;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        border-width: 8px;
+        border-style: dashed dashed solid dashed;
+        border-color: transparent transparent #2b82ac transparent;
+    }
+    .sm-custom .scroll-down-arrow {
+        top: 6px;
+        border-style: solid dashed dashed dashed;
+        border-color: #2b82ac transparent transparent transparent;
+    }
+    .sm-custom.sm-rtl.sm-vertical a .sub-arrow {
+        right: auto;
+        left: 10px;
+        border-style: dashed solid dashed dashed;
+        border-color: transparent #a1d1e8 transparent transparent;
+    }
+    .sm-custom.sm-rtl>li:first-child>a,
+    .sm-custom.sm-rtl>li:first-child> :not(ul) a {
+        border-radius: 0 8px 8px 0;
+    }
+    .sm-custom.sm-rtl>li:last-child>a,
+    .sm-custom.sm-rtl>li:last-child> :not(ul) a {
+        border-radius: 8px 0 0 8px !important;
+    }
+    .sm-custom.sm-rtl>li:first-child {
+        border-left: 1px solid #2b82ac;
+    }
+    .sm-custom.sm-rtl>li:last-child {
+        border-left: 0;
+    }
+    .sm-custom.sm-rtl ul a .sub-arrow {
+        right: auto;
+        left: 10px;
+        border-style: dashed solid dashed dashed;
+        border-color: transparent #a1d1e8 transparent transparent;
+    }
+    .sm-custom.sm-vertical {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    }
+    .sm-custom.sm-vertical a {
+        padding: 9px 23px;
+    }
+    .sm-custom.sm-vertical a .sub-arrow {
+        top: 50%;
+        margin-top: -5px;
+        bottom: auto;
+        left: auto;
+        margin-left: 0;
+        right: 10px;
+        border-style: dashed dashed dashed solid;
+        border-color: transparent transparent transparent #a1d1e8;
+    }
+    .sm-custom.sm-vertical>li:first-child>a,
+    .sm-custom.sm-vertical>li:first-child> :not(ul) a {
+        border-radius: 8px 8px 0 0;
+    }
+    .sm-custom.sm-vertical>li:last-child>a,
+    .sm-custom.sm-vertical>li:last-child> :not(ul) a {
+        border-radius: 0 0 8px 8px !important;
+    }
+    .sm-custom.sm-vertical>li {
+        border-left: 0 !important;
+    }
+    .sm-custom.sm-vertical ul {
+        border-radius: 4px !important;
+    }
+    .sm-custom.sm-vertical ul a {
+        padding: 9px 23px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .sm-custom a {
+        padding: 34px 0;
+    }
+}
+
+@media (min-width: 1100px) {
+    .sm-custom>li {
+        margin: 0 0.5rem;
+    }
+    .sm-custom a {
+        padding: 36px 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .sm-custom a {
+        padding: 40px 0;
+    }
+    .sm-custom>li {
+        margin: 0 0.5rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .sm-custom>li {
+        margin: 0 1.75rem;
+    }
+}

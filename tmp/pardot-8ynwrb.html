@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="https://www2.omnipress.com" >
+		<meta charset="utf-8"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="description" content=""/>
+		<title></title>
+		
+		<style>
+/* some basic styling to make things pretty */
+*, *:before, *:after {
+  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body, input, textarea, select, option {
+	font-family: "Roboto", "Oxygen", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: .9em;
+}
+
+body {
+  color: #333;
+}
+
+h3{
+   color: #005288;
+    font-weight: 600;
+    margin-bottom:20px;
+    font-size: 1.5em;
+}
+a{color:#D93F0C;text-decoration: none;}
+a:visited {color: #D93F0C;}
+a:hover {color:#D04A0B;text-decoration: underline;}
+
+fieldset {
+ /*width: 25em;*/
+ /* margin: 20px;*/
+  border: 0 none;
+}
+
+legend {
+  font-size: 1.2em;
+  width: 100%;
+  border-bottom: 1px dotted #99c;
+}
+
+fieldset div {
+  margin: 4px 0;
+}
+
+input, textarea, select {
+  font-size: 1em;
+  padding: 2px 5px 4px;
+  border: 1px solid #e3e3e3;
+  border-radius: 2px;
+}
+
+/* flexbox styles */
+fieldset div {
+  display: flex;
+  align-items: center;
+   flex-wrap: wrap;
+}
+
+label,  span > span > label {
+  order: 1;
+  width: 10em;
+  text-align: left;
+  padding-right: 0.5em;
+  /*white-space: nowrap;*/
+  user-select: none;
+  cursor: pointer;
+}
+.required label:after, #required-key:before {
+    content:" *";
+    color:#D93F0C;
+  }
+
+input, textarea, select,  span > span > input {
+  order: 2;
+  flex: 1 1 auto;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  order: 1;
+  flex: none;
+  width: auto;
+ /* margin-left: 10em;*/
+}
+
+input[type="checkbox"] ~ label, input[type="radio"] ~ label {
+  width: auto;
+  text-align: left;
+  padding-left: 0.4em;
+}
+
+/* label state styles */
+input:focus ~ label, textarea:focus ~ label, select:focus ~ label {
+  color: #005288;
+}
+
+input:checked ~ label {
+  font-weight: bold;
+}
+.above-form{text-align:center;}
+.form-check-input{margin:10px 0;}
+.errors{color:#b00020; font-weight: 600; margin:10px 0;}
+.error{color: #b00020; font-weight: 600;}
+.comments textarea{width:65%;}
+.description{order: 3;font-size: 80%; margin: 5px 0 5px 12.5em; width:100%;}
+.submit input{
+    color: #FFFFFF;
+    background-color: #D93F0C;
+    border: 2px solid #D93F0C;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: "Roboto",Sans-Serif;
+    font-size:1.2em;
+    font-weight: 600;
+    letter-spacing: initial;
+    line-height: 1;
+    margin: 20px 0px 0px 0px;
+    max-width: 100%;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: initial;
+    white-space: normal;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+        cursor: pointer;
+}
+.submit input:hover{background-color: #D04A0B; border: 2px solid #c34b10;}
+
+#required-key {text-align:center; }
+
+		</style>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PBH28HT');</script>
+<!-- End Google Tag Manager -->	
+		
+	<script type="text/javascript" src="https://www2.omnipress.com/js/piUtils.js?ver=2021-09-20"></script><script type="text/javascript">
+piAId = '1022';
+piCId = '103099';
+piHostname = 'www2.omnipress.com';
+if(!window['pi']) { window['pi'] = {}; } pi = window['pi']; if(!pi['tracker']) { pi['tracker'] = {}; } pi.tracker.pi_form = true;
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script></head>
+	<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBH28HT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+		<form accept-charset="UTF-8" method="post" action="https://www2.omnipress.com/l/22/2025-06-25/8ynwrb" class="form" id="pardot-form" onsubmit="formSubmit.disabled = true; return true;">
+<fieldset>
+
+<style type="text/css">
+form.form p label { color: #000000; float: none; text-align: left; line-height: 1em; width: auto; }
+form.form p.submit { margin-left: 5px; }
+form.form p.no-label { margin-left: 50px; }
+form.form span.value { margin-left: 0px; }
+form.form p span.description { margin-left: 0px; }
+form.form p.required label, form.form span.required label { background-position: top left; padding-left: 15px; }
+form.form .pd-checkbox .value span { display: block !important; }
+</style>
+
+
+
+
+
+	
+		
+		
+		
+			    <div class="form-field  first_name pd-text required    ">
+
+				
+					<label class="field-label" for="22_660549pi_22_660549">First Name</label>
+				
+				
+				<input type="text" name="22_660549pi_22_660549" id="22_660549pi_22_660549" value="" class="text" size="30" maxlength="40" onchange="" onfocus="" />
+				
+			</div>
+			<div id="error_for_22_660549pi_22_660549" style="display:none"></div>
+			
+		
+			    <div class="form-field  last_name pd-text required    ">
+
+				
+					<label class="field-label" for="22_660552pi_22_660552">Last Name</label>
+				
+				
+				<input type="text" name="22_660552pi_22_660552" id="22_660552pi_22_660552" value="" class="text" size="30" maxlength="80" onchange="" onfocus="" />
+				
+			</div>
+			<div id="error_for_22_660552pi_22_660552" style="display:none"></div>
+			
+		
+			    <div class="form-field  email pd-text required    ">
+
+				
+					<label class="field-label" for="22_660555pi_22_660555">Work Email</label>
+				
+				
+				<input type="text" name="22_660555pi_22_660555" id="22_660555pi_22_660555" value="" class="text" size="30" maxlength="255" onchange="" onfocus="piAjax.loadEmailIndicator(this, 660555, 'https://www2.omnipress.com/images/indicator2.gif');" />
+				
+					<span class="description">This form does not accept addresses from free providers, like Gmail.</span>
+				
+			</div>
+			<div id="error_for_22_660555pi_22_660555" style="display:none"></div>
+			
+		
+			    <div class="form-field  company pd-text required    ">
+
+				
+					<label class="field-label" for="22_660558pi_22_660558">Organization</label>
+				
+				
+				<input type="text" name="22_660558pi_22_660558" id="22_660558pi_22_660558" value="" class="text" size="30" maxlength="255" onchange="" onfocus="" />
+				
+			</div>
+			<div id="error_for_22_660558pi_22_660558" style="display:none"></div>
+			
+		
+			    <div class="form-field  phone pd-text required    ">
+
+				
+					<label class="field-label" for="22_660561pi_22_660561">Phone</label>
+				
+				
+				<input type="text" name="22_660561pi_22_660561" id="22_660561pi_22_660561" value="" class="text" size="30" maxlength="40" onchange="" onfocus="" />
+				
+			</div>
+			<div id="error_for_22_660561pi_22_660561" style="display:none"></div>
+			
+		
+			    <div class="form-field  Print_Quantity pd-text     ">
+
+				
+					<label class="field-label" for="22_660564pi_22_660564">Print Quantity</label>
+				
+				
+				<input type="text" name="22_660564pi_22_660564" id="22_660564pi_22_660564" value="" class="text" size="30" maxlength="65535" onchange="" onfocus="" />
+				
+			</div>
+			<div id="error_for_22_660564pi_22_660564" style="display:none"></div>
+			
+		
+			    <div class="form-field  Page_Count pd-text     ">
+
+				
+					<label class="field-label" for="22_660567pi_22_660567">Page Count</label>
+				
+				
+				<input type="text" name="22_660567pi_22_660567" id="22_660567pi_22_660567" value="" class="text" size="30" maxlength="65535" onchange="" onfocus="" />
+				
+			</div>
+			<div id="error_for_22_660567pi_22_660567" style="display:none"></div>
+			
+		
+			    <div class="form-field message comments pd-textarea     ">
+
+				
+					<label class="field-label" for="22_660570pi_22_660570">Project Details: – Include booklet type, size, binding style, and other special requests. (Optional)</label>
+				
+				
+				<textarea name="22_660570pi_22_660570" id="22_660570pi_22_660570" onchange="" cols="40" rows="10" class="standard"></textarea>
+				
+			</div>
+			<div id="error_for_22_660570pi_22_660570" style="display:none"></div>
+			
+		
+			    <div class="form-field CheckBoxUpdate Opt_In_Status pd-checkbox   no-label  ">
+
+				
+				
+				<span class="value"><span><input type="checkbox" name="22_660573pi_22_660573_8753976" id="22_660573pi_22_660573_8753976" value="8753976" onchange="" /><label class="inline" for="22_660573pi_22_660573_8753976">Yes! Send me Omnipress content via email.</label></span></span>
+				
+			</div>
+			<div id="error_for_22_660573pi_22_660573" style="display:none"></div>
+			
+		
+			    <div class="form-field  Consent_to_Processing pd-checkbox required  no-label  ">
+
+				
+				
+				<span class="value"><span><input type="checkbox" name="22_660576pi_22_660576_8753979" id="22_660576pi_22_660576_8753979" value="8753979" onchange="" /><label class="inline" for="22_660576pi_22_660576_8753979">I have read & agree to the <a href="https://omnipress.com/privacy" target="_blank" >privacy policy</a>. </label></span></span>
+				
+			</div>
+			<div id="error_for_22_660576pi_22_660576" style="display:none"></div>
+			
+		
+			    <div class="form-field  GCLID pd-hidden  hidden   ">
+
+				
+				
+				<input type="hidden" name="22_660579pi_22_660579" id="22_660579pi_22_660579" value="" />
+				
+			</div>
+			<div id="error_for_22_660579pi_22_660579" style="display:none"></div>
+			
+		
+		
+		
+	<p style="position:absolute; width:190px; left:-9999px; top: -9999px;visibility:hidden;">
+		<label for="pi_extra_field">Comments</label>
+		<input type="text" name="pi_extra_field" id="pi_extra_field"/>
+	</p>
+		
+		
+		<!-- forces IE5-8 to correctly submit UTF8 content  -->
+		<input name="_utf8" type="hidden" value="&#9731;" />
+		
+		<div class="submit">
+		  <input type="submit" accesskey="s" value="Request Quote"  name="formSubmit" onClick="this.onFocus=this.blur();"/>
+		</div>
+	
+	
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+	var anchors = document.getElementsByTagName("a");
+	for (var i=0; i<anchors.length; i++) {
+		var anchor = anchors[i];
+		if(anchor.getAttribute("href")&&!anchor.getAttribute("target")) {
+			anchor.target = "_top";
+		}
+	}
+		
+//]]>
+</script>
+  </fieldset>
+<input type="hidden" name="hiddenDependentFields" id="hiddenDependentFields" value="" /></form>
+<script type="text/javascript">(function(){ pardot.$(document).ready(function(){ (function() {
+	var $ = window.pardot.$;
+	window.pardot.FormDependencyMap = [];
+
+	$('.form-field-primary input, .form-field-primary select').each(function(index, input) {
+		$(input).on('change', window.piAjax.checkForDependentField);
+		window.piAjax.checkForDependentField.call(input);
+	});
+})(); });})();</script>
+
+<script>
+
+
+function getParam(p) {
+var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function getExpiryRecord(value) {
+var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
+
+var expiryDate = new Date().getTime() + expiryPeriod;
+return {
+value: value,
+expiryDate: expiryDate
+};
+}
+
+function addGclid() {
+var gclidParam = getParam('gclid');
+//var gclidFormFields = ['gclid_field', 'foobar']; // all possible gclid form field ids here
+var gclidFormFields = document.querySelectorAll('.GCLID > input');
+var gclidFormFieldsArr = Array.prototype.slice.call(gclidFormFields);
+console.log(gclidFormFieldsArr);
+var gclidRecord = null;
+var currGclidFormField;
+
+var gclsrcParam = getParam('gclsrc');
+var isGclsrcValid = !gclsrcParam || gclsrcParam.indexOf('aw') !== -1;
+
+//gclidFormFields.forEach(function (field) {
+gclidFormFieldsArr.forEach(function (field) {    
+if (document.getElementById(field.id)) {
+currGclidFormField = document.getElementById(field.id);
+}
+});
+
+if (gclidParam && isGclsrcValid) {
+gclidRecord = getExpiryRecord(gclidParam);
+localStorage.setItem('gclid', JSON.stringify(gclidRecord));
+}
+
+var gclid = gclidRecord || JSON.parse(localStorage.getItem('gclid'));
+var isGclidValid = gclid && new Date().getTime() < gclid.expiryDate;
+
+if (currGclidFormField && isGclidValid) {
+currGclidFormField.value = gclid.value;
+}
+}
+
+window.addEventListener('load', addGclid);
+
+</script>		
+
+	</body>
+</html>

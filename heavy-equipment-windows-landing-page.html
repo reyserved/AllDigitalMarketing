@@ -102,7 +102,7 @@ span {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background-image: url("https://www.fivestarfabricating.com/wp-content/uploads/2024/03/Earth-Moving-e1710172304672.jpg");
+  background-image: url("https://images.unsplash.com/photo-1763515188645-a09e188ad47c?auto=format&fit=crop&w=2400&q=80");
   background-size: cover;
   background-position: center;
 }
@@ -642,17 +642,25 @@ span {
 }
 
 .benefit-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: #e8f4ff;
-  color: var(--primary-blue);
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: #e9eef9;
+  color: var(--primary-navy);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  font-weight: 900;
   margin-bottom: 10px;
+}
+
+.benefit-icon svg {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .benefit-title {
@@ -1017,42 +1025,60 @@ span {
 }
 
 .hero--machinery-studio {
-  background: #202b74;
+  background: #eff1f4;
   padding: 0;
 }
 
 .hero--machinery-studio .hero__frame {
   position: relative;
-  min-height: 700px;
+  min-height: 760px;
   overflow: hidden;
   box-shadow: none;
-  background: #202b74;
+  background: #eceff3;
   width: 100%;
 }
 
 .hero--machinery-studio .hero__media {
   position: absolute;
   inset: 0;
-  background-image: url("https://www.fivestarfabricating.com/wp-content/uploads/2024/03/Earth-Moving-e1710172304672.jpg");
+  background-image: url("https://images.unsplash.com/photo-1763515188645-a09e188ad47c?auto=format&fit=crop&w=2400&q=80");
   background-size: cover;
-  background-position: center center;
-  filter: grayscale(100%) brightness(0.74) contrast(1.02);
+  background-position: 35% 34%;
+  filter: grayscale(100%) saturate(0%) brightness(0.9) contrast(0.96);
 }
 
-.hero--machinery-studio .hero__media::before {
-  content: "";
+.absolute {
   position: absolute;
-  inset: 0;
-  background: linear-gradient(115deg, rgba(16, 24, 62, 0.72) 0%, rgba(38, 51, 128, 0.66) 56%, rgba(38, 51, 128, 0.58) 100%);
 }
 
-.hero--machinery-studio .hero__media::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+.fill {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero--machinery-studio .section-bg-overlay.absolute.fill {
+  z-index: 1;
+  pointer-events: none;
   background:
-    radial-gradient(120% 100% at 14% 18%, rgba(120, 136, 232, 0.16) 0%, rgba(120, 136, 232, 0) 62%),
-    linear-gradient(90deg, rgba(10, 16, 42, 0.1) 0%, rgba(10, 16, 42, 0.22) 100%);
+    radial-gradient(100% 90% at 12% 20%, rgba(38, 51, 128, 0.08) 0%, rgba(38, 51, 128, 0) 62%),
+    rgba(255, 255, 255, 0.32);
+}
+
+.hero--machinery-studio .section-bg-overlay.absolute.fill::before,
+.hero--machinery-studio .section-bg-overlay.absolute.fill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.hero--machinery-studio .section-bg-overlay.absolute.fill::before {
+  background: linear-gradient(-270deg, rgba(255, 255, 255, 0.86) 50%, rgba(255, 255, 255, 0) 66.74%);
+}
+
+.hero--machinery-studio .section-bg-overlay.absolute.fill::after {
+  background: linear-gradient(-220deg, rgba(255, 255, 255, 0.74) 40%, rgba(255, 255, 255, 0) 60%);
 }
 
 .hero--machinery-studio .hero__panel-col {
@@ -1075,7 +1101,7 @@ span {
 }
 
 .hero--machinery-studio .hero__kicker {
-  color: rgba(229, 235, 255, 0.95);
+  color: #3f4f73;
   font-size: 0.74rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1084,7 +1110,7 @@ span {
 }
 
 .hero--machinery-studio .hero__headline {
-  color: #ffffff;
+  color: #3d424c;
   font-size: clamp(2rem, 4vw, 3.2rem);
   line-height: 1.02;
   font-weight: 800;
@@ -1092,19 +1118,19 @@ span {
 }
 
 .hero--machinery-studio .hero__lede {
-  color: rgba(240, 244, 255, 0.94);
+  color: #5e6570;
   font-size: 1.05rem;
   line-height: 1.35;
   margin-bottom: 14px;
 }
 
 .hero--machinery-studio .hero__qualifier {
-  color: rgba(244, 246, 255, 0.97);
+  color: #485365;
   font-size: 0.9rem;
   line-height: 1.35;
   padding-left: 12px;
-  border-left: 3px solid #8ba0ff;
-  background: rgba(32, 42, 99, 0.34);
+  border-left: 3px solid rgba(38, 51, 128, 0.45);
+  background: rgba(255, 255, 255, 0.48);
   border-radius: 0 8px 8px 0;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1453,6 +1479,7 @@ span {
   <section class="hero hero--machinery-studio">
     <div class="hero__frame">
       <div class="hero__media" aria-hidden="true"></div>
+      <div class="section-bg-overlay absolute fill" aria-hidden="true"></div>
       <div class="hero__panel-col">
         <p class="hero__kicker">HEAVY EQUIPMENT POLYCARBONATE WINDOWS</p>
         <h1 class="hero__headline">Heavy Equipment Windows</h1>
@@ -1568,22 +1595,51 @@ span {
       </header>
       <div class="benefits-grid">
         <article class="benefit-card">
-          <div class="benefit-icon">1</div>
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6Z"></path>
+              <circle cx="12" cy="12" r="2.5"></circle>
+              <path d="M18.5 4.5v3"></path>
+              <path d="M20 6h-3"></path>
+            </svg>
+          </div>
           <h3 class="benefit-title">Scratch-Resistant Optical Clarity</h3>
           <p class="benefit-text">Advanced coating systems help preserve visibility through demanding duty cycles and repetitive wiper use.</p>
         </article>
         <article class="benefit-card">
-          <div class="benefit-icon">2</div>
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 3l7 3v5c0 5-3.2 8-7 10-3.8-2-7-5-7-10V6l7-3Z"></path>
+              <path d="m10 12 1.8 1.8L15 10.5"></path>
+              <path d="M18 8.5h3"></path>
+              <path d="M19.5 7v3"></path>
+            </svg>
+          </div>
           <h3 class="benefit-title">Impact Durability in Harsh Conditions</h3>
           <p class="benefit-text">Polycarbonate heavy equipment windows are engineered for reliable performance where traditional glass can fail.</p>
         </article>
         <article class="benefit-card">
-          <div class="benefit-icon">3</div>
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M20.24 3.76a6 6 0 0 0-8.48 0L4 11.52V20h8.48l7.76-7.76a6 6 0 0 0 0-8.48Z"></path>
+              <path d="M14 7 5 16"></path>
+              <path d="M10 11h4"></path>
+              <path d="M8 13h4"></path>
+            </svg>
+          </div>
           <h3 class="benefit-title">Lightweight Performance Advantage</h3>
           <p class="benefit-text">Lower material weight can support machine efficiency while maintaining protection and long-term durability.</p>
         </article>
         <article class="benefit-card">
-          <div class="benefit-icon">4</div>
+          <div class="benefit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="m4 20 16-16"></path>
+              <path d="m14 4 6 6"></path>
+              <path d="m6 18 2 2"></path>
+              <path d="m8.5 15.5 2 2"></path>
+              <path d="m11 13 2 2"></path>
+            </svg>
+          </div>
           <h3 class="benefit-title">Precision Fit for Complex Geometries</h3>
           <p class="benefit-text">Custom-engineered fitment for excavator windows, skid steer windows, loaders, and complex enclosed cabs.</p>
         </article>

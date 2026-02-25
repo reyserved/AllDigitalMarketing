@@ -1,0 +1,1346 @@
+<style>
+  :root {
+    --op-bg: #f4f8fc;
+    --op-surface: #ffffff;
+    --op-ink: #12293f;
+    --op-muted: #4c6277;
+    --op-brand: #005288;
+    --op-brand-deep: #003a61;
+    --op-accent: #D93F0C;
+    --op-accent-dark: #b63209;
+    --op-border: #cfdfec;
+    --op-shadow: 0 14px 32px rgba(0, 49, 83, 0.12);
+    --op-radius: 4px;
+  }
+
+  .op-ppc-landing,
+  .op-ppc-landing * {
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, Lucida, sans-serif !important;
+  }
+
+  .op-ppc-landing {
+    margin: 0;
+    padding: 0 0 118px;
+    color: var(--op-ink);
+    background:
+      radial-gradient(1100px 560px at -10% -10%, #dbeaf7 0%, transparent 55%),
+      radial-gradient(850px 460px at 110% -20%, rgba(217, 63, 12, 0.10) 0%, transparent 58%),
+      var(--op-bg);
+  }
+
+  .op-shell {
+    width: min(1180px, calc(100% - 2rem));
+    margin: 0 auto;
+  }
+
+  .op-hero { padding: 2rem 0 1rem; }
+  .op-hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 1.25rem;
+    align-items: start;
+  }
+  
+  
+
+  .op-hero-copy { padding: 1.1rem 0.25rem; }
+
+  .op-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.45rem 0.75rem;
+    border-radius: var(--op-radius);
+    background: linear-gradient(135deg, #005288 0%, #0068ab 100%);
+    color: #fff;
+    font-size: 0.86rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.85rem;
+  }
+
+  .op-hero h1 {
+    margin: 0;
+    line-height: 1.08;
+    font-size: clamp(2rem, 4.2vw, 3.3rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    max-width: 18ch;
+    color: var(--op-brand-deep);
+  }
+
+  .op-hero-sub {
+    margin: 0.85rem 0 0;
+    color: var(--op-muted);
+    font-size: clamp(1rem, 1.6vw, 1.16rem);
+    max-width: 56ch;
+  }
+
+  .op-key-points {
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .op-key-points li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    color: #18344f;
+    font-weight: 600;
+  }
+
+  .op-key-points li::before {
+    content: "•";
+    color: var(--op-accent);
+    font-size: 1.1rem;
+    line-height: 1;
+    margin-top: 0.14rem;
+  }
+
+  .op-actions {
+    margin-top: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .op-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0.72rem 1.05rem;
+    border-radius: var(--op-radius);
+    border: 1px solid transparent;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 1.1;
+    transition: 0.22s ease;
+    cursor: pointer;
+  }
+
+a[target="_top"].op-btn-primary {
+    color: #FFFFFF;
+  }
+  
+.op-ppc-landing a {
+    color: #FFFFFF;
+}
+  
+
+  
+  .op-btn-primary,
+  .op-pardot-form .submit input[type="submit"],
+  .op-btn-warm {
+    background: linear-gradient(135deg, #D93F0C 0%, #f05a24 100%);
+    color: #fff;
+    box-shadow: 0 10px 22px rgba(217, 63, 12, 0.28);
+    border-color: transparent;
+  }
+
+  .op-btn-primary:hover,
+  .op-pardot-form .submit input[type="submit"]:hover,
+  .op-btn-warm:hover {
+    background: linear-gradient(135deg, #b63209 0%, #d93f0c 100%);
+  }
+
+  .op-btn-ghost {
+    border-color: #005288;
+    color: #005288;
+    background: #fff;
+  }
+
+  .op-hero-media {
+    margin-top: 1.15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.65rem;
+  }
+
+  .op-hero-media figure {
+    margin: 0;
+    border-radius: var(--op-radius);
+    overflow: hidden;
+    background: #d8e8f8;
+    box-shadow: 0 8px 18px rgba(7, 39, 66, 0.12);
+  }
+
+  .op-hero-media img {
+    display: block;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .op-hero-media figcaption {
+    padding: 0.55rem 0.7rem 0.7rem;
+    font-size: 0.82rem;
+    color: #27445f;
+    font-weight: 700;
+  }
+
+  .op-form-panel {
+    background: var(--op-surface);
+    border-radius: var(--op-radius);
+    border: 1px solid var(--op-border);
+    box-shadow: var(--op-shadow);
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .op-form-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 4px;
+    background: linear-gradient(90deg, #005288 0%, #D93F0C 100%);
+  }
+
+  .op-form-panel h2 {
+    margin: 0.15rem 0 0.35rem;
+    font-size: clamp(1.22rem, 2vw, 1.58rem);
+    line-height: 1.2;
+    color: var(--op-brand-deep);
+  }
+
+  .op-form-panel p {
+    margin: 0 0 0.8rem;
+    color: var(--op-muted);
+    font-size: 0.96rem;
+  }
+
+  .op-pardot-form { margin: 0; }
+  .op-pardot-form fieldset { margin: 0; border: 0; padding: 0; }
+
+  .op-form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.62rem;
+  }
+
+  .op-pardot-form .form-field {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.32rem;
+  }
+
+  .op-pardot-form .field-label {
+    float: none;
+    width: auto;
+    margin: 0;
+    color: #173a59;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+  }
+
+  .op-pardot-form input.text,
+  .op-pardot-form textarea.standard {
+    width: 100%;
+    border: 1px solid #bdd3e6;
+    border-radius: var(--op-radius);
+    background: #f9fcff;
+    color: #0f2740;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0.68rem 0.72rem;
+    transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .op-pardot-form input.text { min-height: 46px; }
+  .op-pardot-form textarea.standard { min-height: 118px; resize: vertical; }
+
+  .op-pardot-form input.text:focus,
+  .op-pardot-form textarea.standard:focus {
+    outline: none;
+    border-color: #D93F0C;
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(217, 63, 12, 0.16);
+  }
+
+  .op-pardot-form .description {
+    margin: 0;
+    color: #4f667c;
+    font-size: 0.76rem;
+    line-height: 1.35;
+  }
+
+  .op-pardot-form .pd-checkbox .value > span {
+    display: flex !important;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .op-pardot-form .pd-checkbox input[type="checkbox"] {
+    margin-top: 0.2rem;
+    accent-color: #005288;
+    width: 17px;
+    height: 17px;
+    flex: 0 0 auto;
+  }
+
+  .op-pardot-form .pd-checkbox label.inline {
+    font-size: 0.86rem;
+    color: #223f5a;
+    line-height: 1.45;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .op-pardot-form .pd-checkbox label.inline a {
+    color: #005288;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .op-pardot-form .submit { margin: 0.9rem 0 0; }
+  .op-pardot-form .submit input[type="submit"] {
+    width: 100%;
+    min-height: 50px;
+    border: 0;
+    border-radius: var(--op-radius);
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+  }
+
+  .op-pardot-form .submit input[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .op-form-grid > div[id^="error_for_"] { display: none !important; }
+
+  .op-trust { padding: 0.65rem 0 1.25rem; }
+
+  .op-trust-card {
+    background: #fff;
+    border: 1px solid var(--op-border);
+    border-radius: var(--op-radius);
+    padding: 0.85rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 6px 18px rgba(8, 37, 61, 0.08);
+  }
+
+  .op-trust-copy {
+    margin: 0;
+    font-weight: 700;
+    color: #23425e;
+  }
+
+  .op-trust-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .op-trust-tag {
+    background: #e9f2fb;
+    border: 1px solid #bfd4e7;
+    color: #005288;
+    font-weight: 800;
+    font-size: 0.8rem;
+    border-radius: var(--op-radius);
+    padding: 0.36rem 0.65rem;
+    white-space: nowrap;
+  }
+
+  .op-jump-nav { padding: 0 0 1.25rem; }
+  .op-jump-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.52rem;
+    overflow: auto;
+    scrollbar-width: thin;
+  }
+
+  .op-jump-links a {
+    display: inline-flex;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #005288;
+    font-weight: 700;
+    font-size: 0.84rem;
+    padding: 0.48rem 0.7rem;
+    border-radius: var(--op-radius);
+    background: #e9f2fb;
+    border: 1px solid #bfd4e7;
+  }
+
+  .op-section { padding: 1.3rem 0; }
+  .op-section h2 {
+    margin: 0;
+    font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--op-brand-deep);
+  }
+
+  .op-section-intro {
+    margin: 0.65rem 0 0;
+    color: var(--op-muted);
+    max-width: 70ch;
+  }
+
+  .op-service-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .op-service-card {
+    background: #fff;
+    border: 1px solid #d4e5f4;
+    border-radius: var(--op-radius);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    box-shadow: 0 8px 22px rgba(7, 40, 68, 0.08);
+  }
+
+  .op-service-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .op-service-content { padding: 0.78rem 0.85rem 0.9rem; }
+  .op-service-content h3 {
+    margin: 0;
+    font-size: 1.02rem;
+    line-height: 1.2;
+    color: var(--op-brand-deep);
+  }
+
+  .op-service-content p {
+    margin: 0.46rem 0 0;
+    color: #446078;
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+
+  .op-pricing-wrap {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 0.8rem;
+  }
+
+  .op-checklist-card,
+  .op-fast-card {
+    background: #fff;
+    border: 1px solid #d4e5f4;
+    border-radius: var(--op-radius);
+    padding: 1rem;
+    box-shadow: 0 10px 24px rgba(10, 40, 65, 0.07);
+  }
+
+  .op-checklist {
+    margin: 0.3rem 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 0.75rem;
+  }
+
+  .op-checklist li {
+    display: flex;
+    gap: 0.5rem;
+    color: #1f3e5a;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  .op-checklist li::before {
+    content: "✓";
+    color: var(--op-accent);
+    font-weight: 900;
+  }
+
+  .op-fast-card h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    color: var(--op-brand-deep);
+  }
+
+  .op-fast-card p {
+    margin: 0.55rem 0 0;
+    color: #415f77;
+    font-size: 0.92rem;
+  }
+
+  .op-benefit-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.62rem;
+  }
+
+  .op-benefit {
+    background: #fff;
+    border: 1px solid #d4e5f4;
+    border-radius: var(--op-radius);
+    padding: 0.75rem 0.8rem;
+    box-shadow: 0 8px 22px rgba(7, 39, 67, 0.07);
+  }
+
+  .op-benefit h3 {
+    margin: 0;
+    font-size: 0.97rem;
+    line-height: 1.23;
+    color: var(--op-brand-deep);
+  }
+
+  .op-benefit p {
+    margin: 0.45rem 0 0;
+    font-size: 0.86rem;
+    line-height: 1.45;
+    color: #45627a;
+  }
+
+  .op-faq-grid {
+    margin-top: 0.9rem;
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .op-faq-grid details {
+    background: #fff;
+    border: 1px solid #cfe2f2;
+    border-radius: var(--op-radius);
+    padding: 0.72rem 0.85rem;
+  }
+
+  .op-faq-grid summary {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 800;
+    color: #005288;
+    font-size: 0.93rem;
+    line-height: 1.35;
+  }
+
+  .op-faq-grid summary::-webkit-details-marker { display: none; }
+  .op-faq-grid details p {
+    margin: 0.55rem 0 0;
+    color: #49647a;
+    line-height: 1.45;
+    font-size: 0.9rem;
+  }
+
+  .op-bottom-cta {
+    margin-top: 1.2rem;
+    border-radius: var(--op-radius);
+    overflow: hidden;
+    border: 1px solid #005288;
+    box-shadow: 0 12px 30px rgba(6, 37, 61, 0.13);
+    background:
+      linear-gradient(130deg, rgba(0, 82, 136, 0.94) 0%, rgba(0, 58, 97, 0.92) 58%, rgba(0, 82, 136, 0.94) 100%),
+      url("https://omnipress.com/wp-content/uploads/2020/10/Printed-Training-Materials-_1199x674-1.jpg") center/cover no-repeat;
+    color: #fff;
+  }
+
+  .op-bottom-cta .op-shell { padding: 1.2rem; }
+  .op-bottom-cta h2 {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(1.45rem, 2.7vw, 2rem);
+    max-width: 24ch;
+  }
+
+  .op-bottom-cta p {
+    margin: 0.55rem 0 0;
+    color: #dcefff;
+    max-width: 62ch;
+  }
+  
+  #top > section.op-hero > div > div > div.op-actions > a.op-btn.op-btn-ghost{
+    color: #12293f;
+  }
+
+  .op-bottom-actions {
+    margin-top: 0.85rem;
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .op-btn-outline-light {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+  }
+
+  .op-sticky-cta {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 0.62rem 0.75rem calc(0.62rem + env(safe-area-inset-bottom));
+    background: rgba(0, 82, 136, 0.97);
+    backdrop-filter: blur(8px);
+    border-top: 2px solid #D93F0C;
+    transition: transform 0.25s ease;
+  }
+
+  .op-sticky-cta.is-hidden { transform: translateY(110%); }
+
+  .op-sticky-wrap {
+    width: min(1180px, calc(100% - 0.7rem));
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .op-sticky-copy {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.88rem;
+  }
+
+  .op-sticky-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .op-sticky-actions .op-btn {
+    min-height: 42px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.86rem;
+    border-radius: var(--op-radius);
+  }
+
+div> .op-ppc-landing a { color: #FFFFFF; }
+  .op-ppc-landing a:hover { color: #FFFFFF; }
+
+  @media (min-width: 760px) {
+    .op-form-grid { grid-template-columns: 1fr 1fr; }
+    .op-form-grid .message,
+    .op-form-grid .CheckBoxUpdate,
+    .op-form-grid .Consent_to_Processing,
+    .op-form-grid .GCLID { grid-column: 1 / -1; }
+  }
+
+  @media (max-width: 1090px) {
+    .op-hero-grid { grid-template-columns: 1fr; }
+    .op-form-panel { order: -1; }
+    .op-service-grid { grid-template-columns: 1fr 1fr; }
+    .op-pricing-wrap { grid-template-columns: 1fr; }
+    .op-benefit-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+
+  @media (max-width: 760px) {
+    .op-ppc-landing { padding-bottom: 132px; }
+    .op-shell { width: calc(100% - 1rem); }
+    .op-hero { padding-top: 0.75rem; }
+    .op-hero-copy { padding: 0.4rem 0.1rem; }
+
+    .op-hero-media { grid-template-columns: 1fr; }
+    .op-hero-media img { height: 185px; }
+
+    .op-service-grid { grid-template-columns: 1fr; gap: 0.62rem; }
+    .op-checklist { grid-template-columns: 1fr; }
+    .op-benefit-grid { grid-template-columns: 1fr; }
+
+    .op-bottom-cta .op-shell { padding: 1rem; }
+
+    .op-sticky-wrap { gap: 0.45rem; }
+    .op-sticky-copy { width: 100%; font-size: 0.82rem; }
+
+    .op-sticky-actions {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+
+    .op-sticky-actions .op-btn { width: 100%; }
+    .op-sticky-actions .op-btn-ghost { display: none; }
+  }
+.op-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.op-testimonials .card {
+  height: 100%;
+  border: 1px solid #d4e5f4;
+  border-radius: 4px !important;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(7, 40, 68, 0.08);
+}
+
+.op-testimonials .card-body {
+  padding: 0.95rem;
+}
+
+.op-testimonials .card-title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  color: #003a61;
+}
+
+.op-testimonials .card-text {
+  margin-top: 0.65rem;
+  min-height: 92px;
+  display: flex;
+  align-items: end;
+}
+
+.op-testimonials .card-footer {
+  border-top: 1px solid #e4edf5;
+  padding: 0.75rem 0.95rem 0.85rem;
+  border-radius: 0 0 4px 4px !important;
+}
+
+.op-testimonials .card-footer p {
+  margin: 0;
+  color: #3f5d76;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 1090px) {
+  .op-testimonials-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .op-testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<style>
+  .form-intro {
+    margin: 0.15rem 0 0.7rem;
+  }
+
+  .form-intro .blue-text {
+    margin: 0 0 0.3rem;
+    font-size: clamp(1.22rem, 2vw, 1.58rem);
+    line-height: 1.2;
+    color: var(--op-brand-deep);
+  }
+
+  .form-intro .intro-body {
+    margin: 0;
+    color: var(--op-muted);
+    font-size: 0.96rem;
+  }
+
+  .op-video-section {
+    padding-top: 1rem;
+    padding-bottom: 1.35rem;
+  }
+
+  .op-video-card {
+    margin-top: 0.85rem;
+    border: 1px solid #cfe2f2;
+    border-radius: var(--op-radius);
+    background: #fff;
+    box-shadow: 0 10px 24px rgba(10, 40, 65, 0.07);
+    overflow: hidden;
+  }
+
+  .op-video-frame {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: #0e2740;
+  }
+
+  .op-video-frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+
+  .op-jump-links {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.52rem;
+    overflow: visible;
+  }
+
+  .op-jump-links li {
+    display: grid;
+  }
+
+  .op-jump-links a {
+    width: 100%;
+    min-height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
+  }
+
+  @media (max-width: 1090px) {
+    .op-form-panel {
+      order: 0;
+    }
+
+    .op-jump-links {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 760px) {
+    .op-jump-links {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>
+<style>
+  /* Scoped remediation patch for https://omnipress.com/printing-fulfillment-lander/ */
+  .op-ppc-landing .op-testimonials .card-body {
+    padding: 1.25rem !important;
+  }
+
+  .op-ppc-landing .op-testimonials .card-footer {
+    padding: 1rem 1.25rem 1.1rem !important;
+  }
+
+  .op-ppc-landing .op-testimonials {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .op-ppc-landing .op-jump-links a {
+    background: linear-gradient(135deg, #005288 0%, #0068ab 100%) !important;
+    color: #fff !important;
+    border: 1px solid #005288 !important;
+    font-weight: 800 !important;
+    box-shadow: 0 8px 18px rgba(0, 82, 136, 0.22) !important;
+    text-decoration: none !important;
+  }
+
+  .op-ppc-landing .op-bottom-cta .op-shell {
+    padding: 2rem !important;
+  }
+
+  @media (min-width: 992px) {
+    .op-ppc-landing .op-trust .op-trust-copy {
+      font-size: 22px !important;
+      line-height: 1.35 !important;
+    }
+  }
+
+  .op-ppc-landing .op-testimonials-intro {
+    text-align: center;
+    margin: 0 0 1.15rem;
+  }
+
+  .op-ppc-landing .op-testimonials-heading {
+    margin: 0;
+    color: #003a61;
+  }
+
+  .op-ppc-landing .op-testimonials-subheading {
+    margin: 0.45rem auto 0;
+    max-width: 72ch;
+    color: #4c6277;
+  }
+
+  .op-ppc-landing .op-key-points-context {
+    margin: 0.7rem 0 0;
+  }
+
+  .op-ppc-landing .op-key-points-heading {
+    margin: 0;
+    color: #003a61;
+    font-size: 1.03rem;
+    font-weight: 800;
+  }
+
+  .op-ppc-landing .op-key-points-subheading {
+    margin: 0.35rem 0 0;
+    color: #4c6277;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 760px) {
+    .op-ppc-landing .op-jump-nav {
+      padding-top: 1rem !important;
+      padding-bottom: 1.6rem !important;
+    }
+
+    .op-ppc-landing .op-bottom-cta .op-shell {
+      padding: 1.5rem 1.1rem !important;
+    }
+
+    .op-ppc-landing .op-key-points-context {
+      margin-top: 0.75rem;
+      padding: 0.8rem 0.85rem;
+      background: #fff;
+      border: 1px solid #cfe2f2;
+      border-radius: 4px;
+      box-shadow: 0 6px 16px rgba(7, 40, 68, 0.08);
+    }
+
+    .op-ppc-landing .op-key-points-heading {
+      margin: 0;
+      font-size: 1rem;
+      color: #003a61;
+      font-weight: 800;
+    }
+
+    .op-ppc-landing .op-key-points-subheading {
+      margin: 0.3rem 0 0;
+      font-size: 0.86rem;
+      color: #4c6277;
+    }
+
+    .op-ppc-landing .op-key-points {
+      margin-top: 0.65rem !important;
+      padding: 0.65rem 0.75rem !important;
+      background: #f4f8fc;
+      border: 1px solid #d4e5f4;
+      border-radius: 4px;
+    }
+
+    .op-ppc-landing .op-key-points li {
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+  }
+</style>
+
+<main id="top" class="op-ppc-landing">
+  <section class="op-hero">
+    <div class="op-shell op-hero-grid">
+      <div class="op-hero-left">
+        <div class="op-hero-copy">
+          <span class="op-badge">45+ Years of Print and Fulfillment Expertise</span>
+          <h1>Print Fulfillment and Print &amp; Fulfillment Services for Training and Publications</h1>
+          <p class="op-hero-sub">
+            From print training materials and member resources to global distribution, Omnipress delivers print fulfillment,
+            print and fulfillment support, and publication fulfillment services for associations, corporations, and education teams.
+          </p>
+        </div>
+
+        <div class="op-hero-lower">
+          <div class="op-key-points-context">
+            <h3 class="op-key-points-heading">Why Teams Choose Omnipress for Print Fulfillment</h3>
+            <p class="op-key-points-subheading">These three capabilities keep training and publication programs on schedule and in stock.</p>
+          </div>
+          <ul class="op-key-points">
+            <li>Bulk print, warehouse, and release inventory on demand with full order visibility.</li>
+            <li>Kitting, order management, and fulfillment workflows built for recurring programs.</li>
+            <li>Scalable US and global shipping to 250+ countries for learners, members, and staff.</li>
+          </ul>
+
+          <div class="op-actions">
+            <a class="op-btn op-btn-primary" href="#request-quote">Request Quote</a>
+            <a class="op-btn op-btn-ghost" href="#watch-video">Watch Video</a>
+          </div>
+
+          <div class="op-hero-media">
+            <figure>
+              <img src="https://omnipress.com/wp-content/uploads/2022/02/Omnipress_Fulfillment_Services_1920x750.jpg" alt="Omnipress print and fulfillment operations team and production workflow">
+              <figcaption>Full-service print and fulfillment operations</figcaption>
+            </figure>
+            <figure>
+              <img src="https://omnipress.com/wp-content/uploads/2020/03/training-materials-fulfillment-distribution-inventory-1199x674-1.jpg" alt="Inventory, order management, and shipping workflow for printed materials">
+              <figcaption>Inventory, order management, and shipping visibility</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <aside class="op-form-panel" id="request-quote">
+        <div class="form-intro">
+          <h3 class="blue-text">Tell us about your <span style="color: #d93f0c;font-weight: bold">printing &amp; fulfillment</span> needs</h3>
+          <p class="intro-body">Requesting your free quote is a straightforward process. Fill out the short form below, and and one of our specialists will be in touch.</p>
+        </div>
+
+        <form accept-charset="UTF-8" method="post" action="https://www2.omnipress.com/l/22/2025-07-15/8yq65g" class="form op-pardot-form" id="pardot-form" onsubmit="formSubmit.disabled = true; return true;">
+          <fieldset>
+            <div class="op-form-grid">
+              <div class="form-field first_name pd-text required">
+                <label class="field-label" for="22_661210pi_22_661210">First Name</label>
+                <input type="text" name="22_661210pi_22_661210" id="22_661210pi_22_661210" value="" class="text" size="30" maxlength="40" onchange="" onfocus="">
+              </div>
+              <div id="error_for_22_661210pi_22_661210" style="display:none"></div>
+
+              <div class="form-field last_name pd-text required">
+                <label class="field-label" for="22_661213pi_22_661213">Last Name</label>
+                <input type="text" name="22_661213pi_22_661213" id="22_661213pi_22_661213" value="" class="text" size="30" maxlength="80" onchange="" onfocus="">
+              </div>
+              <div id="error_for_22_661213pi_22_661213" style="display:none"></div>
+
+              <div class="form-field email pd-text required">
+                <label class="field-label" for="22_661216pi_22_661216">Work Email</label>
+                <input type="text" name="22_661216pi_22_661216" id="22_661216pi_22_661216" value="" class="text" size="30" maxlength="255" onchange="" onfocus="piAjax.loadEmailIndicator(this, 661216, 'https://www2.omnipress.com/images/indicator2.gif');">
+              </div>
+              <div id="error_for_22_661216pi_22_661216" style="display:none"></div>
+
+              <div class="form-field company pd-text required">
+                <label class="field-label" for="22_661219pi_22_661219">Organization</label>
+                <input type="text" name="22_661219pi_22_661219" id="22_661219pi_22_661219" value="" class="text" size="30" maxlength="255" onchange="" onfocus="">
+              </div>
+              <div id="error_for_22_661219pi_22_661219" style="display:none"></div>
+
+              <div class="form-field phone pd-text required">
+                <label class="field-label" for="22_661222pi_22_661222">Phone</label>
+                <input type="text" name="22_661222pi_22_661222" id="22_661222pi_22_661222" value="" class="text" size="30" maxlength="40" onchange="" onfocus="">
+              </div>
+              <div id="error_for_22_661222pi_22_661222" style="display:none"></div>
+
+              <div class="form-field message comments pd-textarea">
+                <label class="field-label" for="22_661225pi_22_661225">Project Details (Optional)</label>
+                <textarea name="22_661225pi_22_661225" id="22_661225pi_22_661225" onchange="" cols="40" rows="10" class="standard"></textarea>
+              </div>
+              <div id="error_for_22_661225pi_22_661225" style="display:none"></div>
+
+              <div class="form-field CheckBoxUpdate Opt_In_Status pd-checkbox no-label">
+                <span class="value">
+                  <span>
+                    <input type="checkbox" name="22_661228pi_22_661228_8763934" id="22_661228pi_22_661228_8763934" value="8763934" onchange="">
+                    <label class="inline" for="22_661228pi_22_661228_8763934">Yes! Send me Omnipress content via email.</label>
+                  </span>
+                </span>
+              </div>
+              <div id="error_for_22_661228pi_22_661228" style="display:none"></div>
+
+              <div class="form-field Consent_to_Processing pd-checkbox required no-label">
+                <span class="value">
+                  <span>
+                    <input type="checkbox" name="22_661231pi_22_661231_8763937" id="22_661231pi_22_661231_8763937" value="8763937" onchange="">
+                    <label class="inline" for="22_661231pi_22_661231_8763937">I have read &amp; agree to the <a href="https://omnipress.com/privacy" target="_blank">privacy policy</a>.</label>
+                  </span>
+                </span>
+              </div>
+              <div id="error_for_22_661231pi_22_661231" style="display:none"></div>
+
+              <div class="form-field GCLID pd-hidden hidden">
+                <input type="hidden" name="22_661234pi_22_661234" id="22_661234pi_22_661234" value="">
+              </div>
+              <div id="error_for_22_661234pi_22_661234" style="display:none"></div>
+            </div>
+
+            <p style="position:absolute; width:190px; left:-9999px; top:-9999px; visibility:hidden;">
+              <label for="pi_extra_field">Comments</label>
+              <input type="text" name="pi_extra_field" id="pi_extra_field">
+            </p>
+
+            <input name="_utf8" type="hidden" value="☃">
+
+            <div class="submit">
+              <input type="submit" accesskey="s" value="Request Quote" name="formSubmit" onclick="this.onFocus=this.blur();">
+            </div>
+          </fieldset>
+          <input type="hidden" name="hiddenDependentFields" id="hiddenDependentFields" value="">
+        </form>
+      </aside>
+    </div>
+  </section>
+
+  <section class="op-trust">
+    <div class="op-shell">
+      <div class="op-trust-card">
+        <p class="op-trust-copy">Trusted by organizations like AJ Tutoring, IFMA, and NRFF for print and fulfillment results.</p>
+        <div class="op-trust-tags">
+          <span class="op-trust-tag">Print Fulfillment</span>
+          <span class="op-trust-tag">Publication Fulfillment Services</span>
+          <span class="op-trust-tag">US + Global Shipping</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="op-section op-testimonials" id="testimonials">
+    <div class="op-shell">
+      <div class="op-testimonials-intro">
+        <h2 class="op-testimonials-heading">What Others Are Saying About Omnipress</h2>
+        <p class="op-testimonials-subheading">45+ Years of printing &amp; fulfillment expertise from Omnipress, trusted by leading organizations.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 d-flex justify-content-center op-testimonials-grid">
+        <div class="col featured">
+          <div class="card h-100">
+            <div class="card-body d-md-flex flex-column">
+              <h4 class="h4 card-title text-left">“Omnipress doesn’t just print and store our materials. They take some of the 'thinking' off my plate and provide ideas on how we can improve our products and processes.”</h4>
+              <div class="card-text flex-grow-1"><p class="pt-2 pb-0 my-0"><img decoding="async" style="height: 60px; width: auto;" role="img" src="/wp-content/uploads/2025/07/AJ-Tutoring-logo-full-color.svg" alt="AJ Tutoring Logo"></p>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent">
+              <p class="pb-0 pm-0"><span style="color: #d93f0c; font-weight: bold;">Nikki Hannington</span><br>
+                Administrative Director, AJ Tutoring</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col featured">
+          <div class="card h-100">
+            <div class="card-body d-md-flex flex-column">
+              <h4 class="h4 card-title text-left">"Our experience with Omnipress during the RFP process was so amazing—the communication, detail, and transparency foreshadowed what it would be like to work with them as a customer."</h4>
+              <div class="card-text flex-grow-1"><p class="pt-2 pb-0 my-0"><img decoding="async" style="height: 60px; width: auto;" role="img" src="/wp-content/uploads/2025/07/ifma-logo_no-tag.svg" alt="IFMA Logo"></p>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent">
+              <p class="pb-0 pm-0"><span style="color: #d93f0c; font-weight: bold;">Lauren Krueger</span><br>
+                Director, Professional Growth, International Facility Management Association</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col featured">
+          <div class="card h-100">
+            <div class="card-body d-md-flex flex-column">
+              <h4 class="h4 card-title text-left">"A lot of things can be negotiated—timeline, cost—but finding people you can work with and trust is something money can’t buy."</h4>
+              <div class="card-text flex-grow-1"><p class="pt-2 pb-0 my-0"><img decoding="async" style="height: 75px; width: auto;" src="/wp-content/uploads/2019/12/NRFFoundation-Horiz-flat-black_notagline.svg" alt="National Retail Federation Foundation Logo"></p>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent">
+              <p class="pb-0 pm-0"><span style="color: #d93f0c; font-weight: bold;">Jenny Hammock</span><br>
+                Manager of Certification and Training Programs, National Retail Federation Foundation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="op-jump-nav" aria-label="Section navigation">
+    <div class="op-shell">
+      <ul class="op-jump-links">
+        <li><a href="#print-solutions">Print &amp; Fulfillment Solutions</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#why-omnipress">Why Omnipress</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="op-section" id="print-solutions">
+    <div class="op-shell">
+      <h2>Print &amp; Fulfillment Solutions for Training, Education, and Member Programs</h2>
+      <p class="op-section-intro">
+        Centralize production, warehousing, and shipping with one team that supports print training materials,
+        recurring titles, and multi-location distribution.
+      </p>
+
+      <div class="op-service-grid">
+        <article class="op-service-card" id="order-inventory">
+          <img src="https://omnipress.com/wp-content/uploads/2020/03/training-materials-fulfillment-distribution-inventory-1199x674-1.jpg" alt="Order management and inventory workflow for printed materials">
+          <div class="op-service-content">
+            <h3>Order Management &amp; Inventory</h3>
+            <p>Manage demand with a print fulfillment model that balances inventory, reprint timing, and order flow.</p>
+          </div>
+        </article>
+
+        <article class="op-service-card" id="kits">
+          <img src="https://omnipress.com/wp-content/uploads/2022/05/Omnipress_Kitting.jpg" alt="Kitting and bundling services for printed materials">
+          <div class="op-service-content">
+            <h3>Kitting &amp; Bundling</h3>
+            <p>Assemble learner, instructor, and event kits with printed items and inserts in one coordinated shipment.</p>
+          </div>
+        </article>
+
+        <article class="op-service-card" id="conference-printing">
+          <img src="https://omnipress.com/wp-content/uploads/2020/08/Omnipress-Conference-Printing_1199x674-3.jpg" alt="Conference program booklet and event material printing">
+          <div class="op-service-content">
+            <h3>Conference Program Printing</h3>
+            <p>Produce program books, proceedings, and event print assets with dependable turnaround and quality control.</p>
+          </div>
+        </article>
+
+        <article class="op-service-card" id="print-training-materials">
+          <img src="https://omnipress.com/wp-content/uploads/2020/10/Omnipress-Print_Training_1200x628.jpg" alt="Print training materials for courses and certifications">
+          <div class="op-service-content">
+            <h3>Print Training Materials</h3>
+            <p>Print training manuals, workbooks, and participant guides with binding and finishing options matched to use.</p>
+          </div>
+        </article>
+
+        <article class="op-service-card" id="k-12-materials">
+          <img src="https://omnipress.com/wp-content/uploads/2024/05/k-12_course_materials_1199x674.jpg" alt="K-12 curriculum printing and shipping">
+          <div class="op-service-content">
+            <h3>K-12 Course Materials</h3>
+            <p>Support schools and publishers with kitted and shipped K-12 course materials to campuses or individuals.</p>
+          </div>
+        </article>
+
+        <article class="op-service-card" id="publication-fulfillment-services">
+          <img src="https://omnipress.com/wp-content/uploads/2020/03/association-print-publications-journals-resources-library-1199x674-1.jpg" alt="Publication fulfillment services for journals and member resources">
+          <div class="op-service-content">
+            <h3>Publication Fulfillment Services</h3>
+            <p>Deliver publication fulfillment services for standards, journals, handbooks, and member resources at scale.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="op-section" id="pricing">
+    <div class="op-shell">
+      <h2>Print and Fulfillment Pricing</h2>
+      <p class="op-section-intro">Share project details to receive accurate pricing, timelines, and a practical production plan.</p>
+
+      <div class="op-pricing-wrap">
+        <div class="op-checklist-card">
+          <ul class="op-checklist">
+            <li>Product type and print format</li>
+            <li>Print quantity and reorder cadence</li>
+            <li>Finished size and page count</li>
+            <li>Color, binding, and finishing requirements</li>
+            <li>Order volume and fulfillment frequency</li>
+            <li>Inventory strategy and storage needs</li>
+            <li>Kitting requirements and included components</li>
+            <li>Shipping destinations and delivery windows</li>
+            <li>File readiness or design support needed</li>
+            <li>Reporting and integration requirements</li>
+          </ul>
+        </div>
+
+        <div class="op-fast-card">
+          <h3>Need Fast, Reliable Guidance?</h3>
+          <p>Our team can scope print and fulfillment options that reduce waste, avoid stockouts, and keep delivery on schedule.</p>
+          <div class="op-actions">
+            <a class="op-btn op-btn-primary" href="#request-quote">Talk to a Rep</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="op-section" id="why-omnipress">
+    <div class="op-shell">
+      <h2>Why Choose Omnipress for Print Fulfillment</h2>
+
+      <div class="op-benefit-grid">
+        <article class="op-benefit">
+          <h3>Operational Accuracy</h3>
+          <p>Tight production and fulfillment controls help reduce delays, errors, and rework across every title.</p>
+        </article>
+
+        <article class="op-benefit">
+          <h3>Smarter Inventory Planning</h3>
+          <p>Align print quantities to demand so you avoid overproduction while keeping mission-critical materials in stock.</p>
+        </article>
+
+        <article class="op-benefit">
+          <h3>Flexible Shipping Models</h3>
+          <p>Support bulk site delivery, direct-to-individual distribution, and global shipping from one coordinated workflow.</p>
+        </article>
+
+        <article class="op-benefit">
+          <h3>Kitting + Value-Add Services</h3>
+          <p>Bundle printed and non-printed items into branded, ready-to-ship kits for learners, members, and participants.</p>
+        </article>
+
+        <article class="op-benefit">
+          <h3>Dedicated Partnership</h3>
+          <p>Work with specialists who help optimize print and fulfillment decisions across your entire content library.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="op-section" id="faqs">
+    <div class="op-shell">
+      <h2>Print Fulfillment FAQs</h2>
+      <div class="op-faq-grid">
+        <details open>
+          <summary>How does your print fulfillment process work from order to shipment?</summary>
+          <p>Orders flow into coordinated production, inventory, picking, packing, and shipping steps so teams can track status and delivery performance throughout the lifecycle.</p>
+        </details>
+
+        <details>
+          <summary>Can you support both bulk shipments and direct-to-individual delivery?</summary>
+          <p>Yes. We support any mix of bulk and individual distribution across in-person, hybrid, and virtual programs.</p>
+        </details>
+
+        <details>
+          <summary>Do you offer publication fulfillment services for journals and member resources?</summary>
+          <p>Yes. Our publication fulfillment services support standards, journals, handbooks, and recurring member publications with consistent print and delivery workflows.</p>
+        </details>
+
+        <details>
+          <summary>Can you include non-printed items in kits?</summary>
+          <p>Absolutely. We can source, receive, store, and assemble non-printed components with your print training materials in one kit.</p>
+        </details>
+
+        <details>
+          <summary>Can you warehouse and ship materials on demand all year?</summary>
+          <p>Yes. We provide inventory management and on-demand shipping so your teams stay supplied without overprinting.</p>
+        </details>
+
+        <details>
+          <summary>Where should we send an RFP for print and fulfillment support?</summary>
+          <p>Send your proposal to <a href="mailto:JustAsk@omnipress.com">JustAsk@omnipress.com</a> and our team will follow up promptly.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="op-bottom-cta">
+    <div class="op-shell">
+      <h2>Get Started with Print Fulfillment</h2>
+      <p>Request a free quote to plan production, inventory, and shipping with a print and fulfillment partner built for complex programs.</p>
+      <div class="op-bottom-actions">
+        <a class="op-btn op-btn-warm" href="#request-quote">Request Quote</a>
+        <a class="op-btn op-btn-outline-light" href="https://omnipress.com/print-and-fulfillment-services/">Go to Print &amp; Fulfillment Services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="op-section op-video-section" id="watch-video">
+    <div class="op-shell">
+      <h2>Watch: Print and Fulfillment in Action</h2>
+      <p class="op-section-intro">See how Omnipress supports print training materials, kitting, inventory, and shipping workflows.</p>
+      <div class="op-video-card">
+        <div class="op-video-frame">
+          <iframe src="https://www.youtube.com/embed/TqD9zAXcC1g?rel=0" title="Omnipress print and fulfillment video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="op-sticky-cta" id="op-sticky-cta" role="region" aria-label="Quick quote action">
+  <div class="op-sticky-wrap">
+    <p class="op-sticky-copy">Need pricing fast? Jump to the quote form now.</p>
+    <div class="op-sticky-actions">
+      <a class="op-btn op-btn-warm" href="#request-quote">Request Quote</a>
+      <a class="op-btn op-btn-ghost" href="https://omnipress.com/print-and-fulfillment-services/">Full Services Page</a>
+    </div>
+  </div>
+</div>
+
+<script src="omnipress-print-fulfillment-paid-lander.js"></script>

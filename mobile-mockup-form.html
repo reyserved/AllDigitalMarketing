@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Form | Badger Meter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile-mockup.css">
+    <style>
+        /* Specific Form Overrides */
+        body {
+            background-color: var(--ait-quaternary);
+            /* light grey to make form pop */
+            padding: 16px;
+            padding-bottom: 24px;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            border-radius: var(--max-radius);
+            box-shadow: var(--shadow-lg);
+            padding: 32px 24px;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .form-header h2 {
+            color: var(--ait-tertiary);
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+        }
+
+        .form-header p {
+            color: #4a5568;
+            font-size: 0.875rem;
+            line-height: 1.4;
+        }
+
+        /* Floating labels for a premium feel */
+        .form-group {
+            position: relative;
+            margin-bottom: 24px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 16px 14px 8px 14px;
+            font-family: var(--font-main);
+            font-size: 1rem;
+            color: var(--ait-tertiary);
+            background-color: #f8f9fa;
+            border: 1px solid #cbd5e0;
+            /* No heavy border accents, clean solid */
+            border-radius: var(--max-radius);
+            transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+            outline: none;
+        }
+
+        .form-control:focus {
+            border-color: var(--ait-primary);
+            background-color: #ffffff;
+            box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.15);
+        }
+
+        /* Specific typography rules for multi-line inputs */
+        textarea.form-control {
+            resize: vertical;
+            min-height: 100px;
+            padding-top: 24px;
+        }
+
+        .form-label {
+            position: absolute;
+            top: 14px;
+            left: 14px;
+            color: #718096;
+            font-size: 1rem;
+            pointer-events: none;
+            transition: all 0.2s ease;
+            background: transparent;
+        }
+
+        /* Floating label mechanics */
+        .form-control:focus~.form-label,
+        .form-control:not(:placeholder-shown)~.form-label {
+            top: -10px;
+            left: 10px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--ait-primary);
+            background: linear-gradient(180deg, #ffffff 50%, #f8f9fa 50%);
+            padding: 0 4px;
+        }
+
+        .form-control:focus~.form-label {
+            background: #ffffff;
+        }
+
+        /* Select specific styles */
+        select.form-control {
+            appearance: none;
+            padding-top: 16px;
+            cursor: pointer;
+        }
+
+        .select-chevron {
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            color: #718096;
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Checkboxes */
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .checkbox-input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .checkbox-custom {
+            position: relative;
+            flex: 0 0 auto;
+            height: 20px;
+            width: 20px;
+            background-color: #ffffff;
+            border: 2px solid #cbd5e0;
+            border-radius: 4px;
+            /* Using max 4px radius */
+            margin-right: 12px;
+            margin-top: 2px;
+            transition: all 0.2s ease;
+        }
+
+        .checkbox-input:checked~.checkbox-custom {
+            background-color: var(--ait-primary);
+            border-color: var(--ait-primary);
+        }
+
+        .checkbox-custom:after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 6px;
+            top: 2px;
+            width: 4px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+
+        .checkbox-input:checked~.checkbox-custom:after {
+            display: block;
+        }
+
+        .checkbox-label {
+            font-size: 0.825rem;
+            color: #4a5568;
+            line-height: 1.4;
+        }
+
+        .privacy-statement {
+            font-size: 0.75rem;
+            color: #718096;
+            text-align: center;
+            margin-top: 16px;
+            line-height: 1.4;
+        }
+
+        .privacy-statement a {
+            color: var(--ait-primary);
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        /* Subdivide grid for 2 columns if screen is wide enough, else stack */
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0;
+        }
+
+        @media (min-width: 400px) {
+            .form-row {
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+            }
+
+            .form-row .form-group {
+                margin-bottom: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <div class="form-header">
+            <h2>Need a quote? We're here to help!</h2>
+            <p>Please answer the following questions and a product expert in your area will be in touch with your custom
+                quote.</p>
+        </div>
+
+        <form action="#" method="POST" id="quote-form">
+
+            <div class="form-group">
+                <textarea id="products" class="form-control" placeholder=" " required></textarea>
+                <label for="products" class="form-label">What products, technologies and/or solutions would you like a
+                    quote for? *</label>
+            </div>
+
+            <div class="form-group">
+                <select id="source" class="form-control" required>
+                    <option value="" disabled selected hidden></option>
+                    <option value="search">Search Engine</option>
+                    <option value="social">Social Media</option>
+                    <option value="event">Trade Show / Event</option>
+                    <option value="referral">Referral</option>
+                </select>
+                <label for="source" class="form-label"
+                    style="top: -10px; left: 10px; font-size: 0.75rem; font-weight: 500; color: var(--ait-primary); background: #ffffff; padding: 0 4px;">Where
+                    did you hear about the products... *</label>
+                <svg class="select-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="firstName" class="form-control" placeholder=" " required>
+                    <label for="firstName" class="form-label">First Name *</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="lastName" class="form-control" placeholder=" " required>
+                    <label for="lastName" class="form-label">Last Name *</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="company" class="form-control" placeholder=" " required>
+                <label for="company" class="form-label">Company *</label>
+            </div>
+
+            <div class="form-group">
+                <select id="market" class="form-control" required>
+                    <option value="" disabled selected hidden></option>
+                    <option value="water">Water Utility</option>
+                    <option value="industrial">Industrial</option>
+                    <option value="commercial">Commercial</option>
+                </select>
+                <label for="market" class="form-label"
+                    style="top: -10px; left: 10px; font-size: 0.75rem; font-weight: 500; color: var(--ait-primary); background: #ffffff; padding: 0 4px;">Market
+                    *</label>
+                <svg class="select-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="address" class="form-control" placeholder=" " required>
+                <label for="address" class="form-label">Address *</label>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" id="city" class="form-control" placeholder=" " required>
+                    <label for="city" class="form-label">City *</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="postalCode" class="form-control" placeholder=" " required>
+                    <label for="postalCode" class="form-label">Postal Code *</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <select id="country" class="form-control" required>
+                    <option value="" disabled selected hidden></option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+                    <option value="UK">United Kingdom</option>
+                </select>
+                <label for="country" class="form-label"
+                    style="top: -10px; left: 10px; font-size: 0.75rem; font-weight: 500; color: var(--ait-primary); background: #ffffff; padding: 0 4px;">Country
+                    *</label>
+                <svg class="select-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder=" " required>
+                <label for="email" class="form-label">Email *</label>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" id="phone" class="form-control" placeholder=" " required>
+                <label for="phone" class="form-label">Phone *</label>
+            </div>
+
+            <label class="checkbox-group">
+                <input type="checkbox" class="checkbox-input">
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-label">I would like to receive email notifications on Badger Meter news and
+                    events. Please white list our domain: @badgermeter.com to help ensure proper delivery.</span>
+            </label>
+
+            <label class="checkbox-group">
+                <input type="checkbox" class="checkbox-input" required>
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-label">I consent to Badger Meter collecting the information I provided in this
+                    website form. *</span>
+            </label>
+
+            <button type="submit" class="btn btn-primary" style="margin-top: 16px;">Submit</button>
+
+            <div class="privacy-statement">
+                For more information about how we use this information, please see our <a href="#">Notice at
+                    Collection</a>.
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

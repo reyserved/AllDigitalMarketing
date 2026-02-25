@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LJP All-in-One Solution™ — Visual Mockup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <style>
+        /* ============================================================
+           LJP BRAND TOKENS — from ljp-css.txt (STRICT)
+           ============================================================ */
+        :root {
+            --ljp-primary: #18509B;
+            --ljp-secondary: #EB9B1A;
+            --ljp-text: #000000;
+            --ljp-accent: #018846;
+            --ljp-warm-cream: #FEF7EF;
+            --ljp-light-gray: #FAFAFA;
+            --ljp-off-white: #F8F8F8;
+            --ljp-border-gray: #F0F0F0;
+
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Roboto', sans-serif;
+        }
+
+        /* ============================================================
+           RESET & BASE
+           ============================================================ */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-weight: 400;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        /* ============================================================
+           MOCKUP CONTEXT BANNER
+           ============================================================ */
+        .mockup-notice {
+            background: var(--ljp-primary);
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            padding: 12px 20px;
+            font-family: var(--font-body);
+            font-size: 0.8rem;
+            letter-spacing: 0.03em;
+        }
+
+        .mockup-notice strong {
+            color: var(--ljp-secondary);
+        }
+
+        /* ============================================================
+           SECTION
+           ============================================================ */
+        .aio-section {
+            padding: 80px 0 100px;
+            background: var(--ljp-off-white);
+            position: relative;
+        }
+
+        .aio-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--ljp-primary), var(--ljp-secondary), var(--ljp-accent));
+            border-radius: 2px;
+        }
+
+        .aio-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ============================================================
+           2-COLUMN LAYOUT — Content Left + USP Bar Right
+           ============================================================ */
+        .aio-layout {
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 48px;
+            align-items: start;
+        }
+
+        @media (max-width: 960px) {
+            .aio-layout {
+                grid-template-columns: 1fr;
+                gap: 36px;
+            }
+        }
+
+        /* ============================================================
+           LEFT COLUMN — Heading + Materials
+           ============================================================ */
+        .aio-content {}
+
+        .aio-content__heading {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: clamp(1.6rem, 2.5vw, 2.1rem);
+            line-height: 1.3;
+            color: var(--ljp-primary);
+            margin-bottom: 8px;
+        }
+
+        .aio-content__heading .tm {
+            color: var(--ljp-accent);
+        }
+
+        .aio-content__subtext {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 40px;
+            max-width: 680px;
+        }
+
+        /* ---- Trailer Image Container ---- */
+        .aio-trailer-figure {
+            margin: 0 0 40px 0;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            border: 1px solid var(--ljp-border-gray);
+        }
+
+        .aio-trailer-figure__img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+            border-bottom: 3px solid var(--ljp-secondary);
+        }
+
+        /* ---- Category Block ---- */
+        .category-block {
+            margin-bottom: 32px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .category-block:hover {
+            box-shadow: 0 6px 28px rgba(0, 0, 0, 0.08);
+        }
+
+        .category-block:last-child {
+            margin-bottom: 0;
+        }
+
+        .category-block__header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 18px 24px;
+            border-left: 5px solid transparent;
+        }
+
+        .category-block--blue .category-block__header {
+            border-left-color: var(--ljp-primary);
+            background: rgba(24, 80, 155, 0.03);
+        }
+
+        .category-block--orange .category-block__header {
+            border-left-color: var(--ljp-secondary);
+            background: rgba(235, 155, 26, 0.03);
+        }
+
+        .category-block--green .category-block__header {
+            border-left-color: var(--ljp-accent);
+            background: rgba(1, 136, 70, 0.03);
+        }
+
+        .category-block__icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .category-block--blue .category-block__icon {
+            background: rgba(24, 80, 155, 0.1);
+            color: var(--ljp-primary);
+        }
+
+        .category-block--orange .category-block__icon {
+            background: rgba(235, 155, 26, 0.12);
+            color: var(--ljp-secondary);
+        }
+
+        .category-block--green .category-block__icon {
+            background: rgba(1, 136, 70, 0.1);
+            color: var(--ljp-accent);
+        }
+
+        .category-block__icon .material-symbols-outlined {
+            font-size: 22px;
+            font-variation-settings: 'FILL' 0, 'wght' 500;
+        }
+
+        .category-block__title {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--ljp-text);
+        }
+
+        /* ---- Material Items Inside Category ---- */
+        .category-block__items {
+            padding: 4px 24px 20px;
+        }
+
+        .mat-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--ljp-border-gray);
+        }
+
+        .mat-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .mat-row__icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .category-block--blue .mat-row__icon {
+            background: rgba(24, 80, 155, 0.06);
+            color: var(--ljp-primary);
+        }
+
+        .category-block--orange .mat-row__icon {
+            background: rgba(235, 155, 26, 0.07);
+            color: var(--ljp-secondary);
+        }
+
+        .mat-row__icon .material-symbols-outlined {
+            font-size: 18px;
+            font-variation-settings: 'FILL' 0, 'wght' 400;
+        }
+
+        .mat-row__content {
+            flex: 1;
+        }
+
+        .mat-row__name {
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--ljp-text);
+        }
+
+        .mat-row__desc {
+            font-size: 0.82rem;
+            color: #666;
+            line-height: 1.5;
+            margin-top: 1px;
+        }
+
+        /* Revenue inline badge */
+        .revenue-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 4px;
+            padding: 3px 8px;
+            background: rgba(235, 155, 26, 0.08);
+            border: 1px solid rgba(235, 155, 26, 0.18);
+            border-radius: 5px;
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 0.78rem;
+            color: var(--ljp-secondary);
+        }
+
+        .revenue-tag .material-symbols-outlined {
+            font-size: 14px;
+            font-variation-settings: 'FILL' 1, 'wght' 600;
+            color: var(--ljp-secondary);
+        }
+
+        /* ---- Benefit Rows (Green Checks) ---- */
+        .benefit-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--ljp-border-gray);
+        }
+
+        .benefit-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .benefit-row__check {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: rgba(1, 136, 70, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .benefit-row__check .material-symbols-outlined {
+            font-size: 16px;
+            color: var(--ljp-accent);
+            font-variation-settings: 'FILL' 1, 'wght' 600;
+        }
+
+        .benefit-row__text {
+            flex: 1;
+        }
+
+        .benefit-row__title {
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--ljp-text);
+        }
+
+        .benefit-row__desc {
+            font-size: 0.82rem;
+            color: #666;
+            line-height: 1.5;
+            margin-top: 1px;
+        }
+
+        /* ============================================================
+           RIGHT COLUMN — USP STATS CARD (Floating Sidebar)
+           ============================================================ */
+        .usp-sidebar {
+            position: sticky;
+            top: 40px;
+        }
+
+        .usp-card {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            padding: 44px 36px;
+            text-align: center;
+        }
+
+        .usp-stat {
+            padding: 22px 0;
+            border-bottom: 1px solid var(--ljp-border-gray);
+        }
+
+        .usp-stat:first-child {
+            padding-top: 0;
+        }
+
+        .usp-stat:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .usp-stat__value {
+            font-family: var(--font-heading);
+            font-weight: 800;
+            font-size: 1.65rem;
+            line-height: 1.2;
+            margin-bottom: 4px;
+        }
+
+        .usp-stat__value--green {
+            color: var(--ljp-accent);
+        }
+
+        .usp-stat__value--blue {
+            color: var(--ljp-primary);
+        }
+
+        .usp-stat__label {
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            color: #888;
+            font-weight: 400;
+        }
+
+        /* CTA inside sidebar card */
+        .usp-cta {
+            margin-top: 28px;
+            padding-top: 24px;
+            border-top: 1px solid var(--ljp-border-gray);
+        }
+
+        .usp-cta__btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            width: 100%;
+            padding: 13px 20px;
+            background: var(--ljp-secondary);
+            color: #fff;
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 14px rgba(235, 155, 26, 0.25);
+        }
+
+        .usp-cta__btn:hover {
+            background: #d08a15;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 22px rgba(235, 155, 26, 0.3);
+        }
+
+        .usp-cta__btn .material-symbols-outlined {
+            font-size: 18px;
+            font-variation-settings: 'FILL' 0, 'wght' 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Mockup Context Notice -->
+    <div class="mockup-notice">
+        <strong>VISUAL MOCKUP</strong> — LJP All-in-One Solution™ Section · Designed for the Recycling Services Page
+    </div>
+
+    <!-- ============================================================
+     ALL-IN-ONE SOLUTION SECTION
+     ============================================================ -->
+    <section class="aio-section">
+        <div class="aio-container">
+            <div class="aio-layout">
+
+                <!-- ================================================
+                 LEFT COLUMN — Heading + Material Categories
+                 ================================================ -->
+                <div class="aio-content">
+                    <h2 class="aio-content__heading">
+                        Materials We Recycle with <span class="tm">All‑in‑One&nbsp;Solution™</span>
+                    </h2>
+                    <p class="aio-content__subtext">
+                        Our innovative All‑in‑One Solution™ consolidates all your non‑hazardous recyclables onto a
+                        single trailer, maximizing convenience and rebates.
+                    </p>
+
+                    <!-- ──────────────────────────────────────
+                     Trailer Image Area
+                     ────────────────────────────────────── -->
+                    <figure class="aio-trailer-figure">
+                        <img src="all-in-one.png"
+                            alt="LJP Trailer loaded with diverse non-hazardous recyclable materials"
+                            class="aio-trailer-figure__img">
+                    </figure>
+
+                    <!-- ──────────────────────────────────────
+                     Category A: High-Revenue Materials
+                     ────────────────────────────────────── -->
+                    <div class="category-block category-block--blue">
+                        <div class="category-block__header">
+                            <div class="category-block__icon">
+                                <span class="material-symbols-outlined">trending_up</span>
+                            </div>
+                            <div class="category-block__title">High-Revenue Materials</div>
+                        </div>
+                        <div class="category-block__items">
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">package_2</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Cardboard &amp; Corrugated</div>
+                                    <div class="revenue-tag">
+                                        <span class="material-symbols-outlined">payments</span>
+                                        Generated $20,670+ for one food manufacturer
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">deployed_code</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Polystyrene (#6 Plastic)</div>
+                                    <div class="revenue-tag">
+                                        <span class="material-symbols-outlined">payments</span>
+                                        Generated $10,881 annually for packaging plant
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">layers</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Plastic Films &amp; Shrink Wrap</div>
+                                    <div class="mat-row__desc">LDPE, LLDPE processing</div>
+                                </div>
+                            </div>
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">description</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Office Paper &amp; Mixed Paper</div>
+                                    <div class="mat-row__desc">White paper, mixed grades</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ──────────────────────────────────────
+                     Category B: Industrial Materials
+                     ────────────────────────────────────── -->
+                    <div class="category-block category-block--orange">
+                        <div class="category-block__header">
+                            <div class="category-block__icon">
+                                <span class="material-symbols-outlined">precision_manufacturing</span>
+                            </div>
+                            <div class="category-block__title">Industrial Materials</div>
+                        </div>
+                        <div class="category-block__items">
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">settings_suggest</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Complex Industrial Materials</div>
+                                    <div class="mat-row__desc">Specialized processing partnerships</div>
+                                </div>
+                            </div>
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">memory</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Electronic Waste</div>
+                                    <div class="mat-row__desc">Secure domestic-only handling</div>
+                                </div>
+                            </div>
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">build</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Metal Components</div>
+                                    <div class="mat-row__desc">Aluminum, steel, copper recovery</div>
+                                </div>
+                            </div>
+
+                            <div class="mat-row">
+                                <div class="mat-row__icon">
+                                    <span class="material-symbols-outlined">inventory_2</span>
+                                </div>
+                                <div class="mat-row__content">
+                                    <div class="mat-row__name">Packaging Materials</div>
+                                    <div class="mat-row__desc">Food service containers, foam packaging</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ──────────────────────────────────────
+                     Category C: All-in-One Benefits
+                     ────────────────────────────────────── -->
+                    <div class="category-block category-block--green">
+                        <div class="category-block__header">
+                            <div class="category-block__icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                            <div class="category-block__title">All-in-One Benefits</div>
+                        </div>
+                        <div class="category-block__items">
+
+                            <div class="benefit-row">
+                                <div class="benefit-row__check">
+                                    <span class="material-symbols-outlined">check</span>
+                                </div>
+                                <div class="benefit-row__text">
+                                    <div class="benefit-row__title">Single Trailer Solution</div>
+                                    <div class="benefit-row__desc">Single trailer for all non-hazardous recyclables
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="benefit-row">
+                                <div class="benefit-row__check">
+                                    <span class="material-symbols-outlined">check</span>
+                                </div>
+                                <div class="benefit-row__text">
+                                    <div class="benefit-row__title">Domestic-Only Processing</div>
+                                    <div class="benefit-row__desc">Protects your brand &amp; IP with 100% domestic
+                                        handling</div>
+                                </div>
+                            </div>
+
+                            <div class="benefit-row">
+                                <div class="benefit-row__check">
+                                    <span class="material-symbols-outlined">check</span>
+                                </div>
+                                <div class="benefit-row__text">
+                                    <div class="benefit-row__title">Flexible Pickup Scheduling</div>
+                                    <div class="benefit-row__desc">On-demand pickups tailored to your operations</div>
+                                </div>
+                            </div>
+
+                            <div class="benefit-row">
+                                <div class="benefit-row__check">
+                                    <span class="material-symbols-outlined">check</span>
+                                </div>
+                                <div class="benefit-row__text">
+                                    <div class="benefit-row__title">Detailed Revenue Reporting</div>
+                                    <div class="benefit-row__desc">Audit-ready environmental impact reports</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!-- /.aio-content -->
+
+                <!-- ================================================
+                 RIGHT COLUMN — USP Stats Card (Sticky Sidebar)
+                 ================================================ -->
+                <aside class="usp-sidebar">
+                    <div class="usp-card">
+
+                        <div class="usp-stat">
+                            <div class="usp-stat__value usp-stat__value--green">All‑in‑One Solution™</div>
+                            <div class="usp-stat__label">Simplified Recycling</div>
+                        </div>
+
+                        <div class="usp-stat">
+                            <div class="usp-stat__value usp-stat__value--blue">30+</div>
+                            <div class="usp-stat__label">Years Experience</div>
+                        </div>
+
+                        <div class="usp-stat">
+                            <div class="usp-stat__value usp-stat__value--blue">Auditable</div>
+                            <div class="usp-stat__label">ESG Reporting</div>
+                        </div>
+
+                        <div class="usp-cta">
+                            <a href="#" class="usp-cta__btn">
+                                <span class="material-symbols-outlined">send</span>
+                                Request Consultation
+                            </a>
+                        </div>
+
+                    </div>
+                </aside>
+
+            </div><!-- /.aio-layout -->
+        </div><!-- /.aio-container -->
+    </section>
+
+</body>
+
+</html>

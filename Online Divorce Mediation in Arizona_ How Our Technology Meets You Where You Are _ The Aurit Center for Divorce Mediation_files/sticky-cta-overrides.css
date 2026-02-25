@@ -1,0 +1,298 @@
+/* ===================================================================
+   STICKY CTA OVERRIDES
+   Purpose: Override Rocket Clicks Sticky CTA plugin default styles
+   Date: November 4, 2025
+   =================================================================== */
+
+/* ===== DESKTOP (769px+) - Bottom Bar ===== */
+@media (min-width: 769px) {
+    /* Increased bar height for Intercom icon clearance */
+    .rc-sticky-cta--top {
+        padding: 16px 20px !important;
+        min-height: 80px !important;
+        box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.08) !important;
+        background: #fff !important;
+    }
+
+    /* Fix button sizing - too large */
+    .rc-sticky-cta__button {
+        height: 48px !important;
+        font-size: 16px !important;
+        padding: 0 28px !important;
+        border-radius: 60px !important;
+    }
+
+    /* GMB Reviews styling */
+    .rc-sticky-cta__reviews {
+        display: flex !important;
+        flex-direction: row-reverse !important; /* Stars on left, button on right */
+        align-items: center !important;
+        padding: 0 20px !important;
+        font-size: 15px !important;
+        gap: 20px !important;
+        margin: 0 !important;
+        line-height: 1.4 !important;
+    }
+
+    /* Google reviews container - stars and rating */
+    .rc-sticky-cta-google_container {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 4px !important;
+    }
+
+    /* Stars row */
+    .rc-sticky-cta-google_container > div:first-child {
+        display: flex !important;
+        align-items: center !important;
+        gap: 2px !important;
+    }
+
+    /* Rating text - centered below stars */
+    .rc-sticky-cta__rating {
+        font-size: 13px !important;
+        color: #5a6b52 !important;
+        text-align: center !important;
+        display: block !important;
+    }
+
+    .rc-sticky-cta__reviews .star {
+        font-size: 16px !important;
+        line-height: 1 !important;
+    }
+
+    /* Review link button */
+    .rc-sticky-cta__reviews .review-link {
+        height: 48px !important;
+        font-size: 15px !important;
+        padding: 0 24px !important;
+        border-radius: 60px !important;
+        line-height: 1 !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        border: 2px solid var(--rc-sticky-cta-bg, #014921) !important;
+        color: var(--rc-sticky-cta-bg, #014921) !important;
+        transition: all 0.2s ease !important;
+        text-decoration: none !important;
+    }
+
+    .rc-sticky-cta__reviews .review-link:hover {
+        background: var(--rc-sticky-cta-bg, #014921) !important;
+        color: #fff !important;
+    }
+}
+
+/* ===== MOBILE (<= 768px) - Bottom Call Bar ===== */
+@media (max-width: 768px) {
+    /* Reduce padding and height */
+    .rc-sticky-cta--bottom {
+        padding: 16px 20px !important;
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.12) !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(10px);
+    }
+
+    /* Image positioning - less aggressive offset */
+    .rc-sticky-cta__media-left {
+        margin-top: -60px !important;
+        width: 80px !important;
+    }
+
+    .rc-sticky-cta__media-left img {
+        width: 80px !important;
+        height: 80px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    }
+
+    /* Call button - better sizing */
+    .rc-sticky-cta__call-btn {
+        margin-top: -40px !important;
+        padding: 16px 10% !important;
+        font-size: 18px !important;
+        height: auto !important;
+        min-height: 52px !important;
+        border-radius: 60px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12) !important;
+        line-height: 1.3 !important;
+    }
+
+    /* Icon sizing */
+    .rc-icon--phone svg {
+        width: 1.5em !important;
+        height: 1.5em !important;
+        margin-top: -3px !important;
+    }
+
+    /* Top book button */
+    .rc-sticky-cta--top .rc-sticky-cta__button {
+        height: 50px !important;
+        font-size: 18px !important;
+        border-radius: 0 !important;
+    }
+}
+
+/* ===== MODAL IMPROVEMENTS ===== */
+.rc-sticky-cta-modal__dialog {
+    border-radius: 16px !important;
+    padding: 32px !important;
+}
+
+.rc-sticky-cta-modal__close {
+    font-size: 28px !important;
+    line-height: 1 !important;
+    top: 12px !important;
+    right: 12px !important;
+    width: 32px !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    transition: background 0.2s ease !important;
+}
+
+.rc-sticky-cta-modal__close:hover {
+    background: rgba(0, 0, 0, 0.05) !important;
+}
+
+.rc-sticky-cta-modal__title {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+}
+
+.rc-sticky-cta-modal__phone-link {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: var(--rc-sticky-cta-bg, #014921) !important;
+}
+
+.rc-sticky-cta-modal__phone-link:hover {
+    color: var(--rc-sticky-cta-bg, #014921) !important;
+    text-decoration: underline !important;
+}
+
+.rc-sticky-cta-modal__subtitle {
+    font-size: 16px !important;
+    margin-bottom: 24px !important;
+}
+
+/* ===== PADDING ADJUSTMENTS ===== */
+/* Adjust bottom padding to account for sticky bar + Intercom icon */
+@media (min-width: 769px) {
+    body.has-rc-fixed-bottom {
+        padding-bottom: 90px !important; /* Increased for taller bar */
+    }
+}
+
+@media (max-width: 768px) {
+    body.has-rc-fixed-bottom {
+        padding-bottom: 120px !important; /* Extra space for Intercom widget on mobile */
+    }
+}
+
+/* ===== RATING STARS IMPROVEMENTS ===== */
+.rc-sticky-cta__reviews .star {
+    display: inline-block;
+    margin: 0 1px;
+}
+
+/* Half star improvement */
+.rc-sticky-cta__reviews .star.half {
+    position: relative;
+    display: inline-block;
+}
+
+.rc-sticky-cta__reviews .star.half::before {
+    content: "★";
+    color: #f7b500;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    width: 50%;
+}
+
+.rc-sticky-cta__reviews .star.half::after {
+    content: "★";
+    color: #ccc;
+}
+
+/* ===== ACCESSIBILITY IMPROVEMENTS ===== */
+.rc-sticky-cta__button:focus,
+.rc-sticky-cta__call-btn:focus,
+.rc-sticky-cta__reviews .review-link:focus {
+    outline: 2px solid var(--rc-sticky-cta-bg, #014921) !important;
+    outline-offset: 2px !important;
+}
+
+/* ===== RESPONSIVE REFINEMENTS ===== */
+@media (max-width: 450px) {
+    .rc-sticky-cta__call-btn {
+        padding: 14px 5% !important;
+        font-size: 16px !important;
+    }
+
+    .rc-sticky-cta__media-left {
+        width: 70px !important;
+        margin-top: -50px !important;
+    }
+
+    .rc-sticky-cta__media-left img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
+
+/* ===== THEME COLOR INTEGRATION ===== */
+/* Ensure buttons use theme green color */
+:root {
+    --rc-sticky-cta-bg: #014921 !important;  /* Theme green accent */
+    --rc-sticky-cta-fg: #ffffff !important;
+}
+
+/* ===== INTERCOM WIDGET SPACING ===== */
+/* Ensure Intercom widget doesn't overlap with sticky CTA */
+
+/* Desktop: Position Intercom just above sticky bar (lowered from 100px) */
+@media (min-width: 769px) {
+    #intercom-container,
+    .intercom-launcher,
+    .intercom-messenger-frame {
+        bottom: 90px !important; /* Aligned with sticky CTA height */
+    }
+
+    /* Intercom launcher button positioning */
+    .intercom-launcher-frame {
+        bottom: 90px !important;
+    }
+}
+
+/* Mobile: Position above sticky CTA (lowered from 130px) */
+@media (max-width: 768px) {
+    #intercom-container,
+    .intercom-launcher,
+    .intercom-messenger-frame {
+        bottom: 100px !important; /* Reduced for better footer clearance */
+    }
+
+    .intercom-launcher-frame {
+        bottom: 130px !important;
+    }
+
+    /* Ensure right-side positioning is clear */
+    #intercom-container {
+        right: 16px !important;
+    }
+}
+
+/* Intercom launcher visibility and z-index */
+.intercom-launcher {
+    z-index: 2147483003 !important; /* Above sticky CTA (z-index: 1000) */
+}
+
+/* Ensure Intercom is visible and not behind sticky bar */
+.intercom-app,
+.intercom-namespace .intercom-launcher {
+    z-index: 2147483003 !important;
+}
