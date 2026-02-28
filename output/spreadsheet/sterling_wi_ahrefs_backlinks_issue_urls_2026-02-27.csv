@@ -1,0 +1,91 @@
+issue,url
+canonical_target_not_wi_blog (filtered out of WI-blog-only selection),https://www.sterlinglawyers.com/dan-exner-no-index/faithfully-making-marriage-fireproof-pt-1/
+canonical_target_not_wi_blog (filtered out of WI-blog-only selection),https://www.sterlinglawyers.com/jeff-hughes-no-index/methods-marketing-firm/
+canonical_target_not_wi_blog (filtered out of WI-blog-only selection),https://www.sterlinglawyers.com/topic/will-business-travel-impact-chance-of-getting-custody/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/annulments-work-wisconsin/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/being-your-childs-support-system/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/can-claim-sons-life-insurance-knowing-wanted/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/can-failure-pay-felony/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/can-prenup-presiding-event-death-exercised-divorce/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/child-support-and-bankruptcy/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/creating-wisconsin-parenting-plan/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/custody-shift-parental-rights/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/divorce-and-the-cobra-act/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/do-the-court-records-from-a-divorce-become-public-record/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/fault-grounds-for-bed-and-board-divorce/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/helping-children-divorce-separation/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/international-child-abduction/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/leaving-ex-family-business/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/methods-marketing-firm/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/milwakee-divorce-lawyer-question-000001/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/must-prove-file-claim-negligence-old-attorney/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/prenuptial-agreement-viewed-one-sided/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/refusing-visitation/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/sex-after-separation/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/survivorship-marital-property/
+live__not_in_audited_set (excluded by scope intersection),https://www.sterlinglawyers.com/wisconsin/blog/will-prenuptial-agreement-hold-court/
+lost_only__audited_blog_target (excluded: not live),https://www.sterlinglawyers.com/wisconsin/blog/attorneys-compass-guiding-through-military-divorce-madison/
+lost_only__audited_blog_target (excluded: not live),https://www.sterlinglawyers.com/wisconsin/blog/complications-military-divorce-milwaukee/
+lost_only__audited_blog_target (excluded: not live),https://www.sterlinglawyers.com/wisconsin/blog/guidance-road-of-military-divorce-west-bend-lawyers/
+lost_only__audited_blog_target (excluded: not live),https://www.sterlinglawyers.com/wisconsin/blog/legal-assistance-west-bend-military-divorce-cases/
+lost_only__audited_blog_target (excluded: not live),https://www.sterlinglawyers.com/wisconsin/blog/military-divorce-insight-assistance-sheboygan-county/
+lost_only__audited_blog_target (excluded: not live),https://www.sterlinglawyers.com/wisconsin/blog/sheboygan-lawyers-illuminate-path-military-divorce/
+lost_only__audited_blog_target (excluded: not live),https://www.sterlinglawyers.com/wisconsin/blog/unpacking-military-divorce-complexity-milwaukee-attorney/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/can-child-support-increased-make-now/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/changing-your-name/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/child-support-payment-lengths-and-exceptions/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/child-support-payments-and-exceptions/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/faithfully-making-marriage-fireproof-pt-1/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/how-can-i-collect-child-support-from-someone-who-is-self-employed/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/when-are-we-legally-separated/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/will-business-travel-impact-chance-of-getting-custody/
+lost_only__not_audited_blog_target,https://www.sterlinglawyers.com/wisconsin/blog/wisconsin-law-question-adultery/
+mixed_live_and_lost,https://www.sterlinglawyers.com/wisconsin/blog/can-failure-pay-felony/
+mixed_live_and_lost,https://www.sterlinglawyers.com/wisconsin/blog/child-support-and-bankruptcy/
+mixed_live_and_lost,https://www.sterlinglawyers.com/wisconsin/blog/creating-wisconsin-parenting-plan/
+mixed_live_and_lost,https://www.sterlinglawyers.com/wisconsin/blog/international-child-abduction/
+mixed_live_and_lost,https://www.sterlinglawyers.com/wisconsin/blog/methods-marketing-firm/
+mixed_live_and_lost,https://www.sterlinglawyers.com/wisconsin/blog/sex-after-separation/
+nofollow_only_live_backlinks,https://www.sterlinglawyers.com/wisconsin/blog/can-failure-pay-felony/
+nofollow_only_live_backlinks,https://www.sterlinglawyers.com/wisconsin/blog/child-support-and-bankruptcy/
+nofollow_only_live_backlinks,https://www.sterlinglawyers.com/wisconsin/blog/methods-marketing-firm/
+nofollow_only_live_backlinks,https://www.sterlinglawyers.com/wisconsin/blog/refusing-visitation/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/being-your-childs-support-system/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/can-failure-pay-felony/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/divorce-and-the-cobra-act/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/do-the-court-records-from-a-divorce-become-public-record/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/faithfully-making-marriage-fireproof-pt-1/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/how-can-i-collect-child-support-from-someone-who-is-self-employed/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/international-child-abduction/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/methods-marketing-firm/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/sex-after-separation/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/will-business-travel-impact-chance-of-getting-custody/
+redirect_chain_present (any),https://www.sterlinglawyers.com/wisconsin/blog/wisconsin-law-question-adultery/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/annulments-work-wisconsin/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/being-your-childs-support-system/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/can-claim-sons-life-insurance-knowing-wanted/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/can-failure-pay-felony/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/can-prenup-presiding-event-death-exercised-divorce/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/child-support-and-bankruptcy/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/creating-wisconsin-parenting-plan/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/custody-shift-parental-rights/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/divorce-and-the-cobra-act/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/do-the-court-records-from-a-divorce-become-public-record/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/fault-grounds-for-bed-and-board-divorce/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/helping-children-divorce-separation/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/international-child-abduction/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/milwakee-divorce-lawyer-question-000001/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/must-prove-file-claim-negligence-old-attorney/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/prenuptial-agreement-viewed-one-sided/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/refusing-visitation/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/survivorship-marital-property/
+spam_flagged_live_backlinks_present,https://www.sterlinglawyers.com/wisconsin/blog/will-prenuptial-agreement-hold-court/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/being-your-childs-support-system/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/can-failure-pay-felony/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/divorce-and-the-cobra-act/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/do-the-court-records-from-a-divorce-become-public-record/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/how-can-i-collect-child-support-from-someone-who-is-self-employed/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/international-child-abduction/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/sex-after-separation/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/will-business-travel-impact-chance-of-getting-custody/
+target_differs_from_canonical (any),https://www.sterlinglawyers.com/wisconsin/blog/wisconsin-law-question-adultery/
