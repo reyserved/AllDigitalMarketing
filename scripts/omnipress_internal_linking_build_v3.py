@@ -150,6 +150,11 @@ def clean_anchor(text: str) -> str:
     return s
 
 
+def lead_token(text: str) -> str:
+    s = clean_anchor(text).lower()
+    return s.split(" ", 1)[0] if s else ""
+
+
 def contains_banned(anchor: str) -> bool:
     a = anchor.lower()
     return any(re.search(rf"\b{re.escape(t)}\b", a) for t in BANNED_TERMS)
@@ -515,6 +520,37 @@ def generate_anchor_options(row: pd.Series, is_core_target: bool) -> List[str]:
         opt5 = build_branded_anchor(url, primary_kw, title, page_type, is_core_target, pillar_cluster)
 
     opts = [opt1, opt2, opt3, opt4, opt5]
+
+    # Reduce repetitive opening tokens across options (e.g., "how", "see").
+    # Keep exact match untouched; only rewrite informational/branded variants.
+    mutable_variants = {
+        3: [
+            "workflow for {topic}",
+            "practical guidance on {topic}",
+            "key considerations for {topic}",
+        ],
+        4: [
+            "Omnipress perspective on {topic}",
+            "Omnipress resources for {topic}",
+            "inside Omnipress: {topic}",
+        ],
+    }
+    topic_for_rewrite = strip_guide_phrase(short_topic_from_keyword(primary_kw) or short_topic_from_keyword(title))
+    if topic_for_rewrite:
+        seen_leads = set()
+        for i, raw in enumerate(opts):
+            token = lead_token(raw)
+            if not token:
+                continue
+            if i == 0:
+                seen_leads.add(token)
+                continue
+            if token in seen_leads and i in mutable_variants:
+                repls = [v.format(topic=topic_for_rewrite) for v in mutable_variants[i]]
+                opts[i] = choose_variant(url + f"-opt{i+1}", repls)
+                token = lead_token(opts[i])
+            if token:
+                seen_leads.add(token)
 
     cleaned: List[str] = []
     seen = set()
@@ -1361,4 +1397,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
